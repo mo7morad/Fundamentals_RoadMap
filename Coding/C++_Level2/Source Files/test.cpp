@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
+int main()
+{
+     int num;
+     cin >> num;
+     int arr[num];
 
-int main(){
-
-
-  return 0;
+     return 0;
 }
