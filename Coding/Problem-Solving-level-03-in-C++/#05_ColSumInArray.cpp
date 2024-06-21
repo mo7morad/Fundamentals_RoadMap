@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <iomanip>
 using namespace std;
 
 int RandomNumber(int From, int To)
@@ -24,23 +25,31 @@ void PrintRandom3x3Matrix(int arr[3][3])
   {
     for (int j = 0; j < 3; j++)
     {
-      cout << arr[i][j] << " ";
+      cout << setw(1) << arr[i][j] << " ";
     }
     cout << endl;
   }
 };
 
-void GetSumOfMatrixRows(int Matrix[3][3])
+void GetColSumInArray(int Matrix[3][3], int ResultArray[])
 {
   for (int i = 0; i < 3; i++)
   {
-    int sum = 0;
-    cout << "Sum of row [" << i + 1 << "]: ";
+    int Sum = 0;
     for (int j = 0; j < 3; j++)
     {
-      sum += Matrix[i][j];
+      Sum += Matrix[j][i];
     }
-    cout << sum << endl;
+    ResultArray[i] = Sum;
+  }
+}
+
+void PrintArray(int Array[], short ArrayLength)
+{
+  for (int i = 0; i < ArrayLength; i++)
+  {
+    cout << "col [" << i + 1 << "] sum is: ";
+    cout << Array[i] << endl;
   }
 }
 
@@ -48,19 +57,18 @@ int main()
 {
   srand((unsigned)time(NULL));
   int arr[3][3];
+  int Result[3];
   GetRandom3x3Matrix(arr);
   PrintRandom3x3Matrix(arr);
-  GetSumOfMatrixRows(arr);
+  GetColSumInArray(arr, Result);
+  PrintArray(Result, 3);
   return 0;
 };
 
-
-
-/* 
+/*
 #include <iostream>
 #include <string>
 #include <iomanip>
-
 using namespace std;
 
 int RandomNumber(int From, int To) {
@@ -86,18 +94,24 @@ void PrintMatrix(int arr[3][3], short Rows, short Cols) {
     }
 }
 
-int RowSum(int arr[3][3], short RowNumber, short Cols) {
+int ColSum(int arr[3][3], short Rows, short ColNumber) {
     int Sum = 0;
-    for (short j = 0; j <= Cols - 1; j++) {
-        Sum += arr[RowNumber][j];
+    for (short i = 0; i <= Rows - 1; i++) {
+        Sum += arr[i][ColNumber];
     }
     return Sum;
 }
 
-void PrintEachRowSum(int arr[3][3], short Rows, short Cols) {
-    cout << "\nThe following are the sum of each row in the matrix:\n";
-    for (short i = 0; i < Rows; i++) {
-        cout << " Row " << i + 1 << " Sum = " << RowSum(arr, i, Cols) << endl;
+void SumMatixColsInArry(int arr[3][3], int arrSum[3], short Rows, short Cols) {
+    for (short i = 0; i < Cols; i++) {
+        arrSum[i] = ColSum(arr, Rows, i);
+    }
+}
+
+void PrintColsSumArray(int arrSum[3], short length) {
+    cout << "\nThe following are the sum of each column in the matrix:\n";
+    for (short i = 0; i < length; i++) {
+        cout << " Col " << i + 1 << " Sum = " << arrSum[i] << endl;
     }
 }
 
@@ -106,11 +120,13 @@ int main() {
     srand((unsigned)time(NULL));
 
     int arr[3][3];
+    int arrSum[3];
     FillMatrixWithRandomNumbers(arr, 3, 3);
     cout << "\nThe following is a 3x3 random matrix:\n";
     PrintMatrix(arr, 3, 3);
-    PrintEachRowSum(arr, 3, 3);
+    SumMatixColsInArry(arr, arrSum, 3, 3);
+    PrintColsSumArray(arrSum, 3);
 
     system("pause>0");
 }
- */
+*/

@@ -30,17 +30,22 @@ void PrintRandom3x3Matrix(int arr[3][3])
   }
 };
 
-void GetSumOfMatrixRows(int Matrix[3][3])
+void GetRowSumInArray(int Matrix[3][3], int ResultArray[])
 {
-  for (int i = 0; i < 3; i++)
-  {
-    int sum = 0;
-    cout << "Sum of row [" << i + 1 << "]: ";
-    for (int j = 0; j < 3; j++)
-    {
-      sum += Matrix[i][j];
+  for (int i = 0; i < 3; i++){
+    int Sum = 0;
+    for (int j = 0; j < 3; j++){
+      Sum += Matrix[i][j];
     }
-    cout << sum << endl;
+    ResultArray[i] = Sum;
+  }
+}
+
+void PrintArray(int Array[], short ArrayLength)
+{
+  for (int i = 0; i < ArrayLength; i++){
+    cout << "Row [" << i+1 << "] sum is: ";
+    cout << Array[i] << endl;
   }
 }
 
@@ -48,15 +53,15 @@ int main()
 {
   srand((unsigned)time(NULL));
   int arr[3][3];
+  int Result[3];
   GetRandom3x3Matrix(arr);
   PrintRandom3x3Matrix(arr);
-  GetSumOfMatrixRows(arr);
+  GetRowSumInArray(arr, Result);
+  PrintArray(Result, 3);
   return 0;
 };
 
-
-
-/* 
+/*
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -94,10 +99,16 @@ int RowSum(int arr[3][3], short RowNumber, short Cols) {
     return Sum;
 }
 
-void PrintEachRowSum(int arr[3][3], short Rows, short Cols) {
+void SumMatixRowsInArry(int arr[3][3], int arrSum[3], short Rows, short Cols) {
+    for (short i = 0; i < Rows; i++) {
+        arrSum[i] = RowSum(arr, i, Cols);
+    }
+}
+
+void PrintRowsSumArray(int arrSum[3], short Rows) {
     cout << "\nThe following are the sum of each row in the matrix:\n";
     for (short i = 0; i < Rows; i++) {
-        cout << " Row " << i + 1 << " Sum = " << RowSum(arr, i, Cols) << endl;
+        cout << " Row " << i + 1 << " Sum = " << arrSum[i] << endl;
     }
 }
 
@@ -106,11 +117,13 @@ int main() {
     srand((unsigned)time(NULL));
 
     int arr[3][3];
+    int arrSum[3];
     FillMatrixWithRandomNumbers(arr, 3, 3);
     cout << "\nThe following is a 3x3 random matrix:\n";
     PrintMatrix(arr, 3, 3);
-    PrintEachRowSum(arr, 3, 3);
+    SumMatixRowsInArry(arr, arrSum, 3, 3);
+    PrintRowsSumArray(arrSum, 3);
 
     system("pause>0");
 }
- */
+*/
