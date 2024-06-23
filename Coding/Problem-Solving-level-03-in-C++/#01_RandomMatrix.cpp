@@ -2,23 +2,23 @@
 #include <cstdlib>
 using namespace std;
 
-int RandomNumber(int From, int To)
+short RandomNumber(short From, short To)
 {
   int randNum = rand() % (To - From + 1) + From;
   return randNum;
 };
 
 void GetRandom3x3Matrix(int arr[3][3]){
-  for(int i = 0; i < 3; i++)
-    for(int j = 0; j < 3; j++){
+  for(short i = 0; i < 3; i++)
+    for(short j = 0; j < 3; j++){
       arr[i][j] = RandomNumber(1, 100);
     }
 };
 
 void PrintRandom3x3Matrix(int arr[3][3]){
   cout << "Your random matrix is: \n";
-  for(int i = 0; i < 3; i++){
-    for(int j = 0; j < 3; j++){
+  for(short i = 0; i < 3; i++){
+    for(short j = 0; j < 3; j++){
       cout << arr[i][j] << " ";
       }
     cout << endl;

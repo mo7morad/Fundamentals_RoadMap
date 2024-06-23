@@ -3,16 +3,16 @@
 #include <iomanip>
 using namespace std;
 
-int RandomNumber(int From, int To)
+short RandomNumber(short From, short To)
 {
-  int randNum = rand() % (To - From + 1) + From;
+  short randNum = rand() % (To - From + 1) + From;
   return randNum;
 };
 
 void GetRandom3x3Matrix(int arr[3][3])
 {
-  for (int i = 0; i < 3; i++)
-    for (int j = 0; j < 3; j++)
+  for (short i = 0; i < 3; i++)
+    for (short j = 0; j < 3; j++)
     {
       arr[i][j] = RandomNumber(1, 100);
     }
@@ -21,9 +21,9 @@ void GetRandom3x3Matrix(int arr[3][3])
 void PrintRandom3x3Matrix(int arr[3][3])
 {
   cout << "Your random matrix is: \n";
-  for (int i = 0; i < 3; i++)
+  for (short i = 0; i < 3; i++)
   {
-    for (int j = 0; j < 3; j++)
+    for (short j = 0; j < 3; j++)
     {
       cout << setw(1) << arr[i][j] << " ";
     }
@@ -33,10 +33,10 @@ void PrintRandom3x3Matrix(int arr[3][3])
 
 void GetColSumInArray(int Matrix[3][3], int ResultArray[])
 {
-  for (int i = 0; i < 3; i++)
+  for (short i = 0; i < 3; i++)
   {
-    int Sum = 0;
-    for (int j = 0; j < 3; j++)
+    short Sum = 0;
+    for (short j = 0; j < 3; j++)
     {
       Sum += Matrix[j][i];
     }
@@ -46,7 +46,7 @@ void GetColSumInArray(int Matrix[3][3], int ResultArray[])
 
 void PrintArray(int Array[], short ArrayLength)
 {
-  for (int i = 0; i < ArrayLength; i++)
+  for (short i = 0; i < ArrayLength; i++)
   {
     cout << "col [" << i + 1 << "] sum is: ";
     cout << Array[i] << endl;
