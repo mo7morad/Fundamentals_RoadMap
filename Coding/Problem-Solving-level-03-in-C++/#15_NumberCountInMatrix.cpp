@@ -3,6 +3,17 @@
 #include <iomanip>
 using namespace std;
 
+int ReadPositiveNumber(string Message)
+{
+  int Number = 0;
+  do
+  {
+    cout << Message << endl;
+    cin >> Number;
+  } while (Number <= 0);
+  return Number;
+};
+
 short RandomNumber(short From, short To)
 {
   short randNum = rand() % (To - From + 1) + From;
@@ -49,51 +60,33 @@ void PrintArray(int Array[], short ArrayLength)
   }
 }
 
-bool IsScalar(int Matrix[3][3])
+short NumCountInMatrix(short NumToSearch, int Matrix[3][3])
 {
-  for (int i = 0; i < 3; i++)
-  {
-    for (int j = 0; j < 3; j++)
-    {
-      if (i == j && Matrix[i][j] != Matrix[0][0])
-        return false;
-      else if (i != j && Matrix[i][j] != 0)
-        return false;
-    }
-  }
-  return true;
+  short Counter = 0;
+  for (short i = 0; i < 3; i++)
+    for (short j = 0; j < 3; j++)
+      if (Matrix[i][j] == NumToSearch)
+        Counter++;
+  return Counter;
 }
+
+
 
 int main()
 {
-  // Random case
-  
   srand((unsigned)time(NULL));
   int mat[3][3];
-  int mat2[3][3];
   GetRandom3x3Matrix(mat);
   PrintRandom3x3Matrix(mat);
-  if(IsScalar(mat))
-    cout << "The matrix is Scalar matrix.";
-  else
-    cout << "The matrix is Not Scalar matrix.";
-  
+  short NumberToSearch = ReadPositiveNumber("Please enter the number you want to count in the matrix: ");
+  cout << "The number " << NumberToSearch << " appears " << NumCountInMatrix(NumberToSearch, mat) << " times in the matrix" << endl;
   return 0;
 
-  // Scalar case
-  /*
-  int mat[3][3] = {{7, 0, 0}, {0, 7, 0}, {0, 0, 7}};
-  PrintRandom3x3Matrix(mat);
-  if (IsScalar(mat))
-    cout << "The matrix is Scalar matrix.";
-  else
-    cout << "The matrix is Not Scalar matrix.";
-  return 0;
-  */
 };
 
 
-// Course Code
+// Course code
+
 /*
 #include <iostream>
 #include <iomanip>
@@ -109,36 +102,30 @@ void PrintMatrix(int arr[3][3], short rows, short cols) {
     }
 }
 
-bool IsScalarMatrix(int matrix1[3][3], short rows, short cols) {
-    // Store the first diagonal element for comparison
-    int firstDiagonalElement = matrix1[0][0];
-
+short CountNumberInMatrix(int matrix1[3][3], int number, short rows, short cols) {
+    short numberCount = 0;
     for (short i = 0; i < rows; i++) {
         for (short j = 0; j < cols; j++) {
-            // Check for diagonal elements
-            if (i == j && matrix1[i][j] != firstDiagonalElement) {
-                return false;
-            }
-            // Check for rest elements
-            else if (i != j && matrix1[i][j] != 0) {
-                return false;
+            if (matrix1[i][j] == number) {
+                numberCount++;
             }
         }
     }
-    return true;
+    return numberCount;
 }
 
 int main() {
-    int matrix1[3][3] = {{9, 0, 0}, {0, 9, 0}, {0, 0, 9}};
+    int matrix1[3][3] = {{9, 1, 12}, {0, 9, 1}, {0, 9, 9}};
 
     cout << "\nMatrix1:\n";
     PrintMatrix(matrix1, 3, 3);
 
-    if (IsScalarMatrix(matrix1, 3, 3)) {
-        cout << "\nYES: Matrix is scalar.";
-    } else {
-        cout << "\nNo: Matrix is NOT scalar.";
-    }
+    int number;
+    cout << "\nEnter the number to count in the matrix: ";  // Improved prompt
+    cin >> number;
+
+    cout << "\nNumber " << number << " count in the matrix is "
+        << CountNumberInMatrix(matrix1, number, 3, 3) << endl;
 
     return 0;
 }
