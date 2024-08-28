@@ -60,64 +60,39 @@ void PrintArray(int Array[], short ArrayLength)
   }
 }
 
-short NumCountInMatrix(short NumToSearch, int Matrix[3][3])
-{
-  short Counter = 0;
-  for (short i = 0; i < 3; i++)
-    for (short j = 0; j < 3; j++)
-      if (Matrix[i][j] == NumToSearch)
-        Counter++;
-  return Counter;
+void MinMaxNumInMatrix(int Matrix[3][3]){
+  short Min = Matrix[0][0]; short Max = Matrix[3][3];
+  for (short i = 0; i < 3; i++){
+    for (short j = 0; j < 3; j++){
+      if (Min > Matrix[i][j])
+        Min = Matrix[i][j];
+      if (Max < Matrix[i][j])
+        Max = Matrix[i][j];
+    }
+  }
+  cout << "The minimum num in the matrix is: " << Min << endl;
+  cout << "The maximum num in the matrix is: " << Max << endl;
 }
 
-bool IsSparse(int Matrix[3][3])
-{
-  short ZeroCounter = NumCountInMatrix(0, Matrix);
-  if (ZeroCounter > 4) // Or if you have rows, cols. should be ZeroCounter > (rows*cols) / 2;
-    return true;
-  return false;
-  /*
-    // Or could be:
-    return (NumCountInMatrix(0, Matrix) > 4);
-  */
-}
+
 
 int main()
 {
-  // Random case
-
-  /*
   srand((unsigned)time(NULL));
   int mat[3][3];
-  int mat2[3][3];
   GetRandom3x3Matrix(mat);
   PrintRandom3x3Matrix(mat);
-  if (IsSparse(mat))
-    cout << "The matrix is Sparse matrix.";
-  else
-    cout << "The matrix is Not Sparse matrix.";
-  return 0;
-  */
+  MinMaxNumInMatrix(mat);
 
-  // Sparse case
-
-  int mat[3][3] = {{7, 5, 3}, {0, 9, 0}, {0, 0, 0}};
-  PrintRandom3x3Matrix(mat);
-  if (IsSparse(mat))
-    cout << "The matrix is Sparse matrix.";
-  else
-    cout << "The matrix is Not Sparse matrix.";
   return 0;
 };
 
 // Course Code
 
 /*
-// ProgrammingAdvices.com © Copyright 2022 Problem # 16/3 Solution Using C++
-
-#include <iostream>
-#include <string>
-#include <iomanip>
+#include<iostream>
+#include<string>
+#include<iomanip>
 
 using namespace std;
 
@@ -130,32 +105,38 @@ void PrintMatrix(int arr[3][3], short Rows, short Cols) {
     }
 }
 
-short CountNumberInMatrix(int Matrix1[3][3], int Number, short Rows, short Cols) {
-    short NumberCount = 0;
+int MinNumberInMatrix(int Matrix1[3][3], short Rows, short Cols) {
+    int Min = Matrix1[0][0];
     for (short i = 0; i < Rows; i++) {
         for (short j = 0; j < Cols; j++) {
-            if (Matrix1[i][j] == Number) {
-                NumberCount++;
+            if (Matrix1[i][j] < Min) {
+                Min = Matrix1[i][j];
             }
         }
     }
-    return NumberCount;
+    return Min;
 }
 
-bool IsSparseMatrix(int Matrix1[3][3], short Rows, shortCols) {
-    short MatrixSize = Rows * Cols;
-    return (CountNumberInMatrix(Matrix1, 0, 3, 3) >= ceil((float) MatrixSize / 2));
+int MaxNumberInMatrix(int Matrix1[3][3], short Rows, short Cols) {
+    int Max = Matrix1[0][0];
+    for (short i = 0; i < Rows; i++) {
+        for (short j = 0; j < Cols; j++) {
+            if (Matrix1[i][j] > Max) {
+                Max = Matrix1[i][j];
+            }
+        }
+    }
+    return Max;
 }
 
 int main() {
-    int Matrix1[3][3] = { {0, 0, 12}, {9, 9, 1}, {0, 0, 9} };
+    int Matrix1[3][3] = { {77,5,12},{22,20,6},{14,3,9} };
     cout << "\nMatrix1:\n";
     PrintMatrix(Matrix1, 3, 3);
-    if (IsSparseMatrix(Matrix1, 3, 3)) {
-        cout << "\nYes: It is Sparse\n";
-    } else {
-        cout << "\nNo: It's NOT Sparse\n";
-    }
+    cout << "\nMinimum Number is: ";
+    cout << MinNumberInMatrix(Matrix1, 3, 3);
+    cout << "\n\nMax Number is: ";
+    cout << MaxNumberInMatrix(Matrix1, 3, 3);
     system("pause>0");
     return 0;
 }

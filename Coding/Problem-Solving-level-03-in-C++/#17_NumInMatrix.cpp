@@ -70,50 +70,35 @@ short NumCountInMatrix(short NumToSearch, int Matrix[3][3])
   return Counter;
 }
 
-bool IsSparse(int Matrix[3][3])
+bool IsExsit(short Number, int Matrix[3][3])
 {
-  short ZeroCounter = NumCountInMatrix(0, Matrix);
-  if (ZeroCounter > 4) // Or if you have rows, cols. should be ZeroCounter > (rows*cols) / 2;
-    return true;
+  for (short i = 0; i < 3; i++)
+    for (short j = 0; j < 3; j++)
+      if (Matrix[i][j] == Number)
+        return true;
   return false;
-  /*
-    // Or could be:
-    return (NumCountInMatrix(0, Matrix) > 4);
-  */
 }
 
 int main()
 {
-  // Random case
-
-  /*
   srand((unsigned)time(NULL));
   int mat[3][3];
-  int mat2[3][3];
   GetRandom3x3Matrix(mat);
   PrintRandom3x3Matrix(mat);
-  if (IsSparse(mat))
-    cout << "The matrix is Sparse matrix.";
-  else
-    cout << "The matrix is Not Sparse matrix.";
-  return 0;
-  */
 
-  // Sparse case
-
-  int mat[3][3] = {{7, 5, 3}, {0, 9, 0}, {0, 0, 0}};
-  PrintRandom3x3Matrix(mat);
-  if (IsSparse(mat))
-    cout << "The matrix is Sparse matrix.";
+  if (IsExsit(ReadPositiveNumber("Please enter the number to search for: "), mat))
+    cout << "The number is in the matrix" << endl;
   else
-    cout << "The matrix is Not Sparse matrix.";
+    cout << "The number is NOT in the matrix" << endl;
+
   return 0;
+
 };
 
 // Course Code
 
 /*
-// ProgrammingAdvices.com © Copyright 2022 Problem # 16/3 Solution Using C++
+// ProgrammingAdvices.com © Copyright 2022 Problem # 17/3 Solution Using C++
 
 #include <iostream>
 #include <string>
@@ -142,19 +127,35 @@ short CountNumberInMatrix(int Matrix1[3][3], int Number, short Rows, short Cols)
     return NumberCount;
 }
 
-bool IsSparseMatrix(int Matrix1[3][3], short Rows, shortCols) {
-    short MatrixSize = Rows * Cols;
-    return (CountNumberInMatrix(Matrix1, 0, 3, 3) >= ceil((float) MatrixSize / 2));
+bool IsNumberInMatrix(int Matrix1[3][3], int Number, short Rows, short Cols) {
+    for (short i = 0; i < Rows; i++) {
+        for (short j = 0; j < Cols; j++) {
+            if (Matrix1[i][j] == Number) {
+                return true;
+            }
+        }
+    }
+    return false;
 }
 
 int main() {
-    int Matrix1[3][3] = { {0, 0, 12}, {9, 9, 1}, {0, 0, 9} };
+    int Matrix1[3][3] = { {77, 5, 12}, {22, 20, 1}, {1, 0, 9} };
     cout << "\nMatrix1:\n";
     PrintMatrix(Matrix1, 3, 3);
-    if (IsSparseMatrix(Matrix1, 3, 3)) {
-        cout << "\nYes: It is Sparse\n";
+    int Number;
+    cout << "\nPlease Enter the number to look for in matrix? ";
+    cin >> Number;
+    // Using Count is a slower method
+    if (CountNumberInMatrix(Matrix1, Number, 3, 3) > 0) {
+        cout << "\nYes it is there.\n";
     } else {
-        cout << "\nNo: It's NOT Sparse\n";
+        cout << "\nNo: It's NOT there.\n";
+    }
+    // This is a faster method
+    if (IsNumberInMatrix(Matrix1, Number, 3, 3)) {
+        cout << "\nYes it is there.\n";
+    } else {
+        cout << "\nNo: It's NOT there.\n";
     }
     system("pause>0");
     return 0;

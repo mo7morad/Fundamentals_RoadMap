@@ -70,50 +70,47 @@ short NumCountInMatrix(short NumToSearch, int Matrix[3][3])
   return Counter;
 }
 
-bool IsSparse(int Matrix[3][3])
+bool IsExist(short Number, int Matrix[3][3])
 {
-  short ZeroCounter = NumCountInMatrix(0, Matrix);
-  if (ZeroCounter > 4) // Or if you have rows, cols. should be ZeroCounter > (rows*cols) / 2;
-    return true;
+  for (short i = 0; i < 3; i++)
+    for (short j = 0; j < 3; j++)
+      if (Matrix[i][j] == Number)
+        return true;
   return false;
-  /*
-    // Or could be:
-    return (NumCountInMatrix(0, Matrix) > 4);
-  */
 }
+
+void PrintIntersectedNumbers(int MatrixOne[3][3], int MatrixTwo[3][3])
+{
+  for (short i = 0; i < 3; i++)
+    for (short j = 0; j < 3; j++)
+      if (IsExist((MatrixOne[i][j]), MatrixTwo))
+        cout << "Intersected Numbers Are: \n" << MatrixOne[i][j] << "\t" << endl;
+  // using ternary operator
+  // cout << (IsExist(MatrixOne[i][j], MatrixTwo) ? MatrixOne[i][j] : "No Intersected Numbers") << endl;
+  // printf(IsExist(MatrixOne[i][j], MatrixTwo) ? "%d\t" : "", MatrixOne[i][j]);
+}
+
+
 
 int main()
 {
-  // Random case
-
-  /*
   srand((unsigned)time(NULL));
-  int mat[3][3];
+  int mat1[3][3];
   int mat2[3][3];
-  GetRandom3x3Matrix(mat);
-  PrintRandom3x3Matrix(mat);
-  if (IsSparse(mat))
-    cout << "The matrix is Sparse matrix.";
-  else
-    cout << "The matrix is Not Sparse matrix.";
-  return 0;
-  */
+  GetRandom3x3Matrix(mat1);
+  GetRandom3x3Matrix(mat2);
+  PrintRandom3x3Matrix(mat1);
+  PrintRandom3x3Matrix(mat2);
 
-  // Sparse case
+  PrintIntersectedNumbers(mat1, mat2);
 
-  int mat[3][3] = {{7, 5, 3}, {0, 9, 0}, {0, 0, 0}};
-  PrintRandom3x3Matrix(mat);
-  if (IsSparse(mat))
-    cout << "The matrix is Sparse matrix.";
-  else
-    cout << "The matrix is Not Sparse matrix.";
   return 0;
 };
 
 // Course Code
 
 /*
-// ProgrammingAdvices.com © Copyright 2022 Problem # 16/3 Solution Using C++
+// ProgrammingAdvices.com © Copyright 2022 Problem # 18/3 Solution Using C++
 
 #include <iostream>
 #include <string>
@@ -130,32 +127,38 @@ void PrintMatrix(int arr[3][3], short Rows, short Cols) {
     }
 }
 
-short CountNumberInMatrix(int Matrix1[3][3], int Number, short Rows, short Cols) {
-    short NumberCount = 0;
+bool IsNumberInMatrix(int Matrix1[3][3], int Number, short Rows, short Cols) {
     for (short i = 0; i < Rows; i++) {
         for (short j = 0; j < Cols; j++) {
             if (Matrix1[i][j] == Number) {
-                NumberCount++;
+                return true;
             }
         }
     }
-    return NumberCount;
+    return false;
 }
 
-bool IsSparseMatrix(int Matrix1[3][3], short Rows, shortCols) {
-    short MatrixSize = Rows * Cols;
-    return (CountNumberInMatrix(Matrix1, 0, 3, 3) >= ceil((float) MatrixSize / 2));
+void PrintIntersectedNumbers(int Matrix1[3][3], int Matrix2[3][3], short Rows, short Cols) {
+    int Number;
+    for (short i = 0; i < Rows; i++) {
+        for (short j = 0; j < Cols; j++) {
+            Number = Matrix1[i][j];
+            if (IsNumberInMatrix(Matrix2, Number, Rows, Cols)) {
+                cout << setw(3) << Number << "     ";
+            }
+        }
+    }
 }
 
 int main() {
-    int Matrix1[3][3] = { {0, 0, 12}, {9, 9, 1}, {0, 0, 9} };
+    int Matrix1[3][3] = { {77, 5, 12}, {22, 20, 1}, {1, 0, 9} };
+    int Matrix2[3][3] = { {5, 80, 90}, {22, 77, 1}, {10, 8, 33} };
     cout << "\nMatrix1:\n";
     PrintMatrix(Matrix1, 3, 3);
-    if (IsSparseMatrix(Matrix1, 3, 3)) {
-        cout << "\nYes: It is Sparse\n";
-    } else {
-        cout << "\nNo: It's NOT Sparse\n";
-    }
+    cout << "\nMatrix2:\n";
+    PrintMatrix(Matrix2, 3, 3);
+    cout << "\nIntersected Numbers are: \n\n";
+    PrintIntersectedNumbers(Matrix1, Matrix2, 3, 3);
     system("pause>0");
     return 0;
 }
