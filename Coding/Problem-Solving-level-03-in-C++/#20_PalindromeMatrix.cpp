@@ -108,7 +108,7 @@ int IsPalindromeMatrix(int Matrix1[3][3], short Rows, short Cols) {
     }
     return true;
 }
-// Or My Updated version
+// Or My Updated version for 3x3 only.
 // int IsPalindromeMatrix(int Matrix1[3][3], short Rows, short Cols) {
 //     for (short i = 0; i < Rows; i++){
 //         if (Matrix1[i][0] != Matrix1[i][Cols - 1])
