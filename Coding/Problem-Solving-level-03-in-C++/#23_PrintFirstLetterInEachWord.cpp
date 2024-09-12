@@ -3,7 +3,8 @@
 #include <iomanip>
 using namespace std;
 
-void PrintFirstLetter(string Sentence){
+void PrintFirstLetterOfEachWord(string Sentence)
+{
   for (short i = 0; i < Sentence.length(); i++){
     if (i == 0 || !isalpha(Sentence[i-1])){
       cout << Sentence[i] << " ";
@@ -13,7 +14,7 @@ void PrintFirstLetter(string Sentence){
 
 int main()
 {
-  PrintFirstLetter("This Is Mohameed Abo-Morad");
+  PrintFirstLetterOfEachWord("This Is Mohameed Abo-Morad");
   return 0;
 };
 
