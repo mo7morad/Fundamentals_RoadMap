@@ -4,7 +4,8 @@
     "iomanip": "cpp",
     "iostream": "cpp",
     "cstdlib": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "ostream": "cpp"
   },
   "CodeGPT.apiKey": "Anthropic"
 }
