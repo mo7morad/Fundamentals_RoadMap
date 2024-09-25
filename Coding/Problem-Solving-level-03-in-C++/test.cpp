@@ -1,37 +1,41 @@
-#include <iostream>
-#include <cstdlib>
-#include <iomanip>
 #include <string>
+#include <iostream>
 using namespace std;
 
-int NonRepeatingChar(string Word){
-  for (int i = 0; i < Word.length(); i++){
-    char c = Word[i];
-    short counter = 0;
-    for (int j = 0; j < Word.length(); j++){
-      if (c == Word[j])
-        counter++;
-      if (counter > 1)
-        break;
-    }
-    if (counter == 1)
-      return i;
-  }
-  return -1;
-};
+string ReadString()
+{
+  string S1;
+  cout << "Please Enter Your String?\n";
+  getline(cin, S1);
+  return S1;
+}
 
+void PrintEachWordInString(string S1)
+{
+  string delim = " "; // delimiter
+  cout << "\nYour string words are: \n\n";
+  size_t pos = 0, PrevPos = 0;
+
+  // Use find() function to get the position of the delimiters
+  while ((pos = S1.find(delim, PrevPos)) != string::npos)
+  {
+    string sWord = S1.substr(PrevPos, pos); // store the word
+    if (!sWord.empty())                               // Check if it's not an empty word
+    {
+      cout << sWord << endl;
+    }
+    PrevPos = pos; // Move past the delimiter
+  }
+
+  // // Print the last word after the last delimiter
+  // if (PrevPos < S1.length())
+  // {
+  //   cout << S1.substr(PrevPos) << endl;
+  // }
+}
 
 int main()
 {
-  string Word1 = "helloworld";
-  string Word2 = "idontloveindonesia";
-  string Word3 = "aabbcc";
-  string Word4 = "hheelloowworld";
-  string Word5 = "heyboyh";
-  cout << NonRepeatingChar(Word1) << endl;
-  cout << NonRepeatingChar(Word2) << endl;
-  cout << NonRepeatingChar(Word3) << endl;
-  cout << NonRepeatingChar(Word4) << endl;
-  cout << NonRepeatingChar(Word5) << endl;
+  PrintEachWordInString(ReadString());
   return 0;
 }
