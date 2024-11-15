@@ -8,7 +8,9 @@
     "ostream": "cpp",
     "array": "cpp",
     "string_view": "cpp",
-    "initializer_list": "cpp"
+    "initializer_list": "cpp",
+    "fstream": "cpp",
+    "*.tcc": "cpp"
   },
   "CodeGPT.apiKey": "Anthropic"
 }
