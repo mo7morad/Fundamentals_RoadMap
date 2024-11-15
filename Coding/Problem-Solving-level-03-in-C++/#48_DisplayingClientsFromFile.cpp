@@ -1,140 +1,139 @@
-#include <string>
-#include <iostream>
-#include <vector>
-#include <fstream>
-#include <limits>
-#include <iomanip>
-using namespace std;
-const string FileName = "ClientsDataCourseCode.txt";
+// #include <string>
+// #include <iostream>
+// #include <vector>
+// #include <fstream>
+// #include <limits>
+// #include <iomanip>
+// using namespace std;
+// const string FileName = "ClientsDataCourseCode.txt";
 
-string ReadString(const string &msg)
-{
-  string S1;
-  cout << msg;
-  getline(cin, S1);
-  return S1;
-}
+// string ReadString(const string &msg)
+// {
+//   string S1;
+//   cout << msg;
+//   getline(cin, S1);
+//   return S1;
+// }
 
-string Tabs(short count)
-{
-  string tabs = "";
-  for (short i = 0; i < count; ++i)
-  {
-    tabs += "\t";
-  }
-  return tabs;
-}
+// string Tabs(short count)
+// {
+//   string tabs = "";
+//   for (short i = 0; i < count; ++i)
+//   {
+//     tabs += "\t";
+//   }
+//   return tabs;
+// }
 
-vector<string> SplitString(string S1, string Delim)
-{
-  short pos = 0;
-  string sWord;
-  vector<string> vWords;
-  // Use find() function to get the position of the delimiters
-  while ((pos = S1.find(Delim)) != std::string::npos)
-  {
-    sWord = S1.substr(0, pos); // store the word
-    if (sWord != "")
-    {
-      vWords.push_back(sWord);
-    }
-    S1.erase(0, pos + Delim.length()); // erase() until position and move to next word
-  }
-  if (S1 != "")
-  {
-    vWords.push_back(S1);
-  }
-  return vWords;
-}
-struct stBankInfo
-{
-  string Name;
-  string AccountNumber;
-  string Balance;
-  string Phone;
-  string PinCode;
-};
+// vector<string> SplitString(string S1, string Delim)
+// {
+//   short pos = 0;
+//   string sWord;
+//   vector<string> vWords;
+//   // Use find() function to get the position of the delimiters
+//   while ((pos = S1.find(Delim)) != std::string::npos)
+//   {
+//     sWord = S1.substr(0, pos); // store the word
+//     if (sWord != "")
+//     {
+//       vWords.push_back(sWord);
+//     }
+//     S1.erase(0, pos + Delim.length()); // erase() until position and move to next word
+//   }
+//   if (S1 != "")
+//   {
+//     vWords.push_back(S1);
+//   }
+//   return vWords;
+// }
+// struct stBankInfo
+// {
+//   string Name;
+//   string AccountNumber;
+//   string Balance;
+//   string Phone;
+//   string PinCode;
+// };
 
-stBankInfo FillBankInfo(string &Record, string Delimiter)
-{
-  stBankInfo BankInfo;
-  vector<string> Info = SplitString(Record, Delimiter);
-  BankInfo.AccountNumber = Info[0];
-  BankInfo.Balance = Info[1];
-  BankInfo.Name = Info[2];
-  BankInfo.Phone = Info[3];
-  BankInfo.PinCode = Info[4];
-  return BankInfo;
-}
+// stBankInfo FillBankInfo(string &Record, string Delimiter)
+// {
+//   stBankInfo BankInfo;
+//   vector<string> Info = SplitString(Record, Delimiter);
+//   BankInfo.AccountNumber = Info[0];
+//   BankInfo.Balance = Info[1];
+//   BankInfo.Name = Info[2];
+//   BankInfo.Phone = Info[3];
+//   BankInfo.PinCode = Info[4];
+//   return BankInfo;
+// }
 
-void PrintHeader()
-{
-  cout << setw(15) << left << "Account Number"
-       << setw(15) << left << "Pin Code"
-       << setw(20) << left << "Client Name"
-       << setw(15) << left << "Phone"
-       << setw(15) << left << "Balance" << endl;
-  for (int i = 0; i < 80; ++i)
-  {
-    cout << "-";
-  }
-  cout << endl;
-}
+// void PrintHeader()
+// {
+//   cout << setw(15) << left << "Account Number"
+//       << setw(15) << left << "Pin Code"
+//       << setw(20) << left << "Client Name"
+//       << setw(15) << left << "Phone"
+//       << setw(15) << left << "Balance" << endl;
+//   for (int i = 0; i < 80; ++i)
+//   {
+//     cout << "-";
+//   }
+//   cout << endl;
+// }
 
-void PrintDetailedRecordFromFile(stBankInfo Info)
-{
-  cout << setw(15) << left << Info.AccountNumber
-       << setw(15) << left << Info.PinCode
-       << setw(20) << left << Info.Name
-       << setw(15) << left << Info.Phone
-       << setw(15) << left << Info.Balance << endl;
-}
+// void PrintDetailedRecordFromFile(stBankInfo Info)
+// {
+//   cout << setw(15) << left << Info.AccountNumber
+//       << setw(15) << left << Info.PinCode
+//       << setw(20) << left << Info.Name
+//       << setw(15) << left << Info.Phone
+//       << setw(15) << left << Info.Balance << endl;
+// }
 
-int CountLinesInFile(const string &FileName)
-{
-  ifstream file(FileName);
-  short LineCount = 0;
-  string line;
+// int CountLinesInFile(const string &FileName)
+// {
+//   ifstream file(FileName);
+//   short LineCount = 0;
+//   string line;
 
-  if (file.is_open())
-  {
-    while (getline(file, line))
-    {
-      ++LineCount;
-    }
-    file.close();
-  }
-  return LineCount;
-}
+//   if (file.is_open())
+//   {
+//     while (getline(file, line))
+//     {
+//       ++LineCount;
+//     }
+//     file.close();
+//   }
+//   return LineCount;
+// }
 
-void PrintClientsRecords()
-{
-  string line = "";
-  ifstream file(FileName);
-  short LinesCount = CountLinesInFile(FileName);
+// void PrintClientsRecords()
+// {
+//   string line = "";
+//   ifstream file(FileName);
+//   short LinesCount = CountLinesInFile(FileName);
 
-  PrintHeader();
-  for (short i = 0; i < LinesCount; ++i)
-  {
-    if (file.is_open())
-    {
-      getline(file, line);
-      PrintDetailedRecordFromFile(FillBankInfo(line, "#//#"));
-    }
-  }
-}
+//   PrintHeader();
+//   for (short i = 0; i < LinesCount; ++i)
+//   {
+//     if (file.is_open())
+//     {
+//       getline(file, line);
+//       PrintDetailedRecordFromFile(FillBankInfo(line, "#//#"));
+//     }
+//   }
+// }
 
-int main()
-{
-  PrintClientsRecords();
-  return 0;
-}
+// int main()
+// {
+//   PrintClientsRecords();
+//   return 0;
+// }
 
 
 
 // Course Code
 
-/*
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -142,7 +141,7 @@ int main()
 #include <iomanip>
 using namespace std;
 
-const string ClientsFileName = "Clients.txt";
+const string ClientsFileName = "ClientsDataCourseCode.txt";
 
 struct sClient
 {
@@ -235,5 +234,11 @@ void PrintAllClientsData(vector<sClient> vClients)
     }
     cout << "\n_______________________________________________________";
     cout << "_________________________________________\n" << endl;
-} // Added closing brace here
-*/
+}
+
+int main()
+{
+  vector<sClient> vClients = LoadClientsDataFromFile(ClientsFileName);
+  PrintAllClientsData(vClients);
+  return 0;
+}
