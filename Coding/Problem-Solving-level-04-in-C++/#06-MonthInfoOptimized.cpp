@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
+
 bool isLeapYear(short Year)
 {
   return (Year % 4 == 0 && Year % 100 != 0) || (Year % 400 == 0);
 }
+
 short NumberOfDaysInAMonth(short Month, short Year)
 {
   if (Month < 1 || Month > 12)
@@ -11,6 +13,7 @@ short NumberOfDaysInAMonth(short Month, short Year)
   int NumberOfDays[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
   return (Month == 2) ? (isLeapYear(Year) ? 29 : 28) : NumberOfDays[Month - 1];
 }
+
 short ReadMonth()
 {
   short Month;
@@ -18,6 +21,7 @@ short ReadMonth()
   cin >> Month;
   return Month;
 }
+
 short ReadYear()
 {
   short Year;
@@ -25,6 +29,7 @@ short ReadYear()
   cin >> Year;
   return Year;
 }
+
 int main()
 {
   short Year = ReadYear();
