@@ -54,7 +54,7 @@ int NumberOfDaysInYear(short Year)
   return isLeapYear(Year) ? 366 : 365;
 }
 
-int TotalDaysFromStart(short Day, short Month, short Year)
+short TotalDaysFromStart(short Day, short Month, short Year)
 {
   int days = FinishedDays(Day, Month, Year);
   for (short i = 1; i < Year; i++)

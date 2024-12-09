@@ -15,7 +15,7 @@ bool IsLeapYear(short Year)
   return (Year % 4 == 0 && Year % 100 != 0) || (Year % 400 == 0);
 }
 
-int NumberOfDaysInYear(short Year)
+short NumberOfDaysInYear(short Year)
 {
   return IsLeapYear(Year) ? 366 : 365;
 }

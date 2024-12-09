@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 short DayOfWeekOrder(short Day, short Month, short Year)
 {
   short a, y, m;
