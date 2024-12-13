@@ -78,7 +78,7 @@ int GetDifferenceInDays(stDate Date1, stDate Date2, bool IncludeEndDay = false)
     Days--;
     Date2 = IncreaseDateByOneDay(Date2);
   }
-  return IncludeEndDay ? ++Days : Days;
+  return IncludeEndDay ? Days++ : Days;
 }
 
 short ReadDay()
