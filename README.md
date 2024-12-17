@@ -53,7 +53,6 @@ Fundamentals_RoadMap/
 ## 🛠️ Tools & Technologies  
 
 - **Languages**:  
-  - ![Python](https://img.icons8.com/color/48/000000/python.png) **Python 3.9**  
   - ![C++](https://img.icons8.com/color/48/000000/c-plus-plus-logo.png) **C++ 17**  
   - ![C#](https://img.icons8.com/color/48/000000/c-sharp-logo.png) **C# (Coming Soon)**  
 - **Version Control**:  
