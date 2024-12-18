@@ -7,7 +7,7 @@ int main()
 {
   clsString String1;
   clsString String2("Mohammed");
-  String1.SetValue("Ali Ahmed");
+  String1.Value("Ali Ahmed");
   cout << "String1 = " << String1.GetValue() << endl;
   cout << "String2 = " << String2.GetValue() << endl;
   cout << "Number of words: " << String1.CountWords() << endl;
