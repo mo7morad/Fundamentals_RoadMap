@@ -1,4 +1,4 @@
-# Fundamentals RoadMap 🚀
+# Programming Fundamentals RoadMap 🚀
 
 ![Progress](https://img.shields.io/badge/Completed_Courses-9%2F24-blue?style=for-the-badge)  
 ![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)  
