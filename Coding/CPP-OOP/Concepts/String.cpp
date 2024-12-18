@@ -1,8 +1,7 @@
 // This file is ment to test the clsString class, with all its methods.
 
 #include <iostream>
-#include "clsString.h"
-
+#include "headers/clsString.h"
 using namespace std;
 
 int main()
