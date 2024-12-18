@@ -1,6 +1,6 @@
 # Programming Fundamentals RoadMap 🚀
 
-![Progress](https://img.shields.io/badge/Completed_Courses-9%2F24-blue?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Completed_Courses-9%2F26-blue?style=for-the-badge)  
 ![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)  
 ![License](https://img.shields.io/github/license/mo7morad/Fundamentals_RoadMap?style=for-the-badge)  
 
@@ -8,7 +8,7 @@
 
 ## 📘 Introduction  
 
-Welcome to the **Fundamentals RoadMap** repository! This project documents my learning journey through **24 foundational programming courses** curated by **Eng. Abu-Hadhoud**.  
+Welcome to the **Fundamentals RoadMap** repository! This project documents my learning journey through **26 foundational programming courses** curated by **Eng. Abu-Hadhoud**.  
 
 ### 🔍 What You'll Find:  
 - 📂 **Structured Code Solutions**: Well-documented solutions for problem-solving tasks and projects.  
@@ -37,7 +37,7 @@ Fundamentals_RoadMap/
 
 ## 📊 Current Progress  
 
-- ✅ **Completed**: **9 out of 24 courses**.  
+- ✅ **Completed**: **9 out of 26 courses**.  
 - 📈 **In Progress**: Continuously adding solutions and comments.  
 
 ---
