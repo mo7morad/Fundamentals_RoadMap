@@ -1,3 +1,5 @@
+![Progress](https://img.shields.io/badge/Completed_Courses-10%2F26-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)
 
 ## 📘 Introduction
 
