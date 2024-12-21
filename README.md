@@ -1,25 +1,22 @@
-# Programming Fundamentals RoadMap 🚀
 
-![Progress](https://img.shields.io/badge/Completed_Courses-9%2F26-blue?style=for-the-badge)  
-![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)  
-![License](https://img.shields.io/github/license/mo7morad/Fundamentals_RoadMap?style=for-the-badge)  
+## 📘 Introduction
 
----
+Welcome to the **Fundamentals RoadMap** repository! This project documents my 🔬 learning journey through **26 foundational programming courses** curated by **Eng. Abu-Hadhoud**.
 
-## 📘 Introduction  
+### 🔍 What You'll Find:
 
-Welcome to the **Fundamentals RoadMap** repository! This project documents my learning journey through **26 foundational programming courses** curated by **Eng. Abu-Hadhoud**.  
-
-### 🔍 What You'll Find:  
-- 📂 **Structured Code Solutions**: Well-documented solutions for problem-solving tasks and projects.  
-- 📝 **Annotated Course Code**: Trainer code under my code for reference.  
-- 🚀 **Progress Tracking**: Ongoing updates as I complete more courses.  
+- 📂 **Structured Code Solutions**: Well-documented solutions for problem-solving tasks and projects.
+- 📝 **Annotated Course Code**: Trainer-provided code with additional notes for reference.
+- 🚀 **Progress Tracking**: Continuous updates as I complete more courses.
 
 ---
 
-## 🗂️ Repository Structure  
+## 💂️‍♂️ Repository Structure
+
+Here’s the high-level structure of this repository:
+
 ```yaml
-Fundamentals_RoadMap/ 
+Fundamentals_RoadMap/
 ├── 📁 Certificates/       # Contains certificates earned (keeps updating).
 ├── 📁 Coding/             # Solutions for problem-solving tasks, with full projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
@@ -27,30 +24,80 @@ Fundamentals_RoadMap/
 
 ---
 
-## 🚀 How to Use  
+## 📂 Projects
 
-1. **Explore Solutions**: Check the `Coding/` folder for solutions with clear explanations and comments.  
-2. **Review Course Content**: Dive into the `Courses/` folder for annotated trainer-provided code.  
-3. **Track Progress**: Stay updated on completed courses and upcoming solutions.  
+Below is a breakdown of the specific projects included in the `Coding/` folder:
+
+### **🔢 Problem-Solving Level 02 (C++)**
+
+- 📁 **Projects**
+  - **🎯 MathQuiz.cpp**
+    - A simple math quiz game designed to improve arithmetic skills interactively.
+  - **🔷 ScissorsPaperRock.cpp**
+    - An implementation of the classic "Scissors Paper Rock" game in C++.
+
+### **🔢 Problem-Solving Level 03 (C++)**
+
+- 📁 **Projects**
+  - **🏛️ #52\_Project1\_Bank-1.cpp**
+    - A simple banking system.
+  - **🏛️ #53\_Project2\_Bank-2.cpp**
+    - An extension of the banking system with additional features.
+    - Features in the project are are:
+    ## 💡 Client Management System Details
+    ### 🌟 Features:
+
+    - **📊 Dynamic Client Management**
+      - Add, update, delete, and display client information using structured records.
+    - **💳 Transaction Support**
+      - Secure and verified deposit and withdrawal transactions.
+    - **🔐 Data Persistence**
+      - All client data is saved to and loaded from a file, ensuring reliability.
+
+    ### 🔧 Key Functionalities:
+    
+    1. **🔃 Main Menu Options:**
+    
+       - 🔐 Show all client records.
+       - 📂 Add, delete, or update client details.
+       - 🔢 Access the transactions menu.
+    
+    2. **🔄 Transactions Menu:**
+    
+       - 💳 Deposit funds.
+       - 💸 Withdraw funds.
+       - 🔢 View the total balance of all clients.
+    
+    3. **🗍️ File Integration:**
+    
+       - Data is stored in `ClientsData.txt` for easy retrieval and updates.
 
 ---
 
-## 📊 Current Progress  
+## 🚀 How to Use
 
-- ✅ **Completed**: **9 out of 26 courses**.  
-- 📈 **In Progress**: Continuously adding solutions and comments.  
-
----
-
-## 🌟 Key Highlights  
-
-- **🧩 Problem-Solving**: Focus on core fundamentals through practical challenges.  
-- **🔍 Readable Code**: Solutions are clean, documented, and easy to follow.  
-- **💡 Continuous Learning**: Updates will include new solutions and resources as I progress.  
+1. **🔧 Explore Solutions**: Check the `Coding/` folder for solutions with clear explanations and comments.
+2. **📓 Review Course Content**: Dive into the `Courses/` folder for annotated trainer-provided material.
+3. **🔢 Track Progress**: Stay updated on completed courses and upcoming solutions.
 
 ---
 
-## 🛠️ Tools & Technologies  
+## 📊 Current Progress
+
+- ✅ **Completed**: **9 out of 26 courses**.
+- 📈 **In Progress**: Continuously adding solutions and comments.
+
+---
+
+## 🌟 Key Highlights
+
+- 🗺 **Problem-Solving Focus**: Gain mastery of core fundamentals through practical challenges.
+- 🔍 **Readable Code**: All solutions are clean, documented, and easy to follow.
+- 💡 **Continuous Learning**: Regular updates with new solutions and projects.
+
+---
+
+## 🔧 Tools & Technologies
 
 - **Languages**:  
   - ![C++](https://img.icons8.com/color/48/000000/c-plus-plus-logo.png) **C++ 17**  
@@ -58,20 +105,20 @@ Fundamentals_RoadMap/
 - **Version Control**:  
   - ![Git](https://img.icons8.com/color/48/000000/git.png) **Git**  
   - ![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png) **GitHub**  
-- **Code Quality**: 🛠️  
-  - 🧼 **Clean**: Code is neatly organized and formatted.  
-  - 📖 **Readable**: Easy to follow with clear comments and explanations.  
-  - 🔄 **Reusable**: Designed for reuse and scalability.  
+- **Code Quality**:
+  - 🦼 **Clean**: Code is neatly organized and formatted.
+  - 📖 **Readable**: Clear comments and explanations.
+  - 🔄 **Reusable**: Designed for reuse and scalability.
 
 ---
 
-🔗 **Let's Connect**  
-If you have suggestions, feedback, or ideas for collaboration, feel free to explore this repository or reach out!  
+🔗 **Let’s Connect**\
+Feel free to explore, suggest improvements, or collaborate on this learning journey!
+
 🎉 **Happy Coding!** 🚀
 
 ---
 
-## 📄 License  
+## 🔄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.  
-
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
