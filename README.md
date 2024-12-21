@@ -111,7 +111,7 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
   - ![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png) **GitHub**  
 - **Code Quality**:
   - 🦼 **Clean**: Code is neatly organized and formatted.
-  - 📖 **Readable**: Clear comments and explanations.
+  - 📖 **Readable**: The code is self-explained, using descriptive names for everything in the code.
   - 🔄 **Reusable**: Designed for reuse and scalability.
 
 ---
