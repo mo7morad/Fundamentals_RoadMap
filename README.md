@@ -1,7 +1,7 @@
 
 ## 📘 Introduction
 
-Welcome to the **Fundamentals RoadMap** repository! This project documents my 🔬 learning journey through **26 foundational programming courses** curated by **Eng. Abu-Hadhoud**.
+Welcome to the **Fundamentals RoadMap** repository! This repository documents my learning journey 🔬 through **26 foundational programming courses** curated by **Eng. Mohamed Abo-Hadhoud**.
 
 ### 🔍 What You'll Find:
 
@@ -86,7 +86,7 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 
 ## 📊 Current Progress
 
-- ✅ **Completed**: **9 out of 26 courses**.
+- ✅ **Completed**: **10 out of 26 courses**.
 - 📈 **In Progress**: Continuously adding solutions and comments.
 
 ---
