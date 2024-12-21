@@ -120,9 +120,3 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 Feel free to explore, suggest improvements, or collaborate on this learning journey!
 
 🎉 **Happy Coding!** 🚀
-
----
-
-## 🔄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
