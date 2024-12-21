@@ -36,6 +36,8 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
   - **🔷 ScissorsPaperRock.cpp**
     - An implementation of the classic "Scissors Paper Rock" game in C++.
 
+  ---
+
 ### **🔢 Problem-Solving Level 03 (C++)**
 
 - 📁 **Projects**
