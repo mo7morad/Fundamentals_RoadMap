@@ -6,7 +6,7 @@
 #include <limits>
 using namespace std;
 
-const string ClientsFileName = "ClientsDataCourseCode.txt";
+const string ClientsFileName = "ClientsData.txt";
 
 void PrintEqualSigns(short Num)
 {
