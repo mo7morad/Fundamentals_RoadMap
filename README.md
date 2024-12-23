@@ -13,6 +13,14 @@ Welcome to the **Fundamentals RoadMap** repository! This repository documents my
 
 ---
 
+## 🚀 How to Use
+
+1. **🔧 Explore Solutions**: Check the `Coding/` folder for problems-solving solutions and fully implemented projects with clear explanations and comments.
+2. **📓 Review Course Content**: Dive into the `Courses/` folder for annotated trainer-provided material.
+3. **🔢 Track Progress**: Stay updated on completed courses and upcoming solutions.
+
+---
+
 ## 💂️‍♂️ Repository Structure
 
 Here’s the high-level structure of this repository:
@@ -75,21 +83,6 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
     3. **🗍️ File Integration:**
     
        - Data is stored in `ClientsData.txt` for easy retrieval and updates.
-
----
-
-## 🚀 How to Use
-
-1. **🔧 Explore Solutions**: Check the `Coding/` folder for solutions with clear explanations and comments.
-2. **📓 Review Course Content**: Dive into the `Courses/` folder for annotated trainer-provided material.
-3. **🔢 Track Progress**: Stay updated on completed courses and upcoming solutions.
-
----
-
-## 📊 Current Progress
-
-- ✅ **Completed**: **10 out of 26 courses**.
-- 📈 **In Progress**: Continuously adding solutions and comments.
 
 ---
 
