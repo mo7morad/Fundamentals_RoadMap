@@ -1,6 +1,9 @@
 ![Progress](https://img.shields.io/badge/Completed_Courses-10%2F26-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)
 
+![Problem Solving](https://img.shields.io/badge/Problem%20Solving-180%2B%20Solved%20Problems-success?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-6%20Completed-ff5733?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
 ## 📘 Introduction
 
 Welcome to the **Fundamentals RoadMap** repository! This repository documents my learning journey 🔬 through **26 foundational programming courses** curated by **Eng. Mohamed Abo-Hadhoud**.
@@ -27,8 +30,12 @@ Here’s the high-level structure of this repository:
 
 ```yaml
 Fundamentals_RoadMap/
-├── 📁 Certificates/       # Contains certificates earned (keeps updating).
-├── 📁 Coding/             # Solutions for problem-solving tasks, with full projects.
+├── 📁 Certificates/       # Certificates earned during the journey (keeps updating).
+├── 📁 Coding/             # Problem-solving solutions and full projects.
+│   ├── Problem-Solving-Level-01-in-C++/  # 20+ solved problems.
+│   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 real-projects.
+│   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 real-projects.
+│   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 real-projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
 
@@ -37,7 +44,6 @@ Fundamentals_RoadMap/
 ## 📂 Projects
 
 Below is a breakdown of the specific projects included in the `Coding/` folder:
-
 ### **🔢 Problem-Solving Level 02 (C++)**
 
 - 📁 **Projects**
@@ -113,3 +119,4 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 Feel free to explore, suggest improvements, or collaborate on this learning journey!
 
 🎉 **Happy Coding!** 🚀
+
