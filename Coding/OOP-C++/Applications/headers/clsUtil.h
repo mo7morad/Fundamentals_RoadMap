@@ -7,7 +7,6 @@ using namespace std;
 
 class clsUtil
 {
-   
 public:
     enum enCharType {
         SamallLetter = 1, CapitalLetter = 2,
@@ -67,6 +66,7 @@ public:
             break;
         }
         }
+        return ' ';
     }
 
     static  string GenerateWord(enCharType CharType, short Length)

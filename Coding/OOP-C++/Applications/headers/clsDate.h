@@ -313,8 +313,7 @@ public:
 		NumberOfDays = NumberOfDaysInAMonth(Month, Year);
 
 		// Print the current month name
-		printf("\n  _______________%s_______________\n\n",
-					 MonthShortName(Month).c_str());
+		printf("\n  _______________%s_______________\n\n", MonthShortName(Month).c_str());
 
 		// Print the columns
 		printf("  Sun  Mon  Tue  Wed  Thu  Fri  Sat\n");
