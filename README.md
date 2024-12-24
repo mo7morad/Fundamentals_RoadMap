@@ -33,9 +33,9 @@ Fundamentals_RoadMap/
 ├── 📁 Certificates/       # Certificates earned during the journey (keeps updating).
 ├── 📁 Coding/             # Problem-solving solutions and full projects.
 │   ├── Problem-Solving-Level-01-in-C++/  # 20+ solved problems.
-│   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 real-projects.
-│   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 real-projects.
-│   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 real-projects.
+│   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 projects.
+│   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 projects.
+│   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
 
