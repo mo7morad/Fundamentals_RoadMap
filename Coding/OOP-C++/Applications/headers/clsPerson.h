@@ -1,80 +1,71 @@
-
 #pragma once
-
 #include <iostream>
+#include <string>
 using namespace std;
 
 class clsPerson
 {
 
 private:
-    int _ID;
     string _FirstName;
     string _LastName;
     string _Email;
     string _Phone;
 
 public:
-
-    clsPerson(int ID, string FirstName, string LastName, string Email, string Phone)
+    clsPerson(string FirstName, string LastName, string Email, string Phone)
     {
-        _ID = ID;
+
         _FirstName = FirstName;
         _LastName = LastName;
         _Email = Email;
         _Phone = Phone;
     }
 
-    //Read Only Property
-    int ID()
-    {
-        return _ID;
-    }
-
-    //Property Set
-    void setFirstName(string FirstName)
+    // Property Set
+    void SetFirstName(string FirstName)
     {
         _FirstName = FirstName;
     }
 
-    //Property Get
-    string FirstName()
+    // Property Get
+    string GetFirstName()
     {
         return _FirstName;
     }
 
-    //Property Set
-    void setLastName(string LastName)
+    // Property Set
+    void SetLastName(string LastName)
     {
         _LastName = LastName;
     }
 
-    //Property Get
-    string LastName()
+    // Property Get
+    string GetLastName()
     {
         return _LastName;
     }
 
-    //Property Set
-    void setEmail(string Email)
+    // Property Set
+    void SetEmail(string Email)
     {
         _Email = Email;
     }
 
-    //Property Get
-    string Email()
+    // Property Get
+    string GetEmail()
     {
         return _Email;
     }
 
-    //Property Set
-    void setPhone(string Phone)
+    // Property Set
+    void SetPhone(string Phone)
     {
         _Phone = Phone;
     }
 
-    //Property Get
-    string Phone()
+    // Property Get
+    string GetPhone()
     {
         return _Phone;
     }
@@ -88,30 +79,11 @@ public:
     {
         cout << "\nInfo:";
         cout << "\n___________________";
-        cout << "\nID       : " << _ID;
         cout << "\nFirstName: " << _FirstName;
         cout << "\nLastName : " << _LastName;
         cout << "\nFull Name: " << FullName();
         cout << "\nEmail    : " << _Email;
         cout << "\nPhone    : " << _Phone;
         cout << "\n___________________\n";
-
     }
-
-    void SendEmail(string Subject, string Body)
-    {
-
-        cout << "\nThe following message sent successfully to email: " << _Email;
-        cout << "\nSubject: " << Subject;
-        cout << "\nBody: " << Body << endl;
-
-    }
-
-    void SendSMS(string TextMessage)
-    {
-        cout << "\nThe following SMS sent successfully to phone: " << _Phone;
-        cout << "\n" << TextMessage << endl;
-    }
-
-
 };
