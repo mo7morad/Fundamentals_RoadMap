@@ -146,17 +146,26 @@ public:
 
     void _Update()
     {
+        fstream MyFile;
+        MyFile.open("Clients.txt", ios::in); // Open file in read mode
         vector<clsBankClient> _vClients;
-        _vClients = _LoadClientsDataFromFile();
 
-        for (clsBankClient& C : _vClients)
+        if (MyFile.is_open())
         {
-            if (C.AccountNumber() == AccountNumber())
+            string Line;
+            while (getline(MyFile, Line))
             {
-                C = *this;
-                break;
+                clsBankClient Client = _ConvertLinetoClientObject(Line);
+                if (Client.AccountNumber() == AccountNumber())
+                {
+                    Client = *this; // Update the client with the current object's data
+                }
+                _vClients.push_back(Client); // Add the client to the vector
             }
+            MyFile.close();
         }
+
+        // Save the updated client data back to the file
         _SaveCleintsDataToFile(_vClients);
     }
 
