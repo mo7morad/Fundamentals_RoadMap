@@ -69,7 +69,7 @@ public:
         return _Phone;
     }
 
-    string FullName()
+    string GetFullName()
     {
         return _FirstName + " " + _LastName;
     }
@@ -80,7 +80,7 @@ public:
         cout << "\n___________________";
         cout << "\nFirstName: " << _FirstName;
         cout << "\nLastName : " << _LastName;
-        cout << "\nFull Name: " << FullName();
+        cout << "\nFull Name: " << GetFullName();
         cout << "\nEmail    : " << _Email;
         cout << "\nPhone    : " << _Phone;
         cout << "\n___________________\n";

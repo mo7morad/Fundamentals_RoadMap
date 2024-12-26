@@ -93,7 +93,7 @@ public:
         cout << "\n___________________";
         cout << "\nFirstName   : " << GetFirstName();
         cout << "\nLastName    : " << GetLastName();
-        cout << "\nFull Name   : " << FullName();
+        cout << "\nFull Name   : " << GetFullName();
         cout << "\nEmail       : " << GetEmail();
         cout << "\nPhone       : " << GetPhone();
         cout << "\nAcc. Number : " << _AccountNumber;
@@ -314,4 +314,9 @@ public:
     {
         return clsBankClient(enMode::AddNewMode, "", "", "", "", AccountNumber, "", 0);
     }
-    };
+
+    static vector<clsBankClient> GetClientsList()
+    {
+        return _LoadClientsDataFromFile();
+    }
+};

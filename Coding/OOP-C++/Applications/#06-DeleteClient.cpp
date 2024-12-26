@@ -37,7 +37,6 @@ void DeleteClient()
     }
 }
 
-
 int main()
 
 {
