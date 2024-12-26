@@ -256,10 +256,10 @@ public:
             return svSucceeded;
             break;
         }
-
+        // This will add new record to file or database
         case enMode::AddNewMode:
         {
-            // This will add new record to file or database
+            // Check if account number is already exists
             if (IsClientExist(_AccountNumber))
             {
                 return svFaildAccountNumberExists;
@@ -267,8 +267,7 @@ public:
             else
             {
                 _AddNewClientToFile();
-                // We need to set the mode to update after add new
-                _Mode = UpdateMode;
+                _Mode = UpdateMode; // We need to set the mode to update after add new client
                 return svSucceeded;
             }
             break;

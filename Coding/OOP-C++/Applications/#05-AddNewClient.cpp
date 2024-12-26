@@ -25,23 +25,30 @@ void ReadClientInfo(clsBankClient &Client)
     Client.SetAccountBalance(clsInputValidation::ReadDoubleNumber()); // Use ReadDoubleNumber for balance
 }
 
+// Function to add new client
 void AddNewClient()
 {
+    // Get Account Number
     string AccountNumber = "";
-
     cout << "\nPlease Enter Account Number: ";
     AccountNumber = clsInputValidation::ReadString();
+
+    // Check if account number is already exists
     while (clsBankClient::IsClientExist(AccountNumber))
-    {
+    {  
+        // if account number is already exists
         cout << "\nAccount Number Is Already Used, Choose another one: ";
         AccountNumber = clsInputValidation::ReadString();
     }
 
+    // Create new client object if acc num does not exists
     clsBankClient NewClient = clsBankClient::GetAddNewClientObject(AccountNumber);
     ReadClientInfo(NewClient);
-    clsBankClient::enSaveResults SaveResult;
 
+    clsBankClient::enSaveResults SaveResult;
     SaveResult = NewClient.Save();
+
+    // UI handling based on save result
     switch (SaveResult)
     {
     case  clsBankClient::enSaveResults::svSucceeded:
@@ -54,7 +61,6 @@ void AddNewClient()
     {
         cout << "\nError account was not saved because it's Empty";
         break;
-
     }
     case clsBankClient::enSaveResults::svFaildAccountNumberExists:
     {

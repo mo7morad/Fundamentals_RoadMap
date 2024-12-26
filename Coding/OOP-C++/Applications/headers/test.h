@@ -1,12 +1,12 @@
 #pragma once
-
 #include <iostream>
 #include <string>
-#include <vector>
-#include <fstream>
 #include "clsPerson.h"
 #include "clsString.h"
+#include <vector>
+#include <fstream>
 using namespace std;
+
 
 class clsBankClient : public clsPerson
 {
@@ -140,13 +140,22 @@ private:
 
   static clsBankClient Find(string AccountNumber)
   {
-    vector<clsBankClient> _vClients = _LoadClientsDataFromFile();
-
-    for(clsBankClient &C : _vClients)
+    fstream file;
+    file.open("Clients.txt", ios::in);
+    if(file.is_open())
     {
-      if(C._AccountNumber == AccountNumber)
-        return C;
+      string Line;
+      while(getline(file, Line))
+      {
+        clsBankClient Client = ConvertLineToClientObject(Line);
+        if(Client._AccountNumber == AccountNumber)
+        {
+          file.close();
+          return Client;
+        }
+      }
     }
+    file.close();
     return _GetEmptyClientObject();
   }
 
