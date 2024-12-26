@@ -20,6 +20,7 @@ private:
     };
 
     enMode _Mode;
+    bool _MarkedForDelete = false;
     string _AccountNumber;
     string _PinCode;
     float _AccountBalance;
@@ -56,7 +57,12 @@ public:
         return (_Mode == enMode::EmptyMode);
     }
 
-    string AccountNumber()
+    bool MarkedForDelete()
+    {
+        return _MarkedForDelete;
+    }
+
+    string GetAccountNumber()
     {
         return _AccountNumber;
     }
@@ -104,7 +110,7 @@ public:
         stClientRecord += Client.GetLastName() + Seperator;
         stClientRecord += Client.GetEmail() + Seperator;
         stClientRecord += Client.GetPhone() + Seperator;
-        stClientRecord += Client.AccountNumber() + Seperator;
+        stClientRecord += Client.GetAccountNumber() + Seperator;
         stClientRecord += Client.GetPinCode() + Seperator;
         stClientRecord += to_string(Client.GetAccountBalance());
 
@@ -133,62 +139,66 @@ public:
     static void _SaveClientsDataToFile(vector<clsBankClient> vClients)
     {
         fstream MyFile;
-        MyFile.open("Clients.txt", ios::out);//overwrite
+        MyFile.open("Clients.txt", ios::out); // overwrite
         string DataLine;
 
         if (MyFile.is_open())
         {
             for (clsBankClient C : vClients)
             {
-                DataLine = _ConverClientObjectToLine(C);
-                MyFile << DataLine << endl;
-            }
-            MyFile.close();
-        }
-    }
-
-    void _Update()
-    {
-        fstream MyFile;
-        MyFile.open("Clients.txt", ios::in); // Open file in read mode
-        vector<clsBankClient> _vClients;
-
-        if (MyFile.is_open())
-        {
-            string Line;
-            while (getline(MyFile, Line))
-            {
-                clsBankClient Client = _ConvertLinetoClientObject(Line);
-                if (Client.AccountNumber() == AccountNumber())
+                if (C.MarkedForDelete() == false)
                 {
-                    Client = *this; // Update the client with the current object's data
+                    // we only write records that are not marked for delete.
+                    DataLine = _ConverClientObjectToLine(C);
+                    MyFile << DataLine << endl;
                 }
-                _vClients.push_back(Client); // Add the client to the vector
             }
             MyFile.close();
         }
-
-        // Save the updated client data back to the file
-        _SaveClientsDataToFile(_vClients);
     }
 
-    void _AddDataLineToFile(string stDataLine)
-    {
-        fstream MyFile;
-        MyFile.open("Clients.txt", ios::out | ios::app);
-
-        if (MyFile.is_open())
+        void _Update()
         {
-            MyFile << stDataLine << endl;
-            MyFile.close();
-        }
-    }
+            fstream MyFile;
+            MyFile.open("Clients.txt", ios::in); // Open file in read mode
+            vector<clsBankClient> _vClients;
 
-    void _AddNewClientToFile()
-    {
-        string DataLine = _ConverClientObjectToLine(*this);
-        _AddDataLineToFile(DataLine);
-    }
+            if (MyFile.is_open())
+            {
+                string Line;
+                while (getline(MyFile, Line))
+                {
+                    clsBankClient Client = _ConvertLinetoClientObject(Line);
+                    if (Client.GetAccountNumber() == GetAccountNumber())
+                    {
+                        Client = *this; // Update the client with the current object's data
+                    }
+                    _vClients.push_back(Client); // Add the client to the vector
+                }
+                MyFile.close();
+            }
+
+            // Save the updated client data back to the file
+            _SaveClientsDataToFile(_vClients);
+        }
+
+        void _AddDataLineToFile(string stDataLine)
+        {
+            fstream MyFile;
+            MyFile.open("Clients.txt", ios::out | ios::app);
+
+            if (MyFile.is_open())
+            {
+                MyFile << stDataLine << endl;
+                MyFile.close();
+            }
+        }
+
+        void _AddNewClientToFile()
+        {
+            string DataLine = _ConverClientObjectToLine(*this);
+            _AddDataLineToFile(DataLine);
+        }
 
     public:
     static clsBankClient Find(string AccountNumber)
@@ -202,7 +212,7 @@ public:
             while (getline(MyFile, Line))
             {
                 clsBankClient Client = _ConvertLinetoClientObject(Line);
-                if (Client.AccountNumber() == AccountNumber)
+                if (Client.GetAccountNumber() == AccountNumber)
                 {
                     MyFile.close();
                     return Client;
@@ -224,7 +234,7 @@ public:
             while (getline(MyFile, Line))
             {
                 clsBankClient Client = _ConvertLinetoClientObject(Line);
-                if (Client.AccountNumber() == AccountNumber && Client.GetPinCode() == PinCode)
+                if (Client.GetAccountNumber() == AccountNumber && Client.GetPinCode() == PinCode)
                 {
                     MyFile.close();
                     return Client;
@@ -276,6 +286,24 @@ public:
     return svFaildEmptyObject;
     }
 
+    bool Delete()
+    {
+        vector<clsBankClient> vClient;
+        vClient = _LoadClientsDataFromFile();
+
+        for (clsBankClient &C : vClient)
+        {
+            if (C._AccountNumber == _AccountNumber)
+            {
+                C._MarkedForDelete = true;
+                _SaveClientsDataToFile(vClient);
+                *this = _GetEmptyClientObject();
+                return true;
+            }
+        }
+        return false;
+    }
+
     static bool IsClientExist(string AccountNumber)
     {
         clsBankClient Client1 = clsBankClient::Find(AccountNumber);
@@ -286,4 +314,4 @@ public:
     {
         return clsBankClient(enMode::AddNewMode, "", "", "", "", AccountNumber, "", 0);
     }
-};
+    };
