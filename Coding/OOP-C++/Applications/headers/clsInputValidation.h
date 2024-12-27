@@ -9,6 +9,7 @@ class clsInputValidation
 {
 
 public:
+
   static string ReadString()
   {
     string S1 = "";
@@ -16,18 +17,8 @@ public:
     getline(cin >> ws, S1);
     return S1;
   }
-  
-  static bool IsNumberBetween(short Number, short From, short To)
-  {
-    return(Number >= From && Number <= To);
-  }
 
   static bool IsNumberBetween(int Number, int From, int To)
-  {
-    return(Number >= From && Number <= To);
-  }
-
-  static bool IsNumberBetween(float Number, float From, float To)
   {
     return(Number >= From && Number <= To);
   }
@@ -54,6 +45,29 @@ public:
     }
 
     return false;
+  }
+
+  static short ReadShortNumber(string ErrorMessage = "Invalid Number, Enter again\n")
+  {
+    short Number;
+    while (!(cin >> Number))
+    {
+      cin.clear();
+      cin.ignore(numeric_limits<streamsize>::max(), '\n');
+      cout << ErrorMessage;
+    }
+    return Number;
+  }
+
+  static short ReadShortNumberBetween(short From, short To, string ErrorMessage = "Number is not within range, Enter again:\n")
+  {
+    int Number = ReadShortNumber();
+    while (!IsNumberBetween(Number, From, To))
+    {
+      cout << ErrorMessage;
+      Number = ReadShortNumber();
+    }
+    return Number;
   }
 
   static int ReadIntNumber(string ErrorMessage = "Invalid Number, Enter again\n")

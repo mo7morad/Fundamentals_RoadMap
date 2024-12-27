@@ -1,13 +1,9 @@
 #include <iostream>
-#include "clsMainScreen.h"
+#include "headers/clsMainScreen.h"
 
 int main()
-
 {
-  
-    clsMainScreen::ShowMainMenue();
-
-
-    system("pause>0");
-    return 0;
+  clsMainScreen::ShowMainMenu();
+  cin.get();
+  return 0;
 }
