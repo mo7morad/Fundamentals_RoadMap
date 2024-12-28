@@ -2,6 +2,7 @@
 #include <iostream>
 #include "clsScreen.h"
 #include "clsClientsListScreen.h"
+#include "clsAddNewClientScreen.h"
 #include "clsInputValidation.h"
 #include <iomanip>
 using namespace std;
@@ -39,7 +40,7 @@ private:
 
   static void _ShowAddNewClientsScreen()
   {
-    cout << "\nAdd New Client Screen Will be here...\n";
+    clsAddNewClient::ShowAddNewClientScreen();
   }
 
   static void _ShowDeleteClientScreen()

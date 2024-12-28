@@ -87,21 +87,6 @@ public:
         return _AccountBalance;
     }
 
-    void Print()
-    {
-        cout << "\nClient Card:";
-        cout << "\n___________________";
-        cout << "\nFirstName   : " << GetFirstName();
-        cout << "\nLastName    : " << GetLastName();
-        cout << "\nFull Name   : " << GetFullName();
-        cout << "\nEmail       : " << GetEmail();
-        cout << "\nPhone       : " << GetPhone();
-        cout << "\nAcc. Number : " << _AccountNumber;
-        cout << "\nPassword    : " << _PinCode;
-        cout << "\nBalance     : " << _AccountBalance;
-        cout << "\n___________________\n";
-    }
-
     private:
     static string _ConverClientObjectToLine(clsBankClient Client, string Seperator = "#//#")
     {
