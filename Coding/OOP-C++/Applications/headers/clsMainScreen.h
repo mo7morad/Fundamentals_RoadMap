@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "clsScreen.h"
+#include "clsClientsListScreen.h"
 #include "clsInputValidation.h"
 #include <iomanip>
 using namespace std;
@@ -33,7 +34,7 @@ private:
 
   static void _ShowAllClientsScreen()
   {
-    cout << "\nClient List Screen Will be here...\n";
+    clsClientsListScreen::ShowClientsList();
   }
 
   static void _ShowAddNewClientsScreen()
