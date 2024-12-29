@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 #include "clsScreen.h"
-#include "clsShowDepositScreen.h"
 #include "clsInputValidation.h"
+#include "clsShowDepositScreen.h"
 #include <iomanip>
 using namespace std;
 
@@ -27,7 +27,7 @@ private:
 
   static void _ShowDepositScreen()
   {
-    clsShowDepositScreen::ShowDepositScreen();
+    clsDepositScreen::ShowDepositScreen();
   }
 
   static void _ShowWithdrawScreen()
