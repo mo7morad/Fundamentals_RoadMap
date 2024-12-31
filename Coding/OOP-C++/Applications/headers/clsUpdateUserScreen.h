@@ -45,16 +45,16 @@ private:
         cout << "\n___________________\n";
     }
 
-    static clsUser::enPermissions _ReadPermissionsToSet()
+    static short _ReadPermissionsToSet()
     {
-        clsUser::enPermissions Permissions = clsUser::enPermissions::None;
-
+        short Permissions = 0;
         char Answer = 'n';
-        cout << "\nDo you want to give the user full access? y/n? ";
+
+        cout << "\nDo you want to give full access? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            return clsUser::enPermissions::AllPermissions;
+            return -1;
         }
 
         cout << "\nDo you want to give access to : \n ";
@@ -62,49 +62,49 @@ private:
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::ShowClientsList;
+            Permissions += clsUser::enPermissions::ShowClientsList;
         }
 
         cout << "\nAdd New Client? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::AddClient;
+            Permissions += clsUser::enPermissions::AddClient;
         }
 
         cout << "\nDelete Client? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::DeleteClient;
+            Permissions += clsUser::enPermissions::DeleteClient;
         }
 
         cout << "\nUpdate Client? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::UpdateClient;
+            Permissions += clsUser::enPermissions::UpdateClient;
         }
 
         cout << "\nFind Client? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::FindClient;
+            Permissions += clsUser::enPermissions::FindClient;
         }
 
         cout << "\nTransactions? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::Transactions;
+            Permissions += clsUser::enPermissions::Transactions;
         }
 
         cout << "\nManage Users? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::ManageUsers;
+            Permissions += clsUser::enPermissions::ManageUsers;
         }
         return Permissions;
     }

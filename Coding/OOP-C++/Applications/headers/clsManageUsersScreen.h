@@ -63,7 +63,6 @@ private:
 
     static void _PerformManageUsersMenuOption(enManageUsersMenuOptions ManageUsersMenuOption)
     {
-
         switch (ManageUsersMenuOption)
         {
         case ListUsers:
@@ -120,6 +119,9 @@ public:
 
     static void ShowManageUsersMenu()
     {
+        if (!CheckAccessRights(clsUser::enPermissions::ManageUsers))
+            return;
+            
         _DrawScreenHeader("\t Manage Users Screen");
         cout << setw(37) << left << "" << "===========================================\n";
         cout << setw(37) << left << "" << "\t\t  Manage Users Menu\n";

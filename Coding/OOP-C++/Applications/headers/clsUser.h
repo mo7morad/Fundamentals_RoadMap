@@ -124,14 +124,14 @@ public:
 
     enum enPermissions
     {
-        None = 0,                 // 00000000
-        ShowClientsList = 1 << 0, // 00000001
-        AddClient = 1 << 1,       // 00000010
-        DeleteClient = 1 << 2,    // 00000100
-        UpdateClient = 1 << 3,    // 00001000
-        FindClient = 1 << 4,      // 00010000
-        Transactions = 1 << 5,    // 00100000
-        ManageUsers = 1 << 6,     // 01000000
+        None = 0,                 // 00000000 >> 0
+        ShowClientsList = 1 << 0, // 00000001 >> 1
+        AddClient = 1 << 1,       // 00000010 >> 2 
+        DeleteClient = 1 << 2,    // 00000100 >> 4
+        UpdateClient = 1 << 3,    // 00001000 >> 8
+        FindClient = 1 << 4,      // 00010000 >> 16
+        Transactions = 1 << 5,    // 00100000 >> 32
+        ManageUsers = 1 << 6,     // 01000000 >> 64
         AllPermissions = ~0       // 11111111 (enables all bits)
     };
 
@@ -304,6 +304,11 @@ public:
     static vector <clsUser> GetUsersList()
     {
         return _LoadUsersDataFromFile();
+    }
+
+    bool CheckAccessPermission(enPermissions Permission)
+    {
+        return ((enPermissions(this->_Permissions) & Permission));
     }
 };
 
