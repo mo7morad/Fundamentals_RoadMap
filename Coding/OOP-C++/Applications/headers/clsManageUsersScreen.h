@@ -5,6 +5,7 @@
 #include "clsListUsersScreen.h"
 #include "clsAddNewUserScreen.h"
 #include "clsDeleteUserScreen.h"
+#include "clsUpdateUserScreen.h"
 #include <iomanip>
 
 using namespace std;
@@ -50,7 +51,7 @@ private:
 
     static void _ShowUpdateUserScreen()
     {
-        cout << "\nUpdate User Screen Will Be Here.\n";
+        clsUpdateUserScreen::ShowUpdateUserScreen();
     }
 
     static void _ShowFindUserScreen()
@@ -119,7 +120,6 @@ public:
     static void ShowManageUsersMenu()
     {
         _DrawScreenHeader("\t Manage Users Screen");
-
         cout << setw(37) << left << "" << "===========================================\n";
         cout << setw(37) << left << "" << "\t\t  Manage Users Menu\n";
         cout << setw(37) << left << "" << "===========================================\n";
@@ -130,7 +130,6 @@ public:
         cout << setw(37) << left << "" << "\t[5] Find User.\n";
         cout << setw(37) << left << "" << "\t[6] Main Menu.\n";
         cout << setw(37) << left << "" << "===========================================\n";
-
         _PerformManageUsersMenuOption((enManageUsersMenuOptions)_ReadManageUsersMenuOption());
     }
 };
