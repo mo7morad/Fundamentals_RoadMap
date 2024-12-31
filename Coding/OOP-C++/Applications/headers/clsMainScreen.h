@@ -7,6 +7,7 @@
 #include "clsUpdateClientScreen.h"
 #include "clsFindClientScreen.h"
 #include "clsTransactionsScreen.h"
+#include "clsManageUsersScreen.h"
 #include "clsInputValidation.h"
 #include <iomanip>
 using namespace std;
@@ -69,7 +70,7 @@ private:
 
   static void _ShowManageUsersMenu()
   {
-    cout << "\nUsers Menu Will be here...\n";
+    clsManageUsersScreen::ShowManageUsersMenu();
   }
 
   static void _ShowEndScreen()
