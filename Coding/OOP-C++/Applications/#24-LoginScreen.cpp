@@ -4,7 +4,10 @@
 int main()
 
 {
-  clsLoginScreen::ShowLoginScreen();
-  cin.get();
+  // prompt the login screen after every logout.
+  while(true)
+  {
+    clsLoginScreen::ShowLoginScreen();
+  }
   return 0;
 }

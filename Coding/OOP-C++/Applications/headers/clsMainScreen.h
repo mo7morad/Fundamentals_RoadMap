@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "clsScreen.h"
+#include "clsInputValidation.h"
 #include "clsClientsListScreen.h"
 #include "clsAddNewClientScreen.h"
 #include "clsDeleteClientScreen.h"
@@ -8,7 +9,6 @@
 #include "clsFindClientScreen.h"
 #include "clsTransactionsScreen.h"
 #include "clsManageUsersScreen.h"
-#include "clsInputValidation.h"
 #include "Global.h"
 #include <iomanip>
 using namespace std;
