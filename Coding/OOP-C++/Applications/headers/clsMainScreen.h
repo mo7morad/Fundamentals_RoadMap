@@ -9,6 +9,7 @@
 #include "clsTransactionsScreen.h"
 #include "clsManageUsersScreen.h"
 #include "clsInputValidation.h"
+#include "Global.h"
 #include <iomanip>
 using namespace std;
 
@@ -73,10 +74,13 @@ private:
     clsManageUsersScreen::ShowManageUsersMenu();
   }
 
-  static void _ShowEndScreen()
+  static void _Logout()
   {
-    cout << "\nEnd Screen Will be here...\n";
+    CurrentUser = clsUser::Find("", "");
+    // then it'll go to main function.
   }
+
+
 
   static void _PerfromMainMenu(enMainMenuOptions MainMenuOption)
   {
@@ -127,8 +131,7 @@ private:
 
     case Exit:
       system("clear");
-      _ShowEndScreen();
-      // Login();
+      _Logout();
       break;
     }
   }
