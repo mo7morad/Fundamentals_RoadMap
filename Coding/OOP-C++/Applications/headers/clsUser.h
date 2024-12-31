@@ -269,6 +269,7 @@ public:
             break;
         }
         }
+        return svFaildEmptyObject;
     }
 
     static bool IsUserExist(string UserName)
