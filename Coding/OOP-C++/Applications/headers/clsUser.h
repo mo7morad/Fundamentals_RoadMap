@@ -15,7 +15,7 @@ private:
     enMode _Mode;
     string _UserName;
     string _Password;
-    int _Permissions;
+    short _Permissions;
 
     bool _MarkedForDelete = false;
 
@@ -122,6 +122,19 @@ private:
 
 public:
 
+    enum enPermissions
+    {
+        None = 0,                 // 00000000
+        ShowClientsList = 1 << 0, // 00000001
+        AddClient = 1 << 1,       // 00000010
+        DeleteClient = 1 << 2,    // 00000100
+        UpdateClient = 1 << 3,    // 00001000
+        FindClient = 1 << 4,      // 00010000
+        Transactions = 1 << 5,    // 00100000
+        ManageUsers = 1 << 6,     // 01000000
+        AllPermissions = ~0       // 11111111 (enables all bits)
+    };
+
     clsUser(enMode Mode, string FirstName, string LastName,
         string Email, string Phone, string UserName, string Password,
         int Permissions) :
@@ -163,12 +176,12 @@ public:
         return _Password;
     }
 
-    void SetPermissions(int Permissions)
+    void SetPermissions(short Permissions)
     {
         _Permissions = Permissions;
     }
 
-    int GetPermissions()
+    short GetPermissions()
     {
         return _Permissions;
     }
