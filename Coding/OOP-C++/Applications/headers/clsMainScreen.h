@@ -9,6 +9,7 @@
 #include "clsFindClientScreen.h"
 #include "clsTransactionsScreen.h"
 #include "clsManageUsersScreen.h"
+#include "clsLogsScreen.h"
 #include "Global.h"
 #include <iomanip>
 using namespace std;
@@ -21,13 +22,13 @@ private:
   {
       ListClients = 1, AddNewClient = 2, DeleteClient = 3,
       UpdateClient = 4, FindClient = 5, ShowTransactionsMenu = 6,
-      ManageUsers = 7, Exit = 8 
+      ManageUsers = 7, ShowLogs = 8 ,Exit = 9
   };
 
   static short _ReadMainMenuOption()
   {
-    cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 8]? ";
-    short Choice = clsInputValidation::ReadShortNumberBetween(1, 8, "Enter Number between 1 to 8? ");
+    cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 9]? ";
+    short Choice = clsInputValidation::ReadShortNumberBetween(1, 9, "Enter Number between 1 to 9? ");
     return Choice;
   }
 
@@ -72,6 +73,11 @@ private:
   static void _ShowManageUsersMenu()
   {
     clsManageUsersScreen::ShowManageUsersMenu();
+  }
+
+  static void _ShowLogs()
+  {
+    clsLogsScreen::ShowLogsScreen();
   }
 
   static void _Logout()
@@ -129,6 +135,12 @@ private:
       _GoBackToMainMenu();
       break;
 
+      case ShowLogs:
+        system("clear");
+        _ShowLogs();
+        _GoBackToMainMenu();
+        break;
+
     case Exit:
       system("clear");
       _Logout();
@@ -153,7 +165,8 @@ public:
     cout << setw(37) << left << "" << "\t[5] Find Client.\n";
     cout << setw(37) << left << "" << "\t[6] Transactions.\n";
     cout << setw(37) << left << "" << "\t[7] Manage Users.\n";
-    cout << setw(37) << left << "" << "\t[8] Logout.\n";
+    cout << setw(37) << left << "" << "\t[8] Show Logs.\n";
+    cout << setw(37) << left << "" << "\t[9] Logout.\n";
     cout << setw(37) << left << "" << "===========================================\n";
     _PerfromMainMenu((enMainMenuOptions)_ReadMainMenuOption());
   }
