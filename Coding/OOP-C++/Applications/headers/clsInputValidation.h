@@ -94,6 +94,30 @@ public:
     return Number;
   }
 
+  static float ReadFloatNumber(string ErrorMessage = "Invalid Number, Enter again\n")
+  {
+    float Number;
+    while (!(cin >> Number))
+    {
+      cin.clear();
+      cin.ignore(numeric_limits<streamsize>::max(), '\n');
+      cout << ErrorMessage;
+    }
+    return Number;
+  }
+
+  static float ReadFloatNumberBetween(float From, float To, string ErrorMessage = "Number is not within range, Enter again:\n")
+  {
+    float Number = ReadFloatNumber();
+
+    while (!IsNumberBetween(Number, From, To))
+    {
+      cout << ErrorMessage;
+      Number = ReadFloatNumber();
+    }
+    return Number;
+  }
+
   static double ReadDoubleNumber(string ErrorMessage = "Invalid Number, Enter again\n")
   {
     double Number;
