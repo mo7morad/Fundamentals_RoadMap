@@ -21,6 +21,9 @@ private:
 public:
   static void ShowLogsScreen()
   {
+    if (!CheckAccessRights(clsUser::enPermissions::ShowLogs))
+      return;
+
     vector<clsUser::stLogRecord> vLogsRecords = clsUser::GetLogsList();
 
     string Title = "\tLogin Register List Screen";
