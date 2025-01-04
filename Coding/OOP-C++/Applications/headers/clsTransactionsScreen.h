@@ -22,6 +22,8 @@ private:
     ShowMainMenu = 5
   };
 
+  
+
   static short ReadTransactionsMenuOption()
   {
     cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 5]? ";

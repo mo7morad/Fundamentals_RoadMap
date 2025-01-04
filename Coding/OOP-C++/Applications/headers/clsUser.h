@@ -348,24 +348,24 @@ public:
 
     void RegisterLogIn()
     {
-        string stDataLine = _PrepareLogInRecord();
+        string DataLine = _PrepareLogInRecord();
 
         fstream MyFile;
-        MyFile.open("Logs.txt", ios::out | ios::app);
+        MyFile.open("LoginLogs.txt", ios::out | ios::app);
 
         if (MyFile.is_open())
         {
-            MyFile << stDataLine << endl;
+            MyFile << DataLine << endl;
             MyFile.close();
         }
     }
 
-    static vector<stLogRecord> GetLogsList()
+    static vector<stLogRecord> GetLoginLogsList()
     {
         vector<stLogRecord> vLogsRecords;
 
         fstream MyFile;
-        MyFile.open("Logs.txt", ios::in); // read Mode
+        MyFile.open("LoginLogs.txt", ios::in); // read Mode
 
         if (MyFile.is_open())
         {

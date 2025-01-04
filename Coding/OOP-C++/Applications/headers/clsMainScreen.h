@@ -22,7 +22,7 @@ private:
   {
       ListClients = 1, AddNewClient = 2, DeleteClient = 3,
       UpdateClient = 4, FindClient = 5, ShowTransactionsMenu = 6,
-      ManageUsers = 7, ShowLogs = 8 ,Exit = 9
+      ManageUsers = 7, ShowLoginLogs = 8 ,Exit = 9
   };
 
   static short _ReadMainMenuOption()
@@ -77,7 +77,7 @@ private:
 
   static void _ShowLogs()
   {
-    clsLogsScreen::ShowLogsScreen();
+    clsLogsScreen::ShowLoginLogsScreen();
   }
 
   static void _Logout()
@@ -135,11 +135,11 @@ private:
       _GoBackToMainMenu();
       break;
 
-      case ShowLogs:
-        system("clear");
-        _ShowLogs();
-        _GoBackToMainMenu();
-        break;
+    case ShowLoginLogs:
+      system("clear");
+      _ShowLogs();
+      _GoBackToMainMenu();
+      break;
 
     case Exit:
       system("clear");
@@ -165,7 +165,7 @@ public:
     cout << setw(37) << left << "" << "\t[5] Find Client.\n";
     cout << setw(37) << left << "" << "\t[6] Transactions.\n";
     cout << setw(37) << left << "" << "\t[7] Manage Users.\n";
-    cout << setw(37) << left << "" << "\t[8] Show Logs.\n";
+    cout << setw(37) << left << "" << "\t[8] Show Login Logs.\n";
     cout << setw(37) << left << "" << "\t[9] Logout.\n";
     cout << setw(37) << left << "" << "===========================================\n";
     _PerfromMainMenu((enMainMenuOptions)_ReadMainMenuOption());
