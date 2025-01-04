@@ -327,7 +327,7 @@ public:
         string stDataLine = _PrepareLogInRecord();
 
         fstream MyFile;
-        MyFile.open("LoginRegister.txt", ios::out | ios::app);
+        MyFile.open("Logs.txt", ios::out | ios::app);
 
         if (MyFile.is_open())
         {
