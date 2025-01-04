@@ -106,6 +106,14 @@ private:
         {
             Permissions += clsUser::enPermissions::ManageUsers;
         }
+
+        cout << "\nShow Logs? y/n? ";
+        cin >> Answer;
+        if (Answer == 'y' || Answer == 'Y')
+        {
+            Permissions | clsUser::enPermissions::ShowLogs;
+        }
+
         return Permissions;
     }
 

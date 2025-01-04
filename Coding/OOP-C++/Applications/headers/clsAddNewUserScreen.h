@@ -9,8 +9,7 @@
 class clsAddNewUserScreen : protected clsScreen
 {
 private:
-
-    static void _ReadUserInfo(clsUser& User)
+    static void _ReadUserInfo(clsUser &User)
     {
         cout << "\nEnter FirstName: ";
         User.GetFirstName() = clsInputValidation::ReadString();
@@ -49,7 +48,7 @@ private:
     static clsUser::enPermissions _ReadPermissionsToSet()
     {
         clsUser::enPermissions Permissions = clsUser::enPermissions::None;
-        
+
         char Answer = 'n';
         cout << "\nDo you want to give the user full access? y/n? ";
         cin >> Answer;
@@ -114,12 +113,11 @@ private:
         {
             Permissions | clsUser::enPermissions::ShowLogs;
         }
-        
+
         return Permissions;
     }
 
 public:
-
     static void ShowAddNewUserScreen()
     {
         _DrawScreenHeader("\t  Add New User Screen");
@@ -141,7 +139,7 @@ public:
 
         switch (SaveResult)
         {
-        case  clsUser::enSaveResults::svSucceeded:
+        case clsUser::enSaveResults::svSucceeded:
         {
             cout << "\nUser Addeded Successfully :-)\n";
             _PrintUser(NewUser);
@@ -161,4 +159,3 @@ public:
         }
     }
 };
-
