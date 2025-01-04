@@ -9,32 +9,32 @@ using namespace std;
 class clsScreen
 {
 protected:
-    static void _DrawScreenHeader(string Title, string SubTitle = "")
-    {
-        cout << "\t\t\t\t\t______________________________________";
-        cout << "\n\n\t\t\t\t\t  " << Title;
-        if (SubTitle != "")
-        {
-            cout << "\n\t\t\t\t\t  " << SubTitle;
-        }
-        cout << "\n\t\t\t\t\t______________________________________\n";
-        cout << "\n\t\t\t\t\tUser: " << CurrentUser.GetUserName() << "\n";
-        cout << "\t\t\t\t\tDate: " << clsDate::DateToString(clsDate()) << "\n\n";
-    }
-
-    static bool CheckAccessRights(clsUser::enPermissions Permission)
-    {
-
-        if (!CurrentUser.CheckAccessPermission(Permission))
+        static void _DrawScreenHeader(string Title, string SubTitle = "")
         {
             cout << "\t\t\t\t\t______________________________________";
-            cout << "\n\n\t\t\t\t\t  Access Denied! Contact your Admin.";
-            cout << "\n\t\t\t\t\t______________________________________\n\n";
-            return false;
+            cout << "\n\n\t\t\t\t\t  " << Title;
+            if (SubTitle != "")
+            {
+                cout << "\n\t\t\t\t\t  " << SubTitle;
+            }
+            cout << "\n\t\t\t\t\t______________________________________\n";
+            cout << "\n\t\t\t\t\tUser: " << CurrentUser.GetUserName() << "\n";
+            cout << "\t\t\t\t\tDate: " << clsDate::DateToString(clsDate()) << "\n\n";
         }
-        else
+
+        static bool CheckAccessRights(clsUser::enPermissions Permission)
         {
-            return true;
+
+            if (!CurrentUser.CheckAccessPermission(Permission))
+            {
+                cout << "\t\t\t\t\t______________________________________";
+                cout << "\n\n\t\t\t\t\t  Access Denied! Contact your Admin.";
+                cout << "\n\t\t\t\t\t______________________________________\n\n";
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
-    }
 };
