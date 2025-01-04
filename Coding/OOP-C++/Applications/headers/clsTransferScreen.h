@@ -30,7 +30,7 @@ private:
 
     while (!clsBankClient::IsClientExist(_TranferFromAccount))
     {
-      cout << "Account Number Doens't Exists! Enter an existign account number: ";
+      cout << "Account Number Doens't Exists! Enter an existing account number: ";
       _TranferFromAccount = clsInputValidation::ReadString();
     }
     clsBankClient SenderClient = clsBankClient::Find(_TranferFromAccount);
