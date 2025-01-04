@@ -40,7 +40,8 @@ private :
             LoginFaild = CurrentUser.IsEmpty();
             
         } while (LoginFaild);
-
+        
+        CurrentUser.RegisterLogIn();
         clsMainScreen::ShowMainMenu();
         return true;
     }
@@ -54,6 +55,5 @@ public:
         _DrawScreenHeader("\t  Login Screen");
         return _Login();
     }
-
 };
 
