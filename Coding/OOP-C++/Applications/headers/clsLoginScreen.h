@@ -11,16 +11,23 @@ class clsLoginScreen :protected clsScreen
 
 private :
 
-    static  void _Login()
+    static bool _Login()
     {
         bool LoginFaild = false;
-
+        short LoginAttempts = 3;
         string Username, Password;
         do
         {
             if (LoginFaild)
             {
+                LoginAttempts--;
                 cout << "\nInvlaid Username/Password!\n\n";
+                cout << "You have " << LoginAttempts << " attempts left.\n\n";
+                if (LoginAttempts == 0)
+                {
+                    cout << "You have exceeded the number of login attempts.\n";
+                    return false;
+                }
             }
 
             cout << "Enter Username? ";
@@ -35,16 +42,17 @@ private :
         } while (LoginFaild);
 
         clsMainScreen::ShowMainMenu();
+        return true;
     }
 
 public:
 
 
-    static void ShowLoginScreen()
+    static bool ShowLoginScreen()
     {
         system("clear");
         _DrawScreenHeader("\t  Login Screen");
-        _Login();
+        return _Login();
     }
 
 };

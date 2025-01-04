@@ -5,9 +5,10 @@ int main()
 
 {
   // prompt the login screen after every logout.
-  while(true)
+  while (true)
   {
-    clsLoginScreen::ShowLoginScreen();
+    if(!clsLoginScreen::ShowLoginScreen())
+      break;
   }
   return 0;
 }
