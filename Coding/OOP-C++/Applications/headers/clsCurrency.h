@@ -24,7 +24,7 @@ private:
         vector<string> vCurrencyData;
         vCurrencyData = clsString::Split(Line, Seperator);
         return clsCurrency(enMode::UpdateMode, vCurrencyData[0], vCurrencyData[1], vCurrencyData[2],
-            stod(vCurrencyData[3]));
+            stof(vCurrencyData[3]));
     }
 
     static string _ConverCurrencyObjectToLine(clsCurrency Currency, string Seperator = "#//#")
@@ -207,6 +207,16 @@ public:
     static vector <clsCurrency> GetCurrenciesList()
     {
         return _LoadCurrencysDataFromFile();
+    }
+
+    float ConvertToUsd(float Amount)
+    {
+        return float(Amount / Rate());
+    }
+
+    float ConvertFromUsd(float Amount)
+    {
+        return float(Amount * Rate());
     }
 };
 
