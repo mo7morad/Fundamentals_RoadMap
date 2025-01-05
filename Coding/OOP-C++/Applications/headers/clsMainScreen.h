@@ -10,6 +10,7 @@
 #include "clsTransactionsScreen.h"
 #include "clsManageUsersScreen.h"
 #include "clsLoginLogsScreen.h"
+#include "clsCurrencyExchangeScreen.h"
 #include "Global.h"
 #include <iomanip>
 using namespace std;
@@ -22,13 +23,13 @@ private:
   {
       ListClients = 1, AddNewClient = 2, DeleteClient = 3,
       UpdateClient = 4, FindClient = 5, ShowTransactionsMenu = 6,
-      ManageUsers = 7, ShowLoginLogs = 8 ,Exit = 9
+      ManageUsers = 7, LoginLogs = 8 , CurrencyExchange = 9, Exit = 10
   };
 
   static short _ReadMainMenuOption()
   {
-    cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 9]? ";
-    short Choice = clsInputValidation::ReadShortNumberBetween(1, 9, "Enter Number between 1 to 9? ");
+    cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 10]? ";
+    short Choice = clsInputValidation::ReadShortNumberBetween(1, 10, "Enter Number between 1 to 10? ");
     return Choice;
   }
 
@@ -78,6 +79,11 @@ private:
   static void _ShowLogs()
   {
     clsLoginLogsScreen::ShowLoginLogsScreen();
+  }
+
+  static void _ShowCurrencyExchange()
+  {
+    clsCurrencyExchangeScreen::ShowCurrencyExchangeScreen();
   }
 
   static void _Logout()
@@ -135,9 +141,15 @@ private:
       _GoBackToMainMenu();
       break;
 
-    case ShowLoginLogs:
+    case LoginLogs:
       system("clear");
       _ShowLogs();
+      _GoBackToMainMenu();
+      break;
+
+    case CurrencyExchange:
+      system("clear");
+      _ShowCurrencyExchange();
       _GoBackToMainMenu();
       break;
 
@@ -166,7 +178,8 @@ public:
     cout << setw(37) << left << "" << "\t[6] Transactions.\n";
     cout << setw(37) << left << "" << "\t[7] Manage Users.\n";
     cout << setw(37) << left << "" << "\t[8] Show Login Logs.\n";
-    cout << setw(37) << left << "" << "\t[9] Logout.\n";
+    cout << setw(37) << left << "" << "\t[9] Currency Exchange.\n";
+    cout << setw(37) << left << "" << "\t[10] Logout.\n";
     cout << setw(37) << left << "" << "===========================================\n";
     _PerfromMainMenu((enMainMenuOptions)_ReadMainMenuOption());
   }
