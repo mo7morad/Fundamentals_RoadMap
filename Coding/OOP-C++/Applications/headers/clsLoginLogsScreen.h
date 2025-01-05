@@ -6,7 +6,7 @@
 #include <fstream>
 #include "clsUser.h"
 
-class clsLogsScreen : protected clsScreen
+class clsLoginLogsScreen : protected clsScreen
 {
 
 private:

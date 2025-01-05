@@ -6,6 +6,7 @@
 #include "clsWithdrawScreen.h"
 #include "clsTotalBalancesScreen.h"
 #include "clsTransferScreen.h"
+#include "clsTransferLogScreen.h"
 #include <iomanip>
 using namespace std;
 
@@ -19,7 +20,8 @@ private:
     Withdraw = 2,
     ShowTotalBalance = 3,
     Transfer = 4,
-    ShowMainMenu = 5
+    TransferLog = 5,
+    ShowMainMenu = 6
   };
 
   
@@ -49,6 +51,11 @@ private:
   static void _ShowTransferScreen()
   {
     clsTransferScreen::ShowTransferScreen();
+  }
+
+  static void _ShowTransferLogScreen()
+  {
+    clsTransferLogScreen::ShowTransferLogScreen();
   }
 
   static void _GoBackToTransactionsMenu()
@@ -95,6 +102,14 @@ private:
       break;
     }
 
+    case enTransactionsMenuOptions::TransferLog:
+    {
+      system("clear");
+      _ShowTransferLogScreen();
+      _GoBackToTransactionsMenu();
+      break;
+    }
+
     case enTransactionsMenuOptions::ShowMainMenu:
     {
       // do nothing here the main screen will handle it :-) ;
@@ -118,7 +133,8 @@ public:
     cout << setw(37) << left << "" << "\t[2] Withdraw.\n";
     cout << setw(37) << left << "" << "\t[3] Total Balances.\n";
     cout << setw(37) << left << "" << "\t[4] Transfer.\n";
-    cout << setw(37) << left << "" << "\t[5] Main Menu.\n";
+    cout << setw(37) << left << "" << "\t[5] Transfer Log.\n";
+    cout << setw(37) << left << "" << "\t[6] Main Menu.\n";
     cout << setw(37) << left << "" << "===========================================\n";
 
     _PerformTransactionsMenuOption((enTransactionsMenuOptions)ReadTransactionsMenuOption());

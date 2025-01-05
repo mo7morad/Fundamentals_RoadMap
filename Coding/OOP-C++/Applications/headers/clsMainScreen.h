@@ -9,7 +9,7 @@
 #include "clsFindClientScreen.h"
 #include "clsTransactionsScreen.h"
 #include "clsManageUsersScreen.h"
-#include "clsLogsScreen.h"
+#include "clsLoginLogsScreen.h"
 #include "Global.h"
 #include <iomanip>
 using namespace std;
@@ -77,7 +77,7 @@ private:
 
   static void _ShowLogs()
   {
-    clsLogsScreen::ShowLoginLogsScreen();
+    clsLoginLogsScreen::ShowLoginLogsScreen();
   }
 
   static void _Logout()
