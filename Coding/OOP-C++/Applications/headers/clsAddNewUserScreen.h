@@ -12,19 +12,19 @@ private:
     static void _ReadUserInfo(clsUser &User)
     {
         cout << "\nEnter FirstName: ";
-        User.GetFirstName() = clsInputValidation::ReadString();
+        User.SetFirstName(clsInputValidation::ReadString());
 
         cout << "\nEnter LastName: ";
-        User.GetLastName() = clsInputValidation::ReadString();
+        User.SetLastName(clsInputValidation::ReadString());
 
         cout << "\nEnter Email: ";
-        User.GetEmail() = clsInputValidation::ReadString();
+        User.SetEmail(clsInputValidation::ReadString());
 
         cout << "\nEnter Phone: ";
-        User.GetPhone() = clsInputValidation::ReadString();
+        User.SetPhone(clsInputValidation::ReadString());
 
         cout << "\nEnter Password: ";
-        User.GetPassword() = clsInputValidation::ReadString();
+        User.SetPassword(clsInputValidation::ReadString());
 
         cout << "\nEnter Permission: ";
         User.SetPermissions(_ReadPermissionsToSet());
@@ -45,16 +45,16 @@ private:
         cout << "\n___________________\n";
     }
 
-    static clsUser::enPermissions _ReadPermissionsToSet()
+    static short _ReadPermissionsToSet()
     {
-        clsUser::enPermissions Permissions = clsUser::enPermissions::None;
-
+        short Permissions = 0;
         char Answer = 'n';
-        cout << "\nDo you want to give the user full access? y/n? ";
+
+        cout << "\nDo you want to give full access? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            return clsUser::enPermissions::AllPermissions;
+            return -1;
         }
 
         cout << "\nDo you want to give access to : \n ";
@@ -62,56 +62,56 @@ private:
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::ShowClientsList;
+            Permissions += clsUser::enPermissions::ShowClientsList;
         }
 
         cout << "\nAdd New Client? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::AddClient;
+            Permissions += clsUser::enPermissions::AddClient;
         }
 
         cout << "\nDelete Client? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::DeleteClient;
+            Permissions += clsUser::enPermissions::DeleteClient;
         }
 
         cout << "\nUpdate Client? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::UpdateClient;
+            Permissions += clsUser::enPermissions::UpdateClient;
         }
 
         cout << "\nFind Client? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::FindClient;
+            Permissions += clsUser::enPermissions::FindClient;
         }
 
         cout << "\nTransactions? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::Transactions;
+            Permissions += clsUser::enPermissions::Transactions;
         }
 
         cout << "\nManage Users? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::ManageUsers;
+            Permissions += clsUser::enPermissions::ManageUsers;
         }
 
-        cout << "\nShow Logs? y/n? ";
+        cout << "\nShow Login Logs? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::ShowLogs;
+            Permissions += clsUser::enPermissions::ShowLogs;
         }
 
         return Permissions;

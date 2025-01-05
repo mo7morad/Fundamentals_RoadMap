@@ -12,19 +12,19 @@ private:
     static void _ReadUserInfo(clsUser &User)
     {
         cout << "\nEnter FirstName: ";
-        User.GetFirstName() = clsInputValidation::ReadString();
+        User.SetFirstName(clsInputValidation::ReadString());
 
         cout << "\nEnter LastName: ";
-        User.GetLastName() = clsInputValidation::ReadString();
+        User.SetLastName(clsInputValidation::ReadString());
 
         cout << "\nEnter Email: ";
-        User.GetEmail() = clsInputValidation::ReadString();
+        User.SetEmail(clsInputValidation::ReadString());
 
         cout << "\nEnter Phone: ";
-        User.GetPhone() = clsInputValidation::ReadString();
+        User.SetPhone(clsInputValidation::ReadString());
 
         cout << "\nEnter Password: ";
-        User.GetPassword() = clsInputValidation::ReadString();
+        User.SetPassword(clsInputValidation::ReadString());
 
         cout << "\nEnter Permission: ";
         User.SetPermissions(_ReadPermissionsToSet());
@@ -107,11 +107,11 @@ private:
             Permissions += clsUser::enPermissions::ManageUsers;
         }
 
-        cout << "\nShow Logs? y/n? ";
+        cout << "\nShow Login Logs? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions | clsUser::enPermissions::ShowLogs;
+            Permissions += clsUser::enPermissions::ShowLogs;
         }
 
         return Permissions;
