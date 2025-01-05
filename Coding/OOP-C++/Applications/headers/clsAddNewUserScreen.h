@@ -114,6 +114,13 @@ private:
             Permissions += clsUser::enPermissions::ShowLoginLogs;
         }
 
+        cout << "\nShow Update Currency Rate? y/n? ";
+        cin >> Answer;
+        if (Answer == 'y' || Answer == 'Y')
+        {
+            Permissions += clsUser::enPermissions::ShowUpdateCurrencyRate;
+        }
+
         return Permissions;
     }
 

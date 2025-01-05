@@ -47,6 +47,10 @@ private:
 public:
     static void ShowUpdateCurrencyRateScreen()
     {
+      // Check if the user has the right to update currency rate. if not, return.
+      if (!CheckAccessRights(clsUser::enPermissions::ShowUpdateCurrencyRate))
+        return;
+
       _DrawScreenHeader("\t  Update Currency Rate Screen");
 
       clsCurrency Currency = _FindCurrencyByCode();
