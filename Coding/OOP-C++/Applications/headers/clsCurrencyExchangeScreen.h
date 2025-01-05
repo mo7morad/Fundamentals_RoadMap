@@ -3,6 +3,7 @@
 #include <string>
 #include "clsString.h"
 #include "clsScreen.h"
+#include "clsCurenciesListScreen.h"
 #include <vector>
 #include <fstream>
 using namespace std;
@@ -32,70 +33,69 @@ private:
 
     static void _ShowAllCurrenciesScreen()
     {
-      cout << "\nShow All Currencies Screen\n";
+        clsCurrenciesListScreen::ShowCurrenciesListScreen();
     }
 
     static void _ShowFindCurrencyScreen()
     {
-      cout << "\nFind Currency Screen\n";
+        cout << "\nFind Currency Screen\n";
     }
 
     static void _ShowUpdateRateScreen()
     {
-      cout << "\nUpdate Rate Screen\n";
+        cout << "\nUpdate Rate Screen\n";
     }
 
     static void _ShowCurrencyCalculatorScreen()
     {
-      cout << "\nCurrency Calculator Screen\n";
+        cout << "\nCurrency Calculator Screen\n";
     }
 
-    static void _PerformCurrencyExchangeOption(short Option)
+    static void _PerformCurrencyExchangeOption(enCurrencyExchangeOptions Option)
     {
-      switch (Option)
-      {
-      case ListCurrencies:
-          system("clear");
-          _ShowAllCurrenciesScreen();
-          _GoBackToCurrencyExchangeMenu();
-          break;
-      case FindCurrency:
-          system("clear");
-          _ShowFindCurrencyScreen();
-          _GoBackToCurrencyExchangeMenu();
-          break;
-      case UpdateRate:
-          system("clear");
-          _ShowUpdateRateScreen();
-          _GoBackToCurrencyExchangeMenu();
-          break;
-      case CurrencyCalculator:
-          system("clear");
-          _ShowCurrencyCalculatorScreen();
-          _GoBackToCurrencyExchangeMenu();
-          break;
-      case ReturnToMainMenu:
-          // do nothing here the main screen will handle it :-) ;
-          break;
-      }
+        switch (Option)
+        {
+        case ListCurrencies:
+            system("clear");
+            _ShowAllCurrenciesScreen();
+            _GoBackToCurrencyExchangeMenu();
+            break;
+        case FindCurrency:
+            system("clear");
+            _ShowFindCurrencyScreen();
+            _GoBackToCurrencyExchangeMenu();
+            break;
+        case UpdateRate:
+            system("clear");
+            _ShowUpdateRateScreen();
+            _GoBackToCurrencyExchangeMenu();
+            break;
+        case CurrencyCalculator:
+            system("clear");
+            _ShowCurrencyCalculatorScreen();
+            _GoBackToCurrencyExchangeMenu();
+            break;
+        case ReturnToMainMenu:
+            // do nothing here the main screen will handle it :-) ;
+            break;
+        }
     }
 
 public:
     static void ShowCurrencyExchangeScreen()
     {
         system("clear");
-        _DrawScreenHeader("\t\tCurrency Exchange Screen");
+        _DrawScreenHeader("\tCurrency Exchange Screen");
         cout << setw(37) << left << "" << "===========================================\n";
-        cout << setw(37) << left << "" << "\t\t\tCurrency Exchange Menu\n";
+        cout << setw(37) << left << "" << "\t\tCurrency Exchange Menu\n";
         cout << setw(37) << left << "" << "===========================================\n";
-        cout << setw(37) << left << "" << "1. List Currencies\n";
-        cout << setw(37) << left << "" << "2. Find Currency\n";
-        cout << setw(37) << left << "" << "3. Update Rate\n";
-        cout << setw(37) << left << "" << "4. Currency Calculator\n";
-        cout << setw(37) << left << "" << "5. Return to Main Menu\n";
+        cout << setw(37) << left << "" << "[1] List Currencies\n";
+        cout << setw(37) << left << "" << "[2] Find Currency\n";
+        cout << setw(37) << left << "" << "[3] Update Rate\n";
+        cout << setw(37) << left << "" << "[4] Currency Calculator\n";
+        cout << setw(37) << left << "" << "[5] Main Menu\n";
         cout << setw(37) << left << "" << "===========================================\n";
 
-        short Option = _ReadCurrencyExchangeOption();
-        _PerformCurrencyExchangeOption(Option);
+        _PerformCurrencyExchangeOption(enCurrencyExchangeOptions(_ReadCurrencyExchangeOption()));
     }
 };
