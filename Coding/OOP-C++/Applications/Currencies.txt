@@ -32,18 +32,18 @@ Bulgaria#//#BGN#//#Bulgarian Lev#//#1.835000
 Burkina Faso#//#XOF#//#CFA Franc#//#615.401978
 Burundi#//#BIF#//#Burundi Franc#//#2043.123047
 Cambodia#//#KHR#//#Cambodian Riel#//#4130.000000
-Cameroon#//#XAF#//#CFA Franc#//#615.401978
+Cameroon#//#XAF#//#CFA Franc#//#635.690002
 Canada#//#CAD#//#Canadian Dollar#//#1.353000
 Canary Islands#//#EUR#//#Euro#//#0.938000
 Cape Verde#//#CVE#//#Cape Verde Escudo#//#103.447998
 Cayman Islands#//#KYD#//#Cayman Is. Dollar#//#0.820000
-Central African Republic#//#XAF#//#CFA Franc#//#615.401978
-Chad#//#XAF#//#CFA Franc#//#615.401978
+Central African Republic#//#XAF#//#CFA Franc#//#635.690002
+Chad#//#XAF#//#CFA Franc#//#635.690002
 Chile#//#CLP#//#Chilean Peso#//#852.000000
 China#//#CNY#//#Chinese Renminbi#//#6.940000
 Colombia#//#COP#//#Colombian Peso#//#4795.000000
 Comoros#//#KMF#//#Comoros Franc#//#461.552002
-Congo#//#XAF#//#CFA Franc#//#615.401978
+Congo#//#XAF#//#CFA Franc#//#635.690002
 "Congo, Dem. Rep."#//#CDF#//#"Congo Franc, Dem. Rep.of"#//#1987.068970
 Cook Islands#//#NZD#//#New Zealand Dollar#//#1.535000
 Costa Rica#//#CRC#//#Costa Rica Colon#//#580.880005
@@ -60,7 +60,7 @@ East Timor#//#USD#//#US Dollar#//#1.000000
 Ecuador#//#USD#//#US Dollar#//#1.000000
 Egypt#//#EGP#//#Egyptian Pound#//#50.820000
 El Salvador#//#USD#//#US Dollar#//#1.000000
-Equatorial Guinea#//#XAF#//#CFA Franc#//#615.401978
+Equatorial Guinea#//#XAF#//#CFA Franc#//#635.690002
 Eritrea#//#ERN#//#Eritrea Nakfa#//#15.000000
 Estonia#//#EUR#//#Euro#//#0.938000
 "Eswatini, Kingdom of"#//#SZL#//#Lilangeni#//#17.351000
@@ -70,7 +70,7 @@ Finland#//#EUR#//#Euro#//#0.938000
 France#//#EUR#//#Euro#//#0.938000
 French Guiana#//#EUR#//#Euro#//#0.938000
 French Polynesia#//#XPF#//#CFP Franc#//#111.954002
-Gabon#//#XAF#//#CFA Franc#//#615.401978
+Gabon#//#XAF#//#CFA Franc#//#635.690002
 Gambia#//#GMD#//#Gambian Dalasi#//#61.139999
 Georgia#//#GEL#//#Georgian Lari#//#2.685000
 Germany#//#EUR#//#Euro#//#0.938000

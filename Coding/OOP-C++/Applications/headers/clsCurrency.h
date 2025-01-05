@@ -89,8 +89,7 @@ private:
         {
             if (C.CurrencyCode() == CurrencyCode())
             {
-                C = *this;
-                break;
+                C._Rate = _Rate;
             }
         }
         _SaveCurrencyDataToFile(_vCurrencys);
