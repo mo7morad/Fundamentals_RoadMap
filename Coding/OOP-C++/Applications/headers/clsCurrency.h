@@ -29,10 +29,11 @@ private:
     static string _ConverCurrencyObjectToLine(clsCurrency Currency, string Seperator = "#//#")
     {
         string CurrencyRecord = "";
+
+        CurrencyRecord += Currency.Country() + Seperator;
         CurrencyRecord += Currency.CurrencyCode() + Seperator;
         CurrencyRecord += Currency.CurrencyName() + Seperator;
         CurrencyRecord += to_string(Currency.Rate());
-        CurrencyRecord += Currency.Country() + Seperator;
 
         return CurrencyRecord;
     }
@@ -60,6 +61,7 @@ private:
     static void _SaveCurrencyDataToFile(vector<clsCurrency> vCurrencies)
     {
         string DataLine;
+
         fstream MyFile;
         MyFile.open("Currencies.txt", ios::out);//overwrite
         
@@ -168,7 +170,7 @@ public:
 
     static clsCurrency FindByCountry(string Country)
     {
-        Country = clsString::UpperFirstLetterOfEachWord(Country);
+        Country = clsString::UpperAllString(Country);
 
         fstream MyFile;
         MyFile.open("Currencies.txt", ios::in);//read Mode

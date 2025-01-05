@@ -99,7 +99,7 @@ Israel#//#ILS#//#Israel Shekel#//#3.389000
 Italy#//#EUR#//#Euro#//#0.938000
 Jamaica#//#JMD#//#Jamaican Dollar#//#153.470001
 Japan#//#JPY#//#Japanese Yen#//#134.869995
-Jordan#//#JOD#//#Jordanian Dinar#//#0.708000
+Jordan#//#JOD#//#Jordanian Dinar#//#0.710000
 Kazakhstan#//#KZT#//#Kazakhstan Tenge#//#468.950012
 Kenya#//#KES#//#Kenyan Shilling#//#122.739998
 Kiribati#//#AUD#//#Australian Dollar#//#1.451000
