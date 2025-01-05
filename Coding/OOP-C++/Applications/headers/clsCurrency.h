@@ -78,6 +78,9 @@ private:
 
     void _Update()
     {
+        if(this->IsEmpty())
+            return;
+            
         vector <clsCurrency> _vCurrencys;
         _vCurrencys = _LoadCurrencysDataFromFile();
 

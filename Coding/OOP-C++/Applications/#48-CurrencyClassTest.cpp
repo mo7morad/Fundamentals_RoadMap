@@ -18,7 +18,7 @@ static void _PrintCurrency(clsCurrency Currency)
 int main()
 
 {
-    clsCurrency Currency1 = Currency1.FindByCode("jod");
+    clsCurrency Currency1 = Currency1.FindByCode("mang");
 
     if (Currency1.IsEmpty())
     {
