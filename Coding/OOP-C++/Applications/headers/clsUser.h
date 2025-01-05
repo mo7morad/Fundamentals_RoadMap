@@ -160,7 +160,8 @@ public:
         FindClient = 1 << 4,      // 00010000 >> 16
         Transactions = 1 << 5,    // 00100000 >> 32
         ManageUsers = 1 << 6,     // 01000000 >> 64
-        ShowLogs = 1 << 7,        // 10000000 >> 128
+        ShowLoginLogs = 1 << 7,        // 10000000 >> 128
+
         AllPermissions = ~0       // 11111111 (enables all bits)
     };
 

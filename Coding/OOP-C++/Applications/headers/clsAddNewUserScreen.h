@@ -111,7 +111,7 @@ private:
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
-            Permissions += clsUser::enPermissions::ShowLogs;
+            Permissions += clsUser::enPermissions::ShowLoginLogs;
         }
 
         return Permissions;

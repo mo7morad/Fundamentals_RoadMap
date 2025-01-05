@@ -21,7 +21,7 @@ private:
 public:
   static void ShowLoginLogsScreen()
   {
-    if (!CheckAccessRights(clsUser::enPermissions::ShowLogs))
+    if (!CheckAccessRights(clsUser::enPermissions::ShowLoginLogs))
       return;
 
     vector<clsUser::stLogRecord> vLogsRecords = clsUser::GetLoginLogsList();

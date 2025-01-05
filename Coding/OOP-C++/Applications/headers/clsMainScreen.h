@@ -76,7 +76,7 @@ private:
     clsManageUsersScreen::ShowManageUsersMenu();
   }
 
-  static void _ShowLogs()
+  static void _ShowLoginLogs()
   {
     clsLoginLogsScreen::ShowLoginLogsScreen();
   }
@@ -143,7 +143,7 @@ private:
 
     case LoginLogs:
       system("clear");
-      _ShowLogs();
+      _ShowLoginLogs();
       _GoBackToMainMenu();
       break;
 
