@@ -4,6 +4,7 @@
 #include "clsDate.h"
 #include "clsPerson.h"
 #include "clsString.h"
+#include "clsUtil.h"
 #include <vector>
 #include <fstream>
 
