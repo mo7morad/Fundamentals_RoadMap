@@ -85,13 +85,16 @@ private:
         vector <clsCurrency> _vCurrencys;
         _vCurrencys = _LoadCurrencysDataFromFile();
 
-        for (clsCurrency& C : _vCurrencys)
+        // By ref is crucial to modify the original object, so when we save it, it will be saved with the new rate.
+        for (clsCurrency &C : _vCurrencys)
         {
+            // we are modifying the rate of the currency with the same code
             if (C.CurrencyCode() == CurrencyCode())
             {
                 C._Rate = _Rate;
             }
         }
+        // The vector is updated since we used by ref, now we save it to the file.
         _SaveCurrencyDataToFile(_vCurrencys);
     }
 
