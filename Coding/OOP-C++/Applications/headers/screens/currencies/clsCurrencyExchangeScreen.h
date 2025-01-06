@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include "clsString.h"
-#include "clsScreen.h"
+#include "../clsScreen.h"
+#include "../../lib/clsString.h"
 #include "clsCurenciesListScreen.h"
 #include "clsFindCurrencyScreen.h"
 #include "clsUpdateCurrencyRate.h"

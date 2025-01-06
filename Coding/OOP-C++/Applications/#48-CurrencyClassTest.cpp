@@ -1,5 +1,5 @@
 #include <iostream>
-#include "headers/clsCurrency.h"
+#include "headers/core/clsCurrency.h"
 
 
 static void _PrintCurrency(clsCurrency Currency)

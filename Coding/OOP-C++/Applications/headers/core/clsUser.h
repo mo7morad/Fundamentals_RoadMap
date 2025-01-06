@@ -1,10 +1,10 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include "clsDate.h"
 #include "clsPerson.h"
-#include "clsString.h"
-#include "clsUtil.h"
+#include "../lib/clsDate.h"
+#include "../lib/clsString.h"
+#include "../lib/clsUtil.h"
 #include <vector>
 #include <fstream>
 

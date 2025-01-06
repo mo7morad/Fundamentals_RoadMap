@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string>
-#include "clsString.h"
+#include "../lib/clsString.h"
 #include <vector>
 #include <fstream>
 using namespace std;

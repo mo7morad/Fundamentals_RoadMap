@@ -1,5 +1,5 @@
 #include <iostream>
-#include "headers/clsMainScreen.h"
+#include "headers/screens/clsMainScreen.h"
 
 int main()
 {

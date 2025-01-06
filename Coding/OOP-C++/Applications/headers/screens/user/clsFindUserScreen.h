@@ -1,9 +1,9 @@
 #pragma once
 #include <iostream>
-#include "clsScreen.h"
-#include "clsPerson.h"
-#include "clsUser.h"
-#include "clsInputValidation.h"
+#include "../clsScreen.h"
+#include "../../core/clsPerson.h"
+#include "../../core/clsUser.h"
+#include "../../lib/clsInputValidation.h"
 
 class clsFindUserScreen :protected clsScreen
 {

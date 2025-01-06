@@ -1,17 +1,17 @@
 #pragma once
 #include <iostream>
 #include "clsScreen.h"
-#include "clsInputValidation.h"
-#include "clsClientsListScreen.h"
-#include "clsAddNewClientScreen.h"
-#include "clsDeleteClientScreen.h"
-#include "clsUpdateClientScreen.h"
-#include "clsFindClientScreen.h"
-#include "clsTransactionsScreen.h"
-#include "clsManageUsersScreen.h"
-#include "clsLoginLogsScreen.h"
-#include "clsCurrencyExchangeScreen.h"
-#include "Global.h"
+#include "../lib/clsInputValidation.h"
+#include "client/clsClientsListScreen.h"
+#include "client/clsAddNewClientScreen.h"
+#include "client/clsDeleteClientScreen.h"
+#include "client/clsUpdateClientScreen.h"
+#include "client/clsFindClientScreen.h"
+#include "client/clsTransactionsScreen.h"
+#include "user/clsManageUsersScreen.h"
+#include "user/clsLoginLogsScreen.h"
+#include "currencies/clsCurrencyExchangeScreen.h"
+#include "../Global.h"
 #include <iomanip>
 using namespace std;
 

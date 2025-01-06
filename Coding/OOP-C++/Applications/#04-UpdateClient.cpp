@@ -1,6 +1,6 @@
 #include <iostream>
-#include "headers/clsBankClient.h"
-#include "headers/clsInputValidation.h"
+#include "headers/core/clsBankClient.h"
+#include "headers/lib/clsInputValidation.h"
 
 using namespace std;
 

@@ -1,7 +1,7 @@
 #include <iostream>
-#include "headers/clsPerson.h"
-#include "headers/clsBankClient.h"
-#include "headers/clsInputValidation.h"
+#include "headers/core/clsPerson.h"
+#include "headers/core/clsBankClient.h"
+#include "headers/lib/clsInputValidation.h"
 
 // Function to read client information from user input
 void ReadClientInfo(clsBankClient &Client)

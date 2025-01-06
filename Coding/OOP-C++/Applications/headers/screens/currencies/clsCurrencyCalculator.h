@@ -1,9 +1,9 @@
 #pragma once
 #include <iostream>
 #include <iomanip>
-#include "clsScreen.h"
-#include "clsCurrency.h"
-#include "clsInputValidation.h"
+#include "../clsScreen.h"
+#include "../../lib/clsInputValidation.h"
+#include "../../core/clsCurrency.h"
 using namespace std;
 
 

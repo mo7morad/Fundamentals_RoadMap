@@ -2,7 +2,9 @@
 #include <iostream>
 #include <string>
 #include "clsPerson.h"
-#include "clsString.h"
+#include "../lib/clsString.h"
+#include "../lib/clsDate.h"
+#include "../Global.h"
 #include <vector>
 #include <fstream>
 

@@ -1,10 +1,10 @@
 #pragma once
 
 #include <iostream>
-#include "clsScreen.h"
 #include <iomanip>
 #include <fstream>
-#include "clsBankClient.h"
+#include "../clsScreen.h"
+#include "../../core/clsBankClient.h"
 
 class clsTransferLogScreen : protected clsScreen
 {

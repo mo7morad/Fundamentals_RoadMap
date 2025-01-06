@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
-#include "clsScreen.h"
-#include "clsBankClient.h"
+#include "../clsScreen.h"
+#include "../../core/clsBankClient.h"
 #include <iomanip>
 
 class clsClientsListScreen : protected clsScreen

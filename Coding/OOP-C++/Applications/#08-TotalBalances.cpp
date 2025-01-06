@@ -1,10 +1,8 @@
 #include <iostream>
-#include "headers/clsBankClient.h"
-#include "headers/clsInputValidation.h"
-#include "headers/clsUtil.h"
+#include "headers/core/clsBankClient.h"
+#include "headers/lib/clsInputValidation.h"
+#include "headers/lib/clsUtil.h"
 #include <iomanip>
-
-
 
 
 void PrintClientRecordBalanceLine(clsBankClient Client)
