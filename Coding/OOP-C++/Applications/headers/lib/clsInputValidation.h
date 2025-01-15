@@ -23,11 +23,6 @@ public:
     return(Number >= From && Number <= To);
   }
 
-  static bool IsNumberBetween(double Number, double From, double To)
-  {
-    return(Number >= From && Number <= To);
-  }
-
   static bool IsDateBetween(clsDate Date, clsDate From, clsDate To)
   {
     // Date>=From && Date<=To
