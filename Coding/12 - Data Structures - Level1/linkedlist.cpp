@@ -1,53 +1,56 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
+template <class T>
 class Node
 {
 public:
-  int value;
-  Node* next;
+  T value;
+  Node *next;
 };
 
+template <class T>
 class LinkedList
 {
-Node* HEAD = NULL;
+private:
+  Node<T> *HEAD = nullptr;
 
 public:
   ~LinkedList()
   {
-    Node *current = HEAD;
-    Node *next;
-    while (current != NULL)
+    Node<T> *current = HEAD;
+    Node<T> *next;
+    while (current != nullptr)
     {
       next = current->next;
       delete current;
       current = next;
     }
-    HEAD = NULL;
+    HEAD = nullptr;
   }
 
   bool IsEmpty()
   {
-    return HEAD == NULL;
+    return HEAD == nullptr;
   }
 
   void Display()
   {
-    Node* Iterator = HEAD;
-    while(Iterator != NULL)
+    Node<T> *Iterator = HEAD;
+    while (Iterator != nullptr)
     {
-      cout << Iterator->value << "  ";
+      cout << Iterator->value << " ";
       Iterator = Iterator->next;
     }
     cout << endl;
   }
 
-  int Count()
+  int Size()
   {
-    Node* Iterator = HEAD;
+    Node<T> *Iterator = HEAD;
     int Counter = 0;
-
-    while(Iterator != NULL)
+    while (Iterator != nullptr)
     {
       Counter++;
       Iterator = Iterator->next;
@@ -55,10 +58,10 @@ public:
     return Counter;
   }
 
-  bool IsExists(int value)
+  bool IsExists(T value)
   {
-    Node *Iterator = HEAD;
-    while (Iterator != NULL)
+    Node<T> *Iterator = HEAD;
+    while (Iterator != nullptr)
     {
       if (Iterator->value == value)
         return true;
@@ -67,48 +70,71 @@ public:
     return false;
   }
 
-  void InsertFirst(int value)
+  void InsertFirst(T value)
   {
-    Node* NewNode = new Node;
+    Node<T> *NewNode = new Node<T>;
     NewNode->value = value;
+    NewNode->next = HEAD;
+    HEAD = NewNode;
+  }
+
+  void InsertLast(T value)
+  {
+    Node<T> *NewNode = new Node<T>;
+    NewNode->value = value;
+    NewNode->next = nullptr;
 
     if (IsEmpty())
     {
-      NewNode->next = NULL;
       HEAD = NewNode;
     }
     else
     {
-      NewNode->next = HEAD;
-      HEAD = NewNode;
-    }
-  }
-
-  void InsertLast(int value)
-  {
-    Node* NewNode = new Node;
-    NewNode->value = value;
-    NewNode->next = NULL;
-
-    if(IsEmpty())
-    {
-      HEAD = NewNode;
-    }
-    else
-    {
-      Node* Iterator = HEAD;
-      while (Iterator->next != NULL)
+      Node<T> *Iterator = HEAD;
+      while (Iterator->next != nullptr)
       {
         Iterator = Iterator->next;
       }
       Iterator->next = NewNode;
     }
   }
+
+  void InsertAt(int index, T value)
+  {
+    if (index < 0 || index > Size())
+    {
+      cout << "Invalid index \n";
+      return;
+    }
+
+    if (index == 0)
+    {
+      InsertFirst(value);
+      return;
+    }
+    if (index == Size())
+    {
+      InsertLast(value);
+      return;
+    }
+
+    Node<T> *NewNode = new Node<T>;
+    NewNode->value = value;
+
+    Node<T> *Iterator = HEAD;
+    for (int i = 1; i < index; i++)
+    {
+      Iterator = Iterator->next;
+    }
+
+    NewNode->next = Iterator->next;
+    Iterator->next = NewNode;
+  }
 };
 
 int main()
 {
-  LinkedList list;
+  LinkedList<int> list;
 
   // Insert elements at the beginning
   list.InsertFirst(10);
@@ -118,17 +144,41 @@ int main()
   // Insert elements at the end
   list.InsertLast(40);
   list.InsertLast(50);
+  list.InsertAt(3, 99);
 
   // Display elements
   cout << "Linked List: ";
   list.Display();
 
   // Count elements
-  cout << "Count: " << list.Count() << endl;
+  cout << "Size: " << list.Size() << endl;
 
   // Check if an element exists
   cout << "Is 20 in the list? " << (list.IsExists(20) ? "Yes" : "No") << endl;
   cout << "Is 60 in the list? " << (list.IsExists(60) ? "Yes" : "No") << endl;
+
+  LinkedList<string> strList;
+
+  // Insert elements at the beginning
+  strList.InsertFirst("apple");
+  strList.InsertFirst("banana");
+  strList.InsertFirst("cherry");
+
+  // Insert elements at the end
+  strList.InsertLast("date");
+  strList.InsertLast("elderberry");
+  strList.InsertAt(3, "fig");
+
+  // Display elements
+  cout << "String Linked List: ";
+  strList.Display();
+
+  // Count elements
+  cout << "Size: " << strList.Size() << endl;
+
+  // Check if an element exists
+  cout << "Is 'banana' in the list? " << (strList.IsExists("banana") ? "Yes" : "No") << endl;
+  cout << "Is 'grape' in the list? " << (strList.IsExists("grape") ? "Yes" : "No") << endl;
 
   return 0;
 }
