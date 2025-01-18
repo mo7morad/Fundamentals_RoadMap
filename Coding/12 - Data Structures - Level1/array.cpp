@@ -154,34 +154,7 @@ int main()
   myarray.Fill();
   cout << "Array size = " << myarray.getSize() << "   while length = " << myarray.getLength() << "\n";
   myarray.Display();
-  /* cout << "Enter the value to search for \n";
-    int key;
-    cin >> key;
-    int index =   myarray.Search(key);
-    if (index == -1)
-        cout << "Item not found \n";
-    else
-        cout << "Item found @ position " << index << endl;*/
-  int index;
-  int newitem;
-  /* cout << "Enter new item to add to the array \n";
-    cin >> newitem;
-    myarray.Append(newitem);
-    myarray.Display();*/
-
-  // cout << "Enter Index to delete its item \n";
-  // cin >> index;
-  /* cin >> newitem;
-  myarray.Insert(index, newitem);*/
-  // myarray.Delete(index);
-  // myarray.Display();
-  // cout << "Array size = " << myarray.getSize() << "   while length = " << myarray.getLength() << "\n";
-  int newsize;
-  /* cout << "Enter New Size\n";
-    cin >> newsize;
-    myarray.Enlarge(newsize);
-    cout << "Array size = " << myarray.getSize() << "   while length = " << myarray.getLength() << "\n";
-    myarray.Display();*/
+  
   cout << "New array other \n";
   Array other(3);
   other.Fill();
