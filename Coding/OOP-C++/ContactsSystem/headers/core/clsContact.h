@@ -2,11 +2,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
 #include "clsString.h"
 #include "clsPerson.h"
 using namespace std;
-
-static int LatestContactId;
 
 class clsContact : public clsPerson
 {
@@ -16,9 +15,18 @@ private:
     EmptyMode = 0,
     UpdateMode = 1,
     AddNewMode = 2,
-  }; 
+  };
+
+  enum enSearchBy
+  {
+    FullName = 0,
+    Email = 1,
+    Phone = 2,
+    Id = 3
+  };
 
   enMode _Mode;
+  bool MarkedForDeletion = false;
   int _ContactId;
 
   static string _ConvertContactObjectToLine(clsContact Contact, string Separator = ",")
@@ -30,6 +38,114 @@ private:
   {
     vector<string> Tokens = clsString::Split(Line, Separator);
     return clsContact(UpdateMode, stoi(Tokens[0]), Tokens[1], Tokens[2], Tokens[3], Tokens[4]);
+  }
+
+  static vector<clsContact> _LoadContactsFromFile()
+  {
+    vector<clsContact> vContacts;
+    string Line;
+    fstream File;
+    File.open("contacts.txt", ios::in);
+
+    if (File.is_open())
+    {
+      while (getline(File, Line))
+      {
+        vContacts.push_back(_ConvertLineToContactObject(Line));
+      }
+      File.close();
+    }
+
+    return vContacts;
+  }
+
+  static void _SaveContactsToFile(vector<clsContact> vContacts)
+  {
+    fstream File;
+    File.open("contacts.txt", ios::out);
+
+    if (File.is_open())
+    {
+      for (clsContact &Contact : vContacts)
+      {
+        if(Contact.MarkedForDeletion == false)
+          File << _ConvertContactObjectToLine(Contact) << endl;
+      }
+      File.close();
+    }
+  }
+
+  static int _GetLatestContactId()
+  {
+    vector<clsContact> vContacts = _LoadContactsFromFile();
+    int LatestContactId = vContacts.back().GetContactId();
+
+    return LatestContactId;
+  }
+
+  static int _GetNextContactId()
+  {
+    return _GetLatestContactId() + 1;
+  }
+
+  static clsContact _GetContactById(int ContactId)
+  {
+    vector<clsContact> vContacts = _LoadContactsFromFile();
+
+    for (clsContact &Contact : vContacts)
+    {
+      if (Contact.GetContactId() == ContactId)
+      {
+        return Contact;
+      }
+    }
+
+    return clsContact(EmptyMode, 0, "", "", "", "");
+  }
+
+  static clsContact _GetContactByFullName(string FullName)
+  {
+    vector<clsContact> vContacts = _LoadContactsFromFile();
+
+    for (clsContact &Contact : vContacts)
+    {
+      if (Contact.GetFullName() == FullName)
+      {
+        return Contact;
+      }
+    }
+
+    return clsContact(EmptyMode, 0, "", "", "", "");
+  }
+
+  static clsContact _GetContactByEmail(string Email)
+  {
+    vector<clsContact> vContacts = _LoadContactsFromFile();
+
+    for (clsContact &Contact : vContacts)
+    {
+      if (Contact.GetEmail() == Email)
+      {
+        return Contact;
+      }
+    }
+
+    return clsContact(EmptyMode, 0, "", "", "", "");
+  }
+
+  static clsContact _GetContactByPhone(string Phone)
+  {
+    vector<clsContact> vContacts = _LoadContactsFromFile();
+
+    for (clsContact &Contact : vContacts)
+    {
+      if (Contact.GetPhone() == Phone)
+      {
+        return Contact;
+      }
+    }
+
+    return clsContact(EmptyMode, 0, "", "", "", "");
   }
 
 public:
@@ -77,12 +193,41 @@ public:
     cout << "Phone: " << GetPhone() << endl;
   }
 
-  static clsContact GetAddNewContact()
+  static vector<clsContact> GetAllContacts()
   {
-    return clsContact(AddNewMode, 0, "", "", "", "");
+    return _LoadContactsFromFile();
   }
 
-  
+  static clsContact GetAddNewContactObject()
+  {
+    return clsContact(AddNewMode, _GetNextContactId(), "", "", "", "");
+  }
 
+  static clsContact GetDeleteContactObject()
+  {
+    return clsContact(EmptyMode, 0, "", "", "", "");
+  }
+
+  static clsContact SearchContact(enSearchBy SearchBy, string SearchString)
+  {
+    switch (SearchBy)
+    {
+    case FullName:
+      return _GetContactByFullName(SearchString);
+      break;
+    case Email:
+      return _GetContactByEmail(SearchString);
+      break;
+    case Phone:
+      return _GetContactByPhone(SearchString);
+      break;
+    case Id:
+      return _GetContactById(stoi(SearchString));
+      break;
+    default:
+      return GetDeleteContactObject();
+      break;
+    }
+  }
 
 };
