@@ -184,6 +184,12 @@ public:
     return _Mode == EmptyMode;
   }
 
+  static clsContact SearchContact(enSearchBy SearchBy, string SearchString);
+  bool IsContactExists(string Phone)
+  {
+    return(SearchContact(enSearchBy::Phone, Phone).IsEmpty() == false);
+  }
+
   void PrintContact()
   {
     cout << "Contact ID: " << _ContactId << endl;
@@ -206,6 +212,11 @@ public:
   static clsContact GetDeleteContactObject()
   {
     return clsContact(EmptyMode, 0, "", "", "", "");
+  }
+
+  static clsContact GetUpdateContactObject(int ContactId)
+  {
+    return _GetContactById(ContactId);
   }
 
   static clsContact SearchContact(enSearchBy SearchBy, string SearchString)
