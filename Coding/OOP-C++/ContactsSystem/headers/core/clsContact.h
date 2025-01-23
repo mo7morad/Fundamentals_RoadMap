@@ -75,14 +75,14 @@ private:
     }
   }
 
-  void _AddDataLineToFile(string stDataLine)
+  void _AddDataLineToFile(string DataLine)
   {
     fstream MyFile;
     MyFile.open("contacts.txt", ios::out | ios::app);
 
     if (MyFile.is_open())
     {
-      MyFile << stDataLine << endl;
+      MyFile << DataLine << endl;
       MyFile.close();
     }
   }
@@ -161,8 +161,12 @@ private:
         return Contact;
       }
     }
-
     return clsContact(EmptyMode, 0, "", "", "", "");
+  }
+
+  void _Update()
+  {
+    
   }
 
 public:
@@ -236,6 +240,61 @@ public:
     return _GetContactById(ContactId);
   }
 
+  enum enSaveResult
+  {
+    svFaildEmptyObject = 0,
+    svSucceeded = 1,
+    svFaildPhoneNumberExists = 2,
+  };
+
+  enSaveResult Save()
+  {
+    switch (_Mode)
+    {
+    case EmptyMode:
+    {
+      if (IsEmpty())
+      {
+        return svFaildEmptyObject;
+      }
+    }
+    case UpdateMode:
+    {
+      _Update();
+      return svSucceeded;
+    }
+    case AddNewMode:
+    {
+      if (IsContactExists(GetPhone()))
+      {
+        return svFaildPhoneNumberExists;
+      }
+      else
+      {
+        _AddNewContactToFile();
+        return svSucceeded;
+      }
+    }
+  }
+  }
+
+  bool Delete()
+  {
+    vector<clsContact> vContacts = _LoadContactsFromFile();
+    
+    for(clsContact &C : vContacts)
+    {
+      if(C.GetContactId() == this->GetContactId())
+      {
+        C.MarkedForDeletion = true;
+        _SaveContactsToFile(vContacts);
+        *this = GetDeleteContactObject();
+        return true;
+      }
+    }
+    return false;
+  }
+
   static clsContact SearchContact(enSearchBy SearchBy, string SearchString)
   {
     switch (SearchBy)
@@ -257,5 +316,7 @@ public:
       break;
     }
   }
+
+
 
 };
