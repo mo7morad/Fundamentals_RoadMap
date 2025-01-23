@@ -100,7 +100,7 @@ public:
     }
 
     private:
-    static string _ConverClientObjectToLine(clsBankClient Client, string Seperator = "#//#")
+    static string _ConvertClientObjectToLine(clsBankClient Client, string Seperator = "#//#")
     {
         string stClientRecord = "";
         stClientRecord += Client.GetFirstName() + Seperator;
@@ -146,7 +146,7 @@ public:
                 if (C.MarkedForDelete() == false)
                 {
                     // we only write records that are not marked for delete.
-                    DataLine = _ConverClientObjectToLine(C);
+                    DataLine = _ConvertClientObjectToLine(C);
                     MyFile << DataLine << endl;
                 }
             }
@@ -193,7 +193,7 @@ public:
 
         void _AddNewClientToFile()
         {
-            string DataLine = _ConverClientObjectToLine(*this);
+            string DataLine = _ConvertClientObjectToLine(*this);
             _AddDataLineToFile(DataLine);
         }
 

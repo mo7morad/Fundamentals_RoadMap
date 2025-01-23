@@ -75,6 +75,23 @@ private:
     }
   }
 
+  void _AddDataLineToFile(string stDataLine)
+  {
+    fstream MyFile;
+    MyFile.open("contacts.txt", ios::out | ios::app);
+
+    if (MyFile.is_open())
+    {
+      MyFile << stDataLine << endl;
+      MyFile.close();
+    }
+  }
+
+  void _AddNewContactToFile()
+  {
+    _AddDataLineToFile(_ConvertContactObjectToLine(*this));
+  }
+
   static int _GetLatestContactId()
   {
     vector<clsContact> vContacts = _LoadContactsFromFile();
