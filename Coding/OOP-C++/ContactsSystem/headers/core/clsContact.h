@@ -31,7 +31,7 @@ private:
 
   static string _ConvertContactObjectToLine(clsContact Contact, string Separator = ",")
   {
-    return to_string(Contact.GetContactId()) + Separator + Contact.GetFirstName() + Separator + Contact.GetLastName() + Separator + Contact.GetEmail() + Separator + Contact.GetPhone();
+    return to_string(Contact.GetContactId()) + Separator + Contact.GetFirstName() + Separator + Contact.GetLastName() + Separator + Contact.GetEmail() + Separator + Contact.GetPhoneNumber();
   }
 
   static clsContact _ConvertLineToContactObject(string Line, string Separator = ",")
@@ -156,7 +156,7 @@ private:
 
     for (clsContact &Contact : vContacts)
     {
-      if (Contact.GetPhone() == Phone)
+      if (Contact.GetPhoneNumber() == Phone)
       {
         return Contact;
       }
@@ -166,7 +166,27 @@ private:
 
   void _Update()
   {
-    
+    fstream MyFile;
+    MyFile.open("contacts.txt", ios::in); // Open file in read mode
+    vector<clsContact> vContacts;
+
+    if (MyFile.is_open())
+    {
+      string Line;
+      while (getline(MyFile, Line))
+      {
+        clsContact Contact = _ConvertLineToContactObject(Line);
+        if (Contact.GetPhoneNumber() == GetPhoneNumber())
+        {
+          Contact = *this; // Update the client with the current object's data
+        }
+        vContacts.push_back(Contact); // Add the client to the vector
+      }
+      MyFile.close();
+    }
+
+    // Save the updated client data back to the file
+    _SaveContactsToFile(vContacts);
   }
 
 public:
@@ -217,7 +237,7 @@ public:
     cout << "First Name: " << GetFirstName() << endl;
     cout << "Last Name: " << GetLastName() << endl;
     cout << "Email: " << GetEmail() << endl;
-    cout << "Phone: " << GetPhone() << endl;
+    cout << "Phone: " << GetPhoneNumber() << endl;
   }
 
   static vector<clsContact> GetAllContacts()
@@ -265,7 +285,7 @@ public:
     }
     case AddNewMode:
     {
-      if (IsContactExists(GetPhone()))
+      if (IsContactExists(GetPhoneNumber()))
       {
         return svFaildPhoneNumberExists;
       }

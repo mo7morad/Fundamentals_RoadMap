@@ -103,7 +103,7 @@ public:
   {
     if (index < 0 || index > Size())
     {
-      cout << "Invalid index \n";
+      cout << "Error: Index out of bounds. Valid range is [0, " << Size() << "].\n";
       return;
     }
 

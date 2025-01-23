@@ -10,7 +10,7 @@ private:
     string _FirstName;
     string _LastName;
     string _Email;
-    string _Phone;
+    string _PhoneNumber;
 
 public:
     clsPerson(string FirstName, string LastName, string Email, string Phone)
@@ -18,7 +18,7 @@ public:
         _FirstName = FirstName;
         _LastName = LastName;
         _Email = Email;
-        _Phone = Phone;
+        _PhoneNumber = Phone;
     }
 
     // Property Set
@@ -58,15 +58,15 @@ public:
     }
 
     // Property Set
-    void SetPhone(string Phone)
+    void SetPhoneNumber(string Phone)
     {
-        _Phone = Phone;
+        _PhoneNumber = Phone;
     }
 
     // Property Get
-    string GetPhone()
+    string GetPhoneNumber()
     {
-        return _Phone;
+        return _PhoneNumber;
     }
 
     string GetFullName()
@@ -82,7 +82,7 @@ public:
         cout << "\nLastName : " << _LastName;
         cout << "\nFull Name: " << GetFullName();
         cout << "\nEmail    : " << _Email;
-        cout << "\nPhone    : " << _Phone;
+        cout << "\nPhone    : " << _PhoneNumber;
         cout << "\n___________________\n";
     }
 };
