@@ -31,7 +31,15 @@ private:
 
   static string _ConvertContactObjectToLine(clsContact Contact, string Separator = ",")
   {
-    return to_string(Contact.GetContactId()) + Separator + Contact.GetFirstName() + Separator + Contact.GetLastName() + Separator + Contact.GetEmail() + Separator + Contact.GetPhoneNumber();
+    string DataLine;
+    DataLine += to_string(Contact.GetContactId()) + Separator;
+    DataLine += Contact.GetFirstName() + Separator;
+    DataLine += Contact.GetLastName() + Separator;
+    DataLine += Contact.GetEmail() + Separator;
+    DataLine += Contact.GetPhoneNumber();
+    return DataLine;
+    // or
+    // return to_string(Contact.GetContactId()) + Separator + Contact.GetFirstName() + Separator + Contact.GetLastName() + Separator + Contact.GetEmail() + Separator + Contact.GetPhoneNumber();
   }
 
   static clsContact _ConvertLineToContactObject(string Line, string Separator = ",")

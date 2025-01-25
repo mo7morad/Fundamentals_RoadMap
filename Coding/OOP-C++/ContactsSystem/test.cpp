@@ -1,9 +1,9 @@
 #include <iostream>
-#include <string>
-#include "headers/core/clsContact.h"
+#include "headers/screens/clsMainScreen.h"
 
 int main()
 {
-  
+  clsMainScreen::ShowMainMenu();
+  cin.get();
   return 0;
 }

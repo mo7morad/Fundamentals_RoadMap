@@ -22,8 +22,8 @@ private:
 
   static short _ReadMainMenuOption()
   {
-    cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 10]? ";
-    short Choice = clsInputValidate<short>::ReadNumberBetween(1, 10, "Enter Number between 1 to 10? ");
+    cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 6]? ";
+    short Choice = clsInputValidate<short>::ReadNumberBetween(1, 6, "Enter Number between 1 to 6? ");
     return Choice;
   }
 
@@ -40,25 +40,25 @@ private:
     clsContactsListScreen::ShowContactsList();
   }
 
-  static void _ShowAddNewClientsScreen()
-  {
-    clsAddNewContactScreen::ShowAddNewClientScreen();
-  }
+  // static void _ShowAddNewClientsScreen()
+  // {
+  //   clsAddNewContactScreen::ShowAddNewClientScreen();
+  // }
 
-  static void _ShowDeleteClientScreen()
-  {
-    clsDeleteContactScreen::ShowDeleteClientScreen();
-  }
+  // static void _ShowDeleteClientScreen()
+  // {
+  //   clsDeleteContactScreen::ShowDeleteClientScreen();
+  // }
 
-  static void _ShowUpdateClientScreen()
-  {
-    clsUpdateContactScreen::ShowUpdateClientScreen();
-  }
+  // static void _ShowUpdateClientScreen()
+  // {
+  //   clsUpdateContactScreen::ShowUpdateClientScreen();
+  // }
 
-  static void _ShowFindClientScreen()
-  {
-    clsFindContactScreen::ShowFindClientScreen();
-  }
+  // static void _ShowFindClientScreen()
+  // {
+  //   clsFindContactScreen::ShowFindClientScreen();
+  // }
 
   static void _PerfromMainMenu(enMainMenuOptions MainMenuOption)
   {
@@ -67,17 +67,17 @@ private:
     case ListContacts:
       _ShowAllContactsScreen();
       break;
-    case AddNewContact:
-      _ShowAddNewClientsScreen();
-      break;
-    case DeleteContact:
-      _ShowDeleteClientScreen();
-      break;
-    case EditContact:
-      _ShowUpdateClientScreen();
-      break;
-    case FindContact:
-      _ShowFindClientScreen();
+    // case AddNewContact:
+    //   _ShowAddNewClientsScreen();
+    //   break;
+    // case DeleteContact:
+    //   _ShowDeleteClientScreen();
+    //   break;
+    // case EditContact:
+    //   _ShowUpdateClientScreen();
+    //   break;
+    // case FindContact:
+    //   _ShowFindClientScreen();
       break;
     case Exit:
       exit(0);
