@@ -3,8 +3,8 @@
 #include <string>
 #include <vector>
 #include <fstream>
-#include "clsString.h"
 #include "clsPerson.h"
+#include "../lib/clsString.h"
 using namespace std;
 
 class clsContact : public clsPerson
@@ -225,7 +225,6 @@ public:
     return _Mode == EmptyMode;
   }
 
-  static clsContact SearchContact(enSearchBy SearchBy, string SearchString);
   bool IsContactExists(string Phone)
   {
     return(SearchContact(enSearchBy::Phone, Phone).IsEmpty() == false);
