@@ -108,11 +108,6 @@ private:
     return LatestContactId;
   }
 
-  static int _GetNextContactId()
-  {
-    return _GetLatestContactId() + 1;
-  }
-
   static clsContact _GetContactById(int ContactId)
   {
     vector<clsContact> vContacts = _LoadContactsFromFile();
@@ -216,6 +211,11 @@ public:
     return _ContactId;
   }
 
+  static int GetNextContactId()
+  {
+    return _GetLatestContactId() + 1;
+  }
+
   // Property Set
   void SetMode(enMode Mode)
   {
@@ -238,13 +238,16 @@ public:
     return(SearchContact(enSearchBy::Phone, Phone).IsEmpty() == false);
   }
 
-  void PrintContact()
+  void PrintContactCard()
   {
+    cout << "\Contact Card:" << endl;
+    cout << "___________________" << endl;
     cout << "Contact ID: " << _ContactId << endl;
     cout << "First Name: " << GetFirstName() << endl;
     cout << "Last Name: " << GetLastName() << endl;
     cout << "Email: " << GetEmail() << endl;
     cout << "Phone: " << GetPhoneNumber() << endl;
+    cout << "___________________" << endl;
   }
 
   static vector<clsContact> GetAllContacts()
@@ -254,7 +257,7 @@ public:
 
   static clsContact GetAddNewContactObject()
   {
-    return clsContact(AddNewMode, _GetNextContactId(), "", "", "", "");
+    return clsContact(AddNewMode, GetNextContactId(), "", "", "", "");
   }
 
   static clsContact GetDeleteContactObject()

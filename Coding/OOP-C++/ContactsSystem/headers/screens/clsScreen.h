@@ -18,5 +18,4 @@ protected:
             cout << "\n\t\t\t\t\t______________________________________\n";
             cout << "\t\t\t\t\tDate: " << clsDate::DateToString(clsDate()) << "\n\n";
         }
-
 };
