@@ -5,6 +5,7 @@
 #include "../lib/clsInputValidate.h"
 #include "contacts/clsContactsListScreen.h"
 #include "contacts/clsAddNewContactScreen.h"
+#include "contacts/clsDeleteContactScreen.h"
 using namespace std;
 
 class clsMainScreen : protected clsScreen
@@ -46,10 +47,10 @@ private:
     clsAddNewContactScreen::ShowAddNewContactScreen();
   }
 
-  // static void _ShowDeleteClientScreen()
-  // {
-  //   clsDeleteContactScreen::ShowDeleteClientScreen();
-  // }
+  static void _ShowDeleteClientScreen()
+  {
+    clsDeleteContactScreen::ShowDeleteContactScreen();
+  }
 
   // static void _ShowUpdateClientScreen()
   // {
@@ -68,16 +69,21 @@ private:
     case ListContacts:
     {
       _ShowAllContactsScreen();
+      _GoBackToMainMenu();
       break;
     }
     case AddNewContact:
     {
       _ShowAddNewContactScreen();
+      _GoBackToMainMenu();
       break;
     }
-    // case DeleteContact:
-    //   _ShowDeleteClientScreen();
-    //   break;
+    case DeleteContact:
+    {
+      _ShowDeleteClientScreen();
+      _GoBackToMainMenu();
+      break;
+    }
     // case EditContact:
     //   _ShowUpdateClientScreen();
     //   break;

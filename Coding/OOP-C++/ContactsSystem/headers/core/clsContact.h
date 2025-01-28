@@ -17,14 +17,6 @@ private:
     AddNewMode = 2,
   };
 
-  enum enSearchBy
-  {
-    FullName = 0,
-    Email = 1,
-    Phone = 2,
-    Id = 3
-  };
-
   enMode _Mode;
   bool MarkedForDeletion = false;
   int _ContactId;
@@ -110,59 +102,88 @@ private:
 
   static clsContact _GetContactById(int ContactId)
   {
-    vector<clsContact> vContacts = _LoadContactsFromFile();
+    fstream MyFile;
+    MyFile.open("contacts.txt", ios::in); // Open file in read mode
+    vector<clsContact> vContacts;
 
-    for (clsContact &Contact : vContacts)
+    if (MyFile.is_open())
     {
-      if (Contact.GetContactId() == ContactId)
+      string Line;
+      while (getline(MyFile, Line))
       {
-        return Contact;
+        clsContact Contact = _ConvertLineToContactObject(Line);
+        if (Contact.GetContactId() == ContactId)
+        {
+          return Contact;
+        }
       }
+      MyFile.close();
     }
-
     return clsContact(EmptyMode, 0, "", "", "", "");
   }
 
   static clsContact _GetContactByFullName(string FullName)
   {
-    vector<clsContact> vContacts = _LoadContactsFromFile();
+    fstream MyFile;
+    MyFile.open("contacts.txt", ios::in); // Open file in read mode
+    vector<clsContact> vContacts;
 
-    for (clsContact &Contact : vContacts)
+    if (MyFile.is_open())
     {
-      if (Contact.GetFullName() == FullName)
+      string Line;
+      while (getline(MyFile, Line))
       {
-        return Contact;
+        clsContact Contact = _ConvertLineToContactObject(Line);
+        if (Contact.GetFullName() == FullName)
+        {
+          return Contact;
+        }
       }
+      MyFile.close();
     }
-
     return clsContact(EmptyMode, 0, "", "", "", "");
   }
 
   static clsContact _GetContactByEmail(string Email)
   {
-    vector<clsContact> vContacts = _LoadContactsFromFile();
+    fstream MyFile;
+    MyFile.open("contacts.txt", ios::in); // Open file in read mode
+    vector<clsContact> vContacts;
 
-    for (clsContact &Contact : vContacts)
+    if (MyFile.is_open())
     {
-      if (Contact.GetEmail() == Email)
+      string Line;
+      while (getline(MyFile, Line))
       {
-        return Contact;
+        clsContact Contact = _ConvertLineToContactObject(Line);
+        if (Contact.GetEmail() == Email)
+        {
+          return Contact;
+        }
       }
+      MyFile.close();
     }
-
     return clsContact(EmptyMode, 0, "", "", "", "");
   }
 
   static clsContact _GetContactByPhone(string Phone)
   {
-    vector<clsContact> vContacts = _LoadContactsFromFile();
+    fstream MyFile;
+    MyFile.open("contacts.txt", ios::in); // Open file in read mode
+    vector<clsContact> vContacts;
 
-    for (clsContact &Contact : vContacts)
+    if (MyFile.is_open())
     {
-      if (Contact.GetPhoneNumber() == Phone)
+      string Line;
+      while (getline(MyFile, Line))
       {
-        return Contact;
+        clsContact Contact = _ConvertLineToContactObject(Line);
+        if (Contact.GetPhoneNumber() == Phone)
+        {
+          return Contact;
+        }
       }
+      MyFile.close();
     }
     return clsContact(EmptyMode, 0, "", "", "", "");
   }
@@ -222,6 +243,11 @@ public:
     _Mode = Mode;
   }
 
+  void SetForDeletion()
+  {
+    MarkedForDeletion = true;
+  }
+
   // Property Get
   enMode GetMode()
   {
@@ -240,7 +266,7 @@ public:
 
   void PrintContactCard()
   {
-    cout << "\Contact Card:" << endl;
+    cout << "\nContact Card:" << endl;
     cout << "___________________" << endl;
     cout << "Contact ID: " << _ContactId << endl;
     cout << "First Name: " << GetFirstName() << endl;
@@ -325,6 +351,13 @@ public:
     return false;
   }
 
+  enum enSearchBy
+  {
+    FullName = 0,
+    Email = 1,
+    Phone = 2,
+    Id = 3
+  };
   static clsContact SearchContact(enSearchBy SearchBy, string SearchString)
   {
     switch (SearchBy)
