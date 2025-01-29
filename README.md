@@ -36,7 +36,7 @@ Fundamentals_RoadMap/
 │   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 projects.
-│   ├── OOP-C++                        /  # 3 Projects.
+│   ├── OOP-C++                        /  # 3 Big consle projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
 
