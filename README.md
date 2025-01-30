@@ -58,7 +58,7 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 ### **🔢 Problem-Solving Level 03 (C++)**
 
 - 📁 **Projects**
-  - **Banking System ==> Explore the full Object-Oriented Programming (OOP) version of the project with all the details and futures down at OOP-C++**
+  - **Banking System: Explore the full Object-Oriented Programming (OOP) version of the project with all the details and futures down at OOP-C++**
   - **🏛️ #52\_Project1\_Bank-1.cpp** 
     - A simple banking system.
   - **🏛️ #53\_Project2\_Bank-2.cpp**
@@ -94,7 +94,7 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
     🔹 **Logout**  
     - 🔄 Returns to the **login screen**, requiring users to re-enter credentials to access the ATM system.  
     
-    #### 🔍 **How It Works**  
+    ## 🔍 **How It Works**  
     
     🔐 **User Authentication**  
     - 🔢 Users enter their **account number and PIN**.  
@@ -112,6 +112,8 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 
 
 ---
+
+
 
 ## 🌟 Key Highlights
 
