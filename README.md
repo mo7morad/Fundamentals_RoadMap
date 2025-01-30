@@ -36,7 +36,7 @@ Fundamentals_RoadMap/
 │   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 projects.
-│   ├── OOP-C++                        /  # 3 Big consle projects.
+│   ├── OOP-C++                        /  # 3 Big console projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
 
@@ -58,7 +58,8 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 ### **🔢 Problem-Solving Level 03 (C++)**
 
 - 📁 **Projects**
-  - **🏛️ #52\_Project1\_Bank-1.cpp** ==> **Full explanation in the OOP full version of the project with all features**
+  - **Banking System ==> Explore the full Object-Oriented Programming (OOP) version of the project with all the details and futures down at OOP-C++**
+  - **🏛️ #52\_Project1\_Bank-1.cpp** 
     - A simple banking system.
   - **🏛️ #53\_Project2\_Bank-2.cpp**
     - An extension of the banking system with additional features.
@@ -73,43 +74,41 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 
     - 💳 **ATM System Simulation** – A console-based C++ program that replicates ATM functionalities.  
   
-  #### ⚡ **Features**  
-  
-  🔹 **Quick Withdraw**  
-  - 💰 Predefined professional withdrawal amounts.  
-  - ✅ Ensures **sufficient balance** before completing the transaction.  
-  
-  🔹 **Normal Withdraw**  
-  - 💵 Users can withdraw a **custom amount** (must be a multiple of **5**).  
-  - ✅ Ensures **sufficient balance** before proceeding.  
-  
-  🔹 **Deposit**  
-  - 🏦 Allows users to **deposit a specified amount**.  
-  - 📈 Updates the **balance** after a successful deposit.  
-  
-  🔹 **Check Balance**  
-  - 📊 Displays the **user's current account balance**.  
-  
-  🔹 **Logout**  
-  - 🔄 Returns to the **login screen**, requiring users to re-enter credentials to access the ATM system.  
-  
-  ---
-  
-  #### 🔍 **How It Works**  
-  
-  🔐 **User Authentication**  
-  - 🔢 Users enter their **account number and PIN**.  
-  - 🗂️ Credentials are **validated** against a file (**clients.txt**).  
-  - ✅ If authentication is **successful**, the main menu is displayed.  
-  
-  💸 **Transaction Processing**  
-  - 📂 The system **reads and updates** account balances from a file (**clients.txt**).  
-  - 📥 **Deposit and withdrawal** operations modify the balance and save the updated data back to the file.  
-  - ❌ Withdrawals **prevent overdrawing** if insufficient funds.  
-  
-  📑 **File Handling**  
-  - 📜 User data (**Account Number, PIN, Name, Phone, and Balance**) is stored in **clients.txt**.  
-  - 🔄 The system dynamically **loads and saves client data**.  
+    #### ⚡ **Features**  
+    
+    🔹 **Quick Withdraw**  
+    - 💰 Predefined professional withdrawal amounts.  
+    - ✅ Ensures **sufficient balance** before completing the transaction.  
+    
+    🔹 **Normal Withdraw**  
+    - 💵 Users can withdraw a **custom amount** (must be a multiple of **5**).  
+    - ✅ Ensures **sufficient balance** before proceeding.  
+    
+    🔹 **Deposit**  
+    - 🏦 Allows users to **deposit a specified amount**.  
+    - 📈 Updates the **balance** after a successful deposit.  
+    
+    🔹 **Check Balance**  
+    - 📊 Displays the **user's current account balance**.  
+    
+    🔹 **Logout**  
+    - 🔄 Returns to the **login screen**, requiring users to re-enter credentials to access the ATM system.  
+    
+    #### 🔍 **How It Works**  
+    
+    🔐 **User Authentication**  
+    - 🔢 Users enter their **account number and PIN**.  
+    - 🗂️ Credentials are **validated** against a file (**clients.txt**).  
+    - ✅ If authentication is **successful**, the main menu is displayed.  
+    
+    💸 **Transaction Processing**  
+    - 📂 The system **reads and updates** account balances from a file (**clients.txt**).  
+    - 📥 **Deposit and withdrawal** operations modify the balance and save the updated data back to the file.  
+    - ❌ Withdrawals **prevent overdrawing** if insufficient funds.  
+    
+    📑 **File Handling**  
+    - 📜 User data (**Account Number, PIN, Name, Phone, and Balance**) is stored in **clients.txt**.  
+    - 🔄 The system dynamically **loads and saves client data**.  
 
 
 ---
