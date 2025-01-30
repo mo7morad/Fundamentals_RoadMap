@@ -74,42 +74,42 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 
     - 💳 **ATM System Simulation** – A console-based C++ program that replicates ATM functionalities.  
   
-    ## ⚡ **Features**  
-    
-    🔹 **Quick Withdraw**  
-    - 💰 Predefined professional withdrawal amounts.  
-    - ✅ Ensures **sufficient balance** before completing the transaction.  
-    
-    🔹 **Normal Withdraw**  
-    - 💵 Users can withdraw a **custom amount** (must be a multiple of **5**).  
-    - ✅ Ensures **sufficient balance** before proceeding.  
-    
-    🔹 **Deposit**  
-    - 🏦 Allows users to **deposit a specified amount**.  
-    - 📈 Updates the **balance** after a successful deposit.  
-    
-    🔹 **Check Balance**  
-    - 📊 Displays the **user's current account balance**.  
-    
-    🔹 **Logout**  
-    - 🔄 Returns to the **login screen**, requiring users to re-enter credentials to access the ATM system.  
-    
-    ## 🔍 **How It Works**  
-    
-    🔐 **User Authentication**  
-    - 🔢 Users enter their **account number and PIN**.  
-    - 🗂️ Credentials are **validated** against a file (**clients.txt**).  
-    - ✅ If authentication is **successful**, the main menu is displayed.  
-    
-    💸 **Transaction Processing**  
-    - 📂 The system **reads and updates** account balances from a file (**clients.txt**).  
-    - 📥 **Deposit and withdrawal** operations modify the balance and save the updated data back to the file.  
-    - ❌ Withdrawals **prevent overdrawing** if insufficient funds.  
-    
-    📑 **File Handling**  
-    - 📜 User data (**Account Number, PIN, Name, Phone, and Balance**) is stored in **clients.txt**.  
-    - 🔄 The system dynamically **loads and saves client data**.  
-
+       ⚡ **Features**  
+      
+      🔹 **Quick Withdraw**  
+      - 💰 Predefined professional withdrawal amounts.  
+      - ✅ Ensures **sufficient balance** before completing the transaction.  
+      
+      🔹 **Normal Withdraw**  
+      - 💵 Users can withdraw a **custom amount** (must be a multiple of **5**).  
+      - ✅ Ensures **sufficient balance** before proceeding.  
+      
+      🔹 **Deposit**  
+      - 🏦 Allows users to **deposit a specified amount**.  
+      - 📈 Updates the **balance** after a successful deposit.  
+      
+      🔹 **Check Balance**  
+      - 📊 Displays the **user's current account balance**.  
+      
+      🔹 **Logout**  
+      - 🔄 Returns to the **login screen**, requiring users to re-enter credentials to access the ATM system.  
+      
+      ## 🔍 **How It Works**  
+      
+      🔐 **User Authentication**  
+      - 🔢 Users enter their **account number and PIN**.  
+      - 🗂️ Credentials are **validated** against a file (**clients.txt**).  
+      - ✅ If authentication is **successful**, the main menu is displayed.  
+      
+      💸 **Transaction Processing**  
+      - 📂 The system **reads and updates** account balances from a file (**clients.txt**).  
+      - 📥 **Deposit and withdrawal** operations modify the balance and save the updated data back to the file.  
+      - ❌ Withdrawals **prevent overdrawing** if insufficient funds.  
+      
+      📑 **File Handling**  
+      - 📜 User data (**Account Number, PIN, Name, Phone, and Balance**) is stored in **clients.txt**.  
+      - 🔄 The system dynamically **loads and saves client data**.  
+  
 
 ---
 
