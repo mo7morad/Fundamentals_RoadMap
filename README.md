@@ -94,7 +94,7 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
       🔹 **Logout**  
       - 🔄 Returns to the **login screen**, requiring users to re-enter credentials to access the ATM system.  
       
-      ## 🔍 **How It Works**  
+       🔍 **How It Works**  
       
       🔐 **User Authentication**  
       - 🔢 Users enter their **account number and PIN**.  
