@@ -1,8 +1,10 @@
-![Progress](https://img.shields.io/badge/Completed_Courses-11%2F26-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)
+# 📌 Fundamentals RoadMap
 
-![Problem Solving](https://img.shields.io/badge/Problem%20Solving-185%2B%20Solved%20Problems-success?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-7%20Completed-ff5733?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Progress](https://img.shields.io/badge/Completed_Courses-11%2F26-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)
+
+![Problem Solving](https://img.shields.io/badge/Problem%20Solving-185%2B%20Solved%20Problems-success?style=for-the-badge) ![Projects](https://img.shields.io/badge/Projects-7%20Completed-ff5733?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+---
 
 ## 📘 Introduction
 
@@ -18,15 +20,13 @@ Welcome to the **Fundamentals RoadMap** repository! This repository documents my
 
 ## 🚀 How to Use
 
-1. **🔧 Explore Solutions**: Check the `Coding/` folder for problems-solving solutions and fully implemented projects with clear explanations and comments.
+1. **🔧 Explore Solutions**: Check the `Coding/` folder for problem-solving solutions and fully implemented projects with clear explanations and comments.
 2. **📓 Review Course Content**: Dive into the `Courses/` folder for annotated trainer-provided material.
 3. **🔢 Track Progress**: Stay updated on completed courses and upcoming solutions.
 
 ---
 
-## 💂️‍♂️ Repository Structure
-
-Here’s the high-level structure of this repository:
+## 📂 Repository Structure
 
 ```yaml
 Fundamentals_RoadMap/
@@ -36,110 +36,123 @@ Fundamentals_RoadMap/
 │   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 projects.
-│   ├── OOP-C++                        /  # 3 Big console projects.
+│   ├── OOP-C++/                        # 3 Big console projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
 
 ---
 
-## 📂 Projects
+## 🏗️ Projects Breakdown
 
-Below is a breakdown of the specific projects included in the `Coding/` folder:
-### **🔢 Problem-Solving Level 02 (C++)**
+### 🔢 **Problem-Solving Level 02 (C++)**
+- **🎯 MathQuiz.cpp** – A simple math quiz game designed to improve arithmetic skills interactively.
+- **🔷 ScissorsPaperRock.cpp** – An implementation of the classic "Scissors Paper Rock" game in C++.
 
-- 📁 **Projects**
-  - **🎯 MathQuiz.cpp**
-    - A simple math quiz game designed to improve arithmetic skills interactively.
-  - **🔷 ScissorsPaperRock.cpp**
-    - An implementation of the classic "Scissors Paper Rock" game in C++.
+### 🔢 **Problem-Solving Level 03 (C++)**
+- **🏛️ Banking System** – Explore the full Object-Oriented Programming (OOP) version with all details and features.
+  - **#52_Project1_Bank-1.cpp** – A simple banking system.
+  - **#53_Project2_Bank-2.cpp** – An extended version with additional features.
 
-  ---
-
-### **🔢 Problem-Solving Level 03 (C++)**
-
-- 📁 **Projects**
-  - **Banking System: Explore the full Object-Oriented Programming (OOP) version of the project with all the details and futures down at OOP-C++**
-  - **🏛️ #52\_Project1\_Bank-1.cpp** 
-    - A simple banking system.
-  - **🏛️ #53\_Project2\_Bank-2.cpp**
-    - An extension of the banking system with additional features.
-  
-  ---
-
-### **🔢 Problem-Solving Level 04 (C++)**
-- 📁 **Projects**
-  - **🏛️ #ProjectContinuation:BankExtension2.cpp**
-    - Continuing the project and building more features like user login and a management system with restricted access rights and transfer menus.
-  - **🏛️ #ATM-System-Project.cpp**  
-
-    - 💳 **ATM System Simulation** – A console-based C++ program that replicates ATM functionalities.  
-  
-       ⚡ **Features**  
-      
-      🔹 **Quick Withdraw**  
-      - 💰 Predefined professional withdrawal amounts.  
-      - ✅ Ensures **sufficient balance** before completing the transaction.  
-      
-      🔹 **Normal Withdraw**  
-      - 💵 Users can withdraw a **custom amount** (must be a multiple of **5**).  
-      - ✅ Ensures **sufficient balance** before proceeding.  
-      
-      🔹 **Deposit**  
-      - 🏦 Allows users to **deposit a specified amount**.  
-      - 📈 Updates the **balance** after a successful deposit.  
-      
-      🔹 **Check Balance**  
-      - 📊 Displays the **user's current account balance**.  
-      
-      🔹 **Logout**  
-      - 🔄 Returns to the **login screen**, requiring users to re-enter credentials to access the ATM system.  
-      
-       🔍 **How It Works**  
-      
-      🔐 **User Authentication**  
-      - 🔢 Users enter their **account number and PIN**.  
-      - 🗂️ Credentials are **validated** against a file (**clients.txt**).  
-      - ✅ If authentication is **successful**, the main menu is displayed.  
-      
-      💸 **Transaction Processing**  
-      - 📂 The system **reads and updates** account balances from a file (**clients.txt**).  
-      - 📥 **Deposit and withdrawal** operations modify the balance and save the updated data back to the file.  
-      - ❌ Withdrawals **prevent overdrawing** if insufficient funds.  
-      
-      📑 **File Handling**  
-      - 📜 User data (**Account Number, PIN, Name, Phone, and Balance**) is stored in **clients.txt**.  
-      - 🔄 The system dynamically **loads and saves client data**.  
-  
+### 🔢 **Problem-Solving Level 04 (C++)**
+- **🏛️ Bank Extension** – Additional features like user login and a management system.
+- **💳 ATM-System-Project.cpp** – Console-based ATM simulation with:
+  - 🔹 **Quick Withdraw**
+  - 🔹 **Normal Withdraw**
+  - 🔹 **Deposit**
+  - 🔹 **Balance Inquiry**
+  - 🔹 **User Authentication**
+  - 🔹 **Transaction Processing & File Handling**
 
 ---
 
+## 🏦 Banking System Features
 
+### 🏦 **Client Management**
+- CRUD operations:
+  - 🔍 **Find Client** – Search by account number.
+  - ✏️ **Update Client** – Modify details.
+  - ➕ **Add New Client** – Register new users.
+  - ❌ **Delete Client** – Remove accounts.
+  - 📋 **List Clients** – Display all clients.
+  - 💰 **View Total Balances** – Check combined balances.
+
+### 💳 **Banking Transactions**
+- 💸 **Quick Withdraw**
+- 💵 **Normal Withdraw**
+- 🏦 **Deposit**
+- 🔄 **Balance Inquiry**
+- 🔁 **Money Transfer**
+- 📜 **Transaction Logs**
+
+### 🔐 **User Authentication**
+- 🛂 **Login System**
+- 📝 **Login Logs**
+
+### 💵 **World Wide Currency Management**
+- 💱 **Currency Exchange**
+- 🔍 **Find Currency Rate**
+- 📊 **Update Exchange Rates**
+- 🌎 **Currency List**
+
+---
+
+## 🛠️ Project Structure
+
+```yaml
+BankingSystem/
+├── headers/                         # Header files
+│   ├── core/                         # Core class definitions
+│   │   ├── clsPerson.h
+│   │   ├── clsBankClient.h
+│   │   ├── clsUser.h
+│   │   ├── clsCurrency.h
+│   ├── screens/                      # Screens for UI interactions
+│   │   ├── client/                     # Client management screens
+│   │   ├── currencies/                 # Currency-related screens
+│   │   ├── user/                       # User management screens
+│   │   ├── clsMainScreen.h             # Main screen handling file
+│   │   ├── clsScreen.h                 # Header of all the screens for usability.
+│   ├── lib/                          # Utility library
+│   │   ├── clsPeriod.h
+│   │   ├── clsDate.h
+│   │   ├── clsUtil.h
+│   │   ├── clsInputValidation.h
+│   │   ├── clsString.h
+│   │   ├── clsInputValidate.h
+│   ├── Global.h                      # For fetcheing the current user.
+├── LoginLogs.txt                     # Logs for the successful logins.
+├── TransferLogs.txt                  # Logs of the performed transfers.
+├── Clients.txt                       # Clients DB
+├── Users.txt                         # Users DB
+├── Currencies.txt                    # Currencies DB
+```
+
+---
 
 ## 🌟 Key Highlights
 
-- 🗺 **Problem-Solving Focus**: Gain mastery of core fundamentals through practical challenges.
-- 🔍 **Readable Code**: All solutions are clean, documented, and easy to follow.
-- 💡 **Continuous Learning**: Regular updates with new solutions and projects.
+- 🗺 **Problem-Solving Focus** – Master core fundamentals through practical challenges.
+- 🔍 **Readable Code** – Well-documented, structured, and clean code.
+- 💡 **Continuous Learning** – Regular updates with new solutions and projects.
 
 ---
 
 ## 🔧 Tools & Technologies
 
-- **Languages**:  
-  - ![C++](https://img.icons8.com/color/48/000000/c-plus-plus-logo.png) **C++ 17**  
-  - ![C#](https://img.icons8.com/color/48/000000/c-sharp-logo.png) **C# (Coming Soon)**  
-- **Version Control**:  
-  - ![Git](https://img.icons8.com/color/48/000000/git.png) **Git**  
-  - ![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png) **GitHub**  
-- **Code Quality**:
-  - 🦼 **Clean**: Code is neatly organized and formatted.
-  - 📖 **Readable**: The code is self-explained, using descriptive names for everything in the code.
-  - 🔄 **Reusable**: Designed for reuse and scalability.
+- **Languages:**
+  - ![C++](https://img.icons8.com/color/48/000000/c-plus-plus-logo.png) **C++ 17**
+  - ![C#](https://img.icons8.com/color/48/000000/c-sharp-logo.png) **C# (Coming Soon)**
+- **Version Control:**
+  - ![Git](https://img.icons8.com/color/48/000000/git.png) **Git**
+  - ![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png) **GitHub**
+- **Code Quality:**
+  - 🦼 **Clean & Readable**
+  - 📖 **Well-Structured & Documented**
+  - 🔄 **Reusable & Scalable**
 
 ---
 
-🔗 **Let’s Connect**\
-Feel free to explore, suggest improvements, or collaborate on this learning journey!
+🔗 **Let’s Connect!**
 
-🎉 **Happy Coding!** 🚀
+Feel free to explore, suggest improvements, or collaborate on this learning journey! 🚀
 
