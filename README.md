@@ -74,7 +74,7 @@ Below is a breakdown of the specific projects included in the `Coding/` folder:
 
     - 💳 **ATM System Simulation** – A console-based C++ program that replicates ATM functionalities.  
   
-    #### ⚡ **Features**  
+    ## ⚡ **Features**  
     
     🔹 **Quick Withdraw**  
     - 💰 Predefined professional withdrawal amounts.  
