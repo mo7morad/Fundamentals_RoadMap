@@ -1,4 +1,4 @@
-# 📌 Fundamentals RoadMap
+# 📌 Fundamentals Roadmap
 
 ![Progress](https://img.shields.io/badge/Completed_Courses-11%2F26-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)
 
@@ -8,7 +8,7 @@
 
 ## 📘 Introduction
 
-Welcome to the **Fundamentals RoadMap** repository! This repository documents my learning journey 🔬 through **26 foundational programming courses** curated by **Eng. Mohamed Abo-Hadhoud**.
+Welcome to the **Fundamentals Roadmap** repository! This repository documents my learning journey 🔬 through **26 foundational programming courses** curated by **Eng. Mohamed Abo-Hadhoud**.
 
 ### 🔍 What You'll Find:
 
@@ -29,14 +29,14 @@ Welcome to the **Fundamentals RoadMap** repository! This repository documents my
 ## 📂 Repository Structure
 
 ```yaml
-Fundamentals_RoadMap/
-├── 📁 Certificates/       # Certificates earned during the journey (keeps updating).
+Fundamentals_Roadmap/
+├── 📁 Certificates/       # Certificates earned during the journey (updated regularly).
 ├── 📁 Coding/             # Problem-solving solutions and full projects.
 │   ├── Problem-Solving-Level-01-in-C++/  # 20+ solved problems.
 │   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 projects.
-│   ├── OOP-C++/                        # 3 Big console projects.
+│   ├── OOP-C++/                        # 3 major console projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
 
@@ -49,13 +49,13 @@ Fundamentals_RoadMap/
 - **🔷 ScissorsPaperRock.cpp** – An implementation of the classic "Scissors Paper Rock" game in C++.
 
 ### 🔢 **Problem-Solving Level 03 (C++)**
-- **🏛️ Banking System** – Explore the full Object-Oriented Programming (OOP) version with all details and features.
-  - **#52_Project1_Bank-1.cpp** – A simple banking system.
-  - **#53_Project2_Bank-2.cpp** – An extended version with additional features.
+- **🏛️ Banking System** – A fully object-oriented implementation with advanced features.
+  - **#52_Project1_Bank-1.cpp** – A basic banking system.
+  - **#53_Project2_Bank-2.cpp** – An extended version with additional functionalities.
 
 ### 🔢 **Problem-Solving Level 04 (C++)** 
-- **🏛️ Bank Extension** – Additional features like user login and a management system.
-- **💳 ATM-System-Project.cpp** – Console-based ATM simulation with:
+- **🏛️ Bank Extension** – Enhancements including user login and a management system.
+- **💳 ATM-System-Project.cpp** – A console-based ATM simulation featuring:
   - 🔹 **Quick Withdraw**
   - 🔹 **Normal Withdraw**
   - 🔹 **Deposit**
@@ -63,68 +63,69 @@ Fundamentals_RoadMap/
   - 🔹 **User Authentication**
   - 🔹 **Transaction Processing & File Handling**
 
+### 🧩 **OOP-C++ (Object-Oriented Programming)**
 
-### 🧩 <i class="fas fa-puzzle-piece"></i> OOP-C++ <i class="fas fa-cubes"></i>(Object-Oriented Programming)
-  ## 🏦 Banking System Features 
-  ### 🏦 **Client Management**
-  - 🔍 **Find Client** – Search by account number.
-  - ✏️ **Update Client** – Modify details.
-  - ➕ **Add New Client** – Register new users.
-  - ❌ **Delete Client** – Remove accounts.
-  - 📋 **List Clients** – Display all clients.
-  - 💰 **View Total Balances** – Check combined balances.
-  
-  ### 💳 **Banking Transactions**
-  - 💸 **Quick Withdraw**
-  - 💵 **Normal Withdraw**
-  - 🏦 **Deposit**
-  - 🔄 **Balance Inquiry**
-  - 🔁 **Money Transfer**
-  - 📜 **Transaction Logs**
-  
-  ### 🔐 **User Authentication**
-  - 🛂 **Login System with encrypted password storing 🔐**
-  - 📝 **Login Logs**
-  - 📝 **Transfer Logs**
-  
-  ### 💵 **World Wide Currency Management**
-  - 💱 **Currency Exchange**
-  - 🔍 **Find Currency Rate**
-  - 📊 **Update Exchange Rates**
-  - 🌎 **Currency List**
-  
-  ---
-  
-  ## 🛠️ Project Structure
-  
-  ```yaml
-  BankingSystem/
-  ├── headers/                         # Header files
-  │   ├── core/                         # Core class definitions
-  │   │   ├── clsPerson.h
-  │   │   ├── clsBankClient.h
-  │   │   ├── clsUser.h
-  │   │   ├── clsCurrency.h
-  │   ├── screens/                      # Screens for UI interactions
-  │   │   ├── client/                     # Client management screens
-  │   │   ├── currencies/                 # Currency-related screens
-  │   │   ├── user/                       # User management screens
-  │   │   ├── clsMainScreen.h             # Main screen handling file
-  │   │   ├── clsScreen.h                 # Header of all the screens for usability.
-  │   ├── lib/                          # Utility library
-  │   │   ├── clsPeriod.h
-  │   │   ├── clsDate.h
-  │   │   ├── clsUtil.h
-  │   │   ├── clsInputValidation.h
-  │   │   ├── clsString.h
-  │   │   ├── clsInputValidate.h
-  │   ├── Global.h                      # For fetcheing the current user.
-  ├── LoginLogs.txt                     # Logs for the successful logins.
-  ├── TransferLogs.txt                  # Logs of the performed transfers.
-  ├── Clients.txt                       # Clients DB
-  ├── Users.txt                         # Users DB
-  ├── Currencies.txt                    # Currencies DB
-  ```
+#### 🏦 **Banking System Features**
+
+##### 🏦 **Client Management**
+- 🔍 **Find Client** – Search by account number.
+- ✏️ **Update Client** – Modify details.
+- ➕ **Add New Client** – Register new users.
+- ❌ **Delete Client** – Remove accounts.
+- 📋 **List Clients** – Display all clients.
+- 💰 **View Total Balances** – Check combined balances.
+
+##### 💳 **Banking Transactions**
+- 💸 **Quick Withdraw**
+- 💵 **Normal Withdraw**
+- 🏦 **Deposit**
+- 🔄 **Balance Inquiry**
+- 🔁 **Money Transfer**
+- 📜 **Transaction Logs**
+
+##### 🔐 **User Authentication**
+- 🛂 **Login System with encrypted password storage 🔐**
+- 📝 **Login Logs**
+- 📝 **Transfer Logs**
+
+##### 💵 **Worldwide Currency Management**
+- 💱 **Currency Exchange**
+- 🔍 **Find Currency Rate**
+- 📊 **Update Exchange Rates**
+- 🌎 **Currency List**
+
+---
+
+## 🛠️ Project Structure
+
+```yaml
+BankingSystem/
+├── headers/                         # Header files
+│   ├── core/                         # Core class definitions
+│   │   ├── clsPerson.h
+│   │   ├── clsBankClient.h
+│   │   ├── clsUser.h
+│   │   ├── clsCurrency.h
+│   ├── screens/                      # UI interaction screens
+│   │   ├── client/                     # Client management screens
+│   │   ├── currencies/                 # Currency-related screens
+│   │   ├── user/                       # User management screens
+│   │   ├── clsMainScreen.h             # Main screen handling file
+│   │   ├── clsScreen.h                 # Base class for all screens
+│   ├── lib/                          # Utility library
+│   │   ├── clsPeriod.h
+│   │   ├── clsDate.h
+│   │   ├── clsUtil.h
+│   │   ├── clsInputValidation.h
+│   │   ├── clsString.h
+│   │   ├── clsInputValidate.h
+│   ├── Global.h                      # Fetching the current user
+├── LoginLogs.txt                     # Logs for successful logins
+├── TransferLogs.txt                  # Records of performed transfers
+├── Clients.txt                       # Client database
+├── Users.txt                         # User database
+├── Currencies.txt                    # Currency database
+```
 
 ---
 
