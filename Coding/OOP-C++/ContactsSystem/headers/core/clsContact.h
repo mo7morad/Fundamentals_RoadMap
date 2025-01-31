@@ -27,7 +27,7 @@ private:
     DataLine += to_string(Contact.GetContactId()) + Separator;
     DataLine += Contact.GetFirstName() + Separator;
     DataLine += Contact.GetLastName() + Separator;
-    DataLine += clsString::LowerAllString(Contact.GetEmail())+ Separator;
+    DataLine += clsString::LowerAllString(Contact.GetEmail()) + Separator;
     DataLine += Contact.GetPhoneNumber();
     return DataLine;
     // or
@@ -68,7 +68,7 @@ private:
     {
       for (clsContact &Contact : vContacts)
       {
-        if(Contact.MarkedForDeletion == false)
+        if (Contact.MarkedForDeletion == false)
           File << _ConvertContactObjectToLine(Contact) << endl;
       }
       File.close();
@@ -200,7 +200,7 @@ private:
       while (getline(MyFile, Line))
       {
         clsContact Contact = _ConvertLineToContactObject(Line);
-        if (Contact.GetPhoneNumber() == GetPhoneNumber())
+        if (Contact.GetContactId() == GetContactId())
         {
           Contact = *this; // Update the client with the current object's data
         }
@@ -232,6 +232,11 @@ public:
     return _ContactId;
   }
 
+  static int GetLatestContactId()
+  {
+    return _GetLatestContactId();
+  }
+
   static int GetNextContactId()
   {
     return _GetLatestContactId() + 1;
@@ -261,7 +266,7 @@ public:
 
   bool IsContactExists(string Phone)
   {
-    return(SearchContact(enSearchBy::Phone, Phone).IsEmpty() == false);
+    return (SearchContact(enSearchBy::Phone, Phone).IsEmpty() == false);
   }
 
   void PrintContactCard()
@@ -335,17 +340,17 @@ public:
     {
       return svFaildEmptyObject;
     }
-  }
-  return svFaildEmptyObject;
+    }
+    return svFaildEmptyObject;
   }
 
   bool Delete()
   {
     vector<clsContact> vContacts = _LoadContactsFromFile();
-    
-    for(clsContact &C : vContacts)
+
+    for (clsContact &C : vContacts)
     {
-      if(C.GetContactId() == this->GetContactId())
+      if (C.GetContactId() == this->GetContactId())
       {
         C.MarkedForDeletion = true;
         _SaveContactsToFile(vContacts);
