@@ -53,7 +53,7 @@ Fundamentals_RoadMap/
   - **#52_Project1_Bank-1.cpp** – A simple banking system.
   - **#53_Project2_Bank-2.cpp** – An extended version with additional features.
 
-### 🔢 **Problem-Solving Level 04 (C++)**
+### 🔢 **Problem-Solving Level 04 (C++)** 
 - **🏛️ Bank Extension** – Additional features like user login and a management system.
 - **💳 ATM-System-Project.cpp** – Console-based ATM simulation with:
   - 🔹 **Quick Withdraw**
@@ -64,16 +64,15 @@ Fundamentals_RoadMap/
   - 🔹 **Transaction Processing & File Handling**
 
 
-### OOP-C++
-  ## 🏦 Banking System Features
+### 🧩 <i class="fas fa-puzzle-piece"></i> OOP-C++ <i class="fas fa-cubes"></i>(Object-Oriented Programming)
+  ## 🏦 Banking System Features 
   ### 🏦 **Client Management**
-  - CRUD operations:
-    - 🔍 **Find Client** – Search by account number.
-    - ✏️ **Update Client** – Modify details.
-    - ➕ **Add New Client** – Register new users.
-    - ❌ **Delete Client** – Remove accounts.
-    - 📋 **List Clients** – Display all clients.
-    - 💰 **View Total Balances** – Check combined balances.
+  - 🔍 **Find Client** – Search by account number.
+  - ✏️ **Update Client** – Modify details.
+  - ➕ **Add New Client** – Register new users.
+  - ❌ **Delete Client** – Remove accounts.
+  - 📋 **List Clients** – Display all clients.
+  - 💰 **View Total Balances** – Check combined balances.
   
   ### 💳 **Banking Transactions**
   - 💸 **Quick Withdraw**
