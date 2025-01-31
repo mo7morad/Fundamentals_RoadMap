@@ -63,69 +63,69 @@ Fundamentals_RoadMap/
   - 🔹 **User Authentication**
   - 🔹 **Transaction Processing & File Handling**
 
----
 
-## 🏦 Banking System Features
-
-### 🏦 **Client Management**
-- CRUD operations:
-  - 🔍 **Find Client** – Search by account number.
-  - ✏️ **Update Client** – Modify details.
-  - ➕ **Add New Client** – Register new users.
-  - ❌ **Delete Client** – Remove accounts.
-  - 📋 **List Clients** – Display all clients.
-  - 💰 **View Total Balances** – Check combined balances.
-
-### 💳 **Banking Transactions**
-- 💸 **Quick Withdraw**
-- 💵 **Normal Withdraw**
-- 🏦 **Deposit**
-- 🔄 **Balance Inquiry**
-- 🔁 **Money Transfer**
-- 📜 **Transaction Logs**
-
-### 🔐 **User Authentication**
-- 🛂 **Login System**
-- 📝 **Login Logs**
-
-### 💵 **World Wide Currency Management**
-- 💱 **Currency Exchange**
-- 🔍 **Find Currency Rate**
-- 📊 **Update Exchange Rates**
-- 🌎 **Currency List**
-
----
-
-## 🛠️ Project Structure
-
-```yaml
-BankingSystem/
-├── headers/                         # Header files
-│   ├── core/                         # Core class definitions
-│   │   ├── clsPerson.h
-│   │   ├── clsBankClient.h
-│   │   ├── clsUser.h
-│   │   ├── clsCurrency.h
-│   ├── screens/                      # Screens for UI interactions
-│   │   ├── client/                     # Client management screens
-│   │   ├── currencies/                 # Currency-related screens
-│   │   ├── user/                       # User management screens
-│   │   ├── clsMainScreen.h             # Main screen handling file
-│   │   ├── clsScreen.h                 # Header of all the screens for usability.
-│   ├── lib/                          # Utility library
-│   │   ├── clsPeriod.h
-│   │   ├── clsDate.h
-│   │   ├── clsUtil.h
-│   │   ├── clsInputValidation.h
-│   │   ├── clsString.h
-│   │   ├── clsInputValidate.h
-│   ├── Global.h                      # For fetcheing the current user.
-├── LoginLogs.txt                     # Logs for the successful logins.
-├── TransferLogs.txt                  # Logs of the performed transfers.
-├── Clients.txt                       # Clients DB
-├── Users.txt                         # Users DB
-├── Currencies.txt                    # Currencies DB
-```
+### OOP-C++
+  ## 🏦 Banking System Features
+  ### 🏦 **Client Management**
+  - CRUD operations:
+    - 🔍 **Find Client** – Search by account number.
+    - ✏️ **Update Client** – Modify details.
+    - ➕ **Add New Client** – Register new users.
+    - ❌ **Delete Client** – Remove accounts.
+    - 📋 **List Clients** – Display all clients.
+    - 💰 **View Total Balances** – Check combined balances.
+  
+  ### 💳 **Banking Transactions**
+  - 💸 **Quick Withdraw**
+  - 💵 **Normal Withdraw**
+  - 🏦 **Deposit**
+  - 🔄 **Balance Inquiry**
+  - 🔁 **Money Transfer**
+  - 📜 **Transaction Logs**
+  
+  ### 🔐 **User Authentication**
+  - 🛂 **Login System with encrypted password storing 🔐**
+  - 📝 **Login Logs**
+  - 📝 **Transfer Logs**
+  
+  ### 💵 **World Wide Currency Management**
+  - 💱 **Currency Exchange**
+  - 🔍 **Find Currency Rate**
+  - 📊 **Update Exchange Rates**
+  - 🌎 **Currency List**
+  
+  ---
+  
+  ## 🛠️ Project Structure
+  
+  ```yaml
+  BankingSystem/
+  ├── headers/                         # Header files
+  │   ├── core/                         # Core class definitions
+  │   │   ├── clsPerson.h
+  │   │   ├── clsBankClient.h
+  │   │   ├── clsUser.h
+  │   │   ├── clsCurrency.h
+  │   ├── screens/                      # Screens for UI interactions
+  │   │   ├── client/                     # Client management screens
+  │   │   ├── currencies/                 # Currency-related screens
+  │   │   ├── user/                       # User management screens
+  │   │   ├── clsMainScreen.h             # Main screen handling file
+  │   │   ├── clsScreen.h                 # Header of all the screens for usability.
+  │   ├── lib/                          # Utility library
+  │   │   ├── clsPeriod.h
+  │   │   ├── clsDate.h
+  │   │   ├── clsUtil.h
+  │   │   ├── clsInputValidation.h
+  │   │   ├── clsString.h
+  │   │   ├── clsInputValidate.h
+  │   ├── Global.h                      # For fetcheing the current user.
+  ├── LoginLogs.txt                     # Logs for the successful logins.
+  ├── TransferLogs.txt                  # Logs of the performed transfers.
+  ├── Clients.txt                       # Clients DB
+  ├── Users.txt                         # Users DB
+  ├── Currencies.txt                    # Currencies DB
+  ```
 
 ---
 
