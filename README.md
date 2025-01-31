@@ -65,36 +65,34 @@ Fundamentals_Roadmap/
 
 ### 🧩 **OOP-C++ (Object-Oriented Programming)**
 
-#### 🏦 **Banking System Features**
+  - 🏦 **Banking System Features**
 
-##### 🏦 **Client Management**
-- 🔍 **Find Client** – Search by account number.
-- ✏️ **Update Client** – Modify details.
-- ➕ **Add New Client** – Register new users.
-- ❌ **Delete Client** – Remove accounts.
-- 📋 **List Clients** – Display all clients.
-- 💰 **View Total Balances** – Check combined balances.
+  - 🏦 **Client Management**
+    - 🔍 **Find Client** – Search by account number.
+    - ✏️ **Update Client** – Modify details.
+    - ➕ **Add New Client** – Register new users.
+    - ❌ **Delete Client** – Remove accounts.
+    - 📋 **List Clients** – Display all clients.
+    - 💰 **View Total Balances** – Check combined balances.
 
-##### 💳 **Banking Transactions**
-- 💸 **Quick Withdraw**
-- 💵 **Normal Withdraw**
-- 🏦 **Deposit**
-- 🔄 **Balance Inquiry**
-- 🔁 **Money Transfer**
-- 📜 **Transaction Logs**
+ - 💳 **Banking Transactions**
+    - 💸 **Quick Withdraw**
+    - 💵 **Normal Withdraw**
+    - 🏦 **Deposit**
+    - 🔄 **Balance Inquiry**
+    - 🔁 **Money Transfer**
+    - 📜 **Transaction Logs**
 
-##### 🔐 **User Authentication**
-- 🛂 **Login System with encrypted password storage 🔐**
-- 📝 **Login Logs**
-- 📝 **Transfer Logs**
+- 🔐 **User Authentication**
+  - 🛂 **Login System with encrypted password storage 🔐**
+  - 📝 **Login Logs**
+  - 📝 **Transfer Logs**
 
-##### 💵 **Worldwide Currency Management**
-- 💱 **Currency Exchange**
-- 🔍 **Find Currency Rate**
-- 📊 **Update Exchange Rates**
-- 🌎 **Currency List**
-
----
+- 💵 **Worldwide Currency Management**
+  - 💱 **Currency Exchange**
+  - 🔍 **Find Currency Rate**
+  - 📊 **Update Exchange Rates**
+  - 🌎 **Currency List**
 
 ## 🛠️ Project Structure
 
