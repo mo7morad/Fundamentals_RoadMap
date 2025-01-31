@@ -130,6 +130,29 @@ public:
     NewNode->next = Iterator->next;
     Iterator->next = NewNode;
   }
+
+  void Delete(T val)
+  {
+    if(HEAD->value == val)
+    {
+      Node<T> *Delptr = HEAD;
+      HEAD = HEAD->next;
+      delete Delptr;
+    }
+    else
+    {
+      Node<T> *Delptr = HEAD;
+      Node<T> *Prev = HEAD;
+      
+      while(Delptr->value != val)
+      {
+        Prev = Delptr;
+        Delptr = Delptr->next;
+      }
+      Prev->next = Delptr->next;
+      delete Delptr;
+    }
+  }
 };
 
 int main()
@@ -179,6 +202,13 @@ int main()
   // Check if an element exists
   cout << "Is 'banana' in the list? " << (strList.IsExists("banana") ? "Yes" : "No") << endl;
   cout << "Is 'grape' in the list? " << (strList.IsExists("grape") ? "Yes" : "No") << endl;
+
+  list.Delete(99);
+  list.Display();
+
+  list.Delete(30);
+  list.Display();
+
 
   return 0;
 }
