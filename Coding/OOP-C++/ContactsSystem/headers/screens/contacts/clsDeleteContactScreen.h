@@ -106,6 +106,7 @@ private:
     default:
       return Contact;
     }
+    return Contact;
   }
 
 public:

@@ -1,0 +1,28 @@
+    - Features in the project are are:
+    ## 💡 Client Management System Details
+    ### 🌟 Features:
+
+    - **📊 Dynamic Client Management**
+      - Add, update, delete, and display client information using structured records.
+    - **💳 Transaction Support**
+      - Secure and verified deposit and withdrawal transactions.
+    - **🔐 Data Persistence**
+      - All client data is saved to and loaded from a file, ensuring reliability.
+
+    ### 🔧 Key Functionalities:
+    
+    1. **🔃 Main Menu Options:**
+    
+       - 🔐 Show all client records.
+       - 📂 Add, delete, or update client details.
+       - 🔢 Access the transactions menu.
+    
+    2. **🔄 Transactions Menu:**
+    
+       - 💳 Deposit funds.
+       - 💸 Withdraw funds.
+       - 🔢 View the total balance of all clients.
+    
+    3. **🗍️ File Integration:**
+    
+       - Data is stored in `ClientsData.txt` for easy retrieval and updates.

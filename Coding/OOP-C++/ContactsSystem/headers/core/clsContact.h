@@ -27,7 +27,7 @@ private:
     DataLine += to_string(Contact.GetContactId()) + Separator;
     DataLine += Contact.GetFirstName() + Separator;
     DataLine += Contact.GetLastName() + Separator;
-    DataLine += Contact.GetEmail() + Separator;
+    DataLine += clsString::LowerAllString(Contact.GetEmail())+ Separator;
     DataLine += Contact.GetPhoneNumber();
     return DataLine;
     // or
@@ -331,7 +331,12 @@ public:
         return svSucceeded;
       }
     }
+    default:
+    {
+      return svFaildEmptyObject;
+    }
   }
+  return svFaildEmptyObject;
   }
 
   bool Delete()
@@ -353,10 +358,10 @@ public:
 
   enum enSearchBy
   {
-    FullName = 0,
-    Email = 1,
-    Phone = 2,
-    Id = 3
+    Id = 1,
+    FullName = 2,
+    Email = 3,
+    Phone = 4,
   };
   static clsContact SearchContact(enSearchBy SearchBy, string SearchString)
   {
@@ -379,7 +384,4 @@ public:
       break;
     }
   }
-
-
-
 };

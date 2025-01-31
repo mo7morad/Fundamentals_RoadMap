@@ -6,6 +6,7 @@
 #include "contacts/clsContactsListScreen.h"
 #include "contacts/clsAddNewContactScreen.h"
 #include "contacts/clsDeleteContactScreen.h"
+#include "contacts/clsFindContactScreen.h"
 using namespace std;
 
 class clsMainScreen : protected clsScreen
@@ -57,10 +58,10 @@ private:
   //   clsUpdateContactScreen::ShowUpdateClientScreen();
   // }
 
-  // static void _ShowFindClientScreen()
-  // {
-  //   clsFindContactScreen::ShowFindClientScreen();
-  // }
+  static void _ShowFindClientScreen()
+  {
+    clsFindContactScreen::ShowFindContactScreen();
+  }
 
   static void _PerfromMainMenu(enMainMenuOptions MainMenuOption)
   {
@@ -87,8 +88,8 @@ private:
     // case EditContact:
     //   _ShowUpdateClientScreen();
     //   break;
-    // case FindContact:
-    //   _ShowFindClientScreen();
+    case FindContact:
+      _ShowFindClientScreen();
       break;
     case Exit:
       exit(0);
