@@ -8,7 +8,7 @@ private:
   string CarType = "Off-Road";
   string WheelsType = "Off-Road Wheels";
 
-protected:
+public:
   virtual const char* GetCarType()
   {
     return CarType.c_str();

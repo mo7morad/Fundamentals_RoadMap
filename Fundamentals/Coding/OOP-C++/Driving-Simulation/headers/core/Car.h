@@ -8,17 +8,6 @@ private:
   string CarType = "Racing";
   string WheelsType = "Racing Wheels";
 
-protected:
-  virtual const char* GetCarType()
-  {
-    return CarType.c_str();
-  }
-
-  virtual const char* GetWheelsType()
-  {
-    return WheelsType.c_str();
-  }
-
 public:
   enum enCarType {Racing = 1, OffRoad = 2, Family = 3};
   enum enWheelsType {RacingWheels = 1, OffRoadWheels = 2, NormalWheels = 3};
@@ -40,6 +29,16 @@ public:
         WheelsType = "Normal Wheels";
         break;
     }
+  }
+
+  virtual const char *GetCarType()
+  {
+    return CarType.c_str();
+  }
+
+  virtual const char *GetWheelsType()
+  {
+    return WheelsType.c_str();
   }
 
   void SetWheelsType(enWheelsType type)

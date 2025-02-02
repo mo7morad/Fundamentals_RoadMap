@@ -8,7 +8,7 @@ private:
   string CarType = "Family";
   string WheelsType = "Normal Wheels";
 
-protected:
+public:
   virtual const char* GetCarType()
   {
     return CarType.c_str();
