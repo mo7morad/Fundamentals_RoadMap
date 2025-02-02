@@ -38,7 +38,7 @@ private:
   static void ReadTrackLength()
   {
     cout << setw(40) << left << "" << "Enter the Track Length (in k.m): ";
-    TrackLength = clsInputValidate<float>::ReadNumber();
+    TrackLength = clsInputValidate<float>::ReadNumberBetween(1, 999999, "Enter Track Length between 1 to 999999? ");
   }
 
 public:

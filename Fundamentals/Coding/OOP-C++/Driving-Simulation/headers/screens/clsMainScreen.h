@@ -6,6 +6,7 @@
 #include "settings/ChangeCarScreen.h"
 #include "settings/ChangeWheelsScreen.h"
 #include "settings/ChooseTrackScreen.h"
+#include "settings/StartRacingScreen.h"
 using namespace std;
 
 class clsMainScreen : protected clsScreen
@@ -53,7 +54,7 @@ private:
 
   static void _StartRacing()
   {
-    // clsStartRacingScreen::ShowStartRacingScreen();
+    StartRacingScreen::ShowStartRacingScreen();
   }
 
   static void _PerfromMainMenu(enMainMenuOptions MainMenuOption)
