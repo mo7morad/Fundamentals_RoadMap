@@ -4,6 +4,7 @@
 #include "clsScreen.h"
 #include "../lib/clsInputValidate.h"
 #include "settings/ChangeCarScreen.h"
+#include "settings/ChangeWheelsScreen.h"
 using namespace std;
 
 class clsMainScreen : protected clsScreen
@@ -41,7 +42,7 @@ private:
 
   static void _ChangeTheWheels()
   {
-    // clsChangeWheelsScreen::ShowChangeWheelsScreen();
+    ChangeWheelsScreen::ShowChangeWheelsScreen();
   }
 
   static void _ChooseTheTrack()
