@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        #content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Web Page</h1>
+    <div id="content">
+        <p>This is a dynamic content area. Click the button to change the text color.</p>
+        <button onclick="changeTextColor()">Change Text Color</button>
+    </div>
+
+    <script>
+        function changeTextColor() {
+            var content = document.getElementById('content');
+            content.style.color = content.style.color === 'red' ? 'black' : 'red';
+        }
+    </script>
+</body>
+</html>
