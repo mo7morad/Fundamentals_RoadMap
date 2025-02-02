@@ -4,4 +4,4 @@
 
 static Car CurrentCar;
 static string CurrentTrack;
-static string TrackLength;
+static float TrackLength;

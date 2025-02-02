@@ -5,6 +5,7 @@
 #include "../lib/clsInputValidate.h"
 #include "settings/ChangeCarScreen.h"
 #include "settings/ChangeWheelsScreen.h"
+#include "settings/ChooseTrackScreen.h"
 using namespace std;
 
 class clsMainScreen : protected clsScreen
@@ -47,7 +48,7 @@ private:
 
   static void _ChooseTheTrack()
   {
-    // clsChooseTheTrackScreen::ShowChooseTheTrackScreen();
+    ChooseTrackScreen::ShowChooseTrackScreen();
   }
 
   static void _StartRacing()
@@ -91,7 +92,7 @@ public:
     cout << setw(37) << left << "" << "===========================================\n";
     cout << setw(37) << left << "" << "\t[1] Change The Car.\n";
     cout << setw(37) << left << "" << "\t[2] Change The Wheels.\n";
-    cout << setw(37) << left << "" << "\t[3] Change The Track.\n";
+    cout << setw(37) << left << "" << "\t[3] Choose The Track.\n";
     cout << setw(37) << left << "" << "\t[4] Start The Racing.\n";
     cout << setw(37) << left << "" << "\t[5] Exit.\n";
     cout << setw(37) << left << "" << "===========================================\n";
