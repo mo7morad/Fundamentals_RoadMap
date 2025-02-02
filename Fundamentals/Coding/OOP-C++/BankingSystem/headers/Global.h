@@ -4,7 +4,3 @@
 
 clsUser CurrentUser=clsUser::Find("","");
 
-
-
-
-
