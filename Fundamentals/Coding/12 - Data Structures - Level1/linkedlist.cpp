@@ -70,6 +70,21 @@ public:
     return false;
   }
 
+  int IndexOf(T value)
+  {
+    int Index = 0;
+    Node<T> *Iterator = HEAD;
+    while (Iterator != nullptr)
+    {
+      if (Iterator->value == value)
+        return Index;
+      Index++;
+      Iterator = Iterator->next;
+    }
+    cout << "Error: Value not found.\n";
+    return -1;
+  }
+
   void InsertFirst(T value)
   {
     Node<T> *NewNode = new Node<T>;
