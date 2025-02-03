@@ -86,7 +86,6 @@ Fundamentals_Roadmap/
 - 🔐 **User Authentication**
   - 🛂 **Login System with encrypted password storage 🔐**
   - 📝 **Login Logs**
-  - 📝 **Transfer Logs**
 
 - 💵 **Worldwide Currency Management**
   - 💱 **Currency Exchange**
