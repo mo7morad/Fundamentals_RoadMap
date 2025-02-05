@@ -76,7 +76,7 @@ public:
 
   bool IsEmpty() const
   {
-    return HEAD == nullptr;
+    return SizeOfList == 0;
   }
 
   void Display() const
@@ -245,6 +245,36 @@ public:
     return false;
   }
 
+  void DeleteFirstNode()
+  {
+    if (IsEmpty())
+    {
+      cout << "Error: List is empty.\n";
+      return;
+    }
+
+    Node<T> *Delptr = HEAD;
+    HEAD = HEAD->next;
+    HEAD ? HEAD->prev = nullptr : REAR = nullptr;
+    delete Delptr;
+    --SizeOfList;
+  }
+
+  void DeleteLastNode()
+  {
+    if (IsEmpty())
+    {
+      cout << "Error: List is empty.\n";
+      return;
+    }
+
+    Node<T> *Delptr = REAR;
+    REAR = REAR->prev;
+    REAR ? REAR->next = nullptr : HEAD = nullptr;
+    delete Delptr;
+    --SizeOfList;
+  }
+
   void Delete(const T &val)
   {
     if (IsEmpty())
@@ -255,33 +285,29 @@ public:
 
     if (HEAD->value == val)
     {
-      Node<T> *Delptr = HEAD;
-      HEAD = HEAD->next;
-      HEAD ? HEAD->prev = nullptr : REAR = nullptr;
-      delete Delptr;
-      --SizeOfList;
+      DeleteFirstNode();
       return;
     }
 
-    Node<T> *Delptr = HEAD;
-    while (Delptr && Delptr->value != val)
-      Delptr = Delptr->next;
-
-    if (!Delptr)
+    if (REAR->value == val)
     {
-      cout << "Error: Value not found.\n";
+      DeleteLastNode();
       return;
     }
 
-    if (Delptr->prev)
-      Delptr->prev->next = Delptr->next;
-    if (Delptr->next)
-      Delptr->next->prev = Delptr->prev;
-    else
-      REAR = Delptr->prev;
-
-    delete Delptr;
-    --SizeOfList;
+    Node<T> *current = HEAD;
+    while (current != nullptr)
+    {
+      if (current->value == val)
+      {
+        current->prev->next = current->next;
+        current->next->prev = current->prev;
+        delete current;
+        --SizeOfList;
+        return;
+      }
+      current = current->next;
+    }
   }
 
   void Clear()
