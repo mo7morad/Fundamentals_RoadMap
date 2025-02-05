@@ -20,6 +20,7 @@ int main()
   q.Display();
 
   // Removing Items
+  cout << "Removing 2 items...\n";
   q.pop();
   q.pop();
   q.Display();
@@ -28,5 +29,31 @@ int main()
   cout << "Front: " << q.front() << endl;
   cout << "Back: " << q.back() << endl;
 
+  // Getting Item at index
+  cout << "Item at index 2: " << q.GetItem(2) << endl;
+
+  // Checking if item exists
+  cout << "Is 30 exists? " << boolalpha << q.IsExists(30) << endl;
+
+  // Reverse the queue
+  cout << "Reversing the queue...\n";
+  q.Reverse();
+  q.Display();
+
+  // Updating item
+  cout << "Updating item at index 2...\n";
+  q.UpdateItem(2, 100);
+  q.Display();
+
+  // Inserting item at beginning
+  cout << "Inserting item at beginning...\n";
+  q.InsertAtFront(77);
+  q.Display();
+
   // Clearing the queue
+  cout << "Clearing the queue...\n";
+  q.Clear();
+  q.Display();
+
+  cout << "Is queue empty? " << boolalpha << q.IsEmpty() << endl;
 }

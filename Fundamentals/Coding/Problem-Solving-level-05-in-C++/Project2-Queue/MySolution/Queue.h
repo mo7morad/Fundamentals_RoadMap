@@ -35,6 +35,11 @@ public:
     return list.IndexOf(value);
   }
 
+  int GetItem(const int &index) const
+  {
+    return list.GetItem(index);
+  }
+
   T front() const
   {
     return list.GetItem(0);
@@ -58,6 +63,26 @@ public:
       return;
     }
     list.DeleteFirstNode();
+  }
+
+  void InsertAtFront(const T &value)
+  {
+    list.InsertFirst(value);
+  }
+
+  void UpdateItem(const int &index, const T &value)
+  {
+    list.UpdateItem(index, value);
+  }
+
+  void Reverse()
+  {
+    list.Reverse();
+  }
+
+  void Clear()
+  {
+    list.Clear();
   }
 };
 // I was using this way before, but I found it more convenient to use DoublyLinkedList class.
