@@ -234,6 +234,11 @@ public:
     }
   }
 
+  void InsertAfter(const T &index, const T &value)
+  {
+    InsertAt(index + 1, value);
+  }
+
   bool UpdateItem(const T &index, const T &value)
   {
     Node<T> *current = GetNode(index);

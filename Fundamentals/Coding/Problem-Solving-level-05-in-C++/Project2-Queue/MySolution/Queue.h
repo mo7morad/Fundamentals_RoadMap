@@ -6,7 +6,8 @@ using namespace std;
 template <class T>
 class Queue
 {
-private:
+
+protected:
   DoublyLinkedList<T> list;
 
 public:
@@ -65,9 +66,9 @@ public:
     list.DeleteFirstNode();
   }
 
-  void InsertAtFront(const T &value)
+  void InsertAfter(const int &index, const T &value)
   {
-    list.InsertFirst(value);
+    list.InsertAfter(index, value);
   }
 
   void UpdateItem(const int &index, const T &value)

@@ -1,11 +1,9 @@
 #pragma once
-
 #include <iostream>
-#include "clsDblLinkedList.h"
-
+#include "../Project1-DoublyLinkedList/clsDblLinkedList.h"
 using namespace std;
-template <class T>
 
+template <class T>
 class clsMyQueue
 {
 

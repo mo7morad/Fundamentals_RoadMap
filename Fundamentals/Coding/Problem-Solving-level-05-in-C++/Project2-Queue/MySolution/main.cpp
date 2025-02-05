@@ -45,11 +45,6 @@ int main()
   q.UpdateItem(2, 100);
   q.Display();
 
-  // Inserting item at beginning
-  cout << "Inserting item at beginning...\n";
-  q.InsertAtFront(77);
-  q.Display();
-
   // Clearing the queue
   cout << "Clearing the queue...\n";
   q.Clear();
