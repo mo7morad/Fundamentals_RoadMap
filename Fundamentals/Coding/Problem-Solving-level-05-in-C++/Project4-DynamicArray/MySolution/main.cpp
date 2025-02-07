@@ -17,10 +17,18 @@ int main()
   myarray.Display();
 
   cout << "Deleting the item at index 2 \n";
-  myarray.Delete(2);
+  myarray.DeleteAt(2);
+  myarray.Display();
+
+  cout << "Deleting the item by value 100 (Doesn't Exist) \n";
+  myarray.DeleteByValue(100);
+  cout << "Deleting the item by value 21 (Exist) \n";
+  myarray.DeleteByValue(21);
+  cout << "after deleteing\n";
   myarray.Display();
 
   cout << "The index of 100 is " << myarray.Search(100) << "\n";
+  cout << "The index of 200 is " << myarray.Search(200) << "\n";
 
   myarray.Append(200);
   cout << "The array after appending 200 \n";
@@ -38,7 +46,7 @@ int main()
   myarray.InsertAt(10, 500);
 
   cout << "Trying to delete at outbound index \n";
-  myarray.Delete(10);
+  myarray.DeleteAt(10);
 
   cout << "Appending while array is full \n";
   myarray.Append(500);

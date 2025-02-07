@@ -1,5 +1,5 @@
 #include <iostream>
-#include "clsMyDynamicArray.h"
+#include "clsDynamicArray.h"
 
 using namespace std;
 
@@ -14,11 +14,31 @@ int main()
   MyDynamicArray.SetItem(3, 40);
   MyDynamicArray.SetItem(4, 50);
 
-  cout << "Is Array Empty: " << MyDynamicArray.IsEmpty() ? cout << "Yes\n" : cout << "No\n";
+  cout << "\nIs Empty?  " << MyDynamicArray.IsEmpty();
   cout << "\nArray Size: " << MyDynamicArray.Size() << "\n";
   cout << "\nArray Items: \n";
 
   MyDynamicArray.PrintList();
 
-  system("exit");
+  MyDynamicArray.InsertAtBeginning(400);
+  cout << "\n\nArray after insert 400 at Begining:";
+  cout << "\nArray Size: " << MyDynamicArray.Size() << "\n";
+  MyDynamicArray.PrintList();
+
+  MyDynamicArray.InsertBefore(2, 500);
+  cout << "\n\nArray after insert 500 before index 2:";
+  cout << "\nArray Size: " << MyDynamicArray.Size() << "\n";
+  MyDynamicArray.PrintList();
+
+  MyDynamicArray.InsertAfter(2, 600);
+  cout << "\n\nArray after insert 600 after index 2:";
+  cout << "\nArray Size: " << MyDynamicArray.Size() << "\n";
+  MyDynamicArray.PrintList();
+
+  MyDynamicArray.InsertAtEnd(800);
+  cout << "\n\nArray after insert 800 at End:";
+  cout << "\nArray Size: " << MyDynamicArray.Size() << "\n";
+  MyDynamicArray.PrintList();
+
+  system("pause>0");
 }

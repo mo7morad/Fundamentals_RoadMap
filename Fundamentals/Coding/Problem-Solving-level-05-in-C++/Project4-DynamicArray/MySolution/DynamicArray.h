@@ -153,7 +153,39 @@ void InsertAt(const int &index, const T &value)
     }
   }
 
-  void Delete(int index)
+  void InsertAtBeginning(const T &value)
+  {
+    InsertAt(0, value);
+  }
+
+  void InsertBefore(const T &index, const T &value)
+  {
+    int index = Search(index);
+    if (index != -1)
+    {
+      InsertAt(index, value);
+    }
+    else
+      cout << "Value not found \n";
+  }
+
+  void InsertAfter(const T &index, const T &value)
+  {
+    int index = Search(index);
+    if (index != -1)
+    {
+      InsertAt(index + 1, value);
+    }
+    else
+      cout << "Value not found \n";
+  }
+
+  void InsertAtEnd(const T &value)
+  {
+    InsertAt(_Length, value);
+  }
+
+  void DeleteAt(const int &index)
   {
     if (index >= 0 && index < _Size)
     {
@@ -163,6 +195,17 @@ void InsertAt(const int &index, const T &value)
     }
     else
       cout << "Index out of Array Range \n";
+  }
+
+  void DeleteByValue(const T &value)
+  {
+    int index = Search(value);
+    if (index != -1)
+    {
+      DeleteAt(index);
+    }
+    else
+      cout << "Value not found \n";
   }
 
   void Update(int index, int value)
