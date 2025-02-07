@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
   DynamicArray<int> myarray(5);
+
   myarray.Fill();
   cout << "\nArray size = " << myarray.GetSize() << "   while length = " << myarray.GetLength() << "\n";
   cout << "Array elements are \n";
@@ -42,6 +43,30 @@ int main()
   cout << "Appending while array is full \n";
   myarray.Append(500);
 
+  // Shrinking the array
+  cout << "\nShrinking the array to size 3 \n";
+  myarray.Resize(3);
+  cout << "Array after shrinking \n";
+  myarray.Display();
+
+  // Enlarging the array
+  cout << "\nEnlarging the array to size 10 \n";
+  myarray.Resize(10);
+  cout << "Array after enlarging \n";
+  myarray.Display();
+  cout << "Size after enlarging = " << myarray.GetSize() << "\n";
+
+  // Reverse the array
+  cout << "\nReversing the array \n";
+  cout << "\nArray before reversing \n";
+  myarray.Display();
+  myarray.Reverse();
+  cout << "\nArray after reversing \n";
+  myarray.Display();
+
+  cout << "\nClear the array \n";
+  myarray.Clear();
+  myarray.Display();
 
   // cout << "New array other \n";
   // DynamicArray other(3);

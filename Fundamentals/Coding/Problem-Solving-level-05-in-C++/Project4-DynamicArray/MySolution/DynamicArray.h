@@ -4,6 +4,36 @@ using namespace std;
 template <class T>
 class DynamicArray
 {
+private:
+  void _Enlarge(const int &newsize)
+  {
+    if (newsize <= _Size)
+      return; // No need to enlarge if the size is already sufficient
+
+    T *NewArray = new T[newsize];
+    for (int i = 0; i < _Length; i++)
+      NewArray[i] = _MyArray[i];
+
+    delete[] _MyArray;
+    _MyArray = NewArray;
+    _Size = newsize;
+  }
+
+  void _Shrink(const int &newsize)
+  {
+    if (newsize >= _Size)
+      return;
+
+    T *NewArray = new T[newsize];
+    for (int i = 0; i < newsize; i++)
+      NewArray[i] = _MyArray[i];
+
+    delete[] _MyArray;
+    _MyArray = NewArray;
+    _Size = newsize;
+    _Length = newsize;
+  }
+
 protected:
   int _Size;
   int _Length;
@@ -82,6 +112,19 @@ public:
     return -1;
   }
 
+  int GetItem(const T &index) const
+  {
+    if (index >= 0 && index < _Length)
+    {
+      return _MyArray[index];
+    }
+    else
+    {
+      cout << "Index out of Range \n";
+      return -1;
+    }
+  }
+
   void Append(const T &value)
   {
     if (_Length < _Size)
@@ -132,25 +175,61 @@ void InsertAt(const int &index, const T &value)
       cout << "Index out of Array Range \n";
   }
 
-  // void Enlarge(int newsize)
-  // {
-  //   if (newsize <= _Size)
-  //   {
-  //     cout << "New size must be larger than current size \n";
-  //     return;
-  //   }
-  //   else
-  //   {
-  //     _Size = newsize;
-  //     int *old = items;
-  //     items = new int[newsize];
-  //     for (int i = 0; i < length; i++)
-  //     {
-  //       items[i] = old[i];
-  //     }
-  //     delete[] old;
-  //   }
-  // }
+  void Resize(const int &newsize)
+  {
+    if (newsize < 0)
+    {
+      cout << "Array size cannot be negative \n";
+      return;
+    }
+    else if (newsize > _Size)
+    {
+      _Enlarge(newsize);
+    }
+    else if (newsize < _Size)
+    {
+      _Shrink(newsize);
+    }
+  }
+
+  void Reverse()
+  {
+    // My solution
+    /*
+    int OldLength = _Length;
+
+    T *NewArray = new T[_Size];
+    for (int i = 0; i < OldLength; i++)
+    {
+      NewArray[i] = _MyArray[_Length - 1];
+      _Length--;
+    }
+    delete[] _MyArray;
+    _MyArray = NewArray;
+    _Length = OldLength;
+    */
+
+    // Another solution
+    int FirstOfArray = 0;
+    int EndOfArray = _Length - 1;
+    while (FirstOfArray < EndOfArray) // Swap the elements
+    {
+      T temp = _MyArray[FirstOfArray];               // temp = first element in the array that keeps changing
+      _MyArray[FirstOfArray] = _MyArray[EndOfArray]; //  swap -->first element in the array = last element in the array
+      _MyArray[EndOfArray] = temp;                   // last element in the array = temp 
+      FirstOfArray++;
+      EndOfArray--;
+    }
+  }
+
+  void Clear()
+  {
+    delete[] _MyArray;
+    _MyArray = nullptr; // Avoid dangling pointer
+    _Length = 0;
+    _Size = 0;
+  }
+
   // void Merge(Array other)
   // {
   //   int newsize = size + other.getSize();
