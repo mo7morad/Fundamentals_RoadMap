@@ -160,29 +160,17 @@ void InsertAt(const int &index, const T &value)
 
   void InsertBefore(const T &index, const T &value)
   {
-    int index = Search(index);
-    if (index != -1)
-    {
-      InsertAt(index, value);
-    }
-    else
-      cout << "Value not found \n";
+    InsertAt(index - 1, value);
   }
 
   void InsertAfter(const T &index, const T &value)
   {
-    int index = Search(index);
-    if (index != -1)
-    {
-      InsertAt(index + 1, value);
-    }
-    else
-      cout << "Value not found \n";
+    InsertAt(index + 1, value);
   }
 
   void InsertAtEnd(const T &value)
   {
-    InsertAt(_Length, value);
+    Append(value);
   }
 
   void DeleteAt(const int &index)
