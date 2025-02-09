@@ -1,5 +1,5 @@
 #include <iostream>
-#include "clsDynamicArray.h"
+#include "clsMyDynamicArray.h"
 
 using namespace std;
 

@@ -7,7 +7,12 @@ int main()
 {
   DynamicArray<int> myarray(5);
 
-  myarray.Fill();
+  myarray.Append(10);
+  myarray.Append(20);
+  myarray.Append(30);
+  myarray.Append(40);
+  myarray.Append(50);
+  
   cout << "\nArray size = " << myarray.GetSize() << "   while length = " << myarray.GetLength() << "\n";
   cout << "Array elements are \n";
   myarray.Display();

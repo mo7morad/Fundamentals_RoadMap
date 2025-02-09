@@ -60,27 +60,6 @@ public:
     delete[] _MyArray;
   }
 
-  void Fill()
-  {
-    int no_of_items;
-    cout << "How many items you want to fill ? \n";
-    cin >> no_of_items;
-    if (no_of_items > _Size)
-    {
-      cout << "You cannot exceed the array size \n";
-      return;
-    }
-    else
-    {
-      for (int i = 0; i < no_of_items; i++)
-      {
-        cout << "Enter item number " << i+1 << endl;
-        cin >> _MyArray[i];
-        _Length++;
-      }
-    }
-  }
-
   void Display()
   {
     for (int i = 0; i < _Length; i++)
@@ -90,14 +69,19 @@ public:
     cout << endl;
   }
 
-  int GetSize()
+  int GetSize() const
   {
     return _Size;
   }
 
-  int GetLength()
+  int GetLength() const
   {
     return _Length;
+  }
+
+  bool IsEmpty() const
+  {
+    return _Length == 0;
   }
 
   int Search(const T &value) const
@@ -133,7 +117,11 @@ public:
       _Length++;
     }
     else
-      cout << "Array is full \n";
+    {
+      _Enlarge(_Size + 1);
+      _MyArray[_Length] = value;
+      _Length++;
+    }
   }
 
 void InsertAt(const int &index, const T &value)
@@ -149,7 +137,13 @@ void InsertAt(const int &index, const T &value)
     }
     else
     {
-      cout << " Error - Index out of Range \n";
+      _Enlarge(_Size + 1);
+      for (int i = _Length; i > index; i--)
+      {
+        _MyArray[i] = _MyArray[i - 1];
+      }
+      _MyArray[index] = value;
+      _Length++;
     }
   }
 
@@ -196,7 +190,7 @@ void InsertAt(const int &index, const T &value)
       cout << "Value not found \n";
   }
 
-  void Update(int index, int value)
+  void Update(const int &index, const int &value)
   {
     if (index >= 0 && index < _Size)
     {
@@ -205,6 +199,49 @@ void InsertAt(const int &index, const T &value)
     else
       cout << "Index out of Array Range \n";
   }
+
+  void Merge(DynamicArray &Arr)
+  {
+    int NewSize = _Size + Arr.GetSize();
+    if (_Size < NewSize)
+      _Enlarge(NewSize);
+
+    // Append elements from the input array (Arr) to the current array
+    for (int i = 0; i < Arr.GetLength(); i++)
+    {
+      Append(Arr[i]);
+    }
+  }
+
+  // Another Merge Way that I like
+  /*
+  void Merge(DynamicArray &Arr)
+  {
+    // Create a new DynamicArray object to hold the merged result
+    DynamicArray<T> MergedArray(_Size + Arr.GetSize());
+
+    // Append elements from the current array
+    for (int i = 0; i < _Length; i++)
+    {
+      MergedArray.Append(_MyArray[i]);
+    }
+
+    // Append elements from the input array (Arr)
+    for (int i = 0; i < Arr.GetLength(); i++)
+    {
+      MergedArray.Append(Arr[i]);
+    }
+
+    // Delete the old array
+    delete[] _MyArray;
+
+    _MyArray = MergedArray;   // Assign the pointer
+    _Size = MergedArray.GetSize();     // Update size
+    _Length = MergedArray.GetLength(); // Update length
+
+    MergedArray.Clear();
+  }
+  */
 
   void Resize(const int &newsize)
   {
@@ -261,23 +298,7 @@ void InsertAt(const int &index, const T &value)
     _Size = 0;
   }
 
-  // void Merge(Array other)
-  // {
-  //   int newsize = size + other.getSize();
-  //   size = newsize;
-  //   int *old = items;
-  //   items = new int[newsize];
-  //   int i;
-  //   for (i = 0; i < length; i++)
-  //   {
-  //     items[i] = old[i];
-  //   }
-  //   delete[] old;
-  //   int j = i;
-  //   for (int i = 0; i < other.getLength(); i++)
-  //   {
-  //     items[j++] = other.items[i];
-  //     length++;
-  //   }
-  // }
+
+
+
 };
