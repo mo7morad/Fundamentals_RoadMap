@@ -145,7 +145,6 @@ public:
 
   void DeleteFirstItem()
   {
-
     DeleteItemAt(0);
   }
 

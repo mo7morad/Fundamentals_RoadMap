@@ -55,5 +55,5 @@ int main()
   cout << "\n\nQueue after Clear(): \n";
   MyQueue.Print();
 
-  system("pause>0");
+  system("exit");
 }
