@@ -52,6 +52,11 @@ public:
     return _Array.GetItem(index);
   }
 
+  int Search(const T &value) const
+  {
+    return _Array.Search(value);
+  }
+
   void Reverse()
   {
     _Array.Reverse();

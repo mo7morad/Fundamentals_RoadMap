@@ -96,7 +96,7 @@ public:
     return -1;
   }
 
-  int GetItem(const T &index) const
+  int GetIndex(const T &index) const
   {
     if (index >= 0 && index < _Length)
     {
@@ -106,6 +106,19 @@ public:
     {
       cout << "Index out of Range \n";
       return -1;
+    }
+  }
+  
+  T GetItem(const int &index) const
+  {
+    if (index >= 0 && index < _Length)
+    {
+      return _MyArray[index];
+    }
+    else
+    {
+      cout << "Index out of Range \n";
+      return T();
     }
   }
 
@@ -200,7 +213,7 @@ void InsertAt(const int &index, const T &value)
       cout << "Index out of Array Range \n";
   }
 
-  void Merge(DynamicArray &Arr)
+  void Merge(const DynamicArray &Arr)
   {
     int NewSize = _Size + Arr.GetSize();
     if (_Size < NewSize)
@@ -211,6 +224,21 @@ void InsertAt(const int &index, const T &value)
     {
       Append(Arr[i]);
     }
+  }
+
+  static DynamicArray Merge(const DynamicArray &Arr1, const DynamicArray &Arr2)
+  {
+    DynamicArray merged = Arr1;
+
+    int NewSize = merged.GetSize() + Arr2.GetSize();
+    if (merged.GetSize() < NewSize)
+      merged._Enlarge(NewSize);
+
+    for (int i = 0; i < Arr2.GetLength(); i++)
+    {
+      merged.Append(Arr2[i]);
+    }
+    return merged;
   }
 
   // Another Merge Way that I like
