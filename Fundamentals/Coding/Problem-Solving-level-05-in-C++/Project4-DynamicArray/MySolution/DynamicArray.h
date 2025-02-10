@@ -78,7 +78,7 @@ public:
       _MyArray = new T[_Size]; // Allocate new memory
       for (int i = 0; i < _Length; i++)
       {
-          _MyArray[i] = other._MyArray[i]; // Copy elements
+        _MyArray[i] = other._MyArray[i]; // Copy elements
       }
     }
     return *this;
