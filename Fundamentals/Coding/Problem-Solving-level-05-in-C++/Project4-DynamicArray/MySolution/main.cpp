@@ -81,10 +81,59 @@ int main()
   myarray.Clear();
   myarray.Display();
 
-  // cout << "New array other \n";
-  // DynamicArray other(3);
-  // other.Fill();
-  // myarray.Merge(other);
-  // cout << "Array size = " << myarray.getSize() << "   while length = " << myarray.getLength() << "\n";
-  // myarray.Display();
+
+  cout << "----------------------------\n";
+  cout << "Testing Merge function \n";
+
+  myarray.Append(10);
+  myarray.Append(20);
+  myarray.Append(30);
+  myarray.Append(40);
+  myarray.Append(50);
+
+  DynamicArray<int> myarray2(5);
+  myarray2.Append(1);
+  myarray2.Append(2);
+  myarray2.Append(3);
+  myarray2.Append(4);
+  myarray2.Append(5);
+
+  cout << "Array 1 \n";
+  myarray.Display();
+
+  cout << "Array 2 \n";
+  myarray2.Display();
+
+  cout << "Merging Array 1 and Array 2 \n";
+  myarray.Merge(myarray2);
+  myarray.Display();
+
+  cout << "Array 2 after merging \n";
+  myarray2.Display();
+
+  cout << "----------------------------\n";
+  cout << "Testing Merge function using static function \n";
+  DynamicArray<int> array1(5);
+  DynamicArray<int> array2(5);
+  // Fill array1 with some integers.
+  array1.Append(10);
+  array1.Append(20);
+  array1.Append(30);
+  // Fill array2 with some integers.
+  array2.Append(40);
+  array2.Append(50);
+  array2.Append(60);
+  // Display the original arrays.
+  cout << "Array 1:" << endl;
+  array1.Display();
+  cout << "Array 2:" << endl;
+  array2.Display();
+  // Use the static Merge function to combine array1 and array2 into a new array.
+  DynamicArray<int> mergedArray = DynamicArray<int>::Merge(array1, array2);
+  // Display the merged array.
+  cout << "Merged Array:" << endl;
+  mergedArray.Display();
+
+  
+  return 0;
 }

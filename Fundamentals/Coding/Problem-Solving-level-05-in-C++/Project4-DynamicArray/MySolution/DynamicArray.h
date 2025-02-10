@@ -55,6 +55,35 @@ public:
     }
   }
 
+  // Copy Constructor (Deep Copy)
+  DynamicArray(const DynamicArray& other)
+  {
+    _Size = other._Size;
+    _Length = other._Length;
+    _MyArray = new T[_Size]; // Allocate new memory
+    for (int i = 0; i < _Length; i++)
+    {
+      _MyArray[i] = other._MyArray[i]; // Copy elements
+    }
+  }
+
+  // Copy Assignment Operator (Deep Copy)
+  DynamicArray& operator=(const DynamicArray& other)
+  {
+    if (this != &other) // Prevent self-assignment
+    {
+      delete[] _MyArray; // Free old memory
+      _Size = other._Size;
+      _Length = other._Length;
+      _MyArray = new T[_Size]; // Allocate new memory
+      for (int i = 0; i < _Length; i++)
+      {
+          _MyArray[i] = other._MyArray[i]; // Copy elements
+      }
+    }
+    return *this;
+  }
+
   ~DynamicArray()
   {
     delete[] _MyArray;
@@ -137,7 +166,7 @@ public:
     }
   }
 
-void InsertAt(const int &index, const T &value)
+  void InsertAt(const int &index, const T &value)
   {
     if (index >= 0 && index < _Size && _Length < _Size)
     {
@@ -203,7 +232,7 @@ void InsertAt(const int &index, const T &value)
       cout << "Value not found \n";
   }
 
-  void Update(const int &index, const int &value)
+  void Update(const int &index, const T &value)
   {
     if (index >= 0 && index < _Size)
     {
@@ -222,7 +251,7 @@ void InsertAt(const int &index, const T &value)
     // Append elements from the input array (Arr) to the current array
     for (int i = 0; i < Arr.GetLength(); i++)
     {
-      Append(Arr[i]);
+      Append(Arr.GetItem(i));
     }
   }
 
@@ -236,7 +265,7 @@ void InsertAt(const int &index, const T &value)
 
     for (int i = 0; i < Arr2.GetLength(); i++)
     {
-      merged.Append(Arr2[i]);
+      merged.Append(Arr2.GetItem(i));
     }
     return merged;
   }
@@ -325,8 +354,4 @@ void InsertAt(const int &index, const T &value)
     _Length = 0;
     _Size = 0;
   }
-
-
-
-
 };
