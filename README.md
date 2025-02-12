@@ -125,6 +125,29 @@ BankingSystem/
 ├── Currencies.txt                    # Currency database
 ```
 ---
+
+## ContactsSystem 📇📞
+### Features
+  - Add new contacts with name and phone number.
+  - Remove existing contacts by name.
+  - Search for contacts by name.
+  - Display all saved contacts.
+  - Stores contact data in a text file (`contacts.txt`) for persistence.
+
+## Driving-Simulation 🚗💨
+### Features
+- Simulates a basic driving experience.
+- Handles user input for controlling movement.
+- Implements basic physics such as acceleration and braking.
+- Includes obstacles and collision detection.
+- Provides real-time feedback on driving status.
+
+---
+
+Happy Coding! 🚀
+
+
+---
 ### 🔢 **Problem-Solving Level 05 (C++)**
 This level focuses on advanced **data structures and algorithms**, leveraging key **OOP principles such as composition and inheritance** to build modular and reusable solutions.
 
@@ -132,7 +155,7 @@ This level focuses on advanced **data structures and algorithms**, leveraging ke
 |---------|------------|
 | **Project1 - Doubly Linked List** | Implementation of a **Doubly Linked List** with insert, delete, and traversal functions. 
 | **Project2 - Queue** | Queue data structure implementation using linked lists. 
-| **Project3 - Stack** | Stack implementation using linked lists. | Composition |
+| **Project3 - Stack** | Stack implementation using linked lists.
 | **Project4 - Dynamic Array** | A dynamic array class with resizing capabilities. 
 | **Project5 - Queue Using Array** | Implementation of a queue using arrays.
 | **Project6 - Stack Using Array** | Implementation of a stack using arrays.
