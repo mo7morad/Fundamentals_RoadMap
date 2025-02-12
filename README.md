@@ -2,7 +2,7 @@
 
 ![Progress](https://img.shields.io/badge/Completed_Courses-13%2F26-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)
 
-![Problem Solving](https://img.shields.io/badge/Problem%20Solving-185%2B%20Solved%20Problems-success?style=for-the-badge) ![Projects](https://img.shields.io/badge/Projects-9%20Completed-ff5733?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Problem Solving](https://img.shields.io/badge/Problem%20Solving-185%2B%20Solved%20Problems-success?style=for-the-badge) ![Projects](https://img.shields.io/badge/Projects-17%20Completed-ff5733?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
@@ -36,6 +36,7 @@ Fundamentals_Roadmap/
 │   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 projects.
 │   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 projects.
+│   ├── Problem-Solving-Level-05-in-C++/  # 8 projects.
 │   ├── OOP-C++/                          # 3   OOP console projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
@@ -123,6 +124,20 @@ BankingSystem/
 ├── Users.txt                         # User database
 ├── Currencies.txt                    # Currency database
 ```
+---
+### 🔢 **Problem-Solving Level 05 (C++)**
+This level focuses on advanced **data structures and algorithms**, leveraging key **OOP principles such as composition and inheritance** to build modular and reusable solutions.
+
+| Project | Description |
+|---------|------------|
+| **Project1 - Doubly Linked List** | Implementation of a **Doubly Linked List** with insert, delete, and traversal functions. 
+| **Project2 - Queue** | Queue data structure implementation using linked lists. 
+| **Project3 - Stack** | Stack implementation using linked lists. | Composition |
+| **Project4 - Dynamic Array** | A dynamic array class with resizing capabilities. 
+| **Project5 - Queue Using Array** | Implementation of a queue using arrays.
+| **Project6 - Stack Using Array** | Implementation of a stack using arrays.
+| **Project7 - Undo/Redo System** | A string management system with **Undo-Redo** functionality using a stack.
+| **Project8 - Queue Line Project** | A queue-based project for managing line ordering with advanced validation. 
 
 ---
 
