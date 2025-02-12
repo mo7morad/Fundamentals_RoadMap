@@ -124,30 +124,21 @@ BankingSystem/
 ├── Users.txt                         # User database
 ├── Currencies.txt                    # Currency database
 ```
+- **ContactsSystem 📇📞**
+  - 🔹 Add new contacts with name and phone number.
+  - 🔹 Remove existing contacts by name.
+  - 🔹 Search for contacts by name.
+  - 🔹 Display all saved contacts.
+  - 🔹 Stores contact data in a text file (`contacts.txt`) for persistence.
+
+- **Driving-Simulation 🚗💨**
+  - 🔹 Simulates a basic driving experience.
+  - 🔹 Handles user input for controlling movement.
+  - 🔹 Implements basic physics such as acceleration and braking.
+  - 🔹 Includes obstacles and collision detection.
+  - 🔹 Provides real-time feedback on driving status.
 ---
 
-## ContactsSystem 📇📞
-### Features
-  - Add new contacts with name and phone number.
-  - Remove existing contacts by name.
-  - Search for contacts by name.
-  - Display all saved contacts.
-  - Stores contact data in a text file (`contacts.txt`) for persistence.
-
-## Driving-Simulation 🚗💨
-### Features
-- Simulates a basic driving experience.
-- Handles user input for controlling movement.
-- Implements basic physics such as acceleration and braking.
-- Includes obstacles and collision detection.
-- Provides real-time feedback on driving status.
-
----
-
-Happy Coding! 🚀
-
-
----
 ### 🔢 **Problem-Solving Level 05 (C++)**
 This level focuses on advanced **data structures and algorithms**, leveraging key **OOP principles such as composition and inheritance** to build modular and reusable solutions.
 
