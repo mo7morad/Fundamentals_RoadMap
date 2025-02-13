@@ -198,7 +198,7 @@ This level focuses on advanced **data structures and algorithms**, leveraging ke
 
 - **Languages:**
   - ![C++](https://img.icons8.com/color/48/000000/c-plus-plus-logo.png) **C++ 17**
-  - ![C#](https://img.icons8.com/color/48/000000/c-sharp-logo.png) **C# (Coming Soon)**
+  - ![C#](https://img.icons8.com/color/48/000000/c-sharp-logo.png) **C#**
 - **Version Control:**
   - ![Git](https://img.icons8.com/color/48/000000/git.png) **Git**
   - ![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png) **GitHub**
