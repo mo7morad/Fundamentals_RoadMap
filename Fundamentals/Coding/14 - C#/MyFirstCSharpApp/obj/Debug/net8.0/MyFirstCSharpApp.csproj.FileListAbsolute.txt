@@ -1,0 +1,15 @@
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/bin/Debug/net8.0/MyFirstCSharpApp
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/bin/Debug/net8.0/MyFirstCSharpApp.deps.json
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/bin/Debug/net8.0/MyFirstCSharpApp.runtimeconfig.json
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/bin/Debug/net8.0/MyFirstCSharpApp.dll
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/bin/Debug/net8.0/MyFirstCSharpApp.pdb
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/MyFirstCSharpApp.GeneratedMSBuildEditorConfig.editorconfig
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/MyFirstCSharpApp.AssemblyInfoInputs.cache
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/MyFirstCSharpApp.AssemblyInfo.cs
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/MyFirstCSharpApp.csproj.CoreCompileInputs.cache
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/MyFirstCSharpApp.sourcelink.json
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/MyFirstCSharpApp.dll
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/refint/MyFirstCSharpApp.dll
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/MyFirstCSharpApp.pdb
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/MyFirstCSharpApp.genruntimeconfig.cache
+/media/morad/Work/Abo_Hadhood_RoadMap/Fundamentals/Coding/14 - C#/MyFirstCSharpApp/obj/Debug/net8.0/ref/MyFirstCSharpApp.dll
