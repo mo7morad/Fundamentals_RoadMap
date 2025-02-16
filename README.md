@@ -31,7 +31,7 @@ Here’s a quick overview of 8 key projects included in this repository:
 7. **Undo/Redo System**  
    ↩️ *An innovative string management system implementing Undo/Redo functionality using stack data structures, perfect for enhancing text editing capabilities.*
 
-8. **Queue Line Project Tickets**  
+8. **Queue Line Tickets**  
    ⏱️ *A dynamic solution for managing line ordering using a queue data structure, featuring advanced validation and real-time updates.*
 
 ---
