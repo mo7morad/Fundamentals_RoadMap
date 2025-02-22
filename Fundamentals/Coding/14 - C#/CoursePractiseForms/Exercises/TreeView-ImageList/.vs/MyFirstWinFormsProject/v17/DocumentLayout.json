@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmtreeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmtreeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|d:\\programming\\coursepractiseforms\\exercises\\treeview-imagelist\\frmtreeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmtreeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T18:12:44.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmTreeView.cs",
+              "DocumentMoniker": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmTreeView.cs",
+              "RelativeDocumentMoniker": "frmTreeView.cs",
+              "ToolTip": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmTreeView.cs",
+              "RelativeToolTip": "frmTreeView.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:44:01.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmTreeView.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmTreeView.cs",
+              "RelativeDocumentMoniker": "frmTreeView.cs",
+              "ToolTip": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmTreeView.cs [Design]",
+              "RelativeToolTip": "frmTreeView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:44:08.511Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "D:\\Programming\\CoursePractiseForms\\Exercises\\TreeView-ImageList\\frmMain.cs [Design]",
+              "RelativeToolTip": "frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:44:08.535Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|c:\\programming\\coursepractiseforms\\mysecondwinformsproject\\frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMessageBox.cs",
+              "DocumentMoniker": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\frmMessageBox.cs",
+              "RelativeDocumentMoniker": "frmMessageBox.cs",
+              "ToolTip": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\frmMessageBox.cs",
+              "RelativeToolTip": "frmMessageBox.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwEIAAADFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:40:06.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:39:38.651Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMessageBox.cs [Design]",
+              "DocumentMoniker": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\frmMessageBox.cs",
+              "RelativeDocumentMoniker": "frmMessageBox.cs",
+              "ToolTip": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\frmMessageBox.cs [Design]",
+              "RelativeToolTip": "frmMessageBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:39:34.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Programming\\CoursePractiseForms\\MySecondWinFormsProject\\frmMain.cs [Design]",
+              "RelativeToolTip": "frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:39:32.991Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
