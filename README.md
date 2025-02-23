@@ -188,21 +188,21 @@ This level focuses on advanced **data structures and algorithms**, leveraging ke
 ---
 
 ### C# & WinForms
-- **🎮 Tic-Tac-Toe Game** This project is a simple yet engaging implementation of the classic game using **C# and Windows Forms**. 🖥️✨
+- **🎮 Tic-Tac-Toe Game** This project is a simple yet engaging implementation of the classic game using **C# and Windows Forms**. 🖥️
 
 🚀 Features
-   - 🎨 **User-Friendly UI** – Play with ease!
-   - 🆚 **Two-Player Mode** – Challenge a friend.
-   - 🏆 **Win Detection** – Automatically detects winners and draws.
-   - 🔄 **Restart Game Option** – Play as many rounds as you like.
+- 🎨 **User-Friendly UI** – Play with ease!
+- 🆚 **Two-Player Mode** – Challenge a friend.
+- 🏆 **Win Detection** – Automatically detects winners and draws.
+- 🔄 **Restart Game Option** – Play as many rounds as you like.
 
-- **🍕 Pizza Shop Project** Pizza Shop! A C# application designed to simulate a pizza ordering system with a user-friendly interface. 🛒🔥
+- **🍕 Pizza Shop Project** Pizza Shop! A C# application designed to simulate a pizza ordering system with a user-friendly interface. 🛒
 
 🌟 Features
-   - 📋 Menu Selection – Choose from a variety of delicious pizzas.
-   - 🛍️ Order Management – Add, remove, and modify orders.
-   - 💰 Price Calculation – Automatically calculates the total price.
-   - 🖥️ Windows Forms UI – Easy-to-use graphical interface.
+- 📋 **Menu Selection** – Choose from a variety of delicious pizzas.
+- 🛍️ **Order Management** – Add, remove, and modify orders.
+- 💰 **Price Calculation** – Automatically calculates the total price.
+- 🖥️ **Windows Forms UI** – Easy-to-use graphical interface.
 
 ---
 
