@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Auto Implemented Properties\bin\Debug\Auto Implemented Properties.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Auto Implemented Properties\bin\Debug\Auto Implemented Properties.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Auto Implemented Properties\bin\Debug\Auto Implemented Properties.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Auto Implemented Properties\obj\Debug\Auto Implemented Properties.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Auto Implemented Properties\obj\Debug\Auto Implemented Properties.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Auto Implemented Properties\obj\Debug\Auto Implemented Properties.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Auto Implemented Properties\obj\Debug\Auto Implemented Properties.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Auto Implemented Properties\obj\Debug\Auto Implemented Properties.pdb

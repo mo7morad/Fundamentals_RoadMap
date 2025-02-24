@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ReadOnly Properties\bin\Debug\ReadOnly Properties.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ReadOnly Properties\bin\Debug\ReadOnly Properties.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ReadOnly Properties\bin\Debug\ReadOnly Properties.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ReadOnly Properties\obj\Debug\ReadOnly Properties.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ReadOnly Properties\obj\Debug\ReadOnly Properties.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ReadOnly Properties\obj\Debug\ReadOnly Properties.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ReadOnly Properties\obj\Debug\ReadOnly Properties.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ReadOnly Properties\obj\Debug\ReadOnly Properties.pdb

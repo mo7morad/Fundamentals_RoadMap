@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Properties Get and Set\bin\Debug\Properties Get and Set.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Properties Get and Set\bin\Debug\Properties Get and Set.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Properties Get and Set\bin\Debug\Properties Get and Set.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Properties Get and Set\obj\Debug\Properties Get and Set.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Properties Get and Set\obj\Debug\Properties Get and Set.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Properties Get and Set\obj\Debug\Properties Get and Set.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Properties Get and Set\obj\Debug\Properties Get and Set.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Properties Get and Set\obj\Debug\Properties Get and Set.pdb

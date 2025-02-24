@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ConsoleApp2\obj\Debug\AccessModifiers.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ConsoleApp2\obj\Debug\AccessModifiers.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ConsoleApp2\obj\Debug\AccessModifiers.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
