@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Paramitarized Constructor\bin\Debug\Paramitarized Constructor.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Paramitarized Constructor\bin\Debug\Paramitarized Constructor.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Paramitarized Constructor\bin\Debug\Paramitarized Constructor.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Paramitarized Constructor\obj\Debug\Paramitarized Constructor.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Paramitarized Constructor\obj\Debug\Paramitarized Constructor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Paramitarized Constructor\obj\Debug\Paramitarized Constructor.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Paramitarized Constructor\obj\Debug\Paramitarized Constructor.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Paramitarized Constructor\obj\Debug\Paramitarized Constructor.pdb
