@@ -1,6 +1,6 @@
 ﻿using System;
 
- class clsPerson
+public class clsPerson
 {
     //properties
     public int ID { get; set; }
@@ -60,7 +60,7 @@ public class clsEmployee : clsPerson
         Employee1.IncreaseSalaryBy(100);
         Console.WriteLine("Salary after increase := {0}", Employee1.Salary);
 
-        Console.ReadKey();
+        
 
     }
     }
