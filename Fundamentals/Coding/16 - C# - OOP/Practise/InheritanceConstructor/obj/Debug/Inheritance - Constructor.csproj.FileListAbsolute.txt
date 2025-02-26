@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Inheritance - Constructor\bin\Debug\Inheritance.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Inheritance - Constructor\bin\Debug\Inheritance.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Inheritance - Constructor\bin\Debug\Inheritance.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Inheritance - Constructor\obj\Debug\Inheritance - Constructor.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Inheritance - Constructor\obj\Debug\Inheritance - Constructor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Inheritance - Constructor\obj\Debug\Inheritance - Constructor.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Inheritance - Constructor\obj\Debug\Inheritance.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Inheritance - Constructor\obj\Debug\Inheritance.pdb

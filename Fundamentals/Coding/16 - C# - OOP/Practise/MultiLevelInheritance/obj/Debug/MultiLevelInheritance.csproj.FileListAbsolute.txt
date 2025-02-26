@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MultiLevelInheritance\bin\Debug\MultiLevelInheritance.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MultiLevelInheritance\bin\Debug\MultiLevelInheritance.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MultiLevelInheritance\bin\Debug\MultiLevelInheritance.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MultiLevelInheritance\obj\Debug\MultiLevelInheritance.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MultiLevelInheritance\obj\Debug\MultiLevelInheritance.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MultiLevelInheritance\obj\Debug\MultiLevelInheritance.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MultiLevelInheritance\obj\Debug\MultiLevelInheritance.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MultiLevelInheritance\obj\Debug\MultiLevelInheritance.pdb
