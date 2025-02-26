@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Sealed Method\obj\Debug\Sealed Method.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Sealed Method\obj\Debug\Sealed Method.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Sealed Method\obj\Debug\Sealed Method.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Sealed Method\bin\Debug\Sealed Method.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Sealed Method\bin\Debug\Sealed Method.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Sealed Method\bin\Debug\Sealed Method.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Sealed Method\obj\Debug\Sealed Method.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Sealed Method\obj\Debug\Sealed Method.pdb

@@ -1,0 +1,6 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MyFirstClassLibrary\bin\Debug\MyFirstClassLibrary.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MyFirstClassLibrary\bin\Debug\MyFirstClassLibrary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MyFirstClassLibrary\obj\Debug\MyFirstClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MyFirstClassLibrary\obj\Debug\MyFirstClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MyFirstClassLibrary\obj\Debug\MyFirstClassLibrary.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\MyFirstClassLibrary\obj\Debug\MyFirstClassLibrary.pdb

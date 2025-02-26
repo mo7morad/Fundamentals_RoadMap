@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Interface - Copy\bin\Debug\AbstactClass.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Interface - Copy\bin\Debug\AbstactClass.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Interface - Copy\bin\Debug\AbstactClass.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Interface - Copy\obj\Debug\Interface -  Multiple Implementation.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Interface - Copy\obj\Debug\Interface -  Multiple Implementation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Interface - Copy\obj\Debug\Interface -  Multiple Implementation.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Interface - Copy\obj\Debug\AbstactClass.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Interface - Copy\obj\Debug\AbstactClass.pdb

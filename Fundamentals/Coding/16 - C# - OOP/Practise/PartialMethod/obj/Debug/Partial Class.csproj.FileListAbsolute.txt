@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Partial Class\bin\Debug\Partial Class.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Partial Class\bin\Debug\Partial Class.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Partial Class\bin\Debug\Partial Class.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Partial Class\obj\Debug\Partial Class.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Partial Class\obj\Debug\Partial Class.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Partial Class\obj\Debug\Partial Class.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Partial Class\obj\Debug\Partial Class.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Partial Class\obj\Debug\Partial Class.pdb

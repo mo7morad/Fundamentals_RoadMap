@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Composition\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Composition\bin\Debug\ConsoleApp1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Composition\bin\Debug\ConsoleApp1.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Composition\obj\Debug\Composition.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Composition\obj\Debug\Composition.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Composition\obj\Debug\Composition.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Composition\obj\Debug\ConsoleApp1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Composition\obj\Debug\ConsoleApp1.pdb

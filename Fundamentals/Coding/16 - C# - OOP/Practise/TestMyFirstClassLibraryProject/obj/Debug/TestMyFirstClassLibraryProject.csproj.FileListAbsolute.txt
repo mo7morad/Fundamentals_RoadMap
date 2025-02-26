@@ -1,0 +1,11 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\bin\Debug\TestMyFirstClassLibraryProject.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\bin\Debug\TestMyFirstClassLibraryProject.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\bin\Debug\TestMyFirstClassLibraryProject.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\obj\Debug\TestMyFirstClassLibraryProject.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\obj\Debug\TestMyFirstClassLibraryProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\obj\Debug\TestMyFirstClassLibraryProject.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\obj\Debug\TestMyFirstClassLibraryProject.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\obj\Debug\TestMyFirstClassLibraryProject.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\bin\Debug\MyFirstClassLibrary.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\bin\Debug\MyFirstClassLibrary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\TestMyFirstClassLibraryProject\obj\Debug\TestMyFirstClassLibraryProject.csproj.CopyComplete
