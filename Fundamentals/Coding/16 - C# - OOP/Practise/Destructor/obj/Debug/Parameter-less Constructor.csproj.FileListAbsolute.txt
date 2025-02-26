@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Parameter-less Constructor\bin\Debug\Parameter-less Constructor.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Parameter-less Constructor\bin\Debug\Parameter-less Constructor.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Parameter-less Constructor\bin\Debug\Parameter-less Constructor.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\16 OOP C#\Projects\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.pdb
