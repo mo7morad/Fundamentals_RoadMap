@@ -10,7 +10,7 @@
 
 Here’s a quick overview of 10 key projects included in this repository:
 
-### **🖥️ Console Applications**
+### **>_ Console Applications**
 
 1. **MathQuiz**  
    🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
