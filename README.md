@@ -8,7 +8,9 @@
 
 ## 📌 Featured Projects
 
-Here’s a quick overview of 8 key projects included in this repository:
+Here’s a quick overview of 10 key projects included in this repository:
+
+### **🖥️ Console Applications**
 
 1. **MathQuiz**  
    🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
@@ -33,6 +35,16 @@ Here’s a quick overview of 8 key projects included in this repository:
 
 8. **Queue Line Tickets**  
    ⏱️ *A dynamic solution for managing line ordering using a queue data structure, featuring advanced validation and real-time updates.*
+
+---
+
+### **🖥️ C# Desktop Apps (.Net)**
+
+9. **🎮 Tic-Tac-Toe Game**  
+   *A simple yet engaging implementation of the classic game using **C# and Windows Forms**.*
+
+10. **🍕 Pizza Shop Project**  
+    *A C# application designed to simulate a pizza ordering system with a user-friendly interface.*
 
 ---
 
