@@ -69,7 +69,7 @@ Fundamentals_Roadmap/
 │   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 console projects.
 │   ├── Problem-Solving-Level-05-in-C++/  # 8   console projects.
 │   ├── OOP-C++/                          # 3   OOP console projects.
-│   ├── 14 - C# & WinForms/               # 2  .Net Desktop Projects.
+│   ├── 14 - C# & WinForms/               # 2   Simple .Net Desktop Projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
 
