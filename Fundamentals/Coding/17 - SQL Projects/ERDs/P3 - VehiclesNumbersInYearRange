@@ -1,0 +1,5 @@
+-- Vehicles Count from 1950s to 2000s
+
+SELECT COUNT(*) AS VehicleCount
+FROM VehicleDetails
+WHERE Year BETWEEN 1950 AND 2000;
