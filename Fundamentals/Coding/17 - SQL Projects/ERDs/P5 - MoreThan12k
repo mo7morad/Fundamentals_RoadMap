@@ -1,4 +1,4 @@
-SELECT Make, VehicleCount
+SELECT *
 FROM 
 (
 SELECT Makes.Make, COUNT(*) AS VehicleCount
@@ -11,3 +11,12 @@ WHERE
 VehicleCount > 12000
 ORDER BY 
 VehicleCount DESC;
+
+-----
+
+SELECT Makes.Make, COUNT(*) AS CarsCount FROM VehicleDetails
+JOIN Makes ON Makes.MakeID = VehicleDetails.MakeID
+WHERE Year BETWEEN 1950 AND 2000
+GROUP BY Make
+HAVING COUNT(*) > 12000
+order by CarsCount desc;
