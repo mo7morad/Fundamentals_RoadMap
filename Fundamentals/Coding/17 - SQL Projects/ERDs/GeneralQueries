@@ -1,0 +1,15 @@
+use VehicleMakesDB;
+
+select * from VehicleDetails;
+
+select * from Makes;
+
+select * from MakeModels;
+
+select * from subModels;
+
+select * from DriveTypes;
+
+select * from FuelTypes
+
+select * from Bodies;
