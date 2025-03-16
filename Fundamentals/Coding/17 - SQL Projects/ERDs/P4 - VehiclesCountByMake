@@ -1,0 +1,3 @@
+SELECT Makes.Make, COUNT(*) AS VehicleCount
+FROM VehicleDetails join Makes on Makes.MakeID = VehicleDetails.MakeID 
+group by Make;
