@@ -1,0 +1,33 @@
+-- Creating View to have a Master view over the Dataset
+
+CREATE VIEW VehicleMasterDetails AS
+SELECT 
+    VehicleDetails.MakeID,
+    Makes.Make,
+    VehicleDetails.ModelID,
+    MakeModels.ModelName,
+    VehicleDetails.SubModelID,
+    SubModels.SubModelName,
+    VehicleDetails.BodyID,
+    Bodies.BodyName,
+    VehicleDetails.Vehicle_Display_Name,
+    VehicleDetails.Year,
+    VehicleDetails.DriveTypeID,
+    DriveTypes.DriveTypeName,
+    VehicleDetails.Engine,
+    VehicleDetails.Engine_CC,
+    VehicleDetails.Engine_Cylinders,
+    VehicleDetails.Engine_Liter_Display,
+    VehicleDetails.FuelTypeID,
+    FuelTypes.FuelTypeName,
+    VehicleDetails.NumDoors
+FROM 
+    VehicleDetails
+    JOIN Makes ON Makes.MakeID = VehicleDetails.MakeID
+    JOIN MakeModels ON MakeModels.ModelID = VehicleDetails.ModelID
+    JOIN SubModels ON SubModels.SubModelID = VehicleDetails.SubModelID
+    JOIN Bodies ON Bodies.BodyID = VehicleDetails.BodyID
+    JOIN DriveTypes ON DriveTypes.DriveTypeID = VehicleDetails.DriveTypeID
+    JOIN FuelTypes ON FuelTypes.FuelTypeID = VehicleDetails.FuelTypeID;
+
+select * from VehicleMasterDetails;
