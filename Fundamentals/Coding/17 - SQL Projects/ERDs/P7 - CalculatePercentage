@@ -1,0 +1,17 @@
+SELECT Makes.Make, COUNT(*) AS VehicleCount, (SELECT COUNT(*) FROM VehicleDetails) AS TotalVehiclesInSystem, Prec = Cast(COUNT(*) AS FLOAT) / (SELECT CAST(COUNT(*) AS FLOAT ) FROM VehicleDetails) 
+FROM VehicleDetails JOIN Makes ON Makes.MakeID = VehicleDetails.MakeID
+WHERE Year BETWEEN 1950 AND 2000
+GROUP BY Make
+ORDER BY VehicleCount DESC;
+
+------
+-- Course Solution
+
+select *, CAST(NumberOfVehicles as float) / CAST(TotalVehicles as float) as Perc from
+(
+	SELECT Makes.Make, COUNT(*) AS NumberOfVehicles, (SELECT COUNT(*) FROM VehicleDetails) AS TotalVehicles
+	FROM VehicleDetails JOIN Makes ON Makes.MakeID = VehicleDetails.MakeID
+	WHERE Year BETWEEN 1950 AND 2000
+	GROUP BY Makes.Make
+) R1
+ORDER BY NumberOfVehicles DESC;
