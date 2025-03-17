@@ -1,0 +1,5 @@
+SELECT Makes.Make, COUNT(*) AS VehicleCount, (SELECT COUNT(*) FROM VehicleDetails) AS TotalVehiclesInSystem
+FROM VehicleDetails JOIN Makes ON Makes.MakeID = VehicleDetails.MakeID
+WHERE Year BETWEEN 1950 AND 2000
+GROUP BY Make
+ORDER BY VehicleCount DESC;
