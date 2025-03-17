@@ -1,0 +1,6 @@
+SELECT Makes.Make, FuelTypes.FuelTypeName, COUNT(*) AS VehicleCount
+FROM VehicleDetails
+JOIN Makes ON Makes.MakeID = VehicleDetails.MakeID
+JOIN FuelTypes on FuelTypes.FuelTypeID = VehicleDetails.FuelTypeID
+GROUP BY Makes.Make, FuelTypeName
+Order By Makes.Make
