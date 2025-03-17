@@ -1,0 +1,17 @@
+select * from
+(
+	select Makes.Make, count(*) as VehiclesCount
+	from VehicleDetails
+	join Makes on Makes.MakeID = VehicleDetails.MakeID
+	group by Makes.Make
+) R1
+where VehiclesCount > 20000;
+
+-- OR
+
+select Makes.Make, count(*) as VehiclesCount
+from VehicleDetails
+join Makes on Makes.MakeID = VehicleDetails.MakeID
+group by Makes.Make
+having count(*) > 20000
+order by VehiclesCount Desc
