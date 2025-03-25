@@ -1,0 +1,11 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\bin\Debug\MDI Sample.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\bin\Debug\MDI Sample.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\bin\Debug\MDI Sample.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\obj\Debug\Menu Strip Sample.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\obj\Debug\Menu Strip Sample.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\obj\Debug\MDI_Sample.Form1.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\obj\Debug\MDI_Sample.Properties.Resources.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\obj\Debug\Menu Strip Sample.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\obj\Debug\Menu Strip Sample.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\obj\Debug\MDI Sample.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MenueStripe\obj\Debug\MDI Sample.pdb

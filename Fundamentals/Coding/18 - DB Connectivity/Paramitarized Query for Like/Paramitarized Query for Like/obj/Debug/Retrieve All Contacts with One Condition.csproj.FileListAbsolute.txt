@@ -1,0 +1,8 @@
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve All Contacts with One Condition\bin\Debug\Retrieve All Contacts.exe.config
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve All Contacts with One Condition\bin\Debug\Retrieve All Contacts.exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve All Contacts with One Condition\bin\Debug\Retrieve All Contacts.pdb
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve All Contacts with One Condition\obj\Debug\Retrieve All Contacts with One Condition.csproj.AssemblyReference.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve All Contacts with One Condition\obj\Debug\Retrieve All Contacts with One Condition.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve All Contacts with One Condition\obj\Debug\Retrieve All Contacts with One Condition.csproj.CoreCompileInputs.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve All Contacts with One Condition\obj\Debug\Retrieve All Contacts.exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve All Contacts with One Condition\obj\Debug\Retrieve All Contacts.pdb

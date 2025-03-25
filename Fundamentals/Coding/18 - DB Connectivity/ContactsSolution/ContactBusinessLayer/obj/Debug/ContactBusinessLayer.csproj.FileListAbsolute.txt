@@ -1,0 +1,9 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\bin\Debug\ContactBusinessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\bin\Debug\ContactBusinessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.csproj.CopyComplete
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.pdb

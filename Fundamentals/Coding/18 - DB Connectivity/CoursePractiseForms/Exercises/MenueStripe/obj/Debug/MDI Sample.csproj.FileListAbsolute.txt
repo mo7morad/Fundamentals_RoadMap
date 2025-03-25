@@ -1,0 +1,11 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\bin\Debug\MDI Sample.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\bin\Debug\MDI Sample.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\bin\Debug\MDI Sample.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\obj\Debug\MDI Sample.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\obj\Debug\MDI Sample.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\obj\Debug\MDI_Sample.Form1.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\obj\Debug\MDI_Sample.Properties.Resources.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\obj\Debug\MDI Sample.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\obj\Debug\MDI Sample.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\obj\Debug\MDI Sample.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\MDI Sample\obj\Debug\MDI Sample.pdb

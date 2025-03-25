@@ -1,0 +1,23 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\RetreiveData\bin\Debug\RetreiveData.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\RetreiveData\bin\Debug\RetreiveData.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\RetreiveData\bin\Debug\RetreiveData.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\RetreiveData\obj\Debug\FindSingleContact.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\RetreiveData\obj\Debug\FindSingleContact.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\RetreiveData\obj\Debug\FindSingleContact.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\RetreiveData\obj\Debug\RetreiveData.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\RetreiveData\obj\Debug\RetreiveData.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\FindSingleContact\obj\Debug\FindSingleContact.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\FindSingleContact\obj\Debug\FindSingleContact.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\FindSingleContact\obj\Debug\FindSingleContact.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\FindSingleContact\obj\Debug\RetreiveData.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\FindSingleContact\obj\Debug\RetreiveData.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\FindSingleContact\bin\Debug\RetreiveData.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\FindSingleContact\bin\Debug\RetreiveData.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\FindSingleContact\bin\Debug\RetreiveData.pdb
+D:\Programming\FindSingleContact\bin\Debug\RetreiveData.exe.config
+D:\Programming\FindSingleContact\bin\Debug\RetreiveData.exe
+D:\Programming\FindSingleContact\bin\Debug\RetreiveData.pdb
+D:\Programming\FindSingleContact\obj\Debug\FindSingleContact.csproj.AssemblyReference.cache
+D:\Programming\FindSingleContact\obj\Debug\FindSingleContact.csproj.CoreCompileInputs.cache
+D:\Programming\FindSingleContact\obj\Debug\RetreiveData.exe
+D:\Programming\FindSingleContact\obj\Debug\RetreiveData.pdb

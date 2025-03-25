@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|d:\\programming\\coursepractiseforms\\exercises\\myfifthwinformsproject\\frmmaskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmaskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmmaskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmaskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMaskedTextBox.cs",
+              "DocumentMoniker": "D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmMaskedTextBox.cs",
+              "RelativeDocumentMoniker": "frmMaskedTextBox.cs",
+              "ToolTip": "D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmMaskedTextBox.cs*",
+              "RelativeToolTip": "frmMaskedTextBox.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:52:02.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAADgv0EAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-02-20T17:52:02.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\Acer\\Dropbox\\Personal\\Advices\\2021\\14- C# Level1\\Projects\\MyFirstWinFormsProject\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-02-20T17:52:02.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMaskedTextBox.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmMaskedTextBox.cs",
+              "RelativeDocumentMoniker": "frmMaskedTextBox.cs",
+              "ToolTip": "D:\\Programming\\CoursePractiseForms\\Exercises\\MyFifthWinFormsProject\\frmMaskedTextBox.cs [Design]*",
+              "RelativeToolTip": "frmMaskedTextBox.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:52:04.528Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

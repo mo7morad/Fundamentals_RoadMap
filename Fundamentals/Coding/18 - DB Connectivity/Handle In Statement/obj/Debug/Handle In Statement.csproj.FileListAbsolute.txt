@@ -1,0 +1,7 @@
+D:\Programming\Handle In Statement\bin\Debug\Retrieve All Contacts.exe.config
+D:\Programming\Handle In Statement\bin\Debug\Retrieve All Contacts.exe
+D:\Programming\Handle In Statement\bin\Debug\Retrieve All Contacts.pdb
+D:\Programming\Handle In Statement\obj\Debug\Handle In Statement.csproj.AssemblyReference.cache
+D:\Programming\Handle In Statement\obj\Debug\Handle In Statement.csproj.CoreCompileInputs.cache
+D:\Programming\Handle In Statement\obj\Debug\Retrieve All Contacts.exe
+D:\Programming\Handle In Statement\obj\Debug\Retrieve All Contacts.pdb

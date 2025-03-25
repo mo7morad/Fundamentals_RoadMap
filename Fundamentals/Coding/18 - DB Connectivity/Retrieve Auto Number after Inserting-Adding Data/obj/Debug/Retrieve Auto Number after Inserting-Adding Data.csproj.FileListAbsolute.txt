@@ -1,0 +1,15 @@
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve Auto Number after Inserting-Adding Data\bin\Debug\Retrieve All Contacts.exe.config
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve Auto Number after Inserting-Adding Data\bin\Debug\Retrieve All Contacts.exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve Auto Number after Inserting-Adding Data\bin\Debug\Retrieve All Contacts.pdb
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve Auto Number after Inserting-Adding Data.csproj.AssemblyReference.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve Auto Number after Inserting-Adding Data.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve Auto Number after Inserting-Adding Data.csproj.CoreCompileInputs.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve All Contacts.exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve All Contacts.pdb
+D:\Programming\Retrieve Auto Number after Inserting-Adding Data\bin\Debug\Retrieve All Contacts.exe.config
+D:\Programming\Retrieve Auto Number after Inserting-Adding Data\bin\Debug\Retrieve All Contacts.exe
+D:\Programming\Retrieve Auto Number after Inserting-Adding Data\bin\Debug\Retrieve All Contacts.pdb
+D:\Programming\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve Auto Number after Inserting-Adding Data.csproj.AssemblyReference.cache
+D:\Programming\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve Auto Number after Inserting-Adding Data.csproj.CoreCompileInputs.cache
+D:\Programming\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve All Contacts.exe
+D:\Programming\Retrieve Auto Number after Inserting-Adding Data\obj\Debug\Retrieve All Contacts.pdb

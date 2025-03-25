@@ -1,0 +1,24 @@
+﻿
+
+
+
+<employees>
+	<employee>
+		<id>12345</id>
+		<name>Mohammed Abu-Hadhoud</name>
+		<department>Engineering</department>
+		<position>Software Developer</position>
+		<salary>75000</salary>
+		<email>mohd@example.com</email>
+	</employee>
+	
+	<employee>
+		<id>67890</id>
+		<name>ALi Hamed</name>
+		<department>Marketing</department>
+		<position>Marketing Specialist</position>
+		<salary>60000</salary>
+		<email>ali.smith@example.com</email>
+	</employee>
+	
+</employees>

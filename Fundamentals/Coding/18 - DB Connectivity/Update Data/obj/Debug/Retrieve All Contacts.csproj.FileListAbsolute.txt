@@ -1,0 +1,8 @@
+C:\Users\USER\source\repos\Retrieve All Contacts\bin\Debug\Retrieve All Contacts.exe.config
+C:\Users\USER\source\repos\Retrieve All Contacts\bin\Debug\Retrieve All Contacts.exe
+C:\Users\USER\source\repos\Retrieve All Contacts\bin\Debug\Retrieve All Contacts.pdb
+C:\Users\USER\source\repos\Retrieve All Contacts\obj\Debug\Retrieve All Contacts.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\Retrieve All Contacts\obj\Debug\Retrieve All Contacts.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\Retrieve All Contacts\obj\Debug\Retrieve All Contacts.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Retrieve All Contacts\obj\Debug\Retrieve All Contacts.exe
+C:\Users\USER\source\repos\Retrieve All Contacts\obj\Debug\Retrieve All Contacts.pdb

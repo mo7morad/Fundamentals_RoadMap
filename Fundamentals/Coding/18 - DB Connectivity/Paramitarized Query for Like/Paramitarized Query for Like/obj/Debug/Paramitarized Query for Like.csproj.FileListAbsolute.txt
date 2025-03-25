@@ -1,0 +1,15 @@
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Paramitarized Query for Like\bin\Debug\Retrieve All Contacts.exe.config
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Paramitarized Query for Like\bin\Debug\Retrieve All Contacts.exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Paramitarized Query for Like\bin\Debug\Retrieve All Contacts.pdb
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Paramitarized Query for Like\obj\Debug\Paramitarized Query for Like.csproj.AssemblyReference.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Paramitarized Query for Like\obj\Debug\Paramitarized Query for Like.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Paramitarized Query for Like\obj\Debug\Paramitarized Query for Like.csproj.CoreCompileInputs.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Paramitarized Query for Like\obj\Debug\Retrieve All Contacts.exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Paramitarized Query for Like\obj\Debug\Retrieve All Contacts.pdb
+D:\Programming\Paramitarized Query for Like\Paramitarized Query for Like\bin\Debug\Retrieve All Contacts.exe.config
+D:\Programming\Paramitarized Query for Like\Paramitarized Query for Like\bin\Debug\Retrieve All Contacts.exe
+D:\Programming\Paramitarized Query for Like\Paramitarized Query for Like\bin\Debug\Retrieve All Contacts.pdb
+D:\Programming\Paramitarized Query for Like\Paramitarized Query for Like\obj\Debug\Paramitarized Query for Like.csproj.AssemblyReference.cache
+D:\Programming\Paramitarized Query for Like\Paramitarized Query for Like\obj\Debug\Paramitarized Query for Like.csproj.CoreCompileInputs.cache
+D:\Programming\Paramitarized Query for Like\Paramitarized Query for Like\obj\Debug\Retrieve All Contacts.exe
+D:\Programming\Paramitarized Query for Like\Paramitarized Query for Like\obj\Debug\Retrieve All Contacts.pdb

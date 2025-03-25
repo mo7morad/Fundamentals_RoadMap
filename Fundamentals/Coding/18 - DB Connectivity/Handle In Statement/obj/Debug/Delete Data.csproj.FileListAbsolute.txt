@@ -1,0 +1,16 @@
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data\bin\Debug\Retrieve All Contacts.exe.config
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data\bin\Debug\Retrieve All Contacts.exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data\bin\Debug\Retrieve All Contacts.pdb
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data\obj\Debug\Delete Data.csproj.AssemblyReference.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data\obj\Debug\Delete Data.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data\obj\Debug\Delete Data.csproj.CoreCompileInputs.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data\obj\Debug\Retrieve All Contacts.exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data\obj\Debug\Retrieve All Contacts.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data with In\bin\Debug\Retrieve All Contacts.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data with In\bin\Debug\Retrieve All Contacts.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data with In\bin\Debug\Retrieve All Contacts.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data with In\obj\Debug\Delete Data.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data with In\obj\Debug\Delete Data.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data with In\obj\Debug\Delete Data.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data with In\obj\Debug\Retrieve All Contacts.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Delete Data with In\obj\Debug\Retrieve All Contacts.pdb
