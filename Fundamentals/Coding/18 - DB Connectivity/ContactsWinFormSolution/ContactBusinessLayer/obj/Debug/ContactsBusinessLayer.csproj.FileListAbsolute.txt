@@ -1,0 +1,18 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\bin\Debug\ContactBusinessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\bin\Debug\ContactBusinessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactsBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactsBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactsBusinessLayer.csproj.CopyComplete
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.pdb
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\bin\Debug\ContactBusinessLayer.dll
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\bin\Debug\ContactBusinessLayer.pdb
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\bin\Debug\ContactsDataAccessLayer.dll
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\obj\Debug\ContactsBusinessLayer.csproj.AssemblyReference.cache
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\obj\Debug\ContactsBusinessLayer.csproj.CoreCompileInputs.cache
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\obj\Debug\Contacts.DFB66D76.Up2Date
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.dll
+D:\Programming\ContactsWinFormSolution\ContactBusinessLayer\obj\Debug\ContactBusinessLayer.pdb

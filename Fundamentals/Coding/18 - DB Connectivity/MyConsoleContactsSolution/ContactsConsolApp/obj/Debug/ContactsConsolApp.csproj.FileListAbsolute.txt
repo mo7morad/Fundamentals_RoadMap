@@ -1,0 +1,13 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsConsolApp.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsConsolApp.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsConsolApp.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactBusinessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactBusinessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp.csproj.CopyComplete

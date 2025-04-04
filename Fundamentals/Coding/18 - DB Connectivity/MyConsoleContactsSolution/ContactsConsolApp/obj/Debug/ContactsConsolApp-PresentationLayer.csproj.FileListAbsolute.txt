@@ -1,0 +1,25 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsConsolApp.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsConsolApp.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsConsolApp.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactBusinessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactBusinessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsConsolApp\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.CopyComplete
+D:\Programming\ContactsSolution\ContactsConsolApp\bin\Debug\ContactsConsolApp.exe.config
+D:\Programming\ContactsSolution\ContactsConsolApp\bin\Debug\ContactsConsolApp.exe
+D:\Programming\ContactsSolution\ContactsConsolApp\bin\Debug\ContactsConsolApp.pdb
+D:\Programming\ContactsSolution\ContactsConsolApp\bin\Debug\ContactBusinessLayer.dll
+D:\Programming\ContactsSolution\ContactsConsolApp\bin\Debug\ContactsDataAccessLayer.dll
+D:\Programming\ContactsSolution\ContactsConsolApp\bin\Debug\ContactBusinessLayer.pdb
+D:\Programming\ContactsSolution\ContactsConsolApp\bin\Debug\ContactsDataAccessLayer.pdb
+D:\Programming\ContactsSolution\ContactsConsolApp\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.AssemblyReference.cache
+D:\Programming\ContactsSolution\ContactsConsolApp\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.CoreCompileInputs.cache
+D:\Programming\ContactsSolution\ContactsConsolApp\obj\Debug\Contacts.558F1E09.Up2Date
+D:\Programming\ContactsSolution\ContactsConsolApp\obj\Debug\ContactsConsolApp.exe
+D:\Programming\ContactsSolution\ContactsConsolApp\obj\Debug\ContactsConsolApp.pdb
