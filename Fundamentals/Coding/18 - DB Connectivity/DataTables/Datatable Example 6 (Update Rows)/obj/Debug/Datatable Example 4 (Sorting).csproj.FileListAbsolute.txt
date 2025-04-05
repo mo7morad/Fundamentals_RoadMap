@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Example 4 (Sorting)\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Example 4 (Sorting)\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Example 4 (Sorting)\bin\Debug\DataTable Example 1 (Create Offline Data Table).pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Example 4 (Sorting)\obj\Debug\Datatable Example 4 (Sorting).csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Example 4 (Sorting)\obj\Debug\Datatable Example 4 (Sorting).csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Example 4 (Sorting)\obj\Debug\Datatable Example 4 (Sorting).csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Example 4 (Sorting)\obj\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Example 4 (Sorting)\obj\Debug\DataTable Example 1 (Create Offline Data Table).pdb

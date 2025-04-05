@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Projects\DataTable Example 8 (Primary Key)\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Projects\DataTable Example 8 (Primary Key)\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Projects\DataTable Example 8 (Primary Key)\bin\Debug\DataTable Example 1 (Create Offline Data Table).pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Projects\DataTable Example 8 (Primary Key)\obj\Debug\DataTable Example 8 (Primary Key).csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Projects\DataTable Example 8 (Primary Key)\obj\Debug\DataTable Example 8 (Primary Key).csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Projects\DataTable Example 8 (Primary Key)\obj\Debug\DataTable Example 8 (Primary Key).csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Projects\DataTable Example 8 (Primary Key)\obj\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\Datatable Projects\DataTable Example 8 (Primary Key)\obj\Debug\DataTable Example 1 (Create Offline Data Table).pdb
