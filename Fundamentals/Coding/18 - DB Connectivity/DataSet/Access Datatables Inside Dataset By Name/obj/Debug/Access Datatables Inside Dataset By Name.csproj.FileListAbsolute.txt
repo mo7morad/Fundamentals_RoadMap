@@ -1,0 +1,8 @@
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataSet Projects\Access Datatables Inside Dataset By Name\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe.config
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataSet Projects\Access Datatables Inside Dataset By Name\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataSet Projects\Access Datatables Inside Dataset By Name\bin\Debug\DataTable Example 1 (Create Offline Data Table).pdb
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataSet Projects\Access Datatables Inside Dataset By Name\obj\Debug\Access Datatables Inside Dataset By Name.csproj.AssemblyReference.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataSet Projects\Access Datatables Inside Dataset By Name\obj\Debug\Access Datatables Inside Dataset By Name.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataSet Projects\Access Datatables Inside Dataset By Name\obj\Debug\Access Datatables Inside Dataset By Name.csproj.CoreCompileInputs.cache
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataSet Projects\Access Datatables Inside Dataset By Name\obj\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\USER\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataSet Projects\Access Datatables Inside Dataset By Name\obj\Debug\DataTable Example 1 (Create Offline Data Table).pdb

@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataTable Example 1 (Create Offline Data Table)\obj\Debug\DataTable Example 1 (Create Offline Data Table).csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataTable Example 1 (Create Offline Data Table)\obj\Debug\DataTable Example 1 (Create Offline Data Table).csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataTable Example 1 (Create Offline Data Table)\obj\Debug\DataTable Example 1 (Create Offline Data Table).csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataTable Example 1 (Create Offline Data Table)\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataTable Example 1 (Create Offline Data Table)\bin\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataTable Example 1 (Create Offline Data Table)\bin\Debug\DataTable Example 1 (Create Offline Data Table).pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataTable Example 1 (Create Offline Data Table)\obj\Debug\DataTable Example 1 (Create Offline Data Table).exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\DataTable Example 1 (Create Offline Data Table)\obj\Debug\DataTable Example 1 (Create Offline Data Table).pdb
