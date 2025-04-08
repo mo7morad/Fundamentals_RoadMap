@@ -1,0 +1,23 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\bin\Debug\MyFirstUserControlProject.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\bin\Debug\MyFirstUserControlProject.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\bin\Debug\MyFirstUserControlProject.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\ExposeUserControlProperty.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\ExposeUserControlProperty.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\MyFirstUserControlProject.ctrlSompleCalc.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\MyFirstUserControlProject.Form1.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\MyFirstUserControlProject.Properties.Resources.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\ExposeUserControlProperty.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\ExposeUserControlProperty.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\MyFirstUserControlProject.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\19 - Full Real Project\01.2 Expose User Control Property\MyFirstUserControlProject\obj\Debug\MyFirstUserControlProject.pdb
+D:\Programming\ExposeUserControlProperty\bin\Debug\MyFirstUserControlProject.exe.config
+D:\Programming\ExposeUserControlProperty\bin\Debug\MyFirstUserControlProject.exe
+D:\Programming\ExposeUserControlProperty\bin\Debug\MyFirstUserControlProject.pdb
+D:\Programming\ExposeUserControlProperty\obj\Debug\ExposeUserControlProperty.csproj.AssemblyReference.cache
+D:\Programming\ExposeUserControlProperty\obj\Debug\MyFirstUserControlProject.ctrlSompleCalc.resources
+D:\Programming\ExposeUserControlProperty\obj\Debug\MyFirstUserControlProject.Form1.resources
+D:\Programming\ExposeUserControlProperty\obj\Debug\MyFirstUserControlProject.Properties.Resources.resources
+D:\Programming\ExposeUserControlProperty\obj\Debug\ExposeUserControlProperty.csproj.GenerateResource.cache
+D:\Programming\ExposeUserControlProperty\obj\Debug\ExposeUserControlProperty.csproj.CoreCompileInputs.cache
+D:\Programming\ExposeUserControlProperty\obj\Debug\MyFirstUserControlProject.exe
+D:\Programming\ExposeUserControlProperty\obj\Debug\MyFirstUserControlProject.pdb
