@@ -1,0 +1,9 @@
+D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.csproj.AssemblyReference.cache
+D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.AssemblyInfoInputs.cache
+D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.AssemblyInfo.cs
+D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.csproj.CoreCompileInputs.cache
+D:\Programming\Project\Entities\bin\Debug\net48\DVLD_Entities.dll
+D:\Programming\Project\Entities\bin\Debug\net48\DVLD_Entities.pdb
+D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.dll
+D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.pdb

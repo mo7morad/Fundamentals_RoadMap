@@ -1,0 +1,23 @@
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\bin\Debug\SimpleEventWithPrameters.exe.config
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\bin\Debug\SimpleEventWithPrameters.exe
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\bin\Debug\SimpleEventWithPrameters.pdb
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.Form1.resources
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.MyUserControl.resources
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.Properties.Resources.resources
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.exe
+C:\Users\Acer\Dropbox\PC (4)\Desktop\Simple Event With  Parameters\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.pdb
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\bin\Debug\SimpleEventWithPrameters.exe.config
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\bin\Debug\SimpleEventWithPrameters.exe
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\bin\Debug\SimpleEventWithPrameters.pdb
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.csproj.AssemblyReference.cache
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.Form1.resources
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.MyUserControl.resources
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.Properties.Resources.resources
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.csproj.GenerateResource.cache
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.csproj.CoreCompileInputs.cache
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.exe
+C:\Users\Morad\Downloads\SimpleEventWithPrameters\obj\Debug\SimpleEventWithPrameters.pdb

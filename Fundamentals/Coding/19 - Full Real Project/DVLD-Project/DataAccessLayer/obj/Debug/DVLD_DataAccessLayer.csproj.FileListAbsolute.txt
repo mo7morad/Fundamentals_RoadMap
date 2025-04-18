@@ -1,0 +1,10 @@
+D:\Programming\Project\DataAccessLayer\obj\Debug\DVLD_DataAccessLayer.csproj.AssemblyReference.cache
+D:\Programming\Project\DataAccessLayer\obj\Debug\DVLD_DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Programming\Project\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+D:\Programming\Project\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Programming\Project\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+D:\Programming\Project\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+D:\Programming\Project\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Programming\Project\DataAccessLayer\bin\Debug\DVLD_Entities.dll
+D:\Programming\Project\DataAccessLayer\bin\Debug\DVLD_Entities.pdb
+D:\Programming\Project\DataAccessLayer\obj\Debug\DVLD_Dat.5E8DE79F.Up2Date
