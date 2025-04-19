@@ -36,27 +36,29 @@
             this.panelFilterBy = new System.Windows.Forms.Panel();
             this.txtBoxFilterBy = new System.Windows.Forms.TextBox();
             this.comboBoxFilterBy = new System.Windows.Forms.ComboBox();
-            this.pictureBoxAddPerson = new System.Windows.Forms.PictureBox();
             this.lblFilterBy = new System.Windows.Forms.Label();
             this.lblManagePeople = new System.Windows.Forms.Label();
-            this.pictureBoxManagePeople = new System.Windows.Forms.PictureBox();
             this.toolTipAddNewPerson = new System.Windows.Forms.ToolTip(this.components);
             this.contextMenuStripDataGridView = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnClosePeopleForm = new System.Windows.Forms.Button();
+            this.pictureBoxAddPerson = new System.Windows.Forms.PictureBox();
+            this.pictureBoxManagePeople = new System.Windows.Forms.PictureBox();
             this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addNewPersonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sendEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.phoneCallToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panelManagePeople.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPeople)).BeginInit();
             this.panelFilterBy.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddPerson)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxManagePeople)).BeginInit();
             this.contextMenuStripDataGridView.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddPerson)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxManagePeople)).BeginInit();
             this.SuspendLayout();
             // 
             // panelManagePeople
@@ -149,20 +151,6 @@
             this.comboBoxFilterBy.TabIndex = 0;
             this.comboBoxFilterBy.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilterBy_SelectedIndexChanged);
             // 
-            // pictureBoxAddPerson
-            // 
-            this.pictureBoxAddPerson.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxAddPerson.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBoxAddPerson.Image = global::DVLD.Properties.Resources.addperson;
-            this.pictureBoxAddPerson.Location = new System.Drawing.Point(1120, 0);
-            this.pictureBoxAddPerson.Name = "pictureBoxAddPerson";
-            this.pictureBoxAddPerson.Size = new System.Drawing.Size(45, 40);
-            this.pictureBoxAddPerson.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxAddPerson.TabIndex = 2;
-            this.pictureBoxAddPerson.TabStop = false;
-            this.pictureBoxAddPerson.Click += new System.EventHandler(this.pictureBoxAddPerson_Click);
-            this.pictureBoxAddPerson.MouseEnter += new System.EventHandler(this.pictureBoxAddPerson_MouseEnter);
-            // 
             // lblFilterBy
             // 
             this.lblFilterBy.AutoSize = true;
@@ -186,19 +174,6 @@
             this.lblManagePeople.TabIndex = 1;
             this.lblManagePeople.Text = "Manage People";
             // 
-            // pictureBoxManagePeople
-            // 
-            this.pictureBoxManagePeople.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.pictureBoxManagePeople.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBoxManagePeople.Image = global::DVLD.Properties.Resources.ManagePeople;
-            this.pictureBoxManagePeople.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxManagePeople.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBoxManagePeople.Name = "pictureBoxManagePeople";
-            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1165, 110);
-            this.pictureBoxManagePeople.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxManagePeople.TabIndex = 0;
-            this.pictureBoxManagePeople.TabStop = false;
-            // 
             // contextMenuStripDataGridView
             // 
             this.contextMenuStripDataGridView.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -211,6 +186,64 @@
             this.phoneCallToolStripMenuItem});
             this.contextMenuStripDataGridView.Name = "contextMenuStripDataGridView";
             this.contextMenuStripDataGridView.Size = new System.Drawing.Size(191, 232);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.dataGridViewPeople);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 174);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1165, 348);
+            this.panel1.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnClosePeopleForm);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 485);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1165, 37);
+            this.panel2.TabIndex = 4;
+            // 
+            // btnClosePeopleForm
+            // 
+            this.btnClosePeopleForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClosePeopleForm.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnClosePeopleForm.Image = global::DVLD.Properties.Resources.Close_32;
+            this.btnClosePeopleForm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClosePeopleForm.Location = new System.Drawing.Point(1040, 0);
+            this.btnClosePeopleForm.Name = "btnClosePeopleForm";
+            this.btnClosePeopleForm.Size = new System.Drawing.Size(125, 37);
+            this.btnClosePeopleForm.TabIndex = 0;
+            this.btnClosePeopleForm.Text = "Close";
+            this.btnClosePeopleForm.UseVisualStyleBackColor = true;
+            // 
+            // pictureBoxAddPerson
+            // 
+            this.pictureBoxAddPerson.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxAddPerson.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBoxAddPerson.Image = global::DVLD.Properties.Resources.Add_Person_72;
+            this.pictureBoxAddPerson.Location = new System.Drawing.Point(1089, 0);
+            this.pictureBoxAddPerson.Name = "pictureBoxAddPerson";
+            this.pictureBoxAddPerson.Size = new System.Drawing.Size(76, 40);
+            this.pictureBoxAddPerson.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAddPerson.TabIndex = 2;
+            this.pictureBoxAddPerson.TabStop = false;
+            this.pictureBoxAddPerson.Click += new System.EventHandler(this.pictureBoxAddPerson_Click);
+            this.pictureBoxAddPerson.MouseEnter += new System.EventHandler(this.pictureBoxAddPerson_MouseEnter);
+            // 
+            // pictureBoxManagePeople
+            // 
+            this.pictureBoxManagePeople.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.pictureBoxManagePeople.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxManagePeople.Image = global::DVLD.Properties.Resources.ManagePeople;
+            this.pictureBoxManagePeople.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxManagePeople.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxManagePeople.Name = "pictureBoxManagePeople";
+            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1165, 110);
+            this.pictureBoxManagePeople.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxManagePeople.TabIndex = 0;
+            this.pictureBoxManagePeople.TabStop = false;
             // 
             // showDetailsToolStripMenuItem
             // 
@@ -260,23 +293,6 @@
             this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.phoneCallToolStripMenuItem.Text = "Phone Call";
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.dataGridViewPeople);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 174);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1165, 348);
-            this.panel1.TabIndex = 3;
-            // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 468);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1165, 54);
-            this.panel2.TabIndex = 4;
-            // 
             // PeopleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -294,10 +310,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPeople)).EndInit();
             this.panelFilterBy.ResumeLayout(false);
             this.panelFilterBy.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddPerson)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxManagePeople)).EndInit();
             this.contextMenuStripDataGridView.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddPerson)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxManagePeople)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -334,5 +351,6 @@
         private System.Windows.Forms.ToolStripMenuItem phoneCallToolStripMenuItem;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnClosePeopleForm;
     }
 }
