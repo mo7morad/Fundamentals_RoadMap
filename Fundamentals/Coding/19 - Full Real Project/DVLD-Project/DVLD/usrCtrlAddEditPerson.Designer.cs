@@ -242,6 +242,7 @@ namespace DVLD
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(130, 21);
             this.txtPhone.TabIndex = 20;
+            this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
             // 
             // lblEmail
             // 

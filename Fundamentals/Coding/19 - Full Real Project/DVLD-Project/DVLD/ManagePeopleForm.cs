@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLayer;
-using static DVLD.addNewPersonForm;
 
 namespace DVLD
 {
@@ -37,13 +36,20 @@ namespace DVLD
             // ApplyFilter(comboBoxFilterBy.SelectedItem.ToString(), txtBoxFilterBy.Text);
         }
 
-        private void pictureBoxAddPerson_Click(object sender, EventArgs e)
+        private void OpenAddNewPersonForm()
         {
             addNewPersonForm addNewForm = new addNewPersonForm();
             addNewForm.PersonAddedToDatabase += RefreshPeopleList_OnSave;
             addNewForm.ShowDialog();
         }
-
+        private void pictureBoxAddPerson_Click(object sender, EventArgs e)
+        {
+            OpenAddNewPersonForm();
+        }
+        private void addNewPersonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenAddNewPersonForm();
+        }
         private void pictureBoxAddPerson_MouseEnter(object sender, EventArgs e)
         {
             toolTipAddNewPerson.SetToolTip(pictureBoxAddPerson, "Add a new person");
@@ -67,6 +73,28 @@ namespace DVLD
         private void RefreshPeopleList_OnSave(object sender, EventArgs e)
         {
             LoadPeopleToDataGridView();
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            if (MessageBox.Show("Are you sure you want to delete this person?", "Delete Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                int selectedRowIndex = dataGridViewPeople.SelectedCells[0].RowIndex;
+                int personId = Convert.ToInt32(dataGridViewPeople.Rows[selectedRowIndex].Cells[0].Value);
+
+                bool isDeleted = clsPeopleBusinessLayer.DeletePerson(personId);
+                if (isDeleted)
+                {
+                    MessageBox.Show("Person deleted successfully.", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadPeopleToDataGridView();
+                }
+                else
+                {
+                    MessageBox.Show("Failed to delete person.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
         }
     }
 }

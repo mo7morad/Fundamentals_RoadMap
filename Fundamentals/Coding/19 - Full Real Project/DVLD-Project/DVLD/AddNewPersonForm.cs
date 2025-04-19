@@ -16,12 +16,12 @@ namespace DVLD
     {
         // Events
         public event EventHandler<EventArgs> PersonAddedToDatabase;
-
         public addNewPersonForm()
         {
             InitializeComponent();
-            // Subscribe to the OnSave event
+            // Subscribe to the OnSave, OnClose events
             usrCtrlAddNewPerson.OnSave += AddNewPerson_OnSave;
+            usrCtrlAddNewPerson.OnClose += AddNewPerson_OnClose;
         }
 
         private void AddNewPerson_OnSave(object sender, EventArgs e)
@@ -55,6 +55,10 @@ namespace DVLD
             }
             // Firing the event.
             PersonAddedToDatabase?.Invoke(this, EventArgs.Empty);
+        }
+        private void AddNewPerson_OnClose(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
     }
