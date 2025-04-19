@@ -52,11 +52,11 @@
     <Compile Include="AddNewPersonForm.Designer.cs">
       <DependentUpon>AddNewPersonForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PeopleForm.cs">
+    <Compile Include="ManagePeopleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PeopleForm.Designer.cs">
-      <DependentUpon>PeopleForm.cs</DependentUpon>
+    <Compile Include="ManagePeopleForm.Designer.cs">
+      <DependentUpon>ManagePeopleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
@@ -89,8 +89,8 @@
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PeopleForm.resx">
-      <DependentUpon>PeopleForm.cs</DependentUpon>
+    <EmbeddedResource Include="ManagePeopleForm.resx">
+      <DependentUpon>ManagePeopleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

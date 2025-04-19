@@ -24,7 +24,7 @@ namespace DVLD
 
         private void menuStripPeopleItem_Click(object sender, EventArgs e)
         {
-            PeopleForm peopleFrm = new PeopleForm();
+            ManagePeopleForm peopleFrm = new ManagePeopleForm();
             peopleFrm.ShowDialog();
         }
     }

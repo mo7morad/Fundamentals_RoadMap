@@ -17,6 +17,8 @@ namespace Entities
         public string Phone { get; set; }
         public string ImagePath { get; set; }
         public string Email { get; set; }
+        public clsPerson() { }
+
         public clsPerson(string nationalNo, string firstName, string secondName, string thirdName, string lastName,
         DateTime dateOfBirth, bool gender, string address, string phone, string country, string email, string imagePath = null)
         {

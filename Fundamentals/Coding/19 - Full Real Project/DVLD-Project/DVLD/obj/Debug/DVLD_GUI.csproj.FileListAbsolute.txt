@@ -58,7 +58,6 @@ D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\D
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD_GUI.csproj.AssemblyReference.cache
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.addNewPersonForm.resources
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.MainScreen.resources
-D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.PeopleForm.resources
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.Properties.Resources.resources
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.usrCtrlAddEditPerson.resources
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.usrCtrlPersonInfoCard.resources
@@ -67,3 +66,4 @@ D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\D
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD_GUI.csproj.Up2Date
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.exe
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.ManagePeopleForm.resources

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataAccessLayer;
+using Entities;
 
 
 namespace BusinessLayer
@@ -22,14 +23,17 @@ namespace BusinessLayer
 
             return dt;
         }
-
-        public static void OnSavePerson(Entities.clsPerson person)
+        public static clsPerson GetPersonByID(int personID)
         {
+            return clsPeopleDataAccess.GetPersonByID(personID);
         }
-
         public static int AddNewPerson(Entities.clsPerson person)
         {
             return clsPeopleDataAccess.AddNewPerson(person);
+        }
+        public static bool DeletePerson(int personID)
+        {
+            return clsPeopleDataAccess.DeletePerson(personID);
         }
     }
 }

@@ -1,3 +1,4 @@
+using Entities;
 using System;
 using System.Data;
 using System.Data.SqlClient;
@@ -19,6 +20,45 @@ namespace DataAccessLayer
                     return count > 0;
                 }
             }
+        }
+        public static clsPerson GetPersonByID(int personID)
+        {
+            string query = @"SELECT * FROM People WHERE PersonID = @personID";
+
+            using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@personID", personID);
+                    connection.Open();
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            clsPerson person = new clsPerson(
+                                reader["NationalNo"].ToString(),
+                                reader["FirstName"].ToString(),
+                                reader["SecondName"].ToString(),
+                                reader["ThirdName"].ToString(),
+                                reader["LastName"].ToString(),
+                                Convert.ToDateTime(reader["DateOfBirth"]),
+                                Convert.ToBoolean(reader["Gender"]),
+                                reader["Address"].ToString(),
+                                reader["Phone"].ToString(),
+                                reader["Country"].ToString(),
+                                reader["Email"].ToString(),
+                                reader["ImagePath"] != DBNull.Value ? reader["ImagePath"].ToString() : null
+                            );
+                            // Set PersonID separately, because it's not in the constructor
+                            person.PersonID = Convert.ToInt32(reader["PersonID"]);
+
+                            return person;
+                        }
+                    }
+                }
+            }
+            return null;
         }
         public static DataTable GetAllPeople()
         {
@@ -56,8 +96,6 @@ namespace DataAccessLayer
 
             return People;
         }
-
-
         public static int AddNewPerson(Entities.clsPerson person)
         {
             using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
@@ -102,6 +140,20 @@ namespace DataAccessLayer
                     {
                         throw new Exception("Failed to insert new person");
                     }
+                }
+            }
+        }
+        public static bool DeletePerson(int personID)
+        {
+            using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                string query = "DELETE FROM People WHERE PersonID = @PersonID";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@PersonID", personID);
+                    conn.Open();
+                    int rowsAffected = cmd.ExecuteNonQuery();
+                    return rowsAffected > 0;
                 }
             }
         }

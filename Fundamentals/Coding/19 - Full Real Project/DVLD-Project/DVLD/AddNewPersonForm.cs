@@ -14,10 +14,12 @@ namespace DVLD
 {
     public partial class addNewPersonForm : Form
     {
+        // Events
+        public event EventHandler<EventArgs> PersonAddedToDatabase;
+
         public addNewPersonForm()
         {
             InitializeComponent();
-
             // Subscribe to the OnSave event
             usrCtrlAddNewPerson.OnSave += AddNewPerson_OnSave;
         }
@@ -51,6 +53,8 @@ namespace DVLD
             {
                 MessageBox.Show("Failed to add person.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            // Firing the event.
+            PersonAddedToDatabase?.Invoke(this, EventArgs.Empty);
         }
 
     }

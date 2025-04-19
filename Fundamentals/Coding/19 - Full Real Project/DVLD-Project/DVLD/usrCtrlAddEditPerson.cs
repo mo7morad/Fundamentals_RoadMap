@@ -244,14 +244,12 @@ namespace DVLD
             }
 
             OnSave?.Invoke(this, EventArgs.Empty);
-
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             // Trigger the close event to notify parent form
             OnClose?.Invoke(this, EventArgs.Empty);
-
         }
 
         private void txtName_KeyPress(object sender, KeyPressEventArgs e)
