@@ -8,3 +8,23 @@ D:\Programming\Project\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
 D:\Programming\Project\DataAccessLayer\bin\Debug\DVLD_Entities.dll
 D:\Programming\Project\DataAccessLayer\bin\Debug\DVLD_Entities.pdb
 D:\Programming\Project\DataAccessLayer\obj\Debug\DVLD_Dat.5E8DE79F.Up2Date
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DVLD_Entities.dll
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DVLD_Entities.pdb
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DVLD_DataAccessLayer.csproj.AssemblyReference.cache
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DVLD_DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DVLD_Dat.5E8DE79F.Up2Date
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DVLD_Entities.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\bin\Debug\DVLD_Entities.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DVLD_DataAccessLayer.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DVLD_DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DVLD_Dat.5E8DE79F.Up2Date
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PeopleForm));
             this.panelManagePeople = new System.Windows.Forms.Panel();
             this.dataGridViewPeople = new System.Windows.Forms.DataGridView();
@@ -38,6 +39,7 @@
             this.lblFilterBy = new System.Windows.Forms.Label();
             this.lblManagePeople = new System.Windows.Forms.Label();
             this.pictureBoxManagePeople = new System.Windows.Forms.PictureBox();
+            this.toolTipAddNewPerson = new System.Windows.Forms.ToolTip(this.components);
             this.panelManagePeople.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPeople)).BeginInit();
             this.panelFilterBy.SuspendLayout();
@@ -97,6 +99,7 @@
             this.pictureBoxAddPerson.TabIndex = 2;
             this.pictureBoxAddPerson.TabStop = false;
             this.pictureBoxAddPerson.Click += new System.EventHandler(this.pictureBoxAddPerson_Click);
+            this.pictureBoxAddPerson.MouseEnter += new System.EventHandler(this.pictureBoxAddPerson_MouseEnter);
             // 
             // txtBoxFilterBy
             // 
@@ -215,5 +218,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn LastName;
         private System.Windows.Forms.DataGridView dataGridViewPeople;
         private System.Windows.Forms.PictureBox pictureBoxAddPerson;
+        private System.Windows.Forms.ToolTip toolTipAddNewPerson;
     }
 }

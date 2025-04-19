@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Project\\Entities\\DVLD_Entities.csproj",
+      "projectUniqueName": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\DVLD_Entities.csproj",
       "projectName": "DVLD_Entities",
-      "projectPath": "D:\\Programming\\Project\\Entities\\DVLD_Entities.csproj",
+      "projectPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\DVLD_Entities.csproj",
       "packagesPath": "C:\\Users\\Morad\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Project\\Entities\\obj\\",
+      "outputPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

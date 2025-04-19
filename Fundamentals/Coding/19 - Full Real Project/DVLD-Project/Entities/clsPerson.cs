@@ -6,7 +6,7 @@ namespace Entities
     {
         public int PersonID { get; set; }
         public string NationalNo { get; set; }
-        public string CountryID { get; set; }
+        public string Country { get; set; }
         public string FirstName { get; set; }
         public string SecondName { get; set; }
         public string ThirdName { get; set; }
@@ -18,7 +18,7 @@ namespace Entities
         public string ImagePath { get; set; }
         public string Email { get; set; }
         public clsPerson(string nationalNo, string firstName, string secondName, string thirdName, string lastName,
-        DateTime dateOfBirth, bool gender, string address, string phone, string countryID, string email, string imagePath = null)
+        DateTime dateOfBirth, bool gender, string address, string phone, string country, string email, string imagePath = null)
         {
             NationalNo = nationalNo;
             FirstName = firstName;
@@ -29,7 +29,7 @@ namespace Entities
             Gender = gender;
             Address = address;
             Phone = phone;
-            CountryID = countryID;
+            Country = country;
             ImagePath = imagePath;
             Email = email;
         }

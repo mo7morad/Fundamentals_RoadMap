@@ -11,34 +11,42 @@ using BusinessLayer;
 
 namespace DVLD
 {
-    public partial class PeopleForm : Form
-    {
-        public PeopleForm()
+        public partial class PeopleForm : Form
         {
-            InitializeComponent();
-            comboBoxFilterBy.SelectedIndex = 0; // Set default selected index to 0
-            dataGridViewPeople.DataSource = PeopleBusinessLayer.GetAllPeople();
-            dataGridViewPeople.Columns["Gender"].Visible = false;
-        }
-
-        private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            // Corrected logic to check the selected index
-            if (comboBoxFilterBy.SelectedIndex != 0)
+            public PeopleForm()
             {
-                txtBoxFilterBy.Visible = true;
+                InitializeComponent();
+                comboBoxFilterBy.SelectedIndex = 0;
+                LoadPeople();
             }
-            else
-            {
-                // Apply the selected filter
-                // ApplyFilter(comboBoxFilterBy.SelectedItem.ToString());
-            }
-        }
 
-        private void pictureBoxAddPerson_Click(object sender, EventArgs e)
-        {
-            addNewPersonForm addNewForm = new addNewPersonForm();
-            addNewForm.ShowDialog();
+            private void LoadPeople()
+            {
+                dataGridViewPeople.DataSource = clsPeopleBusinessLayer.GetAllPeople();
+                if (dataGridViewPeople.Columns.Contains("Gender"))
+                    dataGridViewPeople.Columns["Gender"].Visible = false;
+            }
+
+            private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
+            {
+                txtBoxFilterBy.Visible = comboBoxFilterBy.SelectedIndex != 0;
+
+                // You can add logic like:
+                // ApplyFilter(comboBoxFilterBy.SelectedItem.ToString(), txtBoxFilterBy.Text);
+            }
+
+            private void pictureBoxAddPerson_Click(object sender, EventArgs e)
+            {
+                addNewPersonForm addNewForm = new addNewPersonForm();
+                if (addNewForm.ShowDialog() == DialogResult.OK)
+                {
+                    LoadPeople(); // Refresh the list after adding
+                }
+            }
+
+            private void pictureBoxAddPerson_MouseEnter(object sender, EventArgs e)
+            {
+                toolTipAddNewPerson.SetToolTip(pictureBoxAddPerson, "Add a new person");
+            }
         }
-    }
 }

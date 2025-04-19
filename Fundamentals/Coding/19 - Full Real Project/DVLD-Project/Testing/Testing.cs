@@ -9,7 +9,7 @@ namespace ConsoleTesting
     {
         private static void GetAllPeopleTest()
         {
-            DataTable people = PeopleBusinessLayer.GetAllPeople();
+            DataTable people = clsPeopleBusinessLayer.GetAllPeople();
             foreach (DataRow person in people.Rows)
             {
                 Console.WriteLine($"ID: {person["PersonID"]}, Name: {person["FirstName"]} {person["LastName"]}, Email: {person["Email"]}");
@@ -45,7 +45,7 @@ namespace ConsoleTesting
                 email,
                 imagePath
             );
-            return PeopleBusinessLayer.AddNewPerson(p);
+            return clsPeopleBusinessLayer.AddNewPerson(p);
         }
 
 

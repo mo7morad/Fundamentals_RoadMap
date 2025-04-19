@@ -1,7 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
+
 
 namespace DVLD
 {
@@ -12,7 +14,7 @@ namespace DVLD
         public event EventHandler<EventArgs> OnClose;
 
         // Properties for accessing form data
-        public int PersonID { get; set; } = -1;
+        public string PersonID { get => lblPersonIDValue.Text; set => lblPersonIDValue.Text = value; }
         public string FirstName { get => txtFirstName.Text; set => txtFirstName.Text = value; }
         public string SecondName { get => txtSecondName.Text; set => txtSecondName.Text = value; }
         public string ThirdName { get => txtThirdName.Text; set => txtThirdName.Text = value; }
@@ -23,46 +25,42 @@ namespace DVLD
         public string Email { get => txtEmail.Text; set => txtEmail.Text = value; }
         public string Address { get => txtAddress.Text; set => txtAddress.Text = value; }
         public string Country { get => cmbCountry.Text; set => cmbCountry.Text = value; }
-        public string Gender
+        public string ImagePath { get => pbUserImage.ImageLocation; set => pbUserImage.ImageLocation = value; }
+        public char Gender
         {
-            get => rbMale.Checked ? "M" : "F";
+            get => rbMale.Checked ? 'M' : 'F';
             set
             {
-                if (value == "M")
+                if (value == 'M')
                     rbMale.Checked = true;
                 else
                     rbFemale.Checked = true;
             }
         }
 
-        public usrCtrlAddEditPerson()
-        {
-            InitializeComponent();
-            LoadCountries();
-        }
-
         private void LoadCountries()
         {
-            cmbCountry.SelectedItem = "Select Country";
             cmbCountry.DataSource = clsCountriesBussinessLayer.GetAllCountires();
+            cmbCountry.SelectedIndex = -1; // No default selection
+            cmbCountry.Text = string.Empty;
 
         }
 
-        public void SetMode(bool isNewRecord)
-        {
-            if (isNewRecord)
-            {
-                lblHeader.Text = "Add New Person";
-                lblPersonIDValue.Text = "N/A";
-                PersonID = -1;
-                ClearForm();
-            }
-            else
-            {
-                lblHeader.Text = "Update Person";
-                lblPersonIDValue.Text = PersonID.ToString();
-            }
-        }
+        //public void SetMode(bool isNewRecord)
+        //{
+        //    if (isNewRecord)
+        //    {
+        //        lblHeader.Text = "Add New Person";
+        //        lblPersonIDValue.Text = "N/A";
+        //        PersonID = -1;
+        //        ClearForm();
+        //    }
+        //    else
+        //    {
+        //        lblHeader.Text = "Update Person";
+        //        lblPersonIDValue.Text = PersonID.ToString();
+        //    }
+        //}
 
         private void ClearForm()
         {
@@ -91,6 +89,7 @@ namespace DVLD
                 try
                 {
                     pbUserImage.Image = Image.FromFile(openFileDialog.FileName);
+                    pbUserImage.ImageLocation = openFileDialog.FileName;
                 }
                 catch (Exception ex)
                 {
@@ -99,9 +98,24 @@ namespace DVLD
             }
         }
 
-        private bool ValidateForm()
+        private bool ValidateNationalNo()
         {
-            // Example validation - customize as needed
+            if (string.IsNullOrWhiteSpace(txtNationalNumber.Text))
+            {
+                MessageBox.Show("National Number is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtNationalNumber.Focus();
+                return false;
+            }
+            else if (clsPeopleBusinessLayer.IsNationalNoExists(txtNationalNumber.Text))
+            {
+                MessageBox.Show("This National Number already exists.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtNationalNumber.Focus();
+                return false;
+            }
+            return true;
+        }
+        private bool ValidateName()
+        {
             if (string.IsNullOrWhiteSpace(txtFirstName.Text))
             {
                 MessageBox.Show("First Name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -109,21 +123,97 @@ namespace DVLD
                 return false;
             }
 
-            if (string.IsNullOrWhiteSpace(txtLastName.Text))
+            else if (string.IsNullOrWhiteSpace(txtSecondName.Text))
+            {
+                MessageBox.Show("Second Name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSecondName.Focus();
+                return false;
+            }
+            else if (string.IsNullOrWhiteSpace(txtThirdName.Text))
+            {
+                MessageBox.Show("Third Name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtThirdName.Focus();
+                return false;
+            }
+            else if (string.IsNullOrWhiteSpace(txtLastName.Text))
             {
                 MessageBox.Show("Last Name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtLastName.Focus();
                 return false;
             }
-
-            if (string.IsNullOrWhiteSpace(txtNationalNumber.Text))
+            return true;
+        }
+        private bool ValidateEmail()
+        {
+            if (string.IsNullOrWhiteSpace(txtEmail.Text))
             {
-                MessageBox.Show("National Number is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtNationalNumber.Focus();
+                MessageBox.Show("Email is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtEmail.Focus();
                 return false;
             }
+            else if (!txtEmail.Text.Contains("@"))
+            {
+                MessageBox.Show("Invalid email format.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtEmail.Focus();
+                return false;
+            }
+            return true;
+        }
+        private bool ValidatePhone()
+        {
+            if (string.IsNullOrWhiteSpace(txtPhone.Text))
+            {
+                MessageBox.Show("Phone number is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtPhone.Focus();
+                return false;
+            }
+            else if (txtPhone.Text.Length < 10)
+            {
+                MessageBox.Show("Phone number must be at least 10 digits long.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtPhone.Focus();
+                return false;
+            }
+            return true;
+        }
+        private bool ValidateAddress()
+        {
+            if (string.IsNullOrWhiteSpace(txtAddress.Text))
+            {
+                MessageBox.Show("Address is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtAddress.Focus();
+                return false;
+            }
+            return true;
+        }
+        private bool ValidateCountry()
+        {
+            if (cmbCountry.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please select a country.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                cmbCountry.Focus();
+                return false;
+            }
+            return true;
+        }
+        private bool ValidateForm()
+        {
+            if (!ValidateName())
+                return false;
 
-            // Add additional validation as needed
+            else if (!ValidateNationalNo())
+                return false;
+
+            else if (!ValidateEmail())
+                return false;
+
+            else if (!ValidatePhone())
+            {
+                return false;
+            }
+            else if (!ValidateAddress())
+                return false;
+            else if (!ValidateCountry())
+                return false;
 
             return true;
         }
@@ -133,14 +223,35 @@ namespace DVLD
             if (!ValidateForm())
                 return;
 
-            // Trigger the save event to notify parent form
+            if (pbUserImage.ImageLocation != null)
+            {
+                string sourcePath = pbUserImage.ImageLocation;
+                string extension = Path.GetExtension(sourcePath);
+                string nationalID = txtNationalNumber.Text;
+                string targetDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DVLD", "peoplepictures");
+                Directory.CreateDirectory(targetDir);
+                string destPath = Path.Combine(targetDir, nationalID + extension);
+
+                try
+                {
+                    File.Copy(sourcePath, destPath, true); // overwrite if already exists
+                    pbUserImage.ImageLocation = destPath;  // update the image path to the copied one
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Failed to copy image: " + ex.Message);
+                }
+            }
+
             OnSave?.Invoke(this, EventArgs.Empty);
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             // Trigger the close event to notify parent form
             OnClose?.Invoke(this, EventArgs.Empty);
+
         }
 
         private void txtName_KeyPress(object sender, KeyPressEventArgs e)
@@ -151,6 +262,20 @@ namespace DVLD
                 e.Handled = true; // Cancel input
             }
         }
+        private void rbMale_CheckedChanged(object sender, EventArgs e)
+        {
+            pbUserImage.Image = Properties.Resources.DefaultMan;
+        }
+        private void rbFemale_CheckedChanged(object sender, EventArgs e)
+        {
+            pbUserImage.Image = Properties.Resources.DefaultWoman;
+        }
 
+
+        public usrCtrlAddEditPerson()
+        {
+            InitializeComponent();
+            LoadCountries();
+        }
     }
 }

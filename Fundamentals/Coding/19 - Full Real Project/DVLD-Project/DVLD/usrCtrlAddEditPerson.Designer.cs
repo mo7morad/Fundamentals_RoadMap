@@ -198,6 +198,7 @@ namespace DVLD
             this.rbMale.TabIndex = 15;
             this.rbMale.TabStop = true;
             this.rbMale.Text = "Male";
+            this.rbMale.CheckedChanged += new System.EventHandler(this.rbMale_CheckedChanged);
             // 
             // rbFemale
             // 
@@ -206,6 +207,7 @@ namespace DVLD
             this.rbFemale.Size = new System.Drawing.Size(80, 20);
             this.rbFemale.TabIndex = 16;
             this.rbFemale.Text = "Female";
+            this.rbFemale.CheckedChanged += new System.EventHandler(this.rbFemale_CheckedChanged);
             // 
             // lblDateOfBirth
             // 
@@ -219,8 +221,8 @@ namespace DVLD
             // 
             this.dtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpDateOfBirth.Location = new System.Drawing.Point(380, 130);
-            this.dtpDateOfBirth.MaxDate = new System.DateTime(2007, 4, 18, 16, 28, 2, 598);
-            this.dtpDateOfBirth.MinDate = new System.DateTime(1960, 1, 1, 0, 0, 0, 0);
+            this.dtpDateOfBirth.MaxDate = new System.DateTime(2007, 4, 18, 22, 31, 30, 955);
+            this.dtpDateOfBirth.MinDate = new System.DateTime(1945, 4, 18, 22, 31, 30, 955);
             this.dtpDateOfBirth.Name = "dtpDateOfBirth";
             this.dtpDateOfBirth.Size = new System.Drawing.Size(130, 21);
             this.dtpDateOfBirth.TabIndex = 18;
@@ -292,7 +294,7 @@ namespace DVLD
             // 
             this.pbUserImage.BackColor = System.Drawing.Color.LightGray;
             this.pbUserImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbUserImage.Image = global::DVLD.Properties.Resources.DefaultMan__2_;
+            this.pbUserImage.Image = global::DVLD.Properties.Resources.DefaultMan;
             this.pbUserImage.Location = new System.Drawing.Point(530, 80);
             this.pbUserImage.Name = "pbUserImage";
             this.pbUserImage.Size = new System.Drawing.Size(120, 120);

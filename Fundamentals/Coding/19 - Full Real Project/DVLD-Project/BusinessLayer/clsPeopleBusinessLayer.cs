@@ -4,15 +4,21 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataAccessLayer;
 
 
 namespace BusinessLayer
 {
-    public class PeopleBusinessLayer
+    public class clsPeopleBusinessLayer
     {
+
+        public static bool IsNationalNoExists(string nationalNo)
+        {
+            return clsPeopleDataAccess.IsNationalNoExists(nationalNo);
+        }
         public static DataTable GetAllPeople()
         {
-            DataTable dt = DataAccessLayer.clsPeopleDataAccess.GetAllPeople();
+            DataTable dt = clsPeopleDataAccess.GetAllPeople();
 
             // Add a new column for formatted gender
             dt.Columns.Add("Person Gender", typeof(string));
@@ -33,9 +39,13 @@ namespace BusinessLayer
             return dt;
         }
 
+        public static void OnSavePerson(Entities.clsPerson person)
+        {
+        }
+
         public static int AddNewPerson(Entities.clsPerson person)
         {
-            return DataAccessLayer.clsPeopleDataAccess.AddNewPerson(person);
+            return clsPeopleDataAccess.AddNewPerson(person);
         }
     }
 }

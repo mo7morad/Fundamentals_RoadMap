@@ -10,6 +10,24 @@ namespace DataAccessLayer
 {
     public class clsCountriesDataAccess
     {
+        public static int GetCountryID(string countryName)
+        {
+            int countryID = 0;
+            using (SqlConnection Connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                using (SqlCommand Command = new SqlCommand("SELECT CountryID FROM Countries WHERE CountryName = @CountryName", Connection))
+                {
+                    Command.Parameters.AddWithValue("@CountryName", countryName);
+                    Connection.Open();
+                    object result = Command.ExecuteScalar();
+                    if (result != null)
+                    {
+                        countryID = Convert.ToInt32(result);
+                    }
+                }
+            }
+            return countryID;
+        }
         public static List<string> GetAllCountries()
         {
             List<string> Countries = new List<string>();
@@ -23,9 +41,9 @@ namespace DataAccessLayer
                     {
                         if (Reader.HasRows)
                         {
-                            foreach (var Country in Reader)
+                            while (Reader.Read())
                             {
-                                Countries.Add(Country.ToString());
+                                Countries.Add(Reader["CountryName"].ToString());
                             }
                         }
                     }

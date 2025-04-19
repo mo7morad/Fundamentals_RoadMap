@@ -34,18 +34,19 @@
             // usrCtrlAddNewPerson
             // 
             this.usrCtrlAddNewPerson.Address = "";
-            this.usrCtrlAddNewPerson.Country = "Jordan";
+            this.usrCtrlAddNewPerson.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.usrCtrlAddNewPerson.Country = "";
             this.usrCtrlAddNewPerson.DateOfBirth = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             this.usrCtrlAddNewPerson.Dock = System.Windows.Forms.DockStyle.Fill;
             this.usrCtrlAddNewPerson.Email = "";
             this.usrCtrlAddNewPerson.FirstName = "";
             this.usrCtrlAddNewPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.usrCtrlAddNewPerson.Gender = "M";
+            this.usrCtrlAddNewPerson.Gender = 'M';
             this.usrCtrlAddNewPerson.LastName = "";
             this.usrCtrlAddNewPerson.Location = new System.Drawing.Point(0, 0);
             this.usrCtrlAddNewPerson.Name = "usrCtrlAddNewPerson";
             this.usrCtrlAddNewPerson.NationalNumber = "";
-            this.usrCtrlAddNewPerson.PersonID = -1;
+            this.usrCtrlAddNewPerson.PersonID = "";
             this.usrCtrlAddNewPerson.Phone = "";
             this.usrCtrlAddNewPerson.SecondName = "";
             this.usrCtrlAddNewPerson.Size = new System.Drawing.Size(697, 385);

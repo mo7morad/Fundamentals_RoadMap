@@ -7,3 +7,22 @@ D:\Programming\Project\Entities\bin\Debug\net48\DVLD_Entities.dll
 D:\Programming\Project\Entities\bin\Debug\net48\DVLD_Entities.pdb
 D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.dll
 D:\Programming\Project\Entities\obj\Debug\net48\DVLD_Entities.pdb
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\bin\Debug\net48\DVLD_Entities.dll
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\bin\Debug\net48\DVLD_Entities.pdb
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.csproj.AssemblyReference.cache
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.AssemblyInfoInputs.cache
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.AssemblyInfo.cs
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.csproj.CoreCompileInputs.cache
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.dll
+D:\Programming\Project\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\bin\Debug\net48\DVLD_Entities.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\bin\Debug\net48\DVLD_Entities.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.AssemblyInfoInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.AssemblyInfo.cs
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.sourcelink.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\Entities\obj\Debug\net48\DVLD_Entities.pdb
