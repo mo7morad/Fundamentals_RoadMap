@@ -57,7 +57,7 @@
             this.panelManagePeople.Location = new System.Drawing.Point(0, 0);
             this.panelManagePeople.Margin = new System.Windows.Forms.Padding(4);
             this.panelManagePeople.Name = "panelManagePeople";
-            this.panelManagePeople.Size = new System.Drawing.Size(1275, 508);
+            this.panelManagePeople.Size = new System.Drawing.Size(1072, 509);
             this.panelManagePeople.TabIndex = 0;
             // 
             // dataGridViewPeople
@@ -66,35 +66,37 @@
             this.dataGridViewPeople.AllowUserToDeleteRows = false;
             this.dataGridViewPeople.AllowUserToOrderColumns = true;
             this.dataGridViewPeople.AllowUserToResizeRows = false;
+            this.dataGridViewPeople.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewPeople.BackgroundColor = System.Drawing.Color.DarkGray;
             this.dataGridViewPeople.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewPeople.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewPeople.GridColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridViewPeople.Location = new System.Drawing.Point(0, 174);
             this.dataGridViewPeople.Name = "dataGridViewPeople";
-            this.dataGridViewPeople.Size = new System.Drawing.Size(1275, 334);
+            this.dataGridViewPeople.ReadOnly = true;
+            this.dataGridViewPeople.Size = new System.Drawing.Size(1072, 335);
             this.dataGridViewPeople.TabIndex = 3;
             // 
             // panelFilterBy
             // 
-            this.panelFilterBy.Controls.Add(this.pictureBoxAddPerson);
             this.panelFilterBy.Controls.Add(this.txtBoxFilterBy);
             this.panelFilterBy.Controls.Add(this.comboBoxFilterBy);
+            this.panelFilterBy.Controls.Add(this.pictureBoxAddPerson);
             this.panelFilterBy.Controls.Add(this.lblFilterBy);
             this.panelFilterBy.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelFilterBy.Location = new System.Drawing.Point(0, 134);
             this.panelFilterBy.Name = "panelFilterBy";
-            this.panelFilterBy.Size = new System.Drawing.Size(1275, 40);
+            this.panelFilterBy.Size = new System.Drawing.Size(1072, 40);
             this.panelFilterBy.TabIndex = 2;
             // 
             // pictureBoxAddPerson
             // 
-            this.pictureBoxAddPerson.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBoxAddPerson.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxAddPerson.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBoxAddPerson.Image = global::DVLD.Properties.Resources.addperson;
-            this.pictureBoxAddPerson.Location = new System.Drawing.Point(1194, 0);
+            this.pictureBoxAddPerson.Location = new System.Drawing.Point(1027, 0);
             this.pictureBoxAddPerson.Name = "pictureBoxAddPerson";
-            this.pictureBoxAddPerson.Size = new System.Drawing.Size(78, 34);
+            this.pictureBoxAddPerson.Size = new System.Drawing.Size(45, 40);
             this.pictureBoxAddPerson.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxAddPerson.TabIndex = 2;
             this.pictureBoxAddPerson.TabStop = false;
@@ -107,9 +109,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBoxFilterBy.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxFilterBy.Location = new System.Drawing.Point(222, 7);
+            this.txtBoxFilterBy.Location = new System.Drawing.Point(207, 7);
             this.txtBoxFilterBy.Name = "txtBoxFilterBy";
-            this.txtBoxFilterBy.Size = new System.Drawing.Size(161, 25);
+            this.txtBoxFilterBy.Size = new System.Drawing.Size(157, 25);
             this.txtBoxFilterBy.TabIndex = 1;
             this.txtBoxFilterBy.Visible = false;
             // 
@@ -133,7 +135,7 @@
             "Email"});
             this.comboBoxFilterBy.Location = new System.Drawing.Point(85, 7);
             this.comboBoxFilterBy.Name = "comboBoxFilterBy";
-            this.comboBoxFilterBy.Size = new System.Drawing.Size(131, 25);
+            this.comboBoxFilterBy.Size = new System.Drawing.Size(106, 25);
             this.comboBoxFilterBy.TabIndex = 0;
             this.comboBoxFilterBy.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilterBy_SelectedIndexChanged);
             // 
@@ -168,7 +170,7 @@
             this.pictureBoxManagePeople.Location = new System.Drawing.Point(0, 0);
             this.pictureBoxManagePeople.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxManagePeople.Name = "pictureBoxManagePeople";
-            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1275, 110);
+            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1072, 110);
             this.pictureBoxManagePeople.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxManagePeople.TabIndex = 0;
             this.pictureBoxManagePeople.TabStop = false;
@@ -177,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1275, 508);
+            this.ClientSize = new System.Drawing.Size(1072, 509);
             this.Controls.Add(this.panelManagePeople);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

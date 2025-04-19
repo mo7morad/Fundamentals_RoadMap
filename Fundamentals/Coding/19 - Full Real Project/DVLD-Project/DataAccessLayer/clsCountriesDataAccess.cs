@@ -28,6 +28,24 @@ namespace DataAccessLayer
             }
             return countryID;
         }
+        public static string GetCountryName(int countryID)
+        {
+            string countryName = string.Empty;
+            using (SqlConnection Connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                using (SqlCommand Command = new SqlCommand("SELECT CountryName FROM Countries WHERE CountryID = @CountryID", Connection))
+                {
+                    Command.Parameters.AddWithValue("@CountryID", countryID);
+                    Connection.Open();
+                    object result = Command.ExecuteScalar();
+                    if (result != null)
+                    {
+                        countryName = result.ToString();
+                    }
+                }
+            }
+            return countryName;
+        }
         public static List<string> GetAllCountries()
         {
             List<string> Countries = new List<string>();

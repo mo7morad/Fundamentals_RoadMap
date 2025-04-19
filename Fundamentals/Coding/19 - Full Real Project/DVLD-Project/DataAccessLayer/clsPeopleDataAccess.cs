@@ -26,7 +26,20 @@ namespace DataAccessLayer
 
             using (SqlConnection Connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
             {
-                using (SqlCommand Command = new SqlCommand("SELECT * FROM People", Connection))
+                string query = @"SELECT PersonID, NationalNo, FirstName, SecondName, ThirdName, LastName,
+                               CASE Gender 
+                                  WHEN 0 THEN 'Male'
+                                  WHEN 1 THEN 'Female'
+                                  ELSE 'Unknown'
+                                END AS Gender,
+                                DateOfBirth,
+                                CountryName,
+                                Phone,
+                                Email
+                                FROM People
+                                JOIN Countries ON People.NationalityCountryID = Countries.CountryID";
+
+                using (SqlCommand Command = new SqlCommand(query, Connection))
                 {
                     Connection.Open();
                     using (SqlDataReader Reader = Command.ExecuteReader())
@@ -41,6 +54,7 @@ namespace DataAccessLayer
 
             return People;
         }
+
 
         public static int AddNewPerson(Entities.clsPerson person)
         {
@@ -60,18 +74,19 @@ namespace DataAccessLayer
                 {
                     int countryID = clsCountriesDataAccess.GetCountryID(person.Country);
 
-                    cmd.Parameters.AddWithValue("@NationalNo", person.NationalNo);
-                    cmd.Parameters.AddWithValue("@FirstName", person.FirstName);
-                    cmd.Parameters.AddWithValue("@SecondName", person.SecondName);
-                    cmd.Parameters.AddWithValue("@ThirdName", person.ThirdName);
-                    cmd.Parameters.AddWithValue("@LastName", person.LastName);
-                    cmd.Parameters.AddWithValue("@DateOfBirth", person.DateOfBirth);
-                    cmd.Parameters.AddWithValue("@Gender", person.Gender ? 1 : 0);
-                    cmd.Parameters.AddWithValue("@Address", person.Address ?? string.Empty);
-                    cmd.Parameters.AddWithValue("@Phone", person.Phone ?? string.Empty);
-                    cmd.Parameters.AddWithValue("@Email", person.Email ?? string.Empty);
-                    cmd.Parameters.AddWithValue("@NationalityCountryID", countryID);
-                    cmd.Parameters.AddWithValue("@ImagePath", string.IsNullOrEmpty(person.ImagePath) ? DBNull.Value : (object)person.ImagePath);
+                    cmd.Parameters.Add("@NationalNo", SqlDbType.NVarChar, 50).Value = person.NationalNo;
+                    cmd.Parameters.Add("@FirstName", SqlDbType.NVarChar, 50).Value = person.FirstName;
+                    cmd.Parameters.Add("@SecondName", SqlDbType.NVarChar, 50).Value = person.SecondName;
+                    cmd.Parameters.Add("@ThirdName", SqlDbType.NVarChar, 50).Value = person.ThirdName;
+                    cmd.Parameters.Add("@LastName", SqlDbType.NVarChar, 50).Value = person.LastName;
+                    cmd.Parameters.Add("@DateOfBirth", SqlDbType.Date).Value = person.DateOfBirth;
+                    cmd.Parameters.Add("@Gender", SqlDbType.Bit).Value = person.Gender;
+                    cmd.Parameters.Add("@Address", SqlDbType.NVarChar, 255).Value = person.Address;
+                    cmd.Parameters.Add("@Phone", SqlDbType.NVarChar, 20).Value = person.Phone;
+                    cmd.Parameters.Add("@Email", SqlDbType.NVarChar, 100).Value = person.Email;
+                    cmd.Parameters.Add("@NationalityCountryID", SqlDbType.Int).Value = countryID;
+                    cmd.Parameters.Add("@ImagePath", SqlDbType.NVarChar, 500).Value =
+                    string.IsNullOrEmpty(person.ImagePath) ? DBNull.Value : (object)person.ImagePath;
 
                     conn.Open();
 
