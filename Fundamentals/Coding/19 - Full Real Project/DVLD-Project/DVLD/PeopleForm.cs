@@ -18,16 +18,19 @@ namespace DVLD
                 InitializeComponent();
                 comboBoxFilterBy.SelectedIndex = 0;
                 LoadPeople();
-            }
+        }
 
-            private void LoadPeople()
-            {
-                dataGridViewPeople.DataSource = clsPeopleBusinessLayer.GetAllPeople();
-                if (dataGridViewPeople.Columns.Contains("Gender"))
-                    dataGridViewPeople.Columns["Gender"].Visible = false;
-            }
+        private void LoadPeople()
+        {
+            dataGridViewPeople.DataSource = clsPeopleBusinessLayer.GetAllPeople();
 
-            private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
+            dataGridViewPeople.AutoResizeColumnHeadersHeight();
+            if (dataGridViewPeople.Columns.Contains("Email"))
+                dataGridViewPeople.Columns["Email"].MinimumWidth = 150;
+        }
+
+
+        private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
             {
                 txtBoxFilterBy.Visible = comboBoxFilterBy.SelectedIndex != 0;
 
@@ -48,5 +51,15 @@ namespace DVLD
             {
                 toolTipAddNewPerson.SetToolTip(pictureBoxAddPerson, "Add a new person");
             }
+
+        private void dataGridViewPeople_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right && e.RowIndex >= 0)
+            {
+                dataGridViewPeople.ClearSelection();
+                dataGridViewPeople.Rows[e.RowIndex].Selected = true;
+                contextMenuStripDataGridView.Show(Cursor.Position);
+            }
         }
+    }
 }

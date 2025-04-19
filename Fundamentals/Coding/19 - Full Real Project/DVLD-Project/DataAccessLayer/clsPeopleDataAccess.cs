@@ -26,14 +26,16 @@ namespace DataAccessLayer
 
             using (SqlConnection Connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
             {
-                string query = @"SELECT PersonID, NationalNo, FirstName, SecondName, ThirdName, LastName,
+                string query = @"SELECT PersonID AS 'Person ID', NationalNo AS 'National Number',
+                                FirstName AS 'First Name', SecondName AS 'Second Name',
+                                ThirdName AS 'Third Name', LastName AS 'Last Name',
                                CASE Gender 
                                   WHEN 0 THEN 'Male'
                                   WHEN 1 THEN 'Female'
                                   ELSE 'Unknown'
                                 END AS Gender,
-                                DateOfBirth,
-                                CountryName,
+                                DateOfBirth AS 'Date Of Birth',
+                                CountryName AS 'Country',
                                 Phone,
                                 Email
                                 FROM People
