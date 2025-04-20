@@ -1,8 +1,10 @@
 ﻿using System;
 using System.IO;
+using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
+
 
 
 namespace DVLD
@@ -146,17 +148,19 @@ namespace DVLD
         private bool ValidateEmail()
         {
             if (string.IsNullOrWhiteSpace(txtEmail.Text))
+                return true;
+
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$"; // Basic regex
+            if (!Regex.IsMatch(txtEmail.Text, emailPattern))
             {
-                MessageBox.Show("Email is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Invalid email format. Example: user@example.com",
+                              "Validation Error",
+                              MessageBoxButtons.OK,
+                              MessageBoxIcon.Error);
                 txtEmail.Focus();
                 return false;
             }
-            else if (!txtEmail.Text.Contains("@"))
-            {
-                MessageBox.Show("Invalid email format.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtEmail.Focus();
-                return false;
-            }
+
             return true;
         }
         private bool ValidatePhone()
@@ -283,6 +287,5 @@ namespace DVLD
             InitializeComponent();
             LoadCountries();
         }
-
     }
 }

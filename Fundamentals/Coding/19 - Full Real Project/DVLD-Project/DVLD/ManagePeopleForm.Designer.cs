@@ -119,7 +119,7 @@
             this.dataGridViewPeople.AllowUserToResizeRows = false;
             this.dataGridViewPeople.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridViewPeople.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridViewPeople.BackgroundColor = System.Drawing.Color.DarkGray;
+            this.dataGridViewPeople.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -130,7 +130,7 @@
             this.dataGridViewPeople.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewPeople.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewPeople.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewPeople.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.dataGridViewPeople.GridColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridViewPeople.Location = new System.Drawing.Point(0, 0);
             this.dataGridViewPeople.Name = "dataGridViewPeople";
             this.dataGridViewPeople.ReadOnly = true;
@@ -152,11 +152,8 @@
             // 
             // txtBoxFilterBy
             // 
-            this.txtBoxFilterBy.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBoxFilterBy.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxFilterBy.Location = new System.Drawing.Point(243, 7);
+            this.txtBoxFilterBy.Location = new System.Drawing.Point(200, 0);
             this.txtBoxFilterBy.Name = "txtBoxFilterBy";
             this.txtBoxFilterBy.Size = new System.Drawing.Size(171, 25);
             this.txtBoxFilterBy.TabIndex = 1;
@@ -164,9 +161,7 @@
             // 
             // comboBoxFilterBy
             // 
-            this.comboBoxFilterBy.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBoxFilterBy.Dock = System.Windows.Forms.DockStyle.Left;
             this.comboBoxFilterBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxFilterBy.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxFilterBy.FormattingEnabled = true;
@@ -180,9 +175,9 @@
             "Gender",
             "Phone",
             "Email"});
-            this.comboBoxFilterBy.Location = new System.Drawing.Point(85, 7);
+            this.comboBoxFilterBy.Location = new System.Drawing.Point(76, 0);
             this.comboBoxFilterBy.Name = "comboBoxFilterBy";
-            this.comboBoxFilterBy.Size = new System.Drawing.Size(145, 25);
+            this.comboBoxFilterBy.Size = new System.Drawing.Size(118, 25);
             this.comboBoxFilterBy.TabIndex = 0;
             this.comboBoxFilterBy.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilterBy_SelectedIndexChanged);
             // 
@@ -203,8 +198,9 @@
             // lblFilterBy
             // 
             this.lblFilterBy.AutoSize = true;
+            this.lblFilterBy.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblFilterBy.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFilterBy.Location = new System.Drawing.Point(3, 7);
+            this.lblFilterBy.Location = new System.Drawing.Point(0, 0);
             this.lblFilterBy.Name = "lblFilterBy";
             this.lblFilterBy.Size = new System.Drawing.Size(76, 21);
             this.lblFilterBy.TabIndex = 0;
@@ -249,27 +245,27 @@
             this.sendEmailToolStripMenuItem,
             this.phoneCallToolStripMenuItem});
             this.contextMenuStripDataGridView.Name = "contextMenuStripDataGridView";
-            this.contextMenuStripDataGridView.Size = new System.Drawing.Size(197, 266);
+            this.contextMenuStripDataGridView.Size = new System.Drawing.Size(191, 244);
             // 
             // showDetailsToolStripMenuItem
             // 
             this.showDetailsToolStripMenuItem.Image = global::DVLD.Properties.Resources.PersonDetails_32;
             this.showDetailsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
-            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
+            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.showDetailsToolStripMenuItem.Text = "Show Details";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(193, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(187, 6);
             // 
             // addNewPersonToolStripMenuItem
             // 
             this.addNewPersonToolStripMenuItem.Image = global::DVLD.Properties.Resources.AddPerson_32;
             this.addNewPersonToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.addNewPersonToolStripMenuItem.Name = "addNewPersonToolStripMenuItem";
-            this.addNewPersonToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
+            this.addNewPersonToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.addNewPersonToolStripMenuItem.Text = "Add New Person";
             this.addNewPersonToolStripMenuItem.Click += new System.EventHandler(this.addNewPersonToolStripMenuItem_Click);
             // 
@@ -278,29 +274,30 @@
             this.editToolStripMenuItem.Image = global::DVLD.Properties.Resources.edit_32;
             this.editToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Image = global::DVLD.Properties.Resources.Delete_32;
             this.deleteToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(193, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(187, 6);
             // 
             // sendEmailToolStripMenuItem
             // 
             this.sendEmailToolStripMenuItem.Image = global::DVLD.Properties.Resources.Email_32;
             this.sendEmailToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.sendEmailToolStripMenuItem.Name = "sendEmailToolStripMenuItem";
-            this.sendEmailToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
+            this.sendEmailToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.sendEmailToolStripMenuItem.Text = "Send Email";
             // 
             // phoneCallToolStripMenuItem
@@ -308,7 +305,7 @@
             this.phoneCallToolStripMenuItem.Image = global::DVLD.Properties.Resources.call_32;
             this.phoneCallToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.phoneCallToolStripMenuItem.Name = "phoneCallToolStripMenuItem";
-            this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
+            this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.phoneCallToolStripMenuItem.Text = "Phone Call";
             // 
             // ManagePeopleForm

@@ -77,24 +77,36 @@ namespace DVLD
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             if (MessageBox.Show("Are you sure you want to delete this person?", "Delete Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 int selectedRowIndex = dataGridViewPeople.SelectedCells[0].RowIndex;
                 int personId = Convert.ToInt32(dataGridViewPeople.Rows[selectedRowIndex].Cells[0].Value);
 
-                bool isDeleted = clsPeopleBusinessLayer.DeletePerson(personId);
+                string error = string.Empty;
+                bool isDeleted = clsPeopleBusinessLayer.DeletePerson(personId, ref error);
+
                 if (isDeleted)
                 {
-                    MessageBox.Show("Person deleted successfully.", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Person deleted successfully.");
                     LoadPeopleToDataGridView();
                 }
                 else
                 {
-                    MessageBox.Show("Failed to delete person.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    if (error.Contains("REFERENCE constraint")) 
+                    {
+                        MessageBox.Show("Cannot delete this person. They are linked to existing applications.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error while deleting: " + error, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
-
             }
+        }
+
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

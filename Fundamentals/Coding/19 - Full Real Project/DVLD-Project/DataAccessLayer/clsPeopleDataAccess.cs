@@ -143,18 +143,32 @@ namespace DataAccessLayer
                 }
             }
         }
-        public static bool DeletePerson(int personID)
+        public static bool DeletePerson(int personID, ref string errorMessage)
         {
-            using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            try
             {
-                string query = "DELETE FROM People WHERE PersonID = @PersonID";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
                 {
-                    cmd.Parameters.AddWithValue("@PersonID", personID);
-                    conn.Open();
-                    int rowsAffected = cmd.ExecuteNonQuery();
-                    return rowsAffected > 0;
+                    string query = "DELETE FROM People WHERE PersonID = @PersonID";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@PersonID", personID);
+                        conn.Open();
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        return rowsAffected > 0;
+                    }
                 }
+            }
+            catch (SqlException ex)
+            {
+                errorMessage = ex.Message;
+                return false;
+            }
+            catch (Exception ex)
+            {
+                errorMessage = "Unexpected error: " + ex.Message;
+                return false;
             }
         }
     }

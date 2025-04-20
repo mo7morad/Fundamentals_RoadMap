@@ -33,7 +33,6 @@ namespace DVLD
             this.lblHeader = new System.Windows.Forms.Label();
             this.lblPersonID = new System.Windows.Forms.Label();
             this.lblPersonIDValue = new System.Windows.Forms.Label();
-            this.lblName = new System.Windows.Forms.Label();
             this.lblFirst = new System.Windows.Forms.Label();
             this.lblSecond = new System.Windows.Forms.Label();
             this.lblThird = new System.Windows.Forms.Label();
@@ -42,25 +41,26 @@ namespace DVLD
             this.txtSecondName = new System.Windows.Forms.TextBox();
             this.txtThirdName = new System.Windows.Forms.TextBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
-            this.lblNationalNumber = new System.Windows.Forms.Label();
             this.txtNationalNumber = new System.Windows.Forms.TextBox();
-            this.lblGender = new System.Windows.Forms.Label();
-            this.rbMale = new System.Windows.Forms.RadioButton();
-            this.rbFemale = new System.Windows.Forms.RadioButton();
             this.lblDateOfBirth = new System.Windows.Forms.Label();
             this.dtpDateOfBirth = new System.Windows.Forms.DateTimePicker();
-            this.lblPhone = new System.Windows.Forms.Label();
             this.txtPhone = new System.Windows.Forms.TextBox();
-            this.lblEmail = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.lblCountry = new System.Windows.Forms.Label();
             this.cmbCountry = new System.Windows.Forms.ComboBox();
-            this.lblAddress = new System.Windows.Forms.Label();
             this.txtAddress = new System.Windows.Forms.TextBox();
-            this.pbUserImage = new System.Windows.Forms.PictureBox();
             this.lblSetImage = new System.Windows.Forms.LinkLabel();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lblName = new System.Windows.Forms.Label();
+            this.lblNationalNumber = new System.Windows.Forms.Label();
+            this.lblGender = new System.Windows.Forms.Label();
+            this.rbMale = new System.Windows.Forms.RadioButton();
+            this.rbFemale = new System.Windows.Forms.RadioButton();
+            this.lblPhone = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblCountry = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.pbUserImage = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbUserImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,14 +89,6 @@ namespace DVLD
             this.lblPersonIDValue.Size = new System.Drawing.Size(100, 15);
             this.lblPersonIDValue.TabIndex = 2;
             this.lblPersonIDValue.Text = "N/A";
-            // 
-            // lblName
-            // 
-            this.lblName.Location = new System.Drawing.Point(20, 80);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(80, 20);
-            this.lblName.TabIndex = 3;
-            this.lblName.Text = "Name:";
             // 
             // lblFirst
             // 
@@ -166,52 +158,16 @@ namespace DVLD
             this.txtLastName.TabIndex = 11;
             this.txtLastName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
             // 
-            // lblNationalNumber
-            // 
-            this.lblNationalNumber.Location = new System.Drawing.Point(20, 130);
-            this.lblNationalNumber.Name = "lblNationalNumber";
-            this.lblNationalNumber.Size = new System.Drawing.Size(80, 20);
-            this.lblNationalNumber.TabIndex = 12;
-            this.lblNationalNumber.Text = "National No:";
-            // 
             // txtNationalNumber
             // 
-            this.txtNationalNumber.Location = new System.Drawing.Point(110, 130);
+            this.txtNationalNumber.Location = new System.Drawing.Point(110, 126);
             this.txtNationalNumber.Name = "txtNationalNumber";
             this.txtNationalNumber.Size = new System.Drawing.Size(150, 21);
             this.txtNationalNumber.TabIndex = 13;
             // 
-            // lblGender
-            // 
-            this.lblGender.Location = new System.Drawing.Point(20, 170);
-            this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(80, 20);
-            this.lblGender.TabIndex = 14;
-            this.lblGender.Text = "Gender:";
-            // 
-            // rbMale
-            // 
-            this.rbMale.Checked = true;
-            this.rbMale.Location = new System.Drawing.Point(110, 170);
-            this.rbMale.Name = "rbMale";
-            this.rbMale.Size = new System.Drawing.Size(60, 20);
-            this.rbMale.TabIndex = 15;
-            this.rbMale.TabStop = true;
-            this.rbMale.Text = "Male";
-            this.rbMale.CheckedChanged += new System.EventHandler(this.rbMale_CheckedChanged);
-            // 
-            // rbFemale
-            // 
-            this.rbFemale.Location = new System.Drawing.Point(180, 170);
-            this.rbFemale.Name = "rbFemale";
-            this.rbFemale.Size = new System.Drawing.Size(80, 20);
-            this.rbFemale.TabIndex = 16;
-            this.rbFemale.Text = "Female";
-            this.rbFemale.CheckedChanged += new System.EventHandler(this.rbFemale_CheckedChanged);
-            // 
             // lblDateOfBirth
             // 
-            this.lblDateOfBirth.Location = new System.Drawing.Point(288, 130);
+            this.lblDateOfBirth.Location = new System.Drawing.Point(314, 130);
             this.lblDateOfBirth.Name = "lblDateOfBirth";
             this.lblDateOfBirth.Size = new System.Drawing.Size(86, 20);
             this.lblDateOfBirth.TabIndex = 17;
@@ -220,7 +176,7 @@ namespace DVLD
             // dtpDateOfBirth
             // 
             this.dtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDateOfBirth.Location = new System.Drawing.Point(380, 130);
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(410, 130);
             this.dtpDateOfBirth.MaxDate = new System.DateTime(2007, 4, 18, 22, 31, 30, 955);
             this.dtpDateOfBirth.MinDate = new System.DateTime(1945, 4, 18, 22, 31, 30, 955);
             this.dtpDateOfBirth.Name = "dtpDateOfBirth";
@@ -228,60 +184,28 @@ namespace DVLD
             this.dtpDateOfBirth.TabIndex = 18;
             this.dtpDateOfBirth.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             // 
-            // lblPhone
-            // 
-            this.lblPhone.Location = new System.Drawing.Point(316, 170);
-            this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(54, 20);
-            this.lblPhone.TabIndex = 19;
-            this.lblPhone.Text = "Phone:";
-            // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(380, 170);
+            this.txtPhone.Location = new System.Drawing.Point(410, 169);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(130, 21);
             this.txtPhone.TabIndex = 20;
             this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
             // 
-            // lblEmail
-            // 
-            this.lblEmail.Location = new System.Drawing.Point(20, 210);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(80, 20);
-            this.lblEmail.TabIndex = 21;
-            this.lblEmail.Text = "Email:";
-            // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(110, 210);
+            this.txtEmail.Location = new System.Drawing.Point(110, 214);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(191, 21);
+            this.txtEmail.Size = new System.Drawing.Size(150, 21);
             this.txtEmail.TabIndex = 22;
-            // 
-            // lblCountry
-            // 
-            this.lblCountry.Location = new System.Drawing.Point(316, 210);
-            this.lblCountry.Name = "lblCountry";
-            this.lblCountry.Size = new System.Drawing.Size(54, 20);
-            this.lblCountry.TabIndex = 23;
-            this.lblCountry.Text = "Country:";
             // 
             // cmbCountry
             // 
             this.cmbCountry.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbCountry.Location = new System.Drawing.Point(380, 207);
+            this.cmbCountry.Location = new System.Drawing.Point(410, 207);
             this.cmbCountry.Name = "cmbCountry";
             this.cmbCountry.Size = new System.Drawing.Size(130, 23);
             this.cmbCountry.TabIndex = 24;
-            // 
-            // lblAddress
-            // 
-            this.lblAddress.Location = new System.Drawing.Point(20, 250);
-            this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(80, 20);
-            this.lblAddress.TabIndex = 25;
-            this.lblAddress.Text = "Address:";
             // 
             // txtAddress
             // 
@@ -291,21 +215,9 @@ namespace DVLD
             this.txtAddress.Size = new System.Drawing.Size(380, 60);
             this.txtAddress.TabIndex = 26;
             // 
-            // pbUserImage
-            // 
-            this.pbUserImage.BackColor = System.Drawing.Color.LightGray;
-            this.pbUserImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbUserImage.Image = global::DVLD.Properties.Resources.DefaultMan;
-            this.pbUserImage.Location = new System.Drawing.Point(530, 80);
-            this.pbUserImage.Name = "pbUserImage";
-            this.pbUserImage.Size = new System.Drawing.Size(120, 120);
-            this.pbUserImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbUserImage.TabIndex = 27;
-            this.pbUserImage.TabStop = false;
-            // 
             // lblSetImage
             // 
-            this.lblSetImage.Location = new System.Drawing.Point(553, 210);
+            this.lblSetImage.Location = new System.Drawing.Point(584, 211);
             this.lblSetImage.Name = "lblSetImage";
             this.lblSetImage.Size = new System.Drawing.Size(70, 20);
             this.lblSetImage.TabIndex = 28;
@@ -330,6 +242,118 @@ namespace DVLD
             this.btnClose.TabIndex = 30;
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // lblName
+            // 
+            this.lblName.Image = global::DVLD.Properties.Resources.Person_32;
+            this.lblName.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblName.Location = new System.Drawing.Point(20, 80);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(84, 20);
+            this.lblName.TabIndex = 3;
+            this.lblName.Text = "Name:";
+            this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblNationalNumber
+            // 
+            this.lblNationalNumber.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblNationalNumber.Location = new System.Drawing.Point(20, 127);
+            this.lblNationalNumber.Name = "lblNationalNumber";
+            this.lblNationalNumber.Size = new System.Drawing.Size(84, 20);
+            this.lblNationalNumber.TabIndex = 12;
+            this.lblNationalNumber.Text = "National No:";
+            this.lblNationalNumber.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblGender
+            // 
+            this.lblGender.Image = global::DVLD.Properties.Resources.gender1;
+            this.lblGender.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGender.Location = new System.Drawing.Point(20, 165);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(84, 31);
+            this.lblGender.TabIndex = 14;
+            this.lblGender.Text = "Gender:";
+            this.lblGender.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // rbMale
+            // 
+            this.rbMale.Checked = true;
+            this.rbMale.Image = global::DVLD.Properties.Resources.Man_32;
+            this.rbMale.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.rbMale.Location = new System.Drawing.Point(110, 165);
+            this.rbMale.Name = "rbMale";
+            this.rbMale.Size = new System.Drawing.Size(88, 31);
+            this.rbMale.TabIndex = 15;
+            this.rbMale.TabStop = true;
+            this.rbMale.Text = "Male";
+            this.rbMale.CheckedChanged += new System.EventHandler(this.rbMale_CheckedChanged);
+            // 
+            // rbFemale
+            // 
+            this.rbFemale.Image = global::DVLD.Properties.Resources.Woman_32;
+            this.rbFemale.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.rbFemale.Location = new System.Drawing.Point(204, 165);
+            this.rbFemale.Name = "rbFemale";
+            this.rbFemale.Size = new System.Drawing.Size(97, 31);
+            this.rbFemale.TabIndex = 16;
+            this.rbFemale.Text = "Female";
+            this.rbFemale.CheckedChanged += new System.EventHandler(this.rbFemale_CheckedChanged);
+            // 
+            // lblPhone
+            // 
+            this.lblPhone.Image = global::DVLD.Properties.Resources.Phone_32;
+            this.lblPhone.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblPhone.Location = new System.Drawing.Point(314, 169);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(86, 20);
+            this.lblPhone.TabIndex = 19;
+            this.lblPhone.Text = "Phone:";
+            this.lblPhone.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.Image = global::DVLD.Properties.Resources.Email_32;
+            this.lblEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblEmail.Location = new System.Drawing.Point(20, 211);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(84, 26);
+            this.lblEmail.TabIndex = 21;
+            this.lblEmail.Text = "Email:";
+            this.lblEmail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblCountry
+            // 
+            this.lblCountry.Image = global::DVLD.Properties.Resources.Country_32;
+            this.lblCountry.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblCountry.Location = new System.Drawing.Point(314, 210);
+            this.lblCountry.Name = "lblCountry";
+            this.lblCountry.Size = new System.Drawing.Size(86, 20);
+            this.lblCountry.TabIndex = 23;
+            this.lblCountry.Text = "Country:";
+            this.lblCountry.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblAddress
+            // 
+            this.lblAddress.Image = global::DVLD.Properties.Resources.Address_32;
+            this.lblAddress.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblAddress.Location = new System.Drawing.Point(20, 250);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(84, 33);
+            this.lblAddress.TabIndex = 25;
+            this.lblAddress.Text = "Address:";
+            this.lblAddress.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pbUserImage
+            // 
+            this.pbUserImage.BackColor = System.Drawing.Color.LightGray;
+            this.pbUserImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbUserImage.Image = global::DVLD.Properties.Resources.DefaultMan;
+            this.pbUserImage.Location = new System.Drawing.Point(556, 80);
+            this.pbUserImage.Name = "pbUserImage";
+            this.pbUserImage.Size = new System.Drawing.Size(120, 120);
+            this.pbUserImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbUserImage.TabIndex = 27;
+            this.pbUserImage.TabStop = false;
             // 
             // usrCtrlAddEditPerson
             // 

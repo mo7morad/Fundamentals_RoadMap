@@ -31,9 +31,9 @@ namespace BusinessLayer
         {
             return clsPeopleDataAccess.AddNewPerson(person);
         }
-        public static bool DeletePerson(int personID)
+        public static bool DeletePerson(int personID, ref string errorMessage)
         {
-            return clsPeopleDataAccess.DeletePerson(personID);
+            return clsPeopleDataAccess.DeletePerson(personID, ref errorMessage);
         }
     }
 }
