@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLayer;
+using DVLD_Entities.Enums;
 
 namespace DVLD
 {
     public partial class ManagePeopleForm : Form
     {
+
         public ManagePeopleForm()
         {
             InitializeComponent();
@@ -27,18 +22,13 @@ namespace DVLD
             if (dataGridViewPeople.Columns.Contains("Email"))
                 dataGridViewPeople.Columns["Email"].MinimumWidth = 150;
         }
-
         private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
             txtBoxFilterBy.Visible = comboBoxFilterBy.SelectedIndex != 0;
-
-            // You can add logic like:
-            // ApplyFilter(comboBoxFilterBy.SelectedItem.ToString(), txtBoxFilterBy.Text);
         }
-
         private void OpenAddNewPersonForm()
         {
-            addNewPersonForm addNewForm = new addNewPersonForm();
+            Add_EditPersonForm addNewForm = new Add_EditPersonForm(enFormMode.AddNew, -1);
             addNewForm.PersonAddedToDatabase += RefreshPeopleList_OnSave;
             addNewForm.ShowDialog();
         }
@@ -54,7 +44,6 @@ namespace DVLD
         {
             toolTipAddNewPerson.SetToolTip(pictureBoxAddPerson, "Add a new person");
         }
-
         private void dataGridViewPeople_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             if (e.Button == MouseButtons.Right && e.RowIndex >= 0)
@@ -64,17 +53,14 @@ namespace DVLD
                 contextMenuStripDataGridView.Show(Cursor.Position);
             }
         }
-
         private void btnClosePeopleForm_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void RefreshPeopleList_OnSave(object sender, EventArgs e)
         {
             LoadPeopleToDataGridView();
         }
-
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want to delete this person?", "Delete Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)

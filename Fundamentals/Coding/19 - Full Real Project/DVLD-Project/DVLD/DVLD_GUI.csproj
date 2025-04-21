@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddNewPersonForm.cs">
+    <Compile Include="Add_EditPersonForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddNewPersonForm.Designer.cs">
-      <DependentUpon>AddNewPersonForm.cs</DependentUpon>
+    <Compile Include="Add_EditPersonForm.Designer.cs">
+      <DependentUpon>Add_EditPersonForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ManagePeopleForm.cs">
       <SubType>Form</SubType>
@@ -71,11 +71,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="usrCtrlAddEditPerson.cs">
+    <Compile Include="usrCtrlPerson.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="usrCtrlAddEditPerson.Designer.cs">
-      <DependentUpon>usrCtrlAddEditPerson.cs</DependentUpon>
+    <Compile Include="usrCtrlPerson.Designer.cs">
+      <DependentUpon>usrCtrlPerson.cs</DependentUpon>
     </Compile>
     <Compile Include="usrCtrlPersonInfoCard.cs">
       <SubType>UserControl</SubType>
@@ -83,8 +83,8 @@
     <Compile Include="usrCtrlPersonInfoCard.Designer.cs">
       <DependentUpon>usrCtrlPersonInfoCard.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddNewPersonForm.resx">
-      <DependentUpon>AddNewPersonForm.cs</DependentUpon>
+    <EmbeddedResource Include="Add_EditPersonForm.resx">
+      <DependentUpon>Add_EditPersonForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
@@ -97,8 +97,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="usrCtrlAddEditPerson.resx">
-      <DependentUpon>usrCtrlAddEditPerson.cs</DependentUpon>
+    <EmbeddedResource Include="usrCtrlPerson.resx">
+      <DependentUpon>usrCtrlPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="usrCtrlPersonInfoCard.resx">
       <DependentUpon>usrCtrlPersonInfoCard.cs</DependentUpon>
