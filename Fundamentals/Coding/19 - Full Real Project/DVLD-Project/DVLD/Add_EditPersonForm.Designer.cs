@@ -21,7 +21,7 @@ namespace DVLD
                 this.usrCtrlAdd_EditPerson.Email = "";
                 this.usrCtrlAdd_EditPerson.FirstName = "";
                 this.usrCtrlAdd_EditPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-                this.usrCtrlAdd_EditPerson.Gender = 'M';
+                this.usrCtrlAdd_EditPerson.Gender = false;
                 this.usrCtrlAdd_EditPerson.ImagePath = null;
                 this.usrCtrlAdd_EditPerson.LastName = "";
                 this.usrCtrlAdd_EditPerson.Location = new System.Drawing.Point(0, 0);

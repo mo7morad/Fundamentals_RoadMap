@@ -11,37 +11,21 @@ namespace DVLD
         public event EventHandler<EventArgs> PersonSavedToDataBase;
         public enFormMode FormMode;
         public int PersonID { get; set; }
+
         public Add_EditPersonForm(enFormMode formMode, int personID = -1)
         {
             FormMode = formMode;
             PersonID = personID;
 
             InitializeComponent(formMode, personID);
-            // Subscribe to the OnSave, OnClose events
+
             usrCtrlAdd_EditPerson.OnSave += Form_OnSave;
             usrCtrlAdd_EditPerson.OnClose += Form_OnClose;
         }
-        private (int personID, string errorMessage) AddNewPerson()
+
+        private (int personID, string errorMessage) AddNewPersonToDataBase()
         {
-            string nationalNo = usrCtrlAdd_EditPerson.NationalNumber;
-            string firstName = usrCtrlAdd_EditPerson.FirstName;
-            string secondName = usrCtrlAdd_EditPerson.SecondName;
-            string thirdName = usrCtrlAdd_EditPerson.ThirdName;
-            string lastName = usrCtrlAdd_EditPerson.LastName;
-            DateTime dateOfBirth = usrCtrlAdd_EditPerson.DateOfBirth;
-            bool gender = usrCtrlAdd_EditPerson.Gender == 'M' ? true : false;
-            string address = usrCtrlAdd_EditPerson.Address;
-            string phone = usrCtrlAdd_EditPerson.Phone;
-            // Get Country object
-            string countryName = usrCtrlAdd_EditPerson.Country;
-            int countryID = clsCountriesBusinessLayer.GetCountryID(countryName);
-            Entities.clsCountry country = new Entities.clsCountry(countryID, countryName);
-
-            string email = usrCtrlAdd_EditPerson.Email;
-            string imagePath = usrCtrlAdd_EditPerson.ImagePath;
-
-            clsPerson p = new clsPerson(nationalNo, firstName, secondName, thirdName, lastName,
-                                        dateOfBirth, gender, address, phone, country, email, imagePath);
+            clsPerson p = BuildPersonFromForm();
 
             string errorMessage = string.Empty;
             int personID = clsPeopleBusinessLayer.AddNewPerson(p, ref errorMessage);
@@ -49,18 +33,45 @@ namespace DVLD
             return (personID, errorMessage);
         }
 
-
-        private bool UpdatePerson(clsPerson person)
+        private (bool result, string errorMessage) UpdatePersonInDataBase()
         {
+            clsPerson p = BuildPersonFromForm();
+            p.PersonID = this.PersonID;
+
             string errorMessage = string.Empty;
-            bool result = clsPeopleBusinessLayer.UpdatePerson(person, ref errorMessage);
-            return result;
+            bool result = clsPeopleBusinessLayer.UpdatePerson(p, ref errorMessage);
+
+            return (result, errorMessage);
         }
+
+        private clsPerson BuildPersonFromForm()
+        {
+            string nationalNo = usrCtrlAdd_EditPerson.NationalNumber;
+            string firstName = usrCtrlAdd_EditPerson.FirstName;
+            string secondName = usrCtrlAdd_EditPerson.SecondName;
+            string thirdName = usrCtrlAdd_EditPerson.ThirdName;
+            string lastName = usrCtrlAdd_EditPerson.LastName;
+            DateTime dateOfBirth = usrCtrlAdd_EditPerson.DateOfBirth;
+            bool gender = usrCtrlAdd_EditPerson.Gender == true ? true : false;
+            string address = usrCtrlAdd_EditPerson.Address;
+            string phone = usrCtrlAdd_EditPerson.Phone;
+
+            string countryName = usrCtrlAdd_EditPerson.Country;
+            int countryID = clsCountriesBusinessLayer.GetCountryID(countryName);
+            Entities.clsCountry country = new Entities.clsCountry(countryID, countryName);
+
+            string email = usrCtrlAdd_EditPerson.Email;
+            string imagePath = usrCtrlAdd_EditPerson.ImagePath;
+
+            return new clsPerson(nationalNo, firstName, secondName, thirdName, lastName,
+                                 dateOfBirth, gender, address, phone, country, email, imagePath);
+        }
+
         private void Form_OnSave(object sender, EventArgs e)
         {
             if (FormMode == enFormMode.AddNew)
             {
-                var addResult = AddNewPerson();
+                var addResult = AddNewPersonToDataBase();
                 if (addResult.personID > 0)
                 {
                     usrCtrlAdd_EditPerson.PersonID = addResult.personID.ToString();
@@ -76,12 +87,23 @@ namespace DVLD
                     MessageBox.Show(message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            else
+            else if (FormMode == enFormMode.Update)
             {
-                
-            }
+                var updateResult = UpdatePersonInDataBase();
+                if (updateResult.result)
+                {
+                    MessageBox.Show("Person updated successfully!",
+                                    "Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    string message = string.IsNullOrEmpty(updateResult.errorMessage)
+                        ? "Failed to update person."
+                        : "Failed to update person:\n" + updateResult.errorMessage;
 
-            // Firing the event.
+                    MessageBox.Show(message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
             PersonSavedToDataBase?.Invoke(this, EventArgs.Empty);
         }
 

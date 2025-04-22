@@ -30,12 +30,17 @@ namespace DVLD
         public string Country { get => cmbCountry.Text; set => cmbCountry.Text = value; }
         public string ImagePath { get => pbUserImage.ImageLocation; set => pbUserImage.ImageLocation = value; }
 
-        public char Gender
+        public bool Gender
         {
-            get => rbMale.Checked ? 'M' : 'F';
-            set => rbMale.Checked = value == 'M';
+            get => rbMale.Checked ? false : true;
+            set
+            {
+                rbMale.Checked = !value;     // false => Male, true => Female
+                rbFemale.Checked = value;
+            }
         }
-        
+
+
         //
         // Constructors
         //
@@ -62,7 +67,14 @@ namespace DVLD
 
         private bool ValidateForm()
         {
-            return ValidateName() && ValidateNationalNo() && ValidateEmail() && ValidatePhone() && ValidateAddress() && ValidateCountry();
+            if (!ValidateName()) return false;
+            if (_FormMode == enFormMode.AddNew && !ValidateNationalNo()) return false;
+            if (!ValidateEmail()) return false;
+            if (!ValidatePhone()) return false;
+            if (!ValidateAddress()) return false;
+            if (!ValidateCountry()) return false;
+
+            return true;
         }
 
         private bool ValidateNationalNo()
@@ -132,11 +144,11 @@ namespace DVLD
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (!ValidateForm()) return;
-
             if (!string.IsNullOrEmpty(ImagePath)) SaveUserImage();
 
             OnSave?.Invoke(this, EventArgs.Empty);
         }
+
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -218,7 +230,6 @@ namespace DVLD
         //
         // Logic Handling
         //
-
         private void lblSetImage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -252,7 +263,7 @@ namespace DVLD
             ThirdName = person.ThirdName;
             LastName = person.LastName;
             DateOfBirth = person.DateOfBirth;
-            Gender = person.Gender ? 'F' : 'M';
+            Gender = person.Gender;
             Phone = person.Phone;
             Email = person.Email;
             Address = person.Address;
