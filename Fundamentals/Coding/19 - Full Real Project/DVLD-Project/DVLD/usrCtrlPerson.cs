@@ -111,7 +111,7 @@ namespace DVLD
 
         private bool ValidateAddress()
         {
-            return !string.IsNullOrWhiteSpace(Address) || ShowValidationError("Address is required.", txtAddress);
+            return (string.IsNullOrWhiteSpace(Address)) ? ShowValidationError("Address is required.", txtAddress) : true;
         }
 
         private bool ValidateCountry()
@@ -127,7 +127,7 @@ namespace DVLD
         }
 
         //
-        // Buttons Logic
+        // Event Handlers
         //
         private void btnSave_Click(object sender, EventArgs e)
         {
@@ -143,6 +143,9 @@ namespace DVLD
             OnClose?.Invoke(this, EventArgs.Empty);
         }
 
+        //
+        // Image Handling
+        //
         private void SaveUserImage()
         {
             string sourcePath = ImagePath;
@@ -162,36 +165,14 @@ namespace DVLD
                 MessageBox.Show("Failed to copy image: " + ex.Message);
             }
         }
-
-
-
-        private void txtName_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
-        }
-
-        private void txtPhone_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
-        }
-
-        private void rbMale_CheckedChanged(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(ImagePath)) pbUserImage.Image = Properties.Resources.DefaultMan;
-        }
-
-        private void rbFemale_CheckedChanged(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(ImagePath)) pbUserImage.Image = Properties.Resources.DefaultWoman;
-        }
-
-        private void SetDefaultImageByGender()
-        {
-            pbUserImage.Image = rbMale.Checked ? Properties.Resources.DefaultMan : Properties.Resources.DefaultWoman;
-        }
-
         private void TryLoadImage(string filePath)
         {
+            if(string.IsNullOrEmpty(filePath))
+            {
+                SetDefaultImageByGender();
+                lblRemoveImage.Visible = false;
+                return;
+            }
             try
             {
                 Image image = Image.FromFile(filePath);
@@ -207,6 +188,36 @@ namespace DVLD
                 lblRemoveImage.Visible = false;
             }
         }
+        private void rbMale_CheckedChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(ImagePath))
+                pbUserImage.Image = Properties.Resources.DefaultMan;
+        }
+
+        private void rbFemale_CheckedChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(ImagePath))
+                pbUserImage.Image = Properties.Resources.DefaultWoman;
+        }
+
+        private void SetDefaultImageByGender()
+        {
+            pbUserImage.Image = rbMale.Checked ? Properties.Resources.DefaultMan : Properties.Resources.DefaultWoman;
+        }
+
+        private void txtName_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        private void txtPhone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        //
+        // Logic Handling
+        //
 
         private void lblSetImage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
