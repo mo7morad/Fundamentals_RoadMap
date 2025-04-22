@@ -5,18 +5,18 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using DVLD_Entities.Enums;
-
-
+using Entities;
 
 namespace DVLD
 {
     public partial class usrCtrlPerson : UserControl
     {
-        // Events
+        private enFormMode _FormMode;
         public event EventHandler<EventArgs> OnSave;
         public event EventHandler<EventArgs> OnClose;
-
-        // Properties for accessing form data
+        //
+        // Properties
+        //
         public string PersonID { get => lblPersonIDValue.Text; set => lblPersonIDValue.Text = value; }
         public string FirstName { get => txtFirstName.Text; set => txtFirstName.Text = value; }
         public string SecondName { get => txtSecondName.Text; set => txtSecondName.Text = value; }
@@ -29,217 +29,185 @@ namespace DVLD
         public string Address { get => txtAddress.Text; set => txtAddress.Text = value; }
         public string Country { get => cmbCountry.Text; set => cmbCountry.Text = value; }
         public string ImagePath { get => pbUserImage.ImageLocation; set => pbUserImage.ImageLocation = value; }
+
         public char Gender
         {
             get => rbMale.Checked ? 'M' : 'F';
-            set
-            {
-                if (value == 'M')
-                    rbMale.Checked = true;
-                else
-                    rbFemale.Checked = true;
-            }
+            set => rbMale.Checked = value == 'M';
         }
+        
+        //
+        // Constructors
+        //
+        public usrCtrlPerson() : this(enFormMode.AddNew) { }
 
+        public usrCtrlPerson(enFormMode formMode, int personID = -1)
+        {
+            _FormMode = formMode;
+            InitializeComponent();
+            PersonID = personID.ToString();
+            LoadCountries();
+            SetupFormMode();
+        }
+        
+        //
+        // Validation Code
+        //
         private void LoadCountries()
         {
-            cmbCountry.DataSource = clsCountriesBussinessLayer.GetAllCountires();
-            cmbCountry.SelectedIndex = -1; // No default selection
+            cmbCountry.DataSource = clsCountriesBusinessLayer.GetAllCountires();
+            cmbCountry.SelectedIndex = 50;
             cmbCountry.Text = string.Empty;
+        }
 
-        }
-        //public void SetMode(bool isNewRecord)
-        //{
-        //    if (isNewRecord)
-        //    {
-        //        lblHeader.Text = "Add New Person";
-        //        lblPersonIDValue.Text = "N/A";
-        //        PersonID = -1;
-        //        ClearForm();
-        //    }
-        //    else
-        //    {
-        //        lblHeader.Text = "Update Person";
-        //        lblPersonIDValue.Text = PersonID.ToString();
-        //    }
-        //}
-        private bool ValidateNationalNo()
-        {
-            if (string.IsNullOrWhiteSpace(txtNationalNumber.Text))
-            {
-                MessageBox.Show("National Number is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtNationalNumber.Focus();
-                return false;
-            }
-            else if (clsPeopleBusinessLayer.IsNationalNoExists(txtNationalNumber.Text))
-            {
-                MessageBox.Show("This National Number already exists.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtNationalNumber.Focus();
-                return false;
-            }
-            return true;
-        }
-        private bool ValidateName()
-        {
-            if (string.IsNullOrWhiteSpace(txtFirstName.Text))
-            {
-                MessageBox.Show("First Name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtFirstName.Focus();
-                return false;
-            }
-
-            else if (string.IsNullOrWhiteSpace(txtSecondName.Text))
-            {
-                MessageBox.Show("Second Name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtSecondName.Focus();
-                return false;
-            }
-            else if (string.IsNullOrWhiteSpace(txtThirdName.Text))
-            {
-                MessageBox.Show("Third Name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtThirdName.Focus();
-                return false;
-            }
-            else if (string.IsNullOrWhiteSpace(txtLastName.Text))
-            {
-                MessageBox.Show("Last Name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtLastName.Focus();
-                return false;
-            }
-            return true;
-        }
-        private bool ValidateEmail()
-        {
-            if (string.IsNullOrWhiteSpace(txtEmail.Text))
-                return true;
-
-            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$"; // Basic regex
-            if (!Regex.IsMatch(txtEmail.Text, emailPattern))
-            {
-                MessageBox.Show("Invalid email format. Example: user@example.com",
-                              "Validation Error",
-                              MessageBoxButtons.OK,
-                              MessageBoxIcon.Error);
-                txtEmail.Focus();
-                return false;
-            }
-
-            return true;
-        }
-        private bool ValidatePhone()
-        {
-            if (string.IsNullOrWhiteSpace(txtPhone.Text))
-            {
-                MessageBox.Show("Phone number is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtPhone.Focus();
-                return false;
-            }
-            else if (txtPhone.Text.Length < 10)
-            {
-                MessageBox.Show("Phone number must be at least 10 digits long.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtPhone.Focus();
-                return false;
-            }
-            return true;
-        }
-        private bool ValidateAddress()
-        {
-            if (string.IsNullOrWhiteSpace(txtAddress.Text))
-            {
-                MessageBox.Show("Address is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtAddress.Focus();
-                return false;
-            }
-            return true;
-        }
-        private bool ValidateCountry()
-        {
-            if (cmbCountry.SelectedIndex == -1)
-            {
-                MessageBox.Show("Please select a country.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cmbCountry.Focus();
-                return false;
-            }
-            return true;
-        }
         private bool ValidateForm()
         {
-            if (!ValidateName())
-                return false;
+            return ValidateName() && ValidateNationalNo() && ValidateEmail() && ValidatePhone() && ValidateAddress() && ValidateCountry();
+        }
 
-            else if (!ValidateNationalNo())
-                return false;
-
-            else if (!ValidateEmail())
-                return false;
-
-            else if (!ValidatePhone())
+        private bool ValidateNationalNo()
+        {
+            if (string.IsNullOrWhiteSpace(NationalNumber))
             {
+                ShowValidationError("National Number is required.", txtNationalNumber);
                 return false;
             }
-            else if (!ValidateAddress())
+            if (clsPeopleBusinessLayer.IsNationalNoExists(NationalNumber))
+            {
+                ShowValidationError("This National Number already exists.", txtNationalNumber);
                 return false;
-            else if (!ValidateCountry())
-                return false;
-
+            }
             return true;
         }
+
+        private bool ValidateName()
+        {
+            if (string.IsNullOrWhiteSpace(FirstName)) return ShowValidationError("First Name is required.", txtFirstName);
+            if (string.IsNullOrWhiteSpace(SecondName)) return ShowValidationError("Second Name is required.", txtSecondName);
+            if (string.IsNullOrWhiteSpace(ThirdName)) return ShowValidationError("Third Name is required.", txtThirdName);
+            if (string.IsNullOrWhiteSpace(LastName)) return ShowValidationError("Last Name is required.", txtLastName);
+            return true;
+        }
+
+        private bool ValidateEmail()
+        {
+            if (string.IsNullOrWhiteSpace(Email)) return true;
+
+            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            if (!Regex.IsMatch(Email, pattern))
+            {
+                ShowValidationError("Invalid email format. Example: user@example.com", txtEmail);
+                return false;
+            }
+            return true;
+        }
+
+        private bool ValidatePhone()
+        {
+            if (string.IsNullOrWhiteSpace(Phone)) return ShowValidationError("Phone number is required.", txtPhone);
+            if (Phone.Length < 10) return ShowValidationError("Phone number must be at least 10 digits long.", txtPhone);
+            return true;
+        }
+
+        private bool ValidateAddress()
+        {
+            return !string.IsNullOrWhiteSpace(Address) || ShowValidationError("Address is required.", txtAddress);
+        }
+
+        private bool ValidateCountry()
+        {
+            return cmbCountry.SelectedIndex != -1 || ShowValidationError("Please select a country.", cmbCountry);
+        }
+
+        private bool ShowValidationError(string message, Control control)
+        {
+            MessageBox.Show(message, "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            control.Focus();
+            return false;
+        }
+
+        //
+        // Buttons Logic
+        //
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (!ValidateForm())
-                return;
+            if (!ValidateForm()) return;
 
-            if (pbUserImage.ImageLocation != null)
-            {
-                string sourcePath = pbUserImage.ImageLocation;
-                string extension = Path.GetExtension(sourcePath);
-                string nationalID = txtNationalNumber.Text;
-                string targetDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DVLD", "peoplepictures");
-                Directory.CreateDirectory(targetDir);
-                string destPath = Path.Combine(targetDir, nationalID + extension);
-
-                try
-                {
-                    File.Copy(sourcePath, destPath, true); // overwrite if already exists
-                    pbUserImage.ImageLocation = destPath;  // update the image path to the copied one
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Failed to copy image: " + ex.Message);
-                }
-            }
+            if (!string.IsNullOrEmpty(ImagePath)) SaveUserImage();
 
             OnSave?.Invoke(this, EventArgs.Empty);
         }
+
         private void btnClose_Click(object sender, EventArgs e)
         {
-            // Trigger the close event to notify parent form
             OnClose?.Invoke(this, EventArgs.Empty);
         }
+
+        private void SaveUserImage()
+        {
+            string sourcePath = ImagePath;
+            string extension = Path.GetExtension(sourcePath);
+            string nationalID = NationalNumber;
+            string targetDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DVLD", "peoplepictures");
+            Directory.CreateDirectory(targetDir);
+            string destPath = Path.Combine(targetDir, nationalID + extension);
+
+            try
+            {
+                File.Copy(sourcePath, destPath, true);
+                pbUserImage.ImageLocation = destPath;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to copy image: " + ex.Message);
+            }
+        }
+
+
+
         private void txtName_KeyPress(object sender, KeyPressEventArgs e)
         {
-            // Allow control keys like backspace, and block digits
-            if (char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
-            {
-                e.Handled = true; // Cancel input
-            }
+            e.Handled = char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
         private void txtPhone_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //Allow only digits and control keys
-            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
-            {
-                e.Handled = true; // Cancel input
-            }
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
         private void rbMale_CheckedChanged(object sender, EventArgs e)
         {
-            pbUserImage.Image = Properties.Resources.DefaultMan;
+            if (string.IsNullOrEmpty(ImagePath)) pbUserImage.Image = Properties.Resources.DefaultMan;
         }
+
         private void rbFemale_CheckedChanged(object sender, EventArgs e)
         {
-            pbUserImage.Image = Properties.Resources.DefaultWoman;
+            if (string.IsNullOrEmpty(ImagePath)) pbUserImage.Image = Properties.Resources.DefaultWoman;
         }
+
+        private void SetDefaultImageByGender()
+        {
+            pbUserImage.Image = rbMale.Checked ? Properties.Resources.DefaultMan : Properties.Resources.DefaultWoman;
+        }
+
+        private void TryLoadImage(string filePath)
+        {
+            try
+            {
+                Image image = Image.FromFile(filePath);
+                pbUserImage.Image = image;
+                pbUserImage.ImageLocation = filePath;
+                lblRemoveImage.Visible = true;
+            }
+            catch
+            {
+                MessageBox.Show("Failed to load the selected image. Reverting to default.", "Image Load Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                SetDefaultImageByGender();
+                pbUserImage.ImageLocation = null;
+                lblRemoveImage.Visible = false;
+            }
+        }
+
         private void lblSetImage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -247,47 +215,51 @@ namespace DVLD
             openFileDialog.Title = "Select Person Image";
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                try
-                {
-                    pbUserImage.Image = Image.FromFile(openFileDialog.FileName);
-                    pbUserImage.ImageLocation = openFileDialog.FileName;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error loading image: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
+                TryLoadImage(openFileDialog.FileName);
         }
+
         private void lblRemoveImage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //Remove the image
-            if (rbMale.Checked)
-                pbUserImage.Image = Properties.Resources.DefaultMan;
-            else
-                pbUserImage.Image = Properties.Resources.DefaultWoman;
-            pbUserImage.ImageLocation = null;
+            SetDefaultImageByGender();
+            ImagePath = null;
             lblRemoveImage.Visible = false;
         }
 
-        public usrCtrlPerson() : this(enFormMode.AddNew)
+        private void SetupUpdatePersonData()
         {
+            if (!int.TryParse(PersonID, out int personId)) return;
 
+            clsPerson person = clsPeopleBusinessLayer.GetPersonByID(personId);
+            if (person == null) return;
+
+            lblHeader.Text = "Update Person";
+            if (string.IsNullOrEmpty(ImagePath)) lblRemoveImage.Visible = false;
+
+            NationalNumber = person.NationalNo;
+            FirstName = person.FirstName;
+            SecondName = person.SecondName;
+            ThirdName = person.ThirdName;
+            LastName = person.LastName;
+            DateOfBirth = person.DateOfBirth;
+            Gender = person.Gender ? 'F' : 'M';
+            Phone = person.Phone;
+            Email = person.Email;
+            Address = person.Address;
+            Country = person.Country.CountryName;
+            TryLoadImage(person.ImagePath);
         }
-        public usrCtrlPerson(enFormMode formMode, int personID=-1)
+
+        private void SetupFormMode()
         {
-            InitializeComponent();
-            LoadCountries();
-            if (formMode == enFormMode.AddNew)
+            if (_FormMode == enFormMode.AddNew)
             {
                 lblHeader.Text = "Add New Person";
                 lblPersonIDValue.Text = "N/A";
+                SetDefaultImageByGender();
             }
-            else
+            else if (_FormMode == enFormMode.Update)
             {
-                lblHeader.Text = "Update Person";
-                PersonID = personID.ToString();
-                lblRemoveImage.Visible = true;
+                SetupUpdatePersonData();
             }
         }
     }

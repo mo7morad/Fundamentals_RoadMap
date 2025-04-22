@@ -6,31 +6,34 @@ namespace DVLD
     {
         private void InitializeComponent(enFormMode formMode, int personID=-1)
         {
-            this.usrCtrlAdd_EditPerson = new DVLD.usrCtrlPerson();
+            this.usrCtrlAdd_EditPerson = new usrCtrlPerson(formMode, personID);
             this.SuspendLayout();
             // 
-            // usrCtrlAdd_EditPerson
+            // usrCtrlAdd_EditPerson (Control Add New Setup)
             // 
-            this.usrCtrlAdd_EditPerson.Address = "";
-            this.usrCtrlAdd_EditPerson.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.usrCtrlAdd_EditPerson.Country = "";
-            this.usrCtrlAdd_EditPerson.DateOfBirth = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.usrCtrlAdd_EditPerson.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.usrCtrlAdd_EditPerson.Email = "";
-            this.usrCtrlAdd_EditPerson.FirstName = "";
-            this.usrCtrlAdd_EditPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.usrCtrlAdd_EditPerson.Gender = 'M';
-            this.usrCtrlAdd_EditPerson.ImagePath = null;
-            this.usrCtrlAdd_EditPerson.LastName = "";
-            this.usrCtrlAdd_EditPerson.Location = new System.Drawing.Point(0, 0);
-            this.usrCtrlAdd_EditPerson.Name = "usrCtrlAdd_EditPerson";
-            this.usrCtrlAdd_EditPerson.NationalNumber = "";
-            this.usrCtrlAdd_EditPerson.PersonID = "N/A";
-            this.usrCtrlAdd_EditPerson.Phone = "";
-            this.usrCtrlAdd_EditPerson.SecondName = "";
-            this.usrCtrlAdd_EditPerson.Size = new System.Drawing.Size(691, 381);
-            this.usrCtrlAdd_EditPerson.TabIndex = 0;
-            this.usrCtrlAdd_EditPerson.ThirdName = "";
+            if (formMode == enFormMode.AddNew)
+            {
+                this.usrCtrlAdd_EditPerson.Address = "";
+                this.usrCtrlAdd_EditPerson.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+                this.usrCtrlAdd_EditPerson.Country = "";
+                this.usrCtrlAdd_EditPerson.DateOfBirth = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+                this.usrCtrlAdd_EditPerson.Dock = System.Windows.Forms.DockStyle.Fill;
+                this.usrCtrlAdd_EditPerson.Email = "";
+                this.usrCtrlAdd_EditPerson.FirstName = "";
+                this.usrCtrlAdd_EditPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+                this.usrCtrlAdd_EditPerson.Gender = 'M';
+                this.usrCtrlAdd_EditPerson.ImagePath = null;
+                this.usrCtrlAdd_EditPerson.LastName = "";
+                this.usrCtrlAdd_EditPerson.Location = new System.Drawing.Point(0, 0);
+                this.usrCtrlAdd_EditPerson.Name = "usrCtrlAdd_EditPerson";
+                this.usrCtrlAdd_EditPerson.NationalNumber = "";
+                this.usrCtrlAdd_EditPerson.PersonID = "N/A";
+                this.usrCtrlAdd_EditPerson.Phone = "";
+                this.usrCtrlAdd_EditPerson.SecondName = "";
+                this.usrCtrlAdd_EditPerson.Size = new System.Drawing.Size(691, 381);
+                this.usrCtrlAdd_EditPerson.TabIndex = 0;
+                this.usrCtrlAdd_EditPerson.ThirdName = "";
+            }
             // 
             // Add_EditPersonForm
             // 
@@ -39,7 +42,10 @@ namespace DVLD
             this.Name = "Add_EditPersonForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add New Person";
+            if(formMode == enFormMode.Update)
+                this.Text = "Update Person";
+            else
+                this.Text = "Add New Person";
             this.ResumeLayout(false);
 
         }

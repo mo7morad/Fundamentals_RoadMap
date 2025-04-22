@@ -369,10 +369,10 @@ namespace DVLD
             this.lblRemoveImage.AutoSize = true;
             this.lblRemoveImage.Location = new System.Drawing.Point(575, 240);
             this.lblRemoveImage.Name = "lblRemoveImage";
-            this.lblRemoveImage.Size = new System.Drawing.Size(88, 15);
+            this.lblRemoveImage.Size = new System.Drawing.Size(91, 15);
             this.lblRemoveImage.TabIndex = 31;
             this.lblRemoveImage.TabStop = true;
-            this.lblRemoveImage.Text = "RemoveImage";
+            this.lblRemoveImage.Text = "Remove Image";
             this.lblRemoveImage.Visible = false;
             this.lblRemoveImage.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblRemoveImage_LinkClicked);
             // 

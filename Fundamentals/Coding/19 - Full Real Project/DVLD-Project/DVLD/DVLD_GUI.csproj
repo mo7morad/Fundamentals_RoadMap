@@ -52,6 +52,7 @@
     <Compile Include="Add_EditPersonForm.Designer.cs">
       <DependentUpon>Add_EditPersonForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="clsCountry.cs" />
     <Compile Include="ManagePeopleForm.cs">
       <SubType>Form</SubType>
     </Compile>

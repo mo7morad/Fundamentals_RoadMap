@@ -7,65 +7,27 @@ namespace ConsoleTesting
 {
     internal class Testing
     {
-        private static void GetAllPeopleTest()
-        {
-            DataTable people = clsPeopleBusinessLayer.GetAllPeople();
-            foreach (DataRow person in people.Rows)
-            {
-                Console.WriteLine($"ID: {person["PersonID"]}, Name: {person["FirstName"]} {person["LastName"]}, Email: {person["Email"]}");
-            }
-        }
 
-        private static int AddNewPersonTest()
+        private static bool UpdatePersonTest(int personID)
         {
-            string nationalNo = "123456789";
-            string firstName = "John";
-            string secondName = "Doe";
-            string thirdName = "Smith";
-            string lastName = "Johnson";
-            DateTime dateOfBirth = new DateTime(1990, 5, 15);
-            bool gender = false;
-            string address = "123 Main St";
-            string phone = "3125346334";
-            string countryID = "45";
-            string email = "Johndoe@gmail.com";
-            string imagePath = "C:\\Images\\john.jpg";
-
-            clsPerson p = new clsPerson(
-                nationalNo,
-                firstName,
-                secondName,
-                thirdName,
-                lastName,
-                dateOfBirth,
-                gender,
-                address,
-                phone,
-                countryID,
-                email,
-                imagePath
-            );
-            return clsPeopleBusinessLayer.AddNewPerson(p);
-        }
+            string errorMessage = string.Empty;
+            clsPerson p = clsPeopleBusinessLayer.GetPersonByID(personID);
+            p.Address = "456 New Address St";
+            p.NationalNo = "N7";
+            return clsPeopleBusinessLayer.UpdatePerson(p, ref errorMessage);
+        }   
 
 
         static void Main(string[] args)
         {
-            Console.WriteLine("List Before Adding a new person (John)");
-            GetAllPeopleTest();
-            Console.WriteLine("Adding a new person (John)...");
-            int newPersonID = AddNewPersonTest();
-            if (newPersonID > 0)
+            if(UpdatePersonTest(1030))
             {
-                Console.WriteLine($"New person added successfully with ID: {newPersonID}");
+                Console.WriteLine("Person updated successfully.");
             }
             else
             {
-                Console.WriteLine("Failed to add new person.");
+                Console.WriteLine("Failed to update person.");
             }
-            Console.WriteLine("List After Adding a new person (John)");
-            GetAllPeopleTest();
-            Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
     }

@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsCountriesBussinessLayer.cs" />
+    <Compile Include="clsCountriesBusinessLayer.cs" />
     <Compile Include="clsPeopleBusinessLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

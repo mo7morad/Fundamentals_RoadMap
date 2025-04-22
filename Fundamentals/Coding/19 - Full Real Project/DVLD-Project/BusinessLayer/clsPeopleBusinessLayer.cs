@@ -27,9 +27,13 @@ namespace BusinessLayer
         {
             return clsPeopleDataAccess.GetPersonByID(personID);
         }
-        public static int AddNewPerson(Entities.clsPerson person)
+        public static int AddNewPerson(Entities.clsPerson person, ref string errorMessage)
         {
-            return clsPeopleDataAccess.AddNewPerson(person);
+            return clsPeopleDataAccess.AddNewPerson(person, ref errorMessage);
+        }
+        public static bool UpdatePerson(Entities.clsPerson person, ref string errorMessage)
+        {
+            return clsPeopleDataAccess.UpdatePerson(person, ref errorMessage);
         }
         public static bool DeletePerson(int personID, ref string errorMessage)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DVLD_Entities;
+using System;
 
 namespace Entities
 {
@@ -6,7 +7,7 @@ namespace Entities
     {
         public int PersonID { get; set; }
         public string NationalNo { get; set; }
-        public string Country { get; set; }
+        public clsCountry Country { get; set; }
         public string FirstName { get; set; }
         public string SecondName { get; set; }
         public string ThirdName { get; set; }
@@ -20,7 +21,7 @@ namespace Entities
         public clsPerson() { }
 
         public clsPerson(string nationalNo, string firstName, string secondName, string thirdName, string lastName,
-        DateTime dateOfBirth, bool gender, string address, string phone, string country, string email, string imagePath = null)
+        DateTime dateOfBirth, bool gender, string address, string phone, clsCountry country, string email, string imagePath = null)
         {
             NationalNo = nationalNo;
             FirstName = firstName;
