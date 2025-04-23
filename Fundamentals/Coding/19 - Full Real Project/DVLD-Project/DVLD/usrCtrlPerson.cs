@@ -67,14 +67,7 @@ namespace DVLD
 
         private bool ValidateForm()
         {
-            if (!ValidateName()) return false;
-            if (_FormMode == enFormMode.AddNew && !ValidateNationalNo()) return false;
-            if (!ValidateEmail()) return false;
-            if (!ValidatePhone()) return false;
-            if (!ValidateAddress()) return false;
-            if (!ValidateCountry()) return false;
-
-            return true;
+            return ValidateName() && ValidateNationalNo() && ValidateEmail() && ValidatePhone() && ValidateAddress() && ValidateCountry();
         }
 
         private bool ValidateNationalNo()
@@ -84,13 +77,34 @@ namespace DVLD
                 ShowValidationError("National Number is required.", txtNationalNumber);
                 return false;
             }
-            if (clsPeopleBusinessLayer.IsNationalNoExists(NationalNumber))
+
+            if (_FormMode == enFormMode.AddNew)
             {
-                ShowValidationError("This National Number already exists.", txtNationalNumber);
-                return false;
+                if (clsPeopleBusinessLayer.IsNationalNoExists(NationalNumber))
+                {
+                    ShowValidationError("This National Number already exists.", txtNationalNumber);
+                    return false;
+                }
+            }
+            else if (_FormMode == enFormMode.Update)
+            {
+                // Get the current person from DB
+                int.TryParse(PersonID, out int personId);
+                clsPerson currentPerson = clsPeopleBusinessLayer.GetPersonByID(personId);
+
+                // If !(national number of the person the same as in the GUI field)
+                if (currentPerson != null && !string.Equals(currentPerson.NationalNo, NationalNumber, StringComparison.OrdinalIgnoreCase))
+                {
+                    if (clsPeopleBusinessLayer.IsNationalNoExists(NationalNumber))
+                    {
+                        ShowValidationError("This National Number already exists.", txtNationalNumber);
+                        return false;
+                    }
+                }
             }
             return true;
         }
+
 
         private bool ValidateName()
         {
@@ -149,7 +163,6 @@ namespace DVLD
             OnSave?.Invoke(this, EventArgs.Empty);
         }
 
-
         private void btnClose_Click(object sender, EventArgs e)
         {
             OnClose?.Invoke(this, EventArgs.Empty);
@@ -167,6 +180,9 @@ namespace DVLD
             Directory.CreateDirectory(targetDir);
             string destPath = Path.Combine(targetDir, nationalID + extension);
 
+            if (sourcePath == destPath)
+                return;
+
             try
             {
                 File.Copy(sourcePath, destPath, true);
@@ -177,6 +193,7 @@ namespace DVLD
                 MessageBox.Show("Failed to copy image: " + ex.Message);
             }
         }
+        
         private void TryLoadImage(string filePath)
         {
             if(string.IsNullOrEmpty(filePath))
@@ -200,6 +217,7 @@ namespace DVLD
                 lblRemoveImage.Visible = false;
             }
         }
+        
         private void rbMale_CheckedChanged(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(ImagePath))

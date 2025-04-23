@@ -53,6 +53,12 @@
       <DependentUpon>Add_EditPersonForm.cs</DependentUpon>
     </Compile>
     <Compile Include="clsCountry.cs" />
+    <Compile Include="PersonDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonDetailsForm.Designer.cs">
+      <DependentUpon>PersonDetailsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManagePeopleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="Add_EditPersonForm.resx">
       <DependentUpon>Add_EditPersonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonDetailsForm.resx">
+      <DependentUpon>PersonDetailsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>

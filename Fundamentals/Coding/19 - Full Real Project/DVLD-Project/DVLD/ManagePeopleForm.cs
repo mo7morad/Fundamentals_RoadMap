@@ -7,7 +7,6 @@ namespace DVLD
 {
     public partial class ManagePeopleForm : Form
     {
-
         public ManagePeopleForm()
         {
             InitializeComponent();
@@ -42,6 +41,11 @@ namespace DVLD
             Add_EditPersonForm editForm = new Add_EditPersonForm(enFormMode.Update, personID);
             editForm.PersonSavedToDataBase += RefreshPeopleList_OnSave;
             editForm.ShowDialog();
+        }
+        private void CreatePersonInfoCard(int personID)
+        {
+            PersonDetailsForm personInfoForm = new PersonDetailsForm(personID);
+            personInfoForm.ShowDialog();
         }
         private void pictureBoxAddPerson_Click(object sender, EventArgs e)
         {
@@ -121,6 +125,13 @@ namespace DVLD
             int selectedRowIndex = dataGridViewPeople.SelectedCells[0].RowIndex;
             int personId = Convert.ToInt32(dataGridViewPeople.Rows[selectedRowIndex].Cells[0].Value);
             CreateUpdatePersonForm(personId);
+        }
+
+        private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int selectedRowIndex = dataGridViewPeople.SelectedCells[0].RowIndex;
+            int personID = Convert.ToInt32(dataGridViewPeople.Rows[selectedRowIndex].Cells[0].Value);
+            CreatePersonInfoCard(personID);
         }
     }
 }

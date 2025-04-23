@@ -12,7 +12,6 @@ namespace BusinessLayer
 {
     public class clsPeopleBusinessLayer
     {
-
         public static bool IsNationalNoExists(string nationalNo)
         {
             return clsPeopleDataAccess.IsNationalNoExists(nationalNo);
