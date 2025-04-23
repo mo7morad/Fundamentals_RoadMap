@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Windows.Forms;
 using BusinessLayer;
 using DVLD_Entities.Enums;
@@ -15,16 +16,28 @@ namespace DVLD
 
         private void LoadPeopleToDataGridView()
         {
-            dataGridViewPeople.DataSource = clsPeopleBusinessLayer.GetAllPeople();
-
-            dataGridViewPeople.AutoResizeColumnHeadersHeight();
-            if (dataGridViewPeople.Columns.Contains("Email"))
-                dataGridViewPeople.Columns["Email"].MinimumWidth = 150;
-            if (dataGridViewPeople.Columns.Contains("Image Path") && dataGridViewPeople.Columns.Contains("Address"))
+            DataTable peopleDataTable = clsPeopleBusinessLayer.GetAllPeople();
+            if (peopleDataTable == null || peopleDataTable.Rows.Count == 0)
             {
-                dataGridViewPeople.Columns["Image Path"].Visible = false;
-                dataGridViewPeople.Columns["Address"].Visible = false;
+                MessageBox.Show("No data found", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
             }
+            else
+            {
+                DataView peopleDataView = new DataView(peopleDataTable);
+                dataGridViewPeople.DataSource = peopleDataView;
+
+                dataGridViewPeople.AutoResizeColumnHeadersHeight();
+                if (dataGridViewPeople.Columns.Contains("Email"))
+                    dataGridViewPeople.Columns["Email"].MinimumWidth = 150;
+
+                if (dataGridViewPeople.Columns.Contains("Image Path") && dataGridViewPeople.Columns.Contains("Address"))
+                {
+                    dataGridViewPeople.Columns["Image Path"].Visible = false;
+                    dataGridViewPeople.Columns["Address"].Visible = false;
+                }
+            }
+
         }
         private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {

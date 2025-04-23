@@ -74,7 +74,7 @@
             this.panelManagePeople.Location = new System.Drawing.Point(0, 0);
             this.panelManagePeople.Margin = new System.Windows.Forms.Padding(4);
             this.panelManagePeople.Name = "panelManagePeople";
-            this.panelManagePeople.Size = new System.Drawing.Size(1173, 522);
+            this.panelManagePeople.Size = new System.Drawing.Size(1235, 522);
             this.panelManagePeople.TabIndex = 0;
             // 
             // panel2
@@ -83,7 +83,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 485);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1173, 37);
+            this.panel2.Size = new System.Drawing.Size(1235, 37);
             this.panel2.TabIndex = 4;
             // 
             // btnClosePeopleForm
@@ -93,7 +93,7 @@
             this.btnClosePeopleForm.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnClosePeopleForm.Image = global::DVLD.Properties.Resources.Close_32;
             this.btnClosePeopleForm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClosePeopleForm.Location = new System.Drawing.Point(1048, 0);
+            this.btnClosePeopleForm.Location = new System.Drawing.Point(1110, 0);
             this.btnClosePeopleForm.Name = "btnClosePeopleForm";
             this.btnClosePeopleForm.Size = new System.Drawing.Size(125, 37);
             this.btnClosePeopleForm.TabIndex = 0;
@@ -107,7 +107,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 174);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1173, 348);
+            this.panel1.Size = new System.Drawing.Size(1235, 348);
             this.panel1.TabIndex = 3;
             // 
             // dataGridViewPeople
@@ -134,7 +134,7 @@
             this.dataGridViewPeople.Location = new System.Drawing.Point(0, 0);
             this.dataGridViewPeople.Name = "dataGridViewPeople";
             this.dataGridViewPeople.ReadOnly = true;
-            this.dataGridViewPeople.Size = new System.Drawing.Size(1173, 348);
+            this.dataGridViewPeople.Size = new System.Drawing.Size(1235, 348);
             this.dataGridViewPeople.TabIndex = 3;
             this.dataGridViewPeople.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewPeople_CellMouseClick);
             // 
@@ -147,7 +147,7 @@
             this.panelFilterBy.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelFilterBy.Location = new System.Drawing.Point(0, 134);
             this.panelFilterBy.Name = "panelFilterBy";
-            this.panelFilterBy.Size = new System.Drawing.Size(1173, 40);
+            this.panelFilterBy.Size = new System.Drawing.Size(1235, 40);
             this.panelFilterBy.TabIndex = 2;
             // 
             // txtBoxFilterBy
@@ -165,16 +165,6 @@
             this.comboBoxFilterBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxFilterBy.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxFilterBy.FormattingEnabled = true;
-            this.comboBoxFilterBy.Items.AddRange(new object[] {
-            "None",
-            "Person ID",
-            "National Number",
-            "First Name",
-            "Last Name",
-            "Nationality",
-            "Gender",
-            "Phone",
-            "Email"});
             this.comboBoxFilterBy.Location = new System.Drawing.Point(76, 0);
             this.comboBoxFilterBy.Name = "comboBoxFilterBy";
             this.comboBoxFilterBy.Size = new System.Drawing.Size(118, 25);
@@ -186,7 +176,7 @@
             this.pictureBoxAddPerson.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxAddPerson.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBoxAddPerson.Image = global::DVLD.Properties.Resources.Add_Person_72;
-            this.pictureBoxAddPerson.Location = new System.Drawing.Point(1097, 0);
+            this.pictureBoxAddPerson.Location = new System.Drawing.Point(1159, 0);
             this.pictureBoxAddPerson.Name = "pictureBoxAddPerson";
             this.pictureBoxAddPerson.Size = new System.Drawing.Size(76, 40);
             this.pictureBoxAddPerson.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -227,7 +217,7 @@
             this.pictureBoxManagePeople.Location = new System.Drawing.Point(0, 0);
             this.pictureBoxManagePeople.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxManagePeople.Name = "pictureBoxManagePeople";
-            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1173, 110);
+            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1235, 110);
             this.pictureBoxManagePeople.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxManagePeople.TabIndex = 0;
             this.pictureBoxManagePeople.TabStop = false;
@@ -313,7 +303,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1173, 522);
+            this.ClientSize = new System.Drawing.Size(1235, 522);
             this.Controls.Add(this.panelManagePeople);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
