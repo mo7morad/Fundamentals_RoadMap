@@ -12,13 +12,20 @@ namespace DVLD
 {
     public partial class PersonDetailsForm: Form
     {
-        public PersonDetailsForm():this(0)
-        {
-            InitializeComponent();
-        }
         public PersonDetailsForm(int personID)
         {
+            if (personID == 0)
+            {
+                MessageBox.Show("Person doesn't exist", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             InitializeComponent(personID);
+            usrCtrlPersonInfoCard.OnCloseClicked += CloseForm;
         }
+        private void CloseForm(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

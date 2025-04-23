@@ -104,7 +104,7 @@
             this.grpBoxPersonInfoCard.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpBoxPersonInfoCard.Location = new System.Drawing.Point(0, 0);
             this.grpBoxPersonInfoCard.Name = "grpBoxPersonInfoCard";
-            this.grpBoxPersonInfoCard.Size = new System.Drawing.Size(782, 350);
+            this.grpBoxPersonInfoCard.Size = new System.Drawing.Size(1036, 343);
             this.grpBoxPersonInfoCard.TabIndex = 1;
             this.grpBoxPersonInfoCard.TabStop = false;
             this.grpBoxPersonInfoCard.Text = "Person Information";
@@ -180,7 +180,7 @@
             this.lblCountryValue.AutoSize = true;
             this.lblCountryValue.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCountryValue.ForeColor = System.Drawing.Color.Navy;
-            this.lblCountryValue.Location = new System.Drawing.Point(514, 120);
+            this.lblCountryValue.Location = new System.Drawing.Point(705, 128);
             this.lblCountryValue.Name = "lblCountryValue";
             this.lblCountryValue.Size = new System.Drawing.Size(36, 28);
             this.lblCountryValue.TabIndex = 16;
@@ -191,7 +191,7 @@
             this.lblPhoneNumberValue.AutoSize = true;
             this.lblPhoneNumberValue.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPhoneNumberValue.ForeColor = System.Drawing.Color.Navy;
-            this.lblPhoneNumberValue.Location = new System.Drawing.Point(514, 77);
+            this.lblPhoneNumberValue.Location = new System.Drawing.Point(705, 85);
             this.lblPhoneNumberValue.Name = "lblPhoneNumberValue";
             this.lblPhoneNumberValue.Size = new System.Drawing.Size(36, 28);
             this.lblPhoneNumberValue.TabIndex = 15;
@@ -202,7 +202,7 @@
             this.lblDateOfBirthValue.AutoSize = true;
             this.lblDateOfBirthValue.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateOfBirthValue.ForeColor = System.Drawing.Color.Navy;
-            this.lblDateOfBirthValue.Location = new System.Drawing.Point(514, 35);
+            this.lblDateOfBirthValue.Location = new System.Drawing.Point(705, 43);
             this.lblDateOfBirthValue.Name = "lblDateOfBirthValue";
             this.lblDateOfBirthValue.Size = new System.Drawing.Size(36, 28);
             this.lblDateOfBirthValue.TabIndex = 14;
@@ -210,7 +210,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(639, 242);
+            this.btnClose.Location = new System.Drawing.Point(914, 267);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(103, 42);
             this.btnClose.TabIndex = 13;
@@ -222,7 +222,7 @@
             this.panelPictures2.Controls.Add(this.pbCountry);
             this.panelPictures2.Controls.Add(this.pbPhoneNumber);
             this.panelPictures2.Controls.Add(this.pbDateOfBirth);
-            this.panelPictures2.Location = new System.Drawing.Point(469, 35);
+            this.panelPictures2.Location = new System.Drawing.Point(660, 43);
             this.panelPictures2.Name = "panelPictures2";
             this.panelPictures2.Size = new System.Drawing.Size(39, 115);
             this.panelPictures2.TabIndex = 12;
@@ -335,7 +335,7 @@
             // 
             this.linklabelEditPerson.AutoSize = true;
             this.linklabelEditPerson.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linklabelEditPerson.Location = new System.Drawing.Point(610, 22);
+            this.linklabelEditPerson.Location = new System.Drawing.Point(886, 26);
             this.linklabelEditPerson.Name = "linklabelEditPerson";
             this.linklabelEditPerson.Size = new System.Drawing.Size(144, 28);
             this.linklabelEditPerson.TabIndex = 9;
@@ -348,7 +348,7 @@
             this.pbPersonImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbPersonImage.Image = ((System.Drawing.Image)(resources.GetObject("pbPersonImage.Image")));
             this.pbPersonImage.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbPersonImage.InitialImage")));
-            this.pbPersonImage.Location = new System.Drawing.Point(615, 53);
+            this.pbPersonImage.Location = new System.Drawing.Point(891, 57);
             this.pbPersonImage.Name = "pbPersonImage";
             this.pbPersonImage.Size = new System.Drawing.Size(139, 119);
             this.pbPersonImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -359,7 +359,7 @@
             // 
             this.lblPhoneNumber.AutoSize = true;
             this.lblPhoneNumber.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhoneNumber.Location = new System.Drawing.Point(334, 77);
+            this.lblPhoneNumber.Location = new System.Drawing.Point(525, 85);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
             this.lblPhoneNumber.Size = new System.Drawing.Size(136, 28);
             this.lblPhoneNumber.TabIndex = 7;
@@ -369,7 +369,7 @@
             // 
             this.lblCountry.AutoSize = true;
             this.lblCountry.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCountry.Location = new System.Drawing.Point(380, 120);
+            this.lblCountry.Location = new System.Drawing.Point(571, 128);
             this.lblCountry.Name = "lblCountry";
             this.lblCountry.Size = new System.Drawing.Size(83, 28);
             this.lblCountry.TabIndex = 6;
@@ -379,7 +379,7 @@
             // 
             this.lblDateOfBirth.AutoSize = true;
             this.lblDateOfBirth.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDateOfBirth.Location = new System.Drawing.Point(334, 35);
+            this.lblDateOfBirth.Location = new System.Drawing.Point(525, 43);
             this.lblDateOfBirth.Name = "lblDateOfBirth";
             this.lblDateOfBirth.Size = new System.Drawing.Size(129, 28);
             this.lblDateOfBirth.TabIndex = 5;
@@ -444,7 +444,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.grpBoxPersonInfoCard);
             this.Name = "usrCtrlPersonInfoCard";
-            this.Size = new System.Drawing.Size(782, 350);
+            this.Size = new System.Drawing.Size(1036, 343);
             this.grpBoxPersonInfoCard.ResumeLayout(false);
             this.grpBoxPersonInfoCard.PerformLayout();
             this.panelPictures2.ResumeLayout(false);
