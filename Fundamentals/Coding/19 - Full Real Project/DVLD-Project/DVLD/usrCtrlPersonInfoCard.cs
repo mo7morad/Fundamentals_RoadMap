@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using System.IO;
 using BusinessLayer;
 using Entities;
+using DVLD_Entities.Enums;
 
 namespace DVLD
 {
@@ -126,6 +127,18 @@ namespace DVLD
             {
                 LoadPersonImage(person.ImagePath);
             }
+        }
+
+        private void linklabelEditPerson_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Add_EditPersonForm editForm = new Add_EditPersonForm(enFormMode.Update, Convert.ToInt32(PersonID));
+            editForm.PersonSavedToDataBase += RefreshPersonDetails_OnSave;
+            editForm.ShowDialog();
+        }
+
+        private void RefreshPersonDetails_OnSave(object sender, EventArgs e)
+        {
+            FillPersonInfo(Convert.ToInt32(PersonID)); // Person Details form refresh
         }
     }
 }

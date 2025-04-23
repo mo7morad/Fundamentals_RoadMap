@@ -12,6 +12,7 @@ namespace DVLD
 {
     public partial class PersonDetailsForm: Form
     {
+        public event EventHandler OnClose;
         public PersonDetailsForm(int personID)
         {
             if (personID == 0)
@@ -21,10 +22,13 @@ namespace DVLD
             }
             InitializeComponent(personID);
             usrCtrlPersonInfoCard.OnCloseClicked += CloseForm;
+
         }
         private void CloseForm(object sender, EventArgs e)
         {
             this.Close();
+            // Fire the event to notify subscribers
+            OnClose?.Invoke(this, EventArgs.Empty);
         }
 
     }

@@ -45,6 +45,7 @@ namespace DVLD
         private void CreatePersonInfoCard(int personID)
         {
             PersonDetailsForm personInfoForm = new PersonDetailsForm(personID);
+            personInfoForm.OnClose += (s, e) => LoadPeopleToDataGridView();
             personInfoForm.ShowDialog();
         }
         private void pictureBoxAddPerson_Click(object sender, EventArgs e)
