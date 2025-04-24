@@ -159,6 +159,7 @@
             this.txtBoxFilterBy.TabIndex = 1;
             this.txtBoxFilterBy.Visible = false;
             this.txtBoxFilterBy.TextChanged += new System.EventHandler(this.txtBoxFilterBy_TextChanged);
+            this.txtBoxFilterBy.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxFilterBy_KeyPress);
             // 
             // comboBoxFilterBy
             // 
@@ -200,15 +201,15 @@
             // lblManagePeople
             // 
             this.lblManagePeople.AutoSize = true;
-            this.lblManagePeople.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblManagePeople.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblManagePeople.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblManagePeople.Location = new System.Drawing.Point(0, 110);
+            this.lblManagePeople.Location = new System.Drawing.Point(539, 110);
             this.lblManagePeople.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblManagePeople.Name = "lblManagePeople";
             this.lblManagePeople.Size = new System.Drawing.Size(157, 24);
             this.lblManagePeople.TabIndex = 1;
             this.lblManagePeople.Text = "Manage People";
+            this.lblManagePeople.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBoxManagePeople
             // 
@@ -218,7 +219,7 @@
             this.pictureBoxManagePeople.Location = new System.Drawing.Point(0, 0);
             this.pictureBoxManagePeople.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxManagePeople.Name = "pictureBoxManagePeople";
-            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1235, 110);
+            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1235, 134);
             this.pictureBoxManagePeople.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxManagePeople.TabIndex = 0;
             this.pictureBoxManagePeople.TabStop = false;
