@@ -153,11 +153,12 @@
             // txtBoxFilterBy
             // 
             this.txtBoxFilterBy.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxFilterBy.Location = new System.Drawing.Point(200, 0);
+            this.txtBoxFilterBy.Location = new System.Drawing.Point(220, 0);
             this.txtBoxFilterBy.Name = "txtBoxFilterBy";
             this.txtBoxFilterBy.Size = new System.Drawing.Size(171, 25);
             this.txtBoxFilterBy.TabIndex = 1;
             this.txtBoxFilterBy.Visible = false;
+            this.txtBoxFilterBy.TextChanged += new System.EventHandler(this.txtBoxFilterBy_TextChanged);
             // 
             // comboBoxFilterBy
             // 
@@ -167,7 +168,7 @@
             this.comboBoxFilterBy.FormattingEnabled = true;
             this.comboBoxFilterBy.Location = new System.Drawing.Point(76, 0);
             this.comboBoxFilterBy.Name = "comboBoxFilterBy";
-            this.comboBoxFilterBy.Size = new System.Drawing.Size(118, 25);
+            this.comboBoxFilterBy.Size = new System.Drawing.Size(132, 25);
             this.comboBoxFilterBy.TabIndex = 0;
             this.comboBoxFilterBy.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilterBy_SelectedIndexChanged);
             // 
@@ -290,6 +291,7 @@
             this.sendEmailToolStripMenuItem.Name = "sendEmailToolStripMenuItem";
             this.sendEmailToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.sendEmailToolStripMenuItem.Text = "Send Email";
+            this.sendEmailToolStripMenuItem.Click += new System.EventHandler(this.sendEmailToolStripMenuItem_Click);
             // 
             // phoneCallToolStripMenuItem
             // 
@@ -298,6 +300,7 @@
             this.phoneCallToolStripMenuItem.Name = "phoneCallToolStripMenuItem";
             this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.phoneCallToolStripMenuItem.Text = "Phone Call";
+            this.phoneCallToolStripMenuItem.Click += new System.EventHandler(this.phoneCallToolStripMenuItem_Click);
             // 
             // ManagePeopleForm
             // 

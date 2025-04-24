@@ -13,9 +13,7 @@ namespace BusinessLayer
         }
         public static DataTable GetAllPeople()
         {
-            DataTable dt = clsPeopleDataAccess.GetAllPeople();
-
-            return dt;
+            return clsPeopleDataAccess.GetAllPeople();
         }
         public static clsPerson GetPersonByID(int personID)
         {

@@ -16,9 +16,7 @@ namespace DVLD
         {
             FormMode = formMode;
             PersonID = personID;
-
             InitializeComponent(formMode, personID);
-
             usrCtrlAdd_EditPerson.OnSave += Form_OnSave;
             usrCtrlAdd_EditPerson.OnClose += Form_OnClose;
         }
@@ -62,9 +60,11 @@ namespace DVLD
 
             string email = usrCtrlAdd_EditPerson.Email;
             string imagePath = usrCtrlAdd_EditPerson.ImagePath;
-
-            return new clsPerson(nationalNo, firstName, secondName, thirdName, lastName,
+            clsPerson person = new clsPerson(nationalNo, firstName, secondName, thirdName, lastName,
                                  dateOfBirth, gender, address, phone, country, email, imagePath);
+
+            clsPersonService.NormalizePersonData(person);
+            return person;
         }
 
         private void Form_OnSave(object sender, EventArgs e)

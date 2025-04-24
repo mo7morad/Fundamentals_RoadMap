@@ -8,15 +8,23 @@ namespace DVLD
 {
     public partial class ManagePeopleForm : Form
     {
+        private DataTable peopleDataTable;
+        private DataView peopleDataView;
         public ManagePeopleForm()
         {
             InitializeComponent();
+            this.Load += MainPeopleForm_Load;
+        }
+        private void MainPeopleForm_Load(object sender, EventArgs e)
+        {
             LoadPeopleToDataGridView();
+            PopulateComboBoxFilterBy();
         }
 
         private void LoadPeopleToDataGridView()
         {
-            DataTable peopleDataTable = clsPeopleBusinessLayer.GetAllPeople();
+            peopleDataTable = clsPeopleBusinessLayer.GetAllPeople();
+            peopleDataView = new DataView(peopleDataTable);
             if (peopleDataTable == null || peopleDataTable.Rows.Count == 0)
             {
                 MessageBox.Show("No data found", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -24,7 +32,6 @@ namespace DVLD
             }
             else
             {
-                DataView peopleDataView = new DataView(peopleDataTable);
                 dataGridViewPeople.DataSource = peopleDataView;
 
                 dataGridViewPeople.AutoResizeColumnHeadersHeight();
@@ -39,10 +46,40 @@ namespace DVLD
             }
 
         }
+
+        private void PopulateComboBoxFilterBy()
+        {
+            comboBoxFilterBy.Items.Clear();
+            comboBoxFilterBy.Items.Add("None");
+
+            foreach (DataGridViewColumn column in dataGridViewPeople.Columns)
+            {
+                if (!column.Visible || column.HeaderText == "Date Of Birth")
+                    continue;
+
+                comboBoxFilterBy.Items.Add(column.HeaderText);
+            }
+            comboBoxFilterBy.SelectedIndex = 0;
+        }
+
+        private void ApplyFilter()
+        {
+            string selectedColumn = comboBoxFilterBy.SelectedItem?.ToString();
+            string filterText = txtBoxFilterBy.Text.Trim();
+
+            if (!string.IsNullOrEmpty(selectedColumn) && selectedColumn != "None")
+            {
+                peopleDataView.RowFilter = $"[{selectedColumn}] LIKE '%{filterText}%'";
+            }
+
+        }
+
         private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
             txtBoxFilterBy.Visible = comboBoxFilterBy.SelectedIndex != 0;
+            txtBoxFilterBy.Clear();
         }
+
         private void CreateAddNewPersonForm()
         {
             Add_EditPersonForm addNewForm = new Add_EditPersonForm(enFormMode.AddNew, -1);
@@ -146,6 +183,21 @@ namespace DVLD
             int selectedRowIndex = dataGridViewPeople.SelectedCells[0].RowIndex;
             int personID = Convert.ToInt32(dataGridViewPeople.Rows[selectedRowIndex].Cells[0].Value);
             CreatePersonInfoCard(personID);
+        }
+
+        private void sendEmailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To Be Implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void phoneCallToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To Be Implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void txtBoxFilterBy_TextChanged(object sender, EventArgs e)
+        {
+            ApplyFilter();
         }
     }
 }

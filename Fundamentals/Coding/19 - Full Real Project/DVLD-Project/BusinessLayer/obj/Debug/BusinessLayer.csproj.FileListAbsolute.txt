@@ -9,3 +9,16 @@ D:\Programming\Project\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileI
 D:\Programming\Project\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
 D:\Programming\Project\BusinessLayer\obj\Debug\BusinessLayer.exe
 D:\Programming\Project\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\bin\Debug\DataAccessLayer.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\bin\Debug\Entities.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\bin\Debug\DataAccessLayer.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\bin\Debug\Entities.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\BusinessLayer\obj\Debug\BusinessLayer.pdb

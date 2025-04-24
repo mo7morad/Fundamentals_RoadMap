@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_GUI", "DVLD_GUI.csproj", "{9C540EC9-516C-4367-906A-61BE451341AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI.csproj", "{9C540EC9-516C-4367-906A-61BE451341AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_BusinessLayer", "..\BusinessLayer\DVLD_BusinessLayer.csproj", "{9885F6B5-7D5F-4CD2-843D-9D5A41230AFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{9885F6B5-7D5F-4CD2-843D-9D5A41230AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_DataAccessLayer", "..\DataAccessLayer\DVLD_DataAccessLayer.csproj", "{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTesting", "..\Testing\ConsoleTesting.csproj", "{75F78584-7CA6-4023-8B78-088C3F0D1933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_Entities", "..\Entities\DVLD_Entities.csproj", "{74EF10DE-2275-4B97-8A61-BB83BFC39954}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{74EF10DE-2275-4B97-8A61-BB83BFC39954}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

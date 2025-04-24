@@ -50,13 +50,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\DVLD_BusinessLayer.csproj">
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
       <Project>{9885f6b5-7d5f-4cd2-843d-9d5a41230afa}</Project>
-      <Name>DVLD_BusinessLayer</Name>
+      <Name>BusinessLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Entities\DVLD_Entities.csproj">
+    <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{74ef10de-2275-4b97-8a61-bb83bfc39954}</Project>
-      <Name>DVLD_Entities</Name>
+      <Name>Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
