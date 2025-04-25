@@ -46,7 +46,6 @@
             this.usersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.accountSettingsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.applicationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblCurrentUser = new System.Windows.Forms.Label();
             this.MainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +53,7 @@
             // 
             this.MainMenuStrip.BackColor = System.Drawing.Color.WhiteSmoke;
             this.MainMenuStrip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.MainMenuStrip.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MainMenuStrip.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuStripApplicationsItem,
             this.menuStripPeopleItem,
@@ -63,7 +62,7 @@
             this.menuStripAccountSettingsItem});
             this.MainMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MainMenuStrip.Name = "MainMenuStrip";
-            this.MainMenuStrip.Size = new System.Drawing.Size(922, 25);
+            this.MainMenuStrip.Size = new System.Drawing.Size(922, 33);
             this.MainMenuStrip.TabIndex = 0;
             this.MainMenuStrip.Text = "MainMenuStrip";
             // 
@@ -71,14 +70,14 @@
             // 
             this.menuStripApplicationsItem.Image = global::DVLD.Properties.Resources.Applications;
             this.menuStripApplicationsItem.Name = "menuStripApplicationsItem";
-            this.menuStripApplicationsItem.Size = new System.Drawing.Size(107, 21);
+            this.menuStripApplicationsItem.Size = new System.Drawing.Size(150, 29);
             this.menuStripApplicationsItem.Text = "Applications";
             // 
             // menuStripPeopleItem
             // 
             this.menuStripPeopleItem.Image = global::DVLD.Properties.Resources.PeopleMenusStrip;
             this.menuStripPeopleItem.Name = "menuStripPeopleItem";
-            this.menuStripPeopleItem.Size = new System.Drawing.Size(76, 21);
+            this.menuStripPeopleItem.Size = new System.Drawing.Size(100, 29);
             this.menuStripPeopleItem.Text = "People";
             this.menuStripPeopleItem.Click += new System.EventHandler(this.menuStripPeopleItem_Click);
             // 
@@ -86,21 +85,21 @@
             // 
             this.menuStripDriversItem.Image = global::DVLD.Properties.Resources.driver;
             this.menuStripDriversItem.Name = "menuStripDriversItem";
-            this.menuStripDriversItem.Size = new System.Drawing.Size(77, 21);
+            this.menuStripDriversItem.Size = new System.Drawing.Size(103, 29);
             this.menuStripDriversItem.Text = "Drivers";
             // 
             // menuStripUsersItem
             // 
             this.menuStripUsersItem.Image = global::DVLD.Properties.Resources.users;
             this.menuStripUsersItem.Name = "menuStripUsersItem";
-            this.menuStripUsersItem.Size = new System.Drawing.Size(69, 21);
+            this.menuStripUsersItem.Size = new System.Drawing.Size(88, 29);
             this.menuStripUsersItem.Text = "Users";
             // 
             // menuStripAccountSettingsItem
             // 
             this.menuStripAccountSettingsItem.Image = global::DVLD.Properties.Resources.settings3;
             this.menuStripAccountSettingsItem.Name = "menuStripAccountSettingsItem";
-            this.menuStripAccountSettingsItem.Size = new System.Drawing.Size(132, 21);
+            this.menuStripAccountSettingsItem.Size = new System.Drawing.Size(191, 29);
             this.menuStripAccountSettingsItem.Text = "Account Settings";
             // 
             // applicationToolStripMenuItem
@@ -183,26 +182,14 @@
             this.applicationToolStripMenuItem1.Size = new System.Drawing.Size(107, 21);
             this.applicationToolStripMenuItem1.Text = "Applications";
             // 
-            // lblCurrentUser
-            // 
-            this.lblCurrentUser.AutoSize = true;
-            this.lblCurrentUser.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCurrentUser.Location = new System.Drawing.Point(12, 45);
-            this.lblCurrentUser.Name = "lblCurrentUser";
-            this.lblCurrentUser.Size = new System.Drawing.Size(33, 25);
-            this.lblCurrentUser.TabIndex = 1;
-            this.lblCurrentUser.Text = "lbl";
-            this.lblCurrentUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BackgroundImage = global::DVLD.Properties.Resources.DVLD_Logo;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImage = global::DVLD.Properties.Resources.Logo_Final;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(922, 459);
-            this.Controls.Add(this.lblCurrentUser);
             this.Controls.Add(this.MainMenuStrip);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -236,6 +223,5 @@
         private System.Windows.Forms.ToolStripMenuItem menuStripDriversItem;
         private System.Windows.Forms.ToolStripMenuItem menuStripUsersItem;
         private System.Windows.Forms.ToolStripMenuItem menuStripAccountSettingsItem;
-        private System.Windows.Forms.Label lblCurrentUser;
     }
 }

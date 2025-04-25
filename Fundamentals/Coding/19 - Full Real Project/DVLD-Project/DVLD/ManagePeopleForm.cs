@@ -9,7 +9,7 @@ namespace DVLD
 {
     public partial class ManagePeopleForm : Form
     {
-        private DataTable peopleDataTable = clsPeopleBusinessLayer.GetAllPeople();
+        private DataTable peopleDataTable;
         private DataView peopleDataView;
         
         public ManagePeopleForm()
@@ -26,6 +26,7 @@ namespace DVLD
 
         private void LoadPeopleToDataGridView()
         {
+            peopleDataTable = clsPeopleBusinessLayer.GetAllPeople();
             peopleDataView = new DataView(peopleDataTable);
             if (peopleDataTable == null || peopleDataTable.Rows.Count == 0)
             {
@@ -46,7 +47,7 @@ namespace DVLD
                     dataGridViewPeople.Columns["Address"].Visible = false;
                 }
             }
-
+            lblRecordsCount.Text = $"Total Records: #{peopleDataView.Count}";
         }
 
         private void PopulateComboBoxFilterBy()

@@ -33,34 +33,35 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagePeopleForm));
             this.panelManagePeople = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnClosePeopleForm = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridViewPeople = new System.Windows.Forms.DataGridView();
             this.panelFilterBy = new System.Windows.Forms.Panel();
             this.txtBoxFilterBy = new System.Windows.Forms.TextBox();
             this.comboBoxFilterBy = new System.Windows.Forms.ComboBox();
-            this.pictureBoxAddPerson = new System.Windows.Forms.PictureBox();
             this.lblFilterBy = new System.Windows.Forms.Label();
             this.lblManagePeople = new System.Windows.Forms.Label();
-            this.pictureBoxManagePeople = new System.Windows.Forms.PictureBox();
             this.toolTipAddNewPerson = new System.Windows.Forms.ToolTip(this.components);
             this.contextMenuStripDataGridView = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnClosePeopleForm = new System.Windows.Forms.Button();
+            this.pictureBoxAddPerson = new System.Windows.Forms.PictureBox();
+            this.pictureBoxManagePeople = new System.Windows.Forms.PictureBox();
+            this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addNewPersonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.sendEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.phoneCallToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblRecordsCount = new System.Windows.Forms.Label();
             this.panelManagePeople.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPeople)).BeginInit();
             this.panelFilterBy.SuspendLayout();
+            this.contextMenuStripDataGridView.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddPerson)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxManagePeople)).BeginInit();
-            this.contextMenuStripDataGridView.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelManagePeople
@@ -79,27 +80,13 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.lblRecordsCount);
             this.panel2.Controls.Add(this.btnClosePeopleForm);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 485);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1235, 37);
             this.panel2.TabIndex = 4;
-            // 
-            // btnClosePeopleForm
-            // 
-            this.btnClosePeopleForm.BackColor = System.Drawing.SystemColors.Info;
-            this.btnClosePeopleForm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClosePeopleForm.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnClosePeopleForm.Image = global::DVLD.Properties.Resources.Close_32;
-            this.btnClosePeopleForm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClosePeopleForm.Location = new System.Drawing.Point(1110, 0);
-            this.btnClosePeopleForm.Name = "btnClosePeopleForm";
-            this.btnClosePeopleForm.Size = new System.Drawing.Size(125, 37);
-            this.btnClosePeopleForm.TabIndex = 0;
-            this.btnClosePeopleForm.Text = "Close";
-            this.btnClosePeopleForm.UseVisualStyleBackColor = false;
-            this.btnClosePeopleForm.Click += new System.EventHandler(this.btnClosePeopleForm_Click);
             // 
             // panel1
             // 
@@ -173,20 +160,6 @@
             this.comboBoxFilterBy.TabIndex = 0;
             this.comboBoxFilterBy.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilterBy_SelectedIndexChanged);
             // 
-            // pictureBoxAddPerson
-            // 
-            this.pictureBoxAddPerson.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxAddPerson.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBoxAddPerson.Image = global::DVLD.Properties.Resources.Add_Person_72;
-            this.pictureBoxAddPerson.Location = new System.Drawing.Point(1159, 0);
-            this.pictureBoxAddPerson.Name = "pictureBoxAddPerson";
-            this.pictureBoxAddPerson.Size = new System.Drawing.Size(76, 40);
-            this.pictureBoxAddPerson.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxAddPerson.TabIndex = 2;
-            this.pictureBoxAddPerson.TabStop = false;
-            this.pictureBoxAddPerson.Click += new System.EventHandler(this.pictureBoxAddPerson_Click);
-            this.pictureBoxAddPerson.MouseEnter += new System.EventHandler(this.pictureBoxAddPerson_MouseEnter);
-            // 
             // lblFilterBy
             // 
             this.lblFilterBy.AutoSize = true;
@@ -211,19 +184,6 @@
             this.lblManagePeople.Text = "Manage People";
             this.lblManagePeople.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBoxManagePeople
-            // 
-            this.pictureBoxManagePeople.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.pictureBoxManagePeople.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBoxManagePeople.Image = global::DVLD.Properties.Resources.ManagePeople;
-            this.pictureBoxManagePeople.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxManagePeople.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBoxManagePeople.Name = "pictureBoxManagePeople";
-            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1235, 134);
-            this.pictureBoxManagePeople.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxManagePeople.TabIndex = 0;
-            this.pictureBoxManagePeople.TabStop = false;
-            // 
             // contextMenuStripDataGridView
             // 
             this.contextMenuStripDataGridView.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -239,6 +199,58 @@
             this.contextMenuStripDataGridView.Name = "contextMenuStripDataGridView";
             this.contextMenuStripDataGridView.Size = new System.Drawing.Size(191, 244);
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(187, 6);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(187, 6);
+            // 
+            // btnClosePeopleForm
+            // 
+            this.btnClosePeopleForm.BackColor = System.Drawing.SystemColors.Info;
+            this.btnClosePeopleForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClosePeopleForm.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnClosePeopleForm.Image = global::DVLD.Properties.Resources.Close_32;
+            this.btnClosePeopleForm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClosePeopleForm.Location = new System.Drawing.Point(1110, 0);
+            this.btnClosePeopleForm.Name = "btnClosePeopleForm";
+            this.btnClosePeopleForm.Size = new System.Drawing.Size(125, 37);
+            this.btnClosePeopleForm.TabIndex = 0;
+            this.btnClosePeopleForm.Text = "Close";
+            this.btnClosePeopleForm.UseVisualStyleBackColor = false;
+            this.btnClosePeopleForm.Click += new System.EventHandler(this.btnClosePeopleForm_Click);
+            // 
+            // pictureBoxAddPerson
+            // 
+            this.pictureBoxAddPerson.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxAddPerson.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBoxAddPerson.Image = global::DVLD.Properties.Resources.Add_Person_72;
+            this.pictureBoxAddPerson.Location = new System.Drawing.Point(1159, 0);
+            this.pictureBoxAddPerson.Name = "pictureBoxAddPerson";
+            this.pictureBoxAddPerson.Size = new System.Drawing.Size(76, 40);
+            this.pictureBoxAddPerson.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAddPerson.TabIndex = 2;
+            this.pictureBoxAddPerson.TabStop = false;
+            this.pictureBoxAddPerson.Click += new System.EventHandler(this.pictureBoxAddPerson_Click);
+            this.pictureBoxAddPerson.MouseEnter += new System.EventHandler(this.pictureBoxAddPerson_MouseEnter);
+            // 
+            // pictureBoxManagePeople
+            // 
+            this.pictureBoxManagePeople.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.pictureBoxManagePeople.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxManagePeople.Image = global::DVLD.Properties.Resources.ManagePeople;
+            this.pictureBoxManagePeople.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxManagePeople.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxManagePeople.Name = "pictureBoxManagePeople";
+            this.pictureBoxManagePeople.Size = new System.Drawing.Size(1235, 134);
+            this.pictureBoxManagePeople.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxManagePeople.TabIndex = 0;
+            this.pictureBoxManagePeople.TabStop = false;
+            // 
             // showDetailsToolStripMenuItem
             // 
             this.showDetailsToolStripMenuItem.Image = global::DVLD.Properties.Resources.PersonDetails_32;
@@ -247,11 +259,6 @@
             this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(190, 38);
             this.showDetailsToolStripMenuItem.Text = "Show Details";
             this.showDetailsToolStripMenuItem.Click += new System.EventHandler(this.showDetailsToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(187, 6);
             // 
             // addNewPersonToolStripMenuItem
             // 
@@ -280,11 +287,6 @@
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(187, 6);
-            // 
             // sendEmailToolStripMenuItem
             // 
             this.sendEmailToolStripMenuItem.Image = global::DVLD.Properties.Resources.Email_32;
@@ -303,6 +305,17 @@
             this.phoneCallToolStripMenuItem.Text = "Phone Call";
             this.phoneCallToolStripMenuItem.Click += new System.EventHandler(this.phoneCallToolStripMenuItem_Click);
             // 
+            // lblRecordsCount
+            // 
+            this.lblRecordsCount.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblRecordsCount.AutoSize = true;
+            this.lblRecordsCount.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecordsCount.Location = new System.Drawing.Point(3, 7);
+            this.lblRecordsCount.Name = "lblRecordsCount";
+            this.lblRecordsCount.Size = new System.Drawing.Size(129, 21);
+            this.lblRecordsCount.TabIndex = 1;
+            this.lblRecordsCount.Text = "Total Records: #";
+            // 
             // ManagePeopleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -318,13 +331,14 @@
             this.panelManagePeople.ResumeLayout(false);
             this.panelManagePeople.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPeople)).EndInit();
             this.panelFilterBy.ResumeLayout(false);
             this.panelFilterBy.PerformLayout();
+            this.contextMenuStripDataGridView.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddPerson)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxManagePeople)).EndInit();
-            this.contextMenuStripDataGridView.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -364,5 +378,6 @@
         private System.Windows.Forms.PictureBox pictureBoxAddPerson;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.Label lblRecordsCount;
     }
 }
