@@ -77,11 +77,11 @@ namespace DVLD
                 if (selectedColumn == "Gender")
                 {
                     // Handle gender filtering (case-insensitive)
-                    if (filterText.IndexOf("m", StringComparison.OrdinalIgnoreCase) >= 0)
+                    if (filterText.IndexOf("m", StringComparison.OrdinalIgnoreCase) == 0)
                     {
                         peopleDataView.RowFilter = "[Gender] = 'Male'";
                     }
-                    else if (filterText.IndexOf("f", StringComparison.OrdinalIgnoreCase) >= 0)
+                    else if (filterText.IndexOf("f", StringComparison.OrdinalIgnoreCase) == 0)
                     {
                         peopleDataView.RowFilter = "[Gender] = 'Female'";
                     }

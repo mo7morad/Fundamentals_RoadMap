@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsUsersBusinessLayer.cs" />
     <Compile Include="clsPersonService.cs" />
     <Compile Include="clsCountriesBusinessLayer.cs" />
     <Compile Include="clsPeopleBusinessLayer.cs" />

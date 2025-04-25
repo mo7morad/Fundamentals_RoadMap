@@ -52,7 +52,6 @@
     <Compile Include="Add_EditPersonForm.Designer.cs">
       <DependentUpon>Add_EditPersonForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clsCountry.cs" />
     <Compile Include="LoginScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -282,6 +281,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sign_in 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manage Applications 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manage Applications 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Application 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApplicationType.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Applications1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApplicationTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Application Types 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Application Types 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Applications 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginicon2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

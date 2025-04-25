@@ -68,7 +68,8 @@
             // 
             // menuStripApplicationsItem
             // 
-            this.menuStripApplicationsItem.Image = global::DVLD.Properties.Resources.Applications;
+            this.menuStripApplicationsItem.Image = global::DVLD.Properties.Resources.Applications1;
+            this.menuStripApplicationsItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.menuStripApplicationsItem.Name = "menuStripApplicationsItem";
             this.menuStripApplicationsItem.Size = new System.Drawing.Size(150, 29);
             this.menuStripApplicationsItem.Text = "Applications";
@@ -76,9 +77,11 @@
             // menuStripPeopleItem
             // 
             this.menuStripPeopleItem.Image = global::DVLD.Properties.Resources.PeopleMenusStrip;
+            this.menuStripPeopleItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.menuStripPeopleItem.Name = "menuStripPeopleItem";
             this.menuStripPeopleItem.Size = new System.Drawing.Size(100, 29);
             this.menuStripPeopleItem.Text = "People";
+            this.menuStripPeopleItem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.menuStripPeopleItem.Click += new System.EventHandler(this.menuStripPeopleItem_Click);
             // 
             // menuStripDriversItem
@@ -182,7 +185,7 @@
             this.applicationToolStripMenuItem1.Size = new System.Drawing.Size(107, 21);
             this.applicationToolStripMenuItem1.Text = "Applications";
             // 
-            // MainScreen
+            // MainScreenForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -193,7 +196,7 @@
             this.Controls.Add(this.MainMenuStrip);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "MainScreen";
+            this.Name = "MainScreenForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Driver License Managment";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

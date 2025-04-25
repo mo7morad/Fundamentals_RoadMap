@@ -1,13 +1,15 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Windows.Forms;
+using BusinessLayer;
 
 namespace DVLD
 {
     public partial class LoginScreenForm : Form
     {
         // You can use these for actual login implementation
-        private const string DefaultUsername = "admin";
-        private const string DefaultPassword = "password";
+        private string DefaultUsername;
+        private string DefaultPassword;
 
         public LoginScreenForm()
         {
@@ -41,35 +43,51 @@ namespace DVLD
             Application.Exit();
         }
 
+        private bool UserValidation(string userName, string password)
+        {
+            if (string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))
+            {
+                return false;
+            }
+
+            bool isUserExists = clsUsersBusinessLayer.IsUserNameExists(userName);
+            if (!isUserExists)
+            {
+                return false;
+            }
+
+            clsUser user = clsUsersBusinessLayer.GetUserByUserName(userName);
+            if (user != null)
+            {
+                if(user.Status == false)
+                {
+                    MessageBox.Show("User is inactive. Please contact support.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+                else
+                {
+                    return user.Password == password;
+                }
+            }
+            return false;
+        }
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            // Basic validation
             if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text))
             {
-                MessageBox.Show("Please enter both username and password.", "Login Failed",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please enter both username and password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
-            // Here you would implement actual authentication logic
-            // This is a placeholder implementation
-            if (txtUsername.Text == DefaultUsername && txtPassword.Text == DefaultPassword)
+            if (UserValidation(txtUsername.Text, txtPassword.Text))
             {
                 // Authentication successful
-                MessageBox.Show("Login successful!", "Success",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Login successful!", "Success",MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                // Note: If MainScreenForm doesn't exist yet, comment out or modify these lines
-                // this.Hide();
-                // MainScreenForm mainForm = new MainScreenForm();
-                // mainForm.FormClosed += (s, args) => this.Close();
-                // mainForm.Show();
-            }
-            else
-            {
-                // Authentication failed
-                MessageBox.Show("Invalid username or password.", "Login Failed",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Hide();
+                MainScreenForm mainForm = new MainScreenForm();
+                mainForm.FormClosed += (s, args) => this.Close();
+                mainForm.Show();
             }
         }
     }

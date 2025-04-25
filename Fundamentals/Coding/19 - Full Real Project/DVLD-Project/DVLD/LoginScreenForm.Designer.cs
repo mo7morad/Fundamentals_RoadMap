@@ -33,13 +33,13 @@
             this.logoLabel = new System.Windows.Forms.Label();
             this.rightPanel = new System.Windows.Forms.Panel();
             this.btnClose = new System.Windows.Forms.Button();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.chkRememberMe = new System.Windows.Forms.CheckBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUsername = new System.Windows.Forms.Label();
             this.lblLoginHeader = new System.Windows.Forms.Label();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.leftPanel.SuspendLayout();
             this.rightPanel.SuspendLayout();
             this.SuspendLayout();
@@ -79,6 +79,7 @@
             // 
             // rightPanel
             // 
+            this.rightPanel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.rightPanel.BackColor = System.Drawing.Color.White;
             this.rightPanel.Controls.Add(this.btnClose);
             this.rightPanel.Controls.Add(this.btnLogin);
@@ -88,7 +89,6 @@
             this.rightPanel.Controls.Add(this.lblPassword);
             this.rightPanel.Controls.Add(this.lblUsername);
             this.rightPanel.Controls.Add(this.lblLoginHeader);
-            this.rightPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rightPanel.Location = new System.Drawing.Point(300, 0);
             this.rightPanel.Name = "rightPanel";
             this.rightPanel.Size = new System.Drawing.Size(334, 450);
@@ -109,30 +109,11 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btnLogin.FlatAppearance.BorderSize = 0;
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Image = global::DVLD.Properties.Resources.sign_in_32;
-            this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLogin.Location = new System.Drawing.Point(151, 214);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnLogin.Size = new System.Drawing.Size(107, 35);
-            this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
             // chkRememberMe
             // 
             this.chkRememberMe.AutoSize = true;
             this.chkRememberMe.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRememberMe.Location = new System.Drawing.Point(51, 181);
+            this.chkRememberMe.Location = new System.Drawing.Point(51, 182);
             this.chkRememberMe.Name = "chkRememberMe";
             this.chkRememberMe.Size = new System.Drawing.Size(104, 19);
             this.chkRememberMe.TabIndex = 3;
@@ -186,6 +167,25 @@
             this.lblLoginHeader.TabIndex = 0;
             this.lblLoginHeader.Text = "Login to your account";
             // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Image = global::DVLD.Properties.Resources.loginicon2;
+            this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLogin.Location = new System.Drawing.Point(138, 209);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnLogin.Size = new System.Drawing.Size(107, 35);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
             // LoginScreenForm
             // 
             this.AcceptButton = this.btnLogin;
@@ -196,6 +196,7 @@
             this.Controls.Add(this.leftPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginScreenForm";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login - DVLD";
             this.leftPanel.ResumeLayout(false);
