@@ -53,6 +53,12 @@
       <DependentUpon>Add_EditPersonForm.cs</DependentUpon>
     </Compile>
     <Compile Include="clsCountry.cs" />
+    <Compile Include="LoginScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginScreenForm.Designer.cs">
+      <DependentUpon>LoginScreenForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PersonDetailsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,11 +71,11 @@
     <Compile Include="ManagePeopleForm.Designer.cs">
       <DependentUpon>ManagePeopleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainScreen.cs">
+    <Compile Include="MainScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainScreen.Designer.cs">
-      <DependentUpon>MainScreen.cs</DependentUpon>
+    <Compile Include="MainScreenForm.Designer.cs">
+      <DependentUpon>MainScreenForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,11 +99,14 @@
     <EmbeddedResource Include="Add_EditPersonForm.resx">
       <DependentUpon>Add_EditPersonForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginScreenForm.resx">
+      <DependentUpon>LoginScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PersonDetailsForm.resx">
       <DependentUpon>PersonDetailsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainScreen.resx">
-      <DependentUpon>MainScreen.cs</DependentUpon>
+    <EmbeddedResource Include="MainScreenForm.resx">
+      <DependentUpon>MainScreenForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManagePeopleForm.resx">
       <DependentUpon>ManagePeopleForm.cs</DependentUpon>
@@ -270,6 +279,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\account_settings 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_in 32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
