@@ -2,14 +2,14 @@
 using System;
 using System.Windows.Forms;
 using BusinessLayer;
+using System.IO;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace DVLD
 {
     public partial class LoginScreenForm : Form
     {
-        // You can use these for actual login implementation
-        private string DefaultUsername;
-        private string DefaultPassword;
 
         public LoginScreenForm()
         {
@@ -45,21 +45,24 @@ namespace DVLD
 
         private bool UserValidation(string userName, string password)
         {
+            // if the username or password are empty, return false
             if (string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))
             {
                 return false;
             }
 
+            // Check if the user exists in the database
             bool isUserExists = clsUsersBusinessLayer.IsUserNameExists(userName);
             if (!isUserExists)
             {
                 return false;
             }
 
+            // if user exists, check the status (active or not).
             clsUser user = clsUsersBusinessLayer.GetUserByUserName(userName);
             if (user != null)
             {
-                if(user.Status == false)
+                if (user.Status == false)
                 {
                     MessageBox.Show("User is inactive. Please contact support.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return false;
@@ -82,12 +85,46 @@ namespace DVLD
             if (UserValidation(txtUsername.Text, txtPassword.Text))
             {
                 // Authentication successful
-                MessageBox.Show("Login successful!", "Success",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
 
                 this.Hide();
                 MainScreenForm mainForm = new MainScreenForm();
                 mainForm.FormClosed += (s, args) => this.Close();
                 mainForm.Show();
+            }
+        }
+
+        private void LoginScreenForm_Load(object sender, EventArgs e)
+        {
+            // Check if the credentials file exists
+            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DVLD", "credentials.dat");
+            if (File.Exists(filePath))
+            {
+                byte[] encryptedData = File.ReadAllBytes(filePath);
+                byte[] decryptedData = ProtectedData.Unprotect(encryptedData, null, DataProtectionScope.CurrentUser);
+                string credentials = Encoding.UTF8.GetString(decryptedData);
+                string[] parts = credentials.Split(':');
+                if (parts.Length == 2)
+                {
+                    txtUsername.Text = parts[0];
+                    txtPassword.Text = parts[1];
+                }
+            }
+        }
+        private void chkRememberMe_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkRememberMe.Checked)
+            {
+                string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DVLD", "credentials.dat");
+                string username = txtUsername.Text.ToLower();
+                string password = txtPassword.Text;
+
+                string combinedCredentials = $"{username}:{password}";
+                byte[] data = Encoding.UTF8.GetBytes(combinedCredentials);
+                byte[] encrypted = ProtectedData.Protect(data, null, DataProtectionScope.CurrentUser);
+
+                File.WriteAllBytes(filePath, encrypted);
             }
         }
     }
