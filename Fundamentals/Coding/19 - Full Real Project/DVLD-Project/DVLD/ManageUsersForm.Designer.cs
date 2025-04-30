@@ -33,7 +33,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelHeader = new System.Windows.Forms.Panel();
+            this.pictureBoxAddUser = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.panelFilter = new System.Windows.Forms.Panel();
             this.txtBoxFilterValue = new System.Windows.Forms.TextBox();
             this.comboBoxFilterBy = new System.Windows.Forms.ComboBox();
@@ -50,16 +52,14 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.deleteUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.pictureBoxAddUser = new System.Windows.Forms.PictureBox();
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.panelHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.panelFilter.SuspendLayout();
             this.panelData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsers)).BeginInit();
             this.panelFooter.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddUser)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panelHeader
@@ -74,6 +74,20 @@
             this.panelHeader.Size = new System.Drawing.Size(800, 155);
             this.panelHeader.TabIndex = 0;
             // 
+            // pictureBoxAddUser
+            // 
+            this.pictureBoxAddUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxAddUser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxAddUser.Image = global::DVLD.Properties.Resources.adduser;
+            this.pictureBoxAddUser.Location = new System.Drawing.Point(736, 102);
+            this.pictureBoxAddUser.Name = "pictureBoxAddUser";
+            this.pictureBoxAddUser.Size = new System.Drawing.Size(64, 64);
+            this.pictureBoxAddUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAddUser.TabIndex = 2;
+            this.pictureBoxAddUser.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBoxAddUser, "Add New User");
+            this.pictureBoxAddUser.Click += new System.EventHandler(this.AddUserButton_Click);
+            // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
@@ -84,6 +98,16 @@
             this.lblTitle.Size = new System.Drawing.Size(231, 45);
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "Manage Users";
+            // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Image = global::DVLD.Properties.Resources.Add_New_User_72;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(348, 3);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
             // 
             // panelFilter
             // 
@@ -267,30 +291,6 @@
             this.deleteUserToolStripMenuItem.Text = "Delete User";
             this.deleteUserToolStripMenuItem.Click += new System.EventHandler(this.DeleteUserItem_Click);
             // 
-            // pictureBoxAddUser
-            // 
-            this.pictureBoxAddUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxAddUser.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxAddUser.Image = global::DVLD.Properties.Resources.adduser;
-            this.pictureBoxAddUser.Location = new System.Drawing.Point(733, 56);
-            this.pictureBoxAddUser.Name = "pictureBoxAddUser";
-            this.pictureBoxAddUser.Size = new System.Drawing.Size(64, 64);
-            this.pictureBoxAddUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxAddUser.TabIndex = 2;
-            this.pictureBoxAddUser.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBoxAddUser, "Add New User");
-            this.pictureBoxAddUser.Click += new System.EventHandler(this.AddUserButton_Click);
-            // 
-            // pictureBoxLogo
-            // 
-            this.pictureBoxLogo.Image = global::DVLD.Properties.Resources.Add_New_User_72;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(348, 3);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(80, 80);
-            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxLogo.TabIndex = 0;
-            this.pictureBoxLogo.TabStop = false;
-            // 
             // ManageUsersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -307,6 +307,8 @@
             this.Text = "Manage Users";
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.panelFilter.ResumeLayout(false);
             this.panelFilter.PerformLayout();
             this.panelData.ResumeLayout(false);
@@ -314,8 +316,6 @@
             this.panelFooter.ResumeLayout(false);
             this.panelFooter.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddUser)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
         }

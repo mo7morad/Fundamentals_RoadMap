@@ -21,25 +21,9 @@ namespace DVLD
 
         private void LoadUsersData()
         {
-            // This would typically come from your data layer
-            // For now, creating sample data
-            usersDataTable = new DataTable();
-            usersDataTable.Columns.Add("User ID", typeof(int));
-            usersDataTable.Columns.Add("Person ID", typeof(int));
-            usersDataTable.Columns.Add("Full Name", typeof(string));
-            usersDataTable.Columns.Add("UserName", typeof(string));
-            usersDataTable.Columns.Add("Is Active", typeof(bool));
-
-            // Add sample data
-            usersDataTable.Rows.Add(1, 1001, "Mohammed Saqer Mussa Abu-Hadhrout", "Master77", true);
-            usersDataTable.Rows.Add(15, 1025, "Khalid ALi Maher Hamed", "user4", true);
-
-            // Bind to grid
-            dataGridViewUsers.DataSource = usersDataTable;
-
-            // Update records count
-            recordsCount = usersDataTable.Rows.Count;
-            lblRecordsCount.Text = $"# Records: {recordsCount}";
+            usersDataTable = clsUsersBusinessLayer.GetAllUsers();
+            DataView usersDataView = new DataView(usersDataTable);
+            dataGridViewUsers.DataSource = usersDataView;
         }
 
         private void PopulateFilterComboBox()
@@ -49,7 +33,8 @@ namespace DVLD
             comboBoxFilterBy.Items.Add("User ID");
             comboBoxFilterBy.Items.Add("Person ID");
             comboBoxFilterBy.Items.Add("Full Name");
-            comboBoxFilterBy.Items.Add("UserName");
+            comboBoxFilterBy.Items.Add("User Name");
+            comboBoxFilterBy.Items.Add("Is Active");
 
             comboBoxFilterBy.SelectedIndex = 0;
         }
