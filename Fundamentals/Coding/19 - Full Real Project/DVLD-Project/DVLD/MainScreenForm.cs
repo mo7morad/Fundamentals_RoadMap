@@ -33,6 +33,18 @@ namespace DVLD
             foreach (ToolStripMenuItem item in MainMenuStrip.Items)
             {
                 StyleMenuItem(item);
+
+                // Style dropdown items if they exist
+                if (item.DropDownItems.Count > 0)
+                {
+                    foreach (ToolStripItem dropDownItem in item.DropDownItems)
+                    {
+                        if (dropDownItem is ToolStripMenuItem menuItem)
+                        {
+                            StyleDropDownMenuItem(menuItem);
+                        }
+                    }
+                }
             }
         }
 
@@ -54,6 +66,31 @@ namespace DVLD
             };
         }
 
+        private void StyleDropDownMenuItem(ToolStripMenuItem item)
+        {
+            item.ForeColor = Color.FromArgb(40, 40, 40);
+            item.BackColor = Color.FromArgb(240, 240, 240);
+
+            // Ensure proper image display
+            if (item.Image != null)
+            {
+                item.ImageScaling = ToolStripItemImageScaling.SizeToFit;
+                item.ImageAlign = ContentAlignment.MiddleLeft;
+            }
+
+            // Add hover effect for dropdown items
+            item.MouseEnter += (s, e) => {
+                item.ForeColor = Color.FromArgb(0, 0, 0);
+                item.BackColor = Color.FromArgb(225, 225, 225);
+            };
+
+            item.MouseLeave += (s, e) => {
+                item.ForeColor = Color.FromArgb(40, 40, 40);
+                item.BackColor = Color.FromArgb(240, 240, 240);
+            };
+        }
+
+
         private void peopleMenuStripItem_Click(object sender, EventArgs e)
         {
 
@@ -64,7 +101,21 @@ namespace DVLD
             ManagePeopleForm peopleFrm = new ManagePeopleForm();
             peopleFrm.ShowDialog();
         }
-    }
+
+        private void signOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginScreenForm loginScreenForm = new LoginScreenForm();
+            loginScreenForm.FormClosed += (s, args) => this.Close();
+            loginScreenForm.Show();
+        }
+
+        private void menuStripUsersItem_Click(object sender, EventArgs e)
+        {
+            ManageUsersForm manageUsersForm = new ManageUsersForm();
+            manageUsersForm.ShowDialog();
+        }
+}
 
     // Custom renderer for modern menu style
     public class ModernMenuRenderer : ToolStripProfessionalRenderer

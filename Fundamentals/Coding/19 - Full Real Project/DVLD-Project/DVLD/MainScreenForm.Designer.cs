@@ -100,6 +100,7 @@
             this.menuStripUsersItem.Name = "menuStripUsersItem";
             this.menuStripUsersItem.Size = new System.Drawing.Size(88, 29);
             this.menuStripUsersItem.Text = "Users";
+            this.menuStripUsersItem.Click += new System.EventHandler(this.menuStripUsersItem_Click);
             // 
             // menuStripAccountSettingsItem
             // 
@@ -138,6 +139,7 @@
             this.signOutToolStripMenuItem.Name = "signOutToolStripMenuItem";
             this.signOutToolStripMenuItem.Size = new System.Drawing.Size(204, 38);
             this.signOutToolStripMenuItem.Text = "Sign Out";
+            this.signOutToolStripMenuItem.Click += new System.EventHandler(this.signOutToolStripMenuItem_Click);
             // 
             // applicationToolStripMenuItem
             // 
