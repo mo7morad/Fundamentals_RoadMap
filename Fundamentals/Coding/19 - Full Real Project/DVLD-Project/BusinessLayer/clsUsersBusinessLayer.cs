@@ -10,17 +10,17 @@ namespace BusinessLayer
     {
         public static bool IsUserNameExists(string userName)
         {
-            return clsUserDataAccess.IsUserNameExists(userName);
+            return clsUsersDataAccess.IsUserNameExists(userName);
         }
 
         public static clsUser GetUserByUserName(string userName)
         {
-            return clsUserDataAccess.GetUserByUserName(userName);
+            return clsUsersDataAccess.GetUserByUserName(userName);
         }
 
         public static DataTable GetAllUsers()
         {
-            return clsUserDataAccess.GetAllUsers();
+            return clsUsersDataAccess.GetAllUsers();
         }
     }
 }

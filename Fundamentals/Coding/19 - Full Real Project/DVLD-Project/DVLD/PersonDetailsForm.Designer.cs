@@ -104,7 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(240, 240, 240);
-            this.ClientSize = new System.Drawing.Size(1036, 343);
+            this.ClientSize = new System.Drawing.Size(1070, 350);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.titleBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

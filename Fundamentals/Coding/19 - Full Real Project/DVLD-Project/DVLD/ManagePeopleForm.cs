@@ -47,7 +47,7 @@ namespace DVLD
                     dataGridViewPeople.Columns["Address"].Visible = false;
                 }
             }
-            lblRecordsCount.Text = $"Total Records: #{peopleDataView.Count}";
+            lblRecordsCount.Text = $"# Records: {peopleDataView.Count}";
         }
 
         private void PopulateComboBoxFilterBy()
@@ -260,6 +260,13 @@ namespace DVLD
                 // Allow all characters for other columns
                 e.Handled = false;
             }
+        }
+
+        private void dataGridViewPeople_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int selectedRowIndex = dataGridViewPeople.SelectedCells[0].RowIndex;
+            int personID = Convert.ToInt32(dataGridViewPeople.Rows[selectedRowIndex].Cells[0].Value);
+            CreatePersonInfoCard(personID);
         }
     }
 }

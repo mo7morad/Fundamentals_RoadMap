@@ -190,6 +190,7 @@ namespace DVLD
             this.dataGridViewPeople.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewPeople.Size = new System.Drawing.Size(1248, 318);
             this.dataGridViewPeople.TabIndex = 3;
+            this.dataGridViewPeople.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewPeople_CellDoubleClick);
             this.dataGridViewPeople.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewPeople_CellMouseClick);
             // 
             // panelFilterBy

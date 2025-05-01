@@ -65,6 +65,49 @@ namespace DataAccessLayer
                 }
             }
         }
+        public static clsPerson GetPersonByNationalNo(string nationalNumber)
+        {
+            const string query = @"SELECT People.*, Countries.CountryName from People
+                                JOIN Countries on People.NationalityCountryID = Countries.CountryID
+                                WHERE NationalNo = @nationalNumber";
+
+            using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@nationalNumber", nationalNumber);
+                    connection.Open();
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (!reader.Read())
+                            return null;
+
+                        int countryID = Convert.ToInt32(reader["NationalityCountryID"]);
+                        string countryName = Convert.ToString(reader["CountryName"]);
+                        clsCountry country = new clsCountry(countryID, countryName);
+
+                        clsPerson person = new clsPerson(
+                            reader["NationalNo"].ToString(),
+                            reader["FirstName"].ToString(),
+                            reader["SecondName"].ToString(),
+                            reader["ThirdName"].ToString(),
+                            reader["LastName"].ToString(),
+                            Convert.ToDateTime(reader["DateOfBirth"]),
+                            Convert.ToBoolean(reader["Gender"]),
+                            reader["Address"].ToString(),
+                            reader["Phone"].ToString(),
+                            country,
+                            reader["Email"].ToString(),
+                            reader["ImagePath"] != DBNull.Value ? reader["ImagePath"].ToString() : null
+                        );
+
+                        person.PersonID = Convert.ToInt32(reader["PersonID"]);
+                        return person;
+                    }
+                }
+            }
+        }
         public static DataTable GetAllPeople()
         {
             DataTable People = new DataTable();

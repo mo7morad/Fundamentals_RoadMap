@@ -19,6 +19,10 @@ namespace BusinessLayer
         {
             return clsPeopleDataAccess.GetPersonByID(personID);
         }
+        public static clsPerson GetPersonByNationalNo(string nationalNumber)
+        {
+            return clsPeopleDataAccess.GetPersonByNationalNo(nationalNumber);
+        }
         public static int AddNewPerson(Entities.clsPerson person, ref string errorMessage)
         {
             return clsPeopleDataAccess.AddNewPerson(person, ref errorMessage);

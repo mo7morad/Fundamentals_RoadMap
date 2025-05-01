@@ -24,3 +24,4 @@ D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\D
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.MainScreenForm.resources
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.LoginScreenForm.resources
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.ManageUsersForm.resources
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.AddNewUserForm.resources

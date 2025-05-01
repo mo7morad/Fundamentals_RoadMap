@@ -10,8 +10,7 @@ namespace DVLD
     public partial class ManageUsersForm : Form
     {
         private DataTable usersDataTable;
-        private int recordsCount = 0;
-
+        private DataView usersDataView;     
         public ManageUsersForm()
         {
             InitializeComponent();
@@ -22,8 +21,9 @@ namespace DVLD
         private void LoadUsersData()
         {
             usersDataTable = clsUsersBusinessLayer.GetAllUsers();
-            DataView usersDataView = new DataView(usersDataTable);
+            usersDataView = new DataView(usersDataTable);
             dataGridViewUsers.DataSource = usersDataView;
+            lblRecordsCount.Text = $"# Records: {usersDataView.Count}";
         }
 
         private void PopulateFilterComboBox()
@@ -39,24 +39,34 @@ namespace DVLD
             comboBoxFilterBy.SelectedIndex = 0;
         }
 
-        private void FilterTextBox_TextChanged(object sender, EventArgs e)
+        private void ApplyFilter(object sender, EventArgs e)
         {
-            string filterColumn = comboBoxFilterBy.SelectedItem.ToString();
-            string filterValue = txtBoxFilterValue.Text.Trim();
+            string selectedColumn = comboBoxFilterBy.SelectedItem?.ToString();
+            string filterText = txtBoxFilterValue.Text.Trim();
+            filterText = filterText.Replace("'", "''"); // Prevent SQL injection in the RowFilter
 
-            if (string.IsNullOrEmpty(filterValue))
+            if (string.IsNullOrEmpty(filterText))
             {
-                (usersDataTable.DefaultView).RowFilter = string.Empty;
+                usersDataView.RowFilter = "";
+            }
+            if (selectedColumn == "User ID" || selectedColumn == "Person ID")
+            {
+                if (int.TryParse(filterText, out int filterValue))
+                {
+                    usersDataView.RowFilter = $"[{selectedColumn}] = {filterValue}";
+                }
+            }
+            else if (selectedColumn == "Is Active")
+            {
+                usersDataView.RowFilter = $"[{selectedColumn}] = '{filterText}'";
             }
             else
             {
-                // Apply filter based on selected column
-                string filterExpression = $"[{filterColumn}] LIKE '%{filterValue}%'";
-                (usersDataTable.DefaultView).RowFilter = filterExpression;
+                usersDataView.RowFilter = $"[{selectedColumn}] LIKE '%{filterText}%'";
             }
 
-            // Update records count
-            lblRecordsCount.Text = $"# Records: {usersDataTable.DefaultView.Count}";
+            // Update the label with the number of records after filtering
+            lblRecordsCount.Text = $"# Records: {usersDataView.Count}";
         }
 
         private void UsersGrid_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -73,8 +83,13 @@ namespace DVLD
 
         private void AddUserButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Add New User functionality to be implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            AddNewUserForm frm = new AddNewUserForm();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                LoadUsersData();  // Refresh the users list
+            }
         }
+
 
         private void ShowDetailsItem_Click(object sender, EventArgs e)
         {
@@ -109,7 +124,30 @@ namespace DVLD
 
         private void txtBoxFilterValue_TextChanged(object sender, EventArgs e)
         {
-            FilterTextBox_TextChanged(sender, e);
+            ApplyFilter(sender, e);
+        }
+
+        private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtBoxFilterValue.Text = string.Empty;
+        }
+
+        private void txtBoxFilterValue_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string selectedItem = comboBoxFilterBy.SelectedItem?.ToString();
+
+            if (selectedItem == null)
+                return;
+
+            if (selectedItem == "Person ID" || selectedItem == "User ID")
+            {
+                e.Handled = (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar));
+            }
+            else
+            {
+                // Allow all characters for other filters
+                e.Handled = false;
+            }
         }
     }
 }
