@@ -23,8 +23,7 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -66,6 +65,8 @@
             this.tabPageLoginInfo = new System.Windows.Forms.TabPage();
             this.panelLoginInfo = new System.Windows.Forms.Panel();
             this.tableLayoutPanelLoginInfo = new System.Windows.Forms.TableLayoutPanel();
+            this.lblUserIDCaption = new System.Windows.Forms.Label();
+            this.lblUserID = new System.Windows.Forms.Label();
             this.lblUsernameCaption = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.lblPasswordCaption = new System.Windows.Forms.Label();
@@ -531,28 +532,51 @@
             this.tableLayoutPanelLoginInfo.ColumnCount = 2;
             this.tableLayoutPanelLoginInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanelLoginInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanelLoginInfo.Controls.Add(this.lblUsernameCaption, 0, 0);
-            this.tableLayoutPanelLoginInfo.Controls.Add(this.txtUsername, 1, 0);
-            this.tableLayoutPanelLoginInfo.Controls.Add(this.lblPasswordCaption, 0, 1);
-            this.tableLayoutPanelLoginInfo.Controls.Add(this.lblConfirmPasswordCaption, 0, 2);
-            this.tableLayoutPanelLoginInfo.Controls.Add(this.txtPassword, 1, 1);
-            this.tableLayoutPanelLoginInfo.Controls.Add(this.txtConfirmPassword, 1, 2);
-            this.tableLayoutPanelLoginInfo.Controls.Add(this.checkBoxIsActive, 1, 3);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.lblUserIDCaption, 0, 0);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.lblUserID, 1, 0);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.lblUsernameCaption, 0, 1);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.txtUsername, 1, 1);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.lblPasswordCaption, 0, 2);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.lblConfirmPasswordCaption, 0, 3);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.txtPassword, 1, 2);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.txtConfirmPassword, 1, 3);
+            this.tableLayoutPanelLoginInfo.Controls.Add(this.checkBoxIsActive, 1, 4);
             this.tableLayoutPanelLoginInfo.Location = new System.Drawing.Point(10, 10);
             this.tableLayoutPanelLoginInfo.Name = "tableLayoutPanelLoginInfo";
-            this.tableLayoutPanelLoginInfo.RowCount = 4;
-            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanelLoginInfo.Size = new System.Drawing.Size(766, 120);
+            this.tableLayoutPanelLoginInfo.RowCount = 5;
+            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanelLoginInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanelLoginInfo.Size = new System.Drawing.Size(766, 150);
             this.tableLayoutPanelLoginInfo.TabIndex = 0;
+            // 
+            // lblUserIDCaption
+            // 
+            this.lblUserIDCaption.AutoSize = true;
+            this.lblUserIDCaption.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblUserIDCaption.Location = new System.Drawing.Point(3, 0);
+            this.lblUserIDCaption.Name = "lblUserIDCaption";
+            this.lblUserIDCaption.Size = new System.Drawing.Size(54, 15);
+            this.lblUserIDCaption.TabIndex = 4;
+            this.lblUserIDCaption.Text = "User ID:";
+            // 
+            // lblUserID
+            // 
+            this.lblUserID.AutoSize = true;
+            this.lblUserID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblUserID.Location = new System.Drawing.Point(232, 0);
+            this.lblUserID.Name = "lblUserID";
+            this.lblUserID.Size = new System.Drawing.Size(35, 15);
+            this.lblUserID.TabIndex = 5;
+            this.lblUserID.Text = "[New]";
             // 
             // lblUsernameCaption
             // 
             this.lblUsernameCaption.AutoSize = true;
             this.lblUsernameCaption.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblUsernameCaption.Location = new System.Drawing.Point(3, 0);
+            this.lblUsernameCaption.Location = new System.Drawing.Point(3, 30);
             this.lblUsernameCaption.Name = "lblUsernameCaption";
             this.lblUsernameCaption.Size = new System.Drawing.Size(67, 15);
             this.lblUsernameCaption.TabIndex = 0;
@@ -561,7 +585,7 @@
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtUsername.Location = new System.Drawing.Point(232, 3);
+            this.txtUsername.Location = new System.Drawing.Point(232, 33);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(200, 23);
             this.txtUsername.TabIndex = 0;
@@ -570,7 +594,7 @@
             // 
             this.lblPasswordCaption.AutoSize = true;
             this.lblPasswordCaption.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblPasswordCaption.Location = new System.Drawing.Point(3, 30);
+            this.lblPasswordCaption.Location = new System.Drawing.Point(3, 60);
             this.lblPasswordCaption.Name = "lblPasswordCaption";
             this.lblPasswordCaption.Size = new System.Drawing.Size(62, 15);
             this.lblPasswordCaption.TabIndex = 1;
@@ -580,7 +604,7 @@
             // 
             this.lblConfirmPasswordCaption.AutoSize = true;
             this.lblConfirmPasswordCaption.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblConfirmPasswordCaption.Location = new System.Drawing.Point(3, 60);
+            this.lblConfirmPasswordCaption.Location = new System.Drawing.Point(3, 90);
             this.lblConfirmPasswordCaption.Name = "lblConfirmPasswordCaption";
             this.lblConfirmPasswordCaption.Size = new System.Drawing.Size(110, 15);
             this.lblConfirmPasswordCaption.TabIndex = 2;
@@ -589,7 +613,7 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtPassword.Location = new System.Drawing.Point(232, 33);
+            this.txtPassword.Location = new System.Drawing.Point(232, 63);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(200, 23);
@@ -598,7 +622,7 @@
             // txtConfirmPassword
             // 
             this.txtConfirmPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtConfirmPassword.Location = new System.Drawing.Point(232, 63);
+            this.txtConfirmPassword.Location = new System.Drawing.Point(232, 93);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
             this.txtConfirmPassword.PasswordChar = '*';
             this.txtConfirmPassword.Size = new System.Drawing.Size(200, 23);
@@ -610,7 +634,7 @@
             this.checkBoxIsActive.Checked = true;
             this.checkBoxIsActive.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxIsActive.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBoxIsActive.Location = new System.Drawing.Point(232, 93);
+            this.checkBoxIsActive.Location = new System.Drawing.Point(232, 123);
             this.checkBoxIsActive.Name = "checkBoxIsActive";
             this.checkBoxIsActive.Size = new System.Drawing.Size(70, 19);
             this.checkBoxIsActive.TabIndex = 3;
@@ -754,6 +778,8 @@
         private System.Windows.Forms.TabPage tabPageLoginInfo;
         private System.Windows.Forms.Panel panelLoginInfo;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelLoginInfo;
+        private System.Windows.Forms.Label lblUserIDCaption;
+        private System.Windows.Forms.Label lblUserID;
         private System.Windows.Forms.Label lblUsernameCaption;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label lblPasswordCaption;

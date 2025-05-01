@@ -33,6 +33,9 @@ namespace DVLD
 
             // Clear person fields
             ClearPersonFields();
+            
+            // Initialize User ID label
+            lblUserID.Text = "[New]";
         }
 
         private void ClearPersonFields()
@@ -228,7 +231,7 @@ namespace DVLD
         //    try
         //    {
         //        // Create a new user object
-        //        Entities.clsUser user = new clsUser();
+        //        clsUser user = new clsUser();
         //        user.PersonID = _selectedPersonID;
         //        user.UserName = txtUsername.Text;
         //        user.Password = txtPassword.Text;
@@ -239,6 +242,8 @@ namespace DVLD
 
         //        if (userID > 0)
         //        {
+        //            // Update the User ID label with the newly created user ID
+        //            lblUserID.Text = userID.ToString();
         //            MessageBox.Show($"User added successfully with ID: {userID}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         //            this.DialogResult = DialogResult.OK;
         //            this.Close();

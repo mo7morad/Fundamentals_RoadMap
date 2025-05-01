@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelHeader = new System.Windows.Forms.Panel();
+            this.pictureBoxAddUser = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.panelFilter = new System.Windows.Forms.Panel();
             this.txtBoxFilterValue = new System.Windows.Forms.TextBox();
             this.comboBoxFilterBy = new System.Windows.Forms.ComboBox();
@@ -45,21 +47,24 @@
             this.lblRecordsCount = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.addNewUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.sendEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.phoneCallToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.pictureBoxAddUser = new System.Windows.Forms.PictureBox();
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.comboBoxIsActive = new System.Windows.Forms.ComboBox();
             this.panelHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.panelFilter.SuspendLayout();
             this.panelData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsers)).BeginInit();
             this.panelFooter.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddUser)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panelHeader
@@ -74,6 +79,20 @@
             this.panelHeader.Size = new System.Drawing.Size(866, 155);
             this.panelHeader.TabIndex = 0;
             // 
+            // pictureBoxAddUser
+            // 
+            this.pictureBoxAddUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxAddUser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxAddUser.Image = global::DVLD.Properties.Resources.adduser2;
+            this.pictureBoxAddUser.Location = new System.Drawing.Point(794, 86);
+            this.pictureBoxAddUser.Name = "pictureBoxAddUser";
+            this.pictureBoxAddUser.Size = new System.Drawing.Size(72, 69);
+            this.pictureBoxAddUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAddUser.TabIndex = 2;
+            this.pictureBoxAddUser.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBoxAddUser, "Add New User");
+            this.pictureBoxAddUser.Click += new System.EventHandler(this.AddUserButton_Click);
+            // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
@@ -85,9 +104,20 @@
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "Manage Users";
             // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Image = global::DVLD.Properties.Resources.Add_New_User_72;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(348, 3);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
+            // 
             // panelFilter
             // 
             this.panelFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.panelFilter.Controls.Add(this.comboBoxIsActive);
             this.panelFilter.Controls.Add(this.txtBoxFilterValue);
             this.panelFilter.Controls.Add(this.comboBoxFilterBy);
             this.panelFilter.Controls.Add(this.lblFilterBy);
@@ -149,37 +179,37 @@
             this.dataGridViewUsers.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewUsers.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewUsers.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(8);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewUsers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.Padding = new System.Windows.Forms.Padding(8);
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewUsers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.dataGridViewUsers.ColumnHeadersHeight = 40;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(149)))), ((int)(((byte)(197)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewUsers.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 10F);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(149)))), ((int)(((byte)(197)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewUsers.DefaultCellStyle = dataGridViewCellStyle14;
             this.dataGridViewUsers.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewUsers.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dataGridViewUsers.Location = new System.Drawing.Point(10, 10);
             this.dataGridViewUsers.Name = "dataGridViewUsers";
             this.dataGridViewUsers.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewUsers.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewUsers.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.dataGridViewUsers.RowHeadersVisible = false;
             this.dataGridViewUsers.RowTemplate.Height = 35;
             this.dataGridViewUsers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -229,69 +259,103 @@
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.showDetailsToolStripMenuItem,
-            this.editUserToolStripMenuItem,
-            this.changePasswordToolStripMenuItem,
             this.toolStripSeparator1,
-            this.deleteUserToolStripMenuItem});
+            this.addNewUserToolStripMenuItem,
+            this.editUserToolStripMenuItem,
+            this.deleteUserToolStripMenuItem,
+            this.changePasswordToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.sendEmailToolStripMenuItem,
+            this.phoneCallToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(169, 98);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(185, 282);
             // 
             // showDetailsToolStripMenuItem
             // 
+            this.showDetailsToolStripMenuItem.Image = global::DVLD.Properties.Resources.PersonDetails_32;
+            this.showDetailsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
-            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(184, 38);
             this.showDetailsToolStripMenuItem.Text = "Show Details";
             this.showDetailsToolStripMenuItem.Click += new System.EventHandler(this.ShowDetailsItem_Click);
-            // 
-            // editUserToolStripMenuItem
-            // 
-            this.editUserToolStripMenuItem.Name = "editUserToolStripMenuItem";
-            this.editUserToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.editUserToolStripMenuItem.Text = "Edit User";
-            this.editUserToolStripMenuItem.Click += new System.EventHandler(this.EditUserItem_Click);
-            // 
-            // changePasswordToolStripMenuItem
-            // 
-            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.changePasswordToolStripMenuItem.Text = "Change Password";
-            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.ChangePasswordItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(165, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(181, 6);
+            // 
+            // addNewUserToolStripMenuItem
+            // 
+            this.addNewUserToolStripMenuItem.Image = global::DVLD.Properties.Resources.AddPerson_32;
+            this.addNewUserToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.addNewUserToolStripMenuItem.Name = "addNewUserToolStripMenuItem";
+            this.addNewUserToolStripMenuItem.Size = new System.Drawing.Size(184, 38);
+            this.addNewUserToolStripMenuItem.Text = "Add New User";
+            // 
+            // editUserToolStripMenuItem
+            // 
+            this.editUserToolStripMenuItem.Image = global::DVLD.Properties.Resources.edit_32;
+            this.editUserToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.editUserToolStripMenuItem.Name = "editUserToolStripMenuItem";
+            this.editUserToolStripMenuItem.Size = new System.Drawing.Size(184, 38);
+            this.editUserToolStripMenuItem.Text = "Edit";
+            this.editUserToolStripMenuItem.Click += new System.EventHandler(this.EditUserItem_Click);
             // 
             // deleteUserToolStripMenuItem
             // 
+            this.deleteUserToolStripMenuItem.Image = global::DVLD.Properties.Resources.Delete_32;
+            this.deleteUserToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deleteUserToolStripMenuItem.Name = "deleteUserToolStripMenuItem";
-            this.deleteUserToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.deleteUserToolStripMenuItem.Text = "Delete User";
+            this.deleteUserToolStripMenuItem.Size = new System.Drawing.Size(184, 38);
+            this.deleteUserToolStripMenuItem.Text = "Delete";
             this.deleteUserToolStripMenuItem.Click += new System.EventHandler(this.DeleteUserItem_Click);
             // 
-            // pictureBoxAddUser
+            // changePasswordToolStripMenuItem
             // 
-            this.pictureBoxAddUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxAddUser.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxAddUser.Image = global::DVLD.Properties.Resources.adduser2;
-            this.pictureBoxAddUser.Location = new System.Drawing.Point(794, 86);
-            this.pictureBoxAddUser.Name = "pictureBoxAddUser";
-            this.pictureBoxAddUser.Size = new System.Drawing.Size(72, 69);
-            this.pictureBoxAddUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxAddUser.TabIndex = 2;
-            this.pictureBoxAddUser.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBoxAddUser, "Add New User");
-            this.pictureBoxAddUser.Click += new System.EventHandler(this.AddUserButton_Click);
+            this.changePasswordToolStripMenuItem.Image = global::DVLD.Properties.Resources.Password_32;
+            this.changePasswordToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(184, 38);
+            this.changePasswordToolStripMenuItem.Text = "Change Password";
+            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.ChangePasswordItem_Click);
             // 
-            // pictureBoxLogo
+            // toolStripSeparator2
             // 
-            this.pictureBoxLogo.Image = global::DVLD.Properties.Resources.Add_New_User_72;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(348, 3);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(80, 80);
-            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxLogo.TabIndex = 0;
-            this.pictureBoxLogo.TabStop = false;
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(181, 6);
+            // 
+            // sendEmailToolStripMenuItem
+            // 
+            this.sendEmailToolStripMenuItem.Image = global::DVLD.Properties.Resources.Email_32;
+            this.sendEmailToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.sendEmailToolStripMenuItem.Name = "sendEmailToolStripMenuItem";
+            this.sendEmailToolStripMenuItem.Size = new System.Drawing.Size(184, 38);
+            this.sendEmailToolStripMenuItem.Text = "Send Email";
+            this.sendEmailToolStripMenuItem.Click += new System.EventHandler(this.sendEmailToolStripMenuItem_Click);
+            // 
+            // phoneCallToolStripMenuItem
+            // 
+            this.phoneCallToolStripMenuItem.Image = global::DVLD.Properties.Resources.call_32;
+            this.phoneCallToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.phoneCallToolStripMenuItem.Name = "phoneCallToolStripMenuItem";
+            this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(184, 38);
+            this.phoneCallToolStripMenuItem.Text = "Phone Call";
+            this.phoneCallToolStripMenuItem.Click += new System.EventHandler(this.phoneCallToolStripMenuItem_Click);
+            // 
+            // comboBoxIsActive
+            // 
+            this.comboBoxIsActive.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxIsActive.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxIsActive.FormattingEnabled = true;
+            this.comboBoxIsActive.Items.AddRange(new object[] {
+            "All",
+            "Active",
+            "In-Active"});
+            this.comboBoxIsActive.Location = new System.Drawing.Point(260, 12);
+            this.comboBoxIsActive.Name = "comboBoxIsActive";
+            this.comboBoxIsActive.Size = new System.Drawing.Size(127, 25);
+            this.comboBoxIsActive.TabIndex = 3;
+            this.comboBoxIsActive.Visible = false;
             // 
             // ManageUsersForm
             // 
@@ -309,6 +373,8 @@
             this.Text = "Manage Users";
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.panelFilter.ResumeLayout(false);
             this.panelFilter.PerformLayout();
             this.panelData.ResumeLayout(false);
@@ -316,8 +382,6 @@
             this.panelFooter.ResumeLayout(false);
             this.panelFooter.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddUser)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -344,5 +408,10 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem deleteUserToolStripMenuItem;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolStripMenuItem addNewUserToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem sendEmailToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem phoneCallToolStripMenuItem;
+        private System.Windows.Forms.ComboBox comboBoxIsActive;
     }
 }

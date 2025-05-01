@@ -56,9 +56,21 @@ namespace DVLD
                     usersDataView.RowFilter = $"[{selectedColumn}] = {filterValue}";
                 }
             }
-            else if (selectedColumn == "Is Active")
+            else if (selectedColumn == "Is Active" && comboBoxIsActive.SelectedItem != null)
             {
-                usersDataView.RowFilter = $"[{selectedColumn}] = '{filterText}'";
+                string isActiveValue = comboBoxIsActive.SelectedItem.ToString();
+                if(isActiveValue == "All")
+                {
+                    usersDataView.RowFilter = $"";
+                }
+                else if (isActiveValue == "Active")
+                {
+                    usersDataView.RowFilter = $"[{selectedColumn}] = true";
+                }
+                else
+                {
+                    usersDataView.RowFilter = $"[{selectedColumn}] = false";
+                }
             }
             else
             {
@@ -117,6 +129,16 @@ namespace DVLD
             }
         }
 
+        private void phoneCallToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Phone Call functionality to be implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void sendEmailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Email functionality to be implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -130,6 +152,11 @@ namespace DVLD
         private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
             txtBoxFilterValue.Text = string.Empty;
+            if (comboBoxFilterBy.SelectedItem?.ToString() == "Is Active")
+            {
+                txtBoxFilterValue.Visible = false;
+                comboBoxIsActive.Visible = true;
+            }
         }
 
         private void txtBoxFilterValue_KeyPress(object sender, KeyPressEventArgs e)
@@ -149,5 +176,6 @@ namespace DVLD
                 e.Handled = false;
             }
         }
+
     }
 }

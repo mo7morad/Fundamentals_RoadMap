@@ -3,19 +3,16 @@
   "WorkspaceRootPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\addnewuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:addnewuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\addnewuserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:addnewuserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9885F6B5-7D5F-4CD2-843D-9D5A41230AFA}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\businesslayer\\clspersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\addnewuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:addnewuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\manageusersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageusersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,57 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddNewUserForm.Designer.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\AddNewUserForm.Designer.cs",
-              "RelativeDocumentMoniker": "AddNewUserForm.Designer.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\AddNewUserForm.Designer.cs",
-              "RelativeToolTip": "AddNewUserForm.Designer.cs",
-              "ViewState": "AgIAANgBAAAAAAAAAAAewOwBAAAAAAAAAAAAAA==",
+              "Title": "ManageUsersForm.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs",
+              "RelativeDocumentMoniker": "ManageUsersForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs*",
+              "RelativeToolTip": "ManageUsersForm.cs*",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAuwJoAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:10:50.802Z",
+              "WhenOpened": "2025-05-01T19:38:11.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "clsPersonService.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsPersonService.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLayer\\clsPersonService.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsPersonService.cs",
-              "RelativeToolTip": "..\\BusinessLayer\\clsPersonService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ManageUsersForm.Designer.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.Designer.cs",
+              "RelativeDocumentMoniker": "ManageUsersForm.Designer.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.Designer.cs*",
+              "RelativeToolTip": "ManageUsersForm.Designer.cs*",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFgBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:52:40.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddNewUserForm.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\AddNewUserForm.cs",
-              "RelativeDocumentMoniker": "AddNewUserForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\AddNewUserForm.cs",
-              "RelativeToolTip": "AddNewUserForm.cs",
-              "ViewState": "AgIAACYBAAAAAAAAAADwvy8BAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:34:42.321Z",
+              "WhenOpened": "2025-05-01T19:57:59.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddNewUserForm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\AddNewUserForm.cs",
-              "RelativeDocumentMoniker": "AddNewUserForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\AddNewUserForm.cs [Design]",
-              "RelativeToolTip": "AddNewUserForm.cs [Design]",
+              "Title": "ManageUsersForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs",
+              "RelativeDocumentMoniker": "ManageUsersForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs [Design]*",
+              "RelativeToolTip": "ManageUsersForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:34:50.437Z",
+              "WhenOpened": "2025-05-01T19:38:05.5Z",
               "EditorCaption": " [Design]"
             }
           ]
