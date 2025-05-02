@@ -18,21 +18,37 @@ namespace DVLD
 
         public Add_EditUserForm(enFormMode mode = enFormMode.AddNew)
         {
-            InitializeComponent();
-            SetupFormControls();
             _formMode = mode;
+            InitializeComponent();
+            SetupFormControls(mode);
         }
 
         public Add_EditUserForm(clsUser user, enFormMode mode)
         {
             InitializeComponent();
-            SetupFormControls();
-            if (user != null && mode == enFormMode.Update)
+
+
+            if (user != null)
             {
                 _selectedPersonID = user.PersonID;
-                _selectedPerson = clsPeopleBusinessLayer.GetPersonByID(_selectedPersonID);
                 _selectedUser = user;
                 _formMode = mode;
+
+
+                if (user.PersonData != null)
+                {
+                    _selectedPerson = user.PersonData;
+                }
+                else
+                {
+
+                    _selectedPerson = clsPeopleBusinessLayer.GetPersonByID(_selectedPersonID);
+                }
+            }
+            SetupFormControls(mode);
+
+            if (user != null && mode == enFormMode.Update)
+            {
                 DisplayPersonInfo(_selectedPerson);
                 DisplayUserLoginInfo();
                 btnNext.Enabled = true;
@@ -40,17 +56,22 @@ namespace DVLD
             }
         }
 
-        private void SetupFormControls()
+
+        private void SetupFormControls(enFormMode mode)
         {
-            // Set initial state
             _currentTabPage = tabPagePersonalInfo;
             UpdateTabHeaderStyles();
-            btnNext.Enabled = false;
-            btnSave.Enabled = false;
 
-            // Clear person fields
-            ClearPersonFields();
+            // Only clear fields and disable buttons if we're NOT in update mode
+            // or if we don't have a selected person yet
+            if (_formMode == enFormMode.AddNew || _selectedPersonID <= 0)
+            {
+                btnNext.Enabled = false;
+                btnSave.Enabled = false;
+                ClearPersonFields();
+            }
         }
+
 
         private void ClearPersonFields()
         {
