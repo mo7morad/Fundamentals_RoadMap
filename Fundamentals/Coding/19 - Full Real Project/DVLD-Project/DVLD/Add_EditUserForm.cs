@@ -152,7 +152,7 @@ namespace DVLD
         private void DisplayPersonInfo(clsPerson person)
         {
             if (person == null) return;
-
+            _selectedPersonID = person.PersonID;
             lblPersonID.Text = person.PersonID.ToString();
             lblPersonName.Text = $"{person.FirstName} {person.SecondName} {person.ThirdName} {person.LastName}";
             lblNationalNo.Text = person.NationalNo;
@@ -218,33 +218,20 @@ namespace DVLD
 
         private void linkLabelEditPerson_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            // In update mode, we always have a selected person
-            if (_formMode == enFormMode.Update && _selectedUser != null)
-            {
-                Add_EditPersonForm frm = new Add_EditPersonForm(enFormMode.Update, _selectedPersonID);
-                frm.PersonSavedToDataBase += (s, args) =>
-                {
-                    _selectedPerson = clsPeopleBusinessLayer.GetPersonByID(_selectedPersonID);
-                    DisplayPersonInfo(_selectedPerson);
-                };
-                frm.ShowDialog();
-                return;
-            }
-
-            // For add mode or if somehow we don't have a user in update mode
             if (_selectedPersonID <= 0)
             {
                 MessageBox.Show("Please select a person first.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            Add_EditPersonForm frm2 = new Add_EditPersonForm(enFormMode.Update, _selectedPersonID);
-            frm2.PersonSavedToDataBase += (s, args) =>
+            Add_EditPersonForm frm = new Add_EditPersonForm(enFormMode.Update, _selectedPersonID);
+            frm.PersonSavedToDataBase += (s, args) =>
             {
+                // Refresh person data
                 _selectedPerson = clsPeopleBusinessLayer.GetPersonByID(_selectedPersonID);
                 DisplayPersonInfo(_selectedPerson);
             };
-            frm2.ShowDialog();
+            frm.ShowDialog();
         }
 
         private void btnNext_Click(object sender, EventArgs e)
