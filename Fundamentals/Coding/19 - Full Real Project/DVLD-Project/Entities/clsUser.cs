@@ -9,6 +9,7 @@ namespace Entities
     public class clsUser : clsPerson
     {
         public int UserID { get; set; }
+        public int PersonID { get; set; }
         public clsPerson PersonData { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
@@ -23,9 +24,9 @@ namespace Entities
             IsActive = isActive;
         }
 
-        public clsUser(clsPerson person, string username, string password, bool isActive)
+        public clsUser(int personID, string username, string password, bool isActive)
         {
-            PersonData = person;
+            PersonID = personID;
             UserName = username;
             Password = password;
             IsActive = isActive;
