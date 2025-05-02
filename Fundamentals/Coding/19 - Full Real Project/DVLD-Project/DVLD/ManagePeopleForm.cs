@@ -3,7 +3,7 @@ using System.Data;
 using System.Windows.Forms;
 using System.Linq;
 using BusinessLayer;
-using DVLD_Entities.Enums;
+using Entities.Enums;
 
 namespace DVLD
 {

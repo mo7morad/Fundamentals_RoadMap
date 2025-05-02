@@ -1,4 +1,4 @@
-﻿namespace DVLD_Entities.Enums
+﻿namespace Entities.Enums
 {
     public enum enFormMode
     {

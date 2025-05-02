@@ -8,15 +8,25 @@ namespace Entities
 {
     public class clsUser : clsPerson
     {
-        public int UserID { get; }
-        public bool IsActive { get; set; }
+        public int UserID { get; set; }
+        public clsPerson PersonData { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
+        public bool IsActive { get; set; }
 
-        public clsUser(int personID, string userName, string password, bool isActive)
+        public clsUser(clsPerson person, int userId, string username, string password, bool isActive)
         {
-            PersonID = personID;
-            UserName = userName;
+            UserID = userId;
+            PersonData = person;
+            UserName = username;
+            Password = password;
+            IsActive = isActive;
+        }
+
+        public clsUser(clsPerson person, string username, string password, bool isActive)
+        {
+            PersonData = person;
+            UserName = username;
             Password = password;
             IsActive = isActive;
         }

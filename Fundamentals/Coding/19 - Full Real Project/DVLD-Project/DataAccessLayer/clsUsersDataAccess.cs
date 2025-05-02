@@ -55,19 +55,81 @@ namespace DataAccessLayer
                     {
                         if (Reader.Read())
                         {
-                            user = new clsUser(
-                                       Convert.ToInt32(Reader["PersonID"]),
-                                       Reader["UserName"].ToString(),
-                                       Reader["Password"].ToString(),
-                                       bool.Parse(Reader["IsActive"].ToString())
-                                            );
+                            clsPerson person = clsPeopleDataAccess.GetPersonByID(Convert.ToInt32(Reader["PersonID"]));
+                            if (person != null)
+                            {
+                                user = new clsUser(person,
+                                    Convert.ToInt32(Reader["UserID"]),
+                                    Reader["UserName"].ToString(),
+                                    Reader["Password"].ToString(),
+                                    bool.Parse(Reader["IsActive"].ToString())
+                                );
+                            }
+                        }
+                    }
+                }
+                return user;
+            }
+        }
+
+        public static clsUser GetUserByUserID(int userID)
+        {
+            clsUser user = null;
+            using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                string query = "SELECT * FROM Users WHERE UserID = @UserID";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@UserID", userID);
+                    connection.Open();
+                    using (SqlDataReader Reader = command.ExecuteReader())
+                    {
+                        if (Reader.Read())
+                        {
+                            clsPerson person = clsPeopleDataAccess.GetPersonByID(Convert.ToInt32(Reader["PersonID"]));
+                            if (person != null)
+                            {
+                                user = new clsUser(person,
+                                    Convert.ToInt32(Reader["UserID"]),
+                                    Reader["UserName"].ToString(),
+                                    Reader["Password"].ToString(),
+                                    bool.Parse(Reader["IsActive"].ToString())
+                                );
+                            }
+                        }
+                    }
+                }
+                return user;
+            }
+        }
+    
+        public static clsUser GetUserByPersonID(int personID)
+        {
+            clsUser user = null;
+            using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+            {
+                string query = "SELECT * FROM Users WHERE PersonID = @PersonID";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@PersonID", personID);
+                    connection.Open();
+                    using (SqlDataReader Reader = command.ExecuteReader())
+                    {
+                        if (Reader.Read())
+                        {
+                            clsPerson person = clsPeopleDataAccess.GetPersonByID(personID);
+                            if (person != null)
+                            {
+                                int userId = Convert.ToInt32(Reader["UserID"]);
+                                user = new clsUser(person, userId, Reader["UserName"].ToString(), Reader["Password"].ToString(), bool.Parse(Reader["IsActive"].ToString()));
+                            }
                         }
                     }
                 }
             }
             return user;
         }
-
+    
         public static int AddNewUser(clsUser user, ref string errorMessage)
         {
             try
@@ -109,7 +171,7 @@ namespace DataAccessLayer
                 return -1;
             }
         }
-        
+    
         public static bool DeleteUser(int userID, ref string errorMessage)
         {
             try
@@ -138,7 +200,42 @@ namespace DataAccessLayer
                 return false;
             }
         }
-        
+    
+        public static bool UpdateUser(clsUser user, ref string errorMessage)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    string query = @"UPDATE Users 
+                                     SET UserName = @UserName, 
+                                         Password = @Password, 
+                                         IsActive = @IsActive 
+                                     WHERE UserID = @UserID";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserID", user.UserID);
+                        cmd.Parameters.AddWithValue("@UserName", user.UserName);
+                        cmd.Parameters.AddWithValue("@Password", user.Password);
+                        cmd.Parameters.AddWithValue("@IsActive", user.IsActive);
+                        conn.Open();
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        return rowsAffected > 0;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                errorMessage = ex.Message;
+                return false;
+            }
+            catch (Exception ex)
+            {
+                errorMessage = "Unexpected error: " + ex.Message;
+                return false;
+            }
+        }
+    
         public static DataTable GetAllUsers()
         {
             DataTable users = new DataTable();

@@ -4,8 +4,8 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
-using DVLD_Entities.Enums;
 using Entities;
+using Entities.Enums;
 
 namespace DVLD
 {

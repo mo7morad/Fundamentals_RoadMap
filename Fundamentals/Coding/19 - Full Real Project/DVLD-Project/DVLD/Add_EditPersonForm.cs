@@ -1,8 +1,8 @@
-﻿using BusinessLayer;
-using DVLD_Entities.Enums;
-using Entities;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using BusinessLayer;
+using Entities;
+using Entities.Enums;
 
 namespace DVLD
 {

@@ -23,6 +23,16 @@ namespace BusinessLayer
             return clsUsersDataAccess.GetUserByUserName(userName);
         }
 
+        public static clsUser GetUserByUserID(int userID)
+        {
+            return clsUsersDataAccess.GetUserByUserID(userID);
+        }
+
+        public static clsUser GetUserByPersonID(int personID)
+        {
+            return clsUsersDataAccess.GetUserByPersonID(personID);
+        }
+
         public static DataTable GetAllUsers()
         {
             return clsUsersDataAccess.GetAllUsers();
@@ -36,6 +46,11 @@ namespace BusinessLayer
         public static bool DeleteUser(int userID, ref string errorMessage)
         {
             return clsUsersDataAccess.DeleteUser(userID, ref errorMessage);
+        }
+        
+        public static bool UpdateUser(clsUser user, ref string errorMessage)
+        {
+            return clsUsersDataAccess.UpdateUser(user, ref errorMessage);
         }
     }
 }

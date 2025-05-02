@@ -1,8 +1,8 @@
-using DVLD_Entities;
-using Entities;
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using Entities.Enums;
+using Entities;
 
 namespace DataAccessLayer
 {

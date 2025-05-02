@@ -1,7 +1,4 @@
-﻿using DVLD_Entities;
-using System;
-
-namespace Entities
+﻿namespace Entities
 {
     public class clsCountry
     {

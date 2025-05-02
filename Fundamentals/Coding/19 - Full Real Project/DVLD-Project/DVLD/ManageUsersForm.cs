@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Data;
-using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
-using System.IO;
+using Entities;
+using Entities.Enums;
+
 
 namespace DVLD
 {
@@ -93,7 +94,19 @@ namespace DVLD
 
         private void EditUserItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Edit User functionality to be implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            int selectedRowIndex = dataGridViewUsers.SelectedCells[0].RowIndex;
+            int userID = Convert.ToInt32(dataGridViewUsers.Rows[selectedRowIndex].Cells[0].Value);
+            clsUser user = clsUsersBusinessLayer.GetUserByUserID(userID);
+            if (user != null)
+            {
+                Add_EditUserForm frm = new Add_EditUserForm(user, enFormMode.Update);
+                frm.OnSave += LoadUsersData;
+                frm.ShowDialog(this);
+            }
+            else
+            {
+                MessageBox.Show("User not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void ChangePasswordItem_Click(object sender, EventArgs e)
@@ -119,7 +132,14 @@ namespace DVLD
                 }
                 else
                 {
-                    MessageBox.Show($"Error deleting user: {deletionError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    if (deletionError.Contains("Reference constraint"))
+                    {
+                        MessageBox.Show("Cannot delete user. User is referenced in other records.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Error deleting user: {deletionError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }

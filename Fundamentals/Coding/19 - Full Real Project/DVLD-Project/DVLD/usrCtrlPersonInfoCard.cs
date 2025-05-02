@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using System.IO;
 using BusinessLayer;
 using Entities;
-using DVLD_Entities.Enums;
+using Entities.Enums;
 
 namespace DVLD
 {

@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using Entities;
-using DVLD_Entities.Enums;
+using Entities.Enums;
 
 namespace DVLD
 {
@@ -12,12 +12,32 @@ namespace DVLD
         public event EventHandler OnSave;
         private int _selectedPersonID = -1;
         private clsPerson _selectedPerson = null;
+        private clsUser _selectedUser = null;
         private TabPage _currentTabPage;
+        private enFormMode _formMode;
 
-        public Add_EditUserForm()
+        public Add_EditUserForm(enFormMode mode = enFormMode.AddNew)
         {
             InitializeComponent();
             SetupFormControls();
+            _formMode = mode;
+        }
+
+        public Add_EditUserForm(clsUser user, enFormMode mode)
+        {
+            InitializeComponent();
+            SetupFormControls();
+            if (user != null && mode == enFormMode.Update)
+            {
+                _selectedPersonID = user.PersonID;
+                _selectedPerson = clsPeopleBusinessLayer.GetPersonByID(_selectedPersonID);
+                _selectedUser = user;
+                _formMode = mode;
+                DisplayPersonInfo(_selectedPerson);
+                DisplayUserLoginInfo();
+                btnNext.Enabled = true;
+                panelFind.Enabled = false;
+            }
         }
 
         private void SetupFormControls()
@@ -142,6 +162,25 @@ namespace DVLD
             }
         }
 
+        private void DisplayUserLoginInfo()
+        {
+            if (_selectedUser != null)
+            {
+                lblUserID.Text = _selectedUser.UserID.ToString();
+                txtUsername.Text = _selectedUser.UserName;
+                txtPassword.Text = _selectedUser.Password;
+                txtConfirmPassword.Text = _selectedUser.Password;
+                checkBoxIsActive.Checked = _selectedUser.IsActive;
+            }
+            else
+            {
+                txtUsername.Clear();
+                txtPassword.Clear();
+                checkBoxIsActive.Checked = false;
+                lblUserID.Text = "[????]";
+            }
+        }
+
         private void linkLabelAddNewPerson_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Add_EditPersonForm frm = new Add_EditPersonForm(enFormMode.AddNew);
@@ -179,29 +218,30 @@ namespace DVLD
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if (clsUsersBusinessLayer.IsUserExist(_selectedPersonID))
+            if(_formMode == enFormMode.AddNew)
             {
-                MessageBox.Show("User already exists. Please select a different user.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
+                if (clsUsersBusinessLayer.IsUserExist(_selectedPersonID))
+                {
+                    MessageBox.Show("User already exists. Please select a different user.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+            }
+            if (_currentTabPage == tabPagePersonalInfo)
+            {
+                tabControl.SelectedTab = tabPageLoginInfo;
+                _currentTabPage = tabPageLoginInfo;
+                btnNext.Text = "Back";
+                btnSave.Enabled = true;
+                UpdateTabHeaderStyles();
             }
             else
             {
-                if (_currentTabPage == tabPagePersonalInfo)
-                {
-                    tabControl.SelectedTab = tabPageLoginInfo;
-                    _currentTabPage = tabPageLoginInfo;
-                    btnNext.Text = "Back";
-                    btnSave.Enabled = true;
-                    UpdateTabHeaderStyles();
-                }
-                else
-                {
-                    tabControl.SelectedTab = tabPagePersonalInfo;
-                    _currentTabPage = tabPagePersonalInfo;
-                    btnNext.Text = "Next";
-                    UpdateTabHeaderStyles();
-                }
+                tabControl.SelectedTab = tabPagePersonalInfo;
+                _currentTabPage = tabPagePersonalInfo;
+                btnNext.Text = "Next";
+                UpdateTabHeaderStyles();
             }
+
         }
 
         private void UpdateTabHeaderStyles()
