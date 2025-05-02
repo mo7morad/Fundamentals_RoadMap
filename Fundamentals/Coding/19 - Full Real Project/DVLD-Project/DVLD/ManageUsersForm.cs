@@ -14,29 +14,15 @@ namespace DVLD
         public ManageUsersForm()
         {
             InitializeComponent();
-            LoadUsersData();
-            PopulateFilterComboBox();
+            LoadUsersData(this, EventArgs.Empty);
         }
-
-        private void LoadUsersData()
+ 
+        private void LoadUsersData(object sender, EventArgs e)
         {
             usersDataTable = clsUsersBusinessLayer.GetAllUsers();
             usersDataView = new DataView(usersDataTable);
             dataGridViewUsers.DataSource = usersDataView;
             lblRecordsCount.Text = $"# Records: {usersDataView.Count}";
-        }
-
-        private void PopulateFilterComboBox()
-        {
-            comboBoxFilterBy.Items.Clear();
-
-            comboBoxFilterBy.Items.Add("User ID");
-            comboBoxFilterBy.Items.Add("Person ID");
-            comboBoxFilterBy.Items.Add("Full Name");
-            comboBoxFilterBy.Items.Add("User Name");
-            comboBoxFilterBy.Items.Add("Is Active");
-
-            comboBoxFilterBy.SelectedIndex = 0;
         }
 
         private void ApplyFilter(object sender, EventArgs e)
@@ -95,13 +81,10 @@ namespace DVLD
 
         private void AddUserButton_Click(object sender, EventArgs e)
         {
-            AddNewUserForm frm = new AddNewUserForm();
-            if (frm.ShowDialog() == DialogResult.OK)
-            {
-                LoadUsersData();  // Refresh the users list
-            }
+            Add_EditUserForm frm = new Add_EditUserForm();
+            frm.OnSave += LoadUsersData;
+            frm.ShowDialog(this);
         }
-
 
         private void ShowDetailsItem_Click(object sender, EventArgs e)
         {
@@ -125,7 +108,19 @@ namespace DVLD
 
             if (result == DialogResult.Yes)
             {
-                MessageBox.Show("User deletion functionality to be implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                string deletionError = String.Empty;
+                int selectedRowIndex = dataGridViewUsers.SelectedCells[0].RowIndex;
+                int userID = Convert.ToInt32(dataGridViewUsers.Rows[selectedRowIndex].Cells[0].Value);
+
+                if (clsUsersBusinessLayer.DeleteUser(userID, ref deletionError))
+                {
+                    MessageBox.Show("User deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadUsersData(sender, e);
+                }
+                else
+                {
+                    MessageBox.Show($"Error deleting user: {deletionError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -157,6 +152,11 @@ namespace DVLD
                 txtBoxFilterValue.Visible = false;
                 comboBoxIsActive.Visible = true;
             }
+            else
+            {
+                txtBoxFilterValue.Visible = true;
+                comboBoxIsActive.Visible = false;
+            }
         }
 
         private void txtBoxFilterValue_KeyPress(object sender, KeyPressEventArgs e)
@@ -177,5 +177,9 @@ namespace DVLD
             }
         }
 
+        private void comboBoxIsActive_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ApplyFilter(sender, e);
+        }
     }
 }

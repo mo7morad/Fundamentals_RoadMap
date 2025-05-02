@@ -62,7 +62,7 @@ namespace DVLD
             clsUser user = clsUsersBusinessLayer.GetUserByUserName(userName);
             if (user != null)
             {
-                if (user.Status == false)
+                if (user.IsActive == false)
                 {
                     MessageBox.Show("User is inactive. Please contact support.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return false;

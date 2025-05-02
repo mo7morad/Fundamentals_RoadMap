@@ -7,12 +7,21 @@
       "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\managepeopleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:managepeopleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\manageusersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageusersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9885F6B5-7D5F-4CD2-843D-9D5A41230AFA}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\businesslayer\\clsusersbusinesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dataaccesslayer\\clsusersdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dataaccesslayer\\clspeopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +31,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ManageUsersForm.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs",
-              "RelativeDocumentMoniker": "ManageUsersForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs*",
-              "RelativeToolTip": "ManageUsersForm.cs*",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAuwJoAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T19:38:11.273Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -45,22 +41,75 @@
               "RelativeDocumentMoniker": "ManageUsersForm.Designer.cs",
               "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.Designer.cs",
               "RelativeToolTip": "ManageUsersForm.Designer.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFgBAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEIBAAAAAAAAAAAwwE0BAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T19:57:59.818Z",
+              "WhenOpened": "2025-05-02T11:16:38.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ManageUsersForm.cs [Design]",
+              "Title": "ManagePeopleForm.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManagePeopleForm.cs",
+              "RelativeDocumentMoniker": "ManagePeopleForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManagePeopleForm.cs",
+              "RelativeToolTip": "ManagePeopleForm.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAiwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:13:25.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageUsersForm.cs",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs",
               "RelativeDocumentMoniker": "ManageUsersForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs [Design]*",
-              "RelativeToolTip": "ManageUsersForm.cs [Design]*",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageUsersForm.cs*",
+              "RelativeToolTip": "ManageUsersForm.cs*",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAwwHwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T19:38:05.5Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T11:11:36.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsPeopleDataAccess.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsPeopleDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsPeopleDataAccess.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsPeopleDataAccess.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\clsPeopleDataAccess.cs",
+              "ViewState": "AgIAABYBAAAAAAAAAAAuwCMBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:09:38.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsUsersDataAccess.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsUsersDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsUsersDataAccess.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsUsersDataAccess.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\clsUsersDataAccess.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAI0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:09:09.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsUsersBusinessLayer.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsUsersBusinessLayer.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\clsUsersBusinessLayer.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsUsersBusinessLayer.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\clsUsersBusinessLayer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:08:57.406Z",
+              "EditorCaption": ""
             }
           ]
         }

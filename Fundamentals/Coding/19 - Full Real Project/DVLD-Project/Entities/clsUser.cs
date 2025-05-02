@@ -8,17 +8,17 @@ namespace Entities
 {
     public class clsUser : clsPerson
     {
-        public int UserID { get; set; }
-        public bool Status { get; set; }
+        public int UserID { get; }
+        public bool IsActive { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
 
-        public clsUser(int userID, bool status, string userName, string password)
+        public clsUser(int personID, string userName, string password, bool isActive)
         {
-            UserID = userID;
-            Status = status;
+            PersonID = personID;
             UserName = userName;
             Password = password;
+            IsActive = isActive;
         }
     }
 }
