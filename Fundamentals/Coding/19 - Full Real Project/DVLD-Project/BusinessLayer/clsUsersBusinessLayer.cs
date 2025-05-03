@@ -46,11 +46,16 @@ namespace BusinessLayer
         public static bool DeleteUser(int userID, ref string errorMessage)
         {
             return clsUsersDataAccess.DeleteUser(userID, ref errorMessage);
-        }
-        
+        } 
+
         public static bool UpdateUser(clsUser user, ref string errorMessage)
         {
             return clsUsersDataAccess.UpdateUser(user, ref errorMessage);
+        }
+
+        public static bool ChangeUserPassword(int userID, int newPassword, ref string errorMessage)
+        {
+            return clsUsersDataAccess.ChangeUserPassword(userID, newPassword, ref errorMessage);
         }
     }
 }

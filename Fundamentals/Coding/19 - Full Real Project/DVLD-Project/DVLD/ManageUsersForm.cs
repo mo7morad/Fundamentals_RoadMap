@@ -111,7 +111,20 @@ namespace DVLD
 
         private void ChangePasswordItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Change Password functionality to be implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            int selectedRowIndex = dataGridViewUsers.SelectedCells[0].RowIndex;
+            int userID = Convert.ToInt32(dataGridViewUsers.Rows[selectedRowIndex].Cells[0].Value);
+            clsUser user = clsUsersBusinessLayer.GetUserByUserID(userID);
+            ChangePasswordForm frm = new ChangePasswordForm(user);
+            frm.ShowDialog();
+            if (user != null)
+            {
+                //frm.SetUser(user);
+                //frm.ShowDialog(this);
+            }
+            else
+            {
+                MessageBox.Show("User not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void DeleteUserItem_Click(object sender, EventArgs e)
@@ -132,7 +145,7 @@ namespace DVLD
                 }
                 else
                 {
-                    if (deletionError.Contains("Reference constraint"))
+                    if (deletionError.Contains("REFERENCE constraint"))
                     {
                         MessageBox.Show("Cannot delete user. User is referenced in other records.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }

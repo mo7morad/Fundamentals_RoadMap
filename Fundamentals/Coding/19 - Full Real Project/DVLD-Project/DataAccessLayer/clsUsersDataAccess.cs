@@ -129,6 +129,37 @@ namespace DataAccessLayer
             }
             return user;
         }
+
+        public static string GetUserPassword(int userID, ref string errorMessage)
+        {
+            string password = string.Empty;
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    string query = "SELECT Password FROM Users WHERE UserID = @UserID";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@UserID", userID);
+                        connection.Open();
+                        object result = command.ExecuteScalar();
+                        if (result != null)
+                        {
+                            password = result.ToString();
+                        }
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                errorMessage = ex.Message;
+            }
+            catch (Exception ex)
+            {
+                errorMessage = "Unexpected error: " + ex.Message;
+            }
+            return password;
+        }
     
         public static int AddNewUser(clsUser user, ref string errorMessage)
         {
@@ -235,7 +266,36 @@ namespace DataAccessLayer
                 return false;
             }
         }
-    
+  
+        public static bool ChangeUserPassword(int userID, int newPassword, ref string errorMessage)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    string query = "UPDATE Users SET Password = @Password WHERE UserID = @UserID";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserID", userID);
+                        cmd.Parameters.AddWithValue("@Password", newPassword);
+                        conn.Open();
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        return rowsAffected > 0;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                errorMessage = ex.Message;
+                return false;
+            }
+            catch (Exception ex)
+            {
+                errorMessage = "Unexpected error: " + ex.Message;
+                return false;
+            }
+        }
+
         public static DataTable GetAllUsers()
         {
             DataTable users = new DataTable();

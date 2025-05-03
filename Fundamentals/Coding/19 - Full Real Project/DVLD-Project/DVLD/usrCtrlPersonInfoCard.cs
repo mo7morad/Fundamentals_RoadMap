@@ -75,7 +75,7 @@ namespace DVLD
             InitializeComponent();
             PersonID = personID.ToString();
             FillPersonInfo(personID);
-            // Wireup the close button event
+            // Wire up the close button event
             btnClose.Click += (s, e) => OnCloseClicked?.Invoke(this, EventArgs.Empty);
         }
         // Helper method to load person image from a file path

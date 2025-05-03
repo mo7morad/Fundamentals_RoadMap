@@ -101,6 +101,7 @@ namespace DVLD
             {
                 peopleDataView.RowFilter = ""; // Clear filter
             }
+            lblRecordsCount.Text = $"# Records: {peopleDataView.Count}";
         }
 
         private void comboBoxFilterBy_SelectedIndexChanged(object sender, EventArgs e)
