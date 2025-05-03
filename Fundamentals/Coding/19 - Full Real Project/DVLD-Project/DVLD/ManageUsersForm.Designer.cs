@@ -141,6 +141,7 @@
             this.comboBoxIsActive.Name = "comboBoxIsActive";
             this.comboBoxIsActive.Size = new System.Drawing.Size(127, 25);
             this.comboBoxIsActive.TabIndex = 3;
+            this.comboBoxIsActive.SelectedIndex = 0;
             this.comboBoxIsActive.Visible = false;
             this.comboBoxIsActive.SelectedIndexChanged += new System.EventHandler(this.comboBoxIsActive_SelectedIndexChanged);
             // 

@@ -61,7 +61,7 @@ namespace DVLD
             string email = usrCtrlAdd_EditPerson.Email;
             string imagePath = usrCtrlAdd_EditPerson.ImagePath;
             clsPerson person = new clsPerson(nationalNo, firstName, secondName, thirdName, lastName,
-                                 dateOfBirth, gender, address, phone, country, email, imagePath);
+                                            dateOfBirth, gender, address, phone, country, email, imagePath);
 
             clsPersonService.NormalizePersonData(person);
             return person;
@@ -75,6 +75,7 @@ namespace DVLD
                 if (addResult.personID > 0)
                 {
                     usrCtrlAdd_EditPerson.PersonID = addResult.personID.ToString();
+                    PersonID = addResult.personID;
                     MessageBox.Show("Person added successfully with ID: " + addResult.personID,
                                     "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }

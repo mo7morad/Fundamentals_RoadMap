@@ -59,6 +59,8 @@ namespace DVLD
             {
                 lblTitle.Text = "Update User";
                 this.Text = "Update User";
+                txtPassword.Enabled = false;
+                txtConfirmPassword.Enabled = false;
             }
             else
             {
