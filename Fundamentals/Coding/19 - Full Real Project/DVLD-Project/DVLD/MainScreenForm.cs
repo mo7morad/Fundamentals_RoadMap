@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessLayer;
+using Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -90,7 +92,6 @@ namespace DVLD
             };
         }
 
-
         private void peopleMenuStripItem_Click(object sender, EventArgs e)
         {
 
@@ -102,6 +103,12 @@ namespace DVLD
             peopleFrm.ShowDialog();
         }
 
+        private void menuStripUsersItem_Click(object sender, EventArgs e)
+        {
+            ManageUsersForm manageUsersForm = new ManageUsersForm();
+            manageUsersForm.ShowDialog();
+        }
+
         private void signOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -110,12 +117,22 @@ namespace DVLD
             loginScreenForm.Show();
         }
 
-        private void menuStripUsersItem_Click(object sender, EventArgs e)
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ManageUsersForm manageUsersForm = new ManageUsersForm();
-            manageUsersForm.ShowDialog();
+            clsUser user = clsUsersBusinessLayer.GetUserByUserName(CurrentSession.LoggedInUserName);
+            ChangePasswordForm changePasswordForm = new ChangePasswordForm(user);
+            changePasswordForm.ShowDialog();
         }
-}
+
+        private void currentUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clsUser user = clsUsersBusinessLayer.GetUserByUserName(CurrentSession.LoggedInUserName);
+            UserDetailsForm currentUserForm = new UserDetailsForm(user);
+            currentUserForm.ShowDialog();
+        }
+    }
+
+
 
     // Custom renderer for modern menu style
     public class ModernMenuRenderer : ToolStripProfessionalRenderer

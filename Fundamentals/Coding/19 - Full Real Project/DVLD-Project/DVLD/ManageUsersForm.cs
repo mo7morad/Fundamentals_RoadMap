@@ -89,7 +89,18 @@ namespace DVLD
 
         private void ShowDetailsItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Show User Details functionality to be implemented", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            int selectedRowIndex = dataGridViewUsers.SelectedCells[0].RowIndex;
+            int userID = Convert.ToInt32(dataGridViewUsers.Rows[selectedRowIndex].Cells[0].Value);
+            clsUser user = clsUsersBusinessLayer.GetUserByUserID(userID);
+            if (user != null)
+            {
+                UserDetailsForm frm = new UserDetailsForm(user);
+                frm.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("User not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void EditUserItem_Click(object sender, EventArgs e)
@@ -213,6 +224,11 @@ namespace DVLD
         private void comboBoxIsActive_SelectedIndexChanged(object sender, EventArgs e)
         {
             ApplyFilter(sender, e);
+        }
+
+        private void dataGridViewUsers_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ShowDetailsItem_Click(this, EventArgs.Empty);
         }
     }
 }

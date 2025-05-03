@@ -3,18 +3,12 @@
   "WorkspaceRootPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\changepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:changepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\mainscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:mainscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\changepasswordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:changepasswordform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9885F6B5-7D5F-4CD2-843D-9D5A41230AFA}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\businesslayer\\clsusersbusinesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dataaccesslayer\\clsusersdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\mainscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:mainscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,58 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ChangePasswordForm.Designer.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ChangePasswordForm.Designer.cs",
-              "RelativeDocumentMoniker": "ChangePasswordForm.Designer.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ChangePasswordForm.Designer.cs*",
-              "RelativeToolTip": "ChangePasswordForm.Designer.cs*",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Title": "MainScreenForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\MainScreenForm.cs",
+              "RelativeDocumentMoniker": "MainScreenForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\MainScreenForm.cs [Design]*",
+              "RelativeToolTip": "MainScreenForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T10:21:49.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsUsersBusinessLayer.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsUsersBusinessLayer.cs",
-              "RelativeDocumentMoniker": "..\\BusinessLayer\\clsUsersBusinessLayer.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsUsersBusinessLayer.cs",
-              "RelativeToolTip": "..\\BusinessLayer\\clsUsersBusinessLayer.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAUwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T10:09:38.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsUsersDataAccess.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsUsersDataAccess.cs",
-              "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsUsersDataAccess.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsUsersDataAccess.cs",
-              "RelativeToolTip": "..\\DataAccessLayer\\clsUsersDataAccess.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwIQAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T09:51:25.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T11:40:44.335Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChangePasswordForm.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ChangePasswordForm.cs",
-              "RelativeDocumentMoniker": "ChangePasswordForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ChangePasswordForm.cs*",
-              "RelativeToolTip": "ChangePasswordForm.cs*",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAQwMEAAAAAAAAAAAAAAA==",
+              "Title": "MainScreenForm.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\MainScreenForm.cs",
+              "RelativeDocumentMoniker": "MainScreenForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\MainScreenForm.cs*",
+              "RelativeToolTip": "MainScreenForm.cs*",
+              "ViewState": "AgIAAGEAAAAAAAAAAAASwH4AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T09:50:17.321Z",
+              "WhenOpened": "2025-05-03T11:38:22.432Z",
               "EditorCaption": ""
             }
           ]

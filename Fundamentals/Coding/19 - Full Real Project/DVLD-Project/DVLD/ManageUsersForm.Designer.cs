@@ -141,7 +141,6 @@
             this.comboBoxIsActive.Name = "comboBoxIsActive";
             this.comboBoxIsActive.Size = new System.Drawing.Size(127, 25);
             this.comboBoxIsActive.TabIndex = 3;
-            this.comboBoxIsActive.SelectedIndex = 0;
             this.comboBoxIsActive.Visible = false;
             this.comboBoxIsActive.SelectedIndexChanged += new System.EventHandler(this.comboBoxIsActive_SelectedIndexChanged);
             // 
@@ -171,7 +170,6 @@
             this.comboBoxFilterBy.Name = "comboBoxFilterBy";
             this.comboBoxFilterBy.Size = new System.Drawing.Size(150, 25);
             this.comboBoxFilterBy.TabIndex = 1;
-            this.comboBoxFilterBy.SelectedIndex = 1;
             this.comboBoxFilterBy.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilterBy_SelectedIndexChanged);
             // 
             // lblFilterBy
@@ -239,6 +237,7 @@
             this.dataGridViewUsers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewUsers.Size = new System.Drawing.Size(846, 284);
             this.dataGridViewUsers.TabIndex = 0;
+            this.dataGridViewUsers.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewUsers_CellDoubleClick);
             this.dataGridViewUsers.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.UsersGrid_CellMouseClick);
             // 
             // panelFooter

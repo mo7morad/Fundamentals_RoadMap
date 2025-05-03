@@ -121,6 +121,7 @@
             this.currentUserToolStripMenuItem.Name = "currentUserToolStripMenuItem";
             this.currentUserToolStripMenuItem.Size = new System.Drawing.Size(204, 38);
             this.currentUserToolStripMenuItem.Text = "Current User";
+            this.currentUserToolStripMenuItem.Click += new System.EventHandler(this.currentUserToolStripMenuItem_Click);
             // 
             // changePasswordToolStripMenuItem
             // 
@@ -130,6 +131,7 @@
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
             this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(204, 38);
             this.changePasswordToolStripMenuItem.Text = "Change Password";
+            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // signOutToolStripMenuItem
             // 
