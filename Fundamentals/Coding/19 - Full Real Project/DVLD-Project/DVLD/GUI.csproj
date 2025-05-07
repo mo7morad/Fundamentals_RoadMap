@@ -66,6 +66,12 @@
       <DependentUpon>ChangePasswordForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CurrentSession.cs" />
+    <Compile Include="ManageTestTypesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageTestTypesForm.Designer.cs">
+      <DependentUpon>ManageTestTypesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateApplicationTypeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,12 @@
     </Compile>
     <Compile Include="ManageApplicationTypesForm.Designer.cs">
       <DependentUpon>ManageApplicationTypesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTestTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTestTypeForm.Designer.cs">
+      <DependentUpon>UpdateTestTypeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UserDetailsForm.cs">
       <SubType>Form</SubType>
@@ -148,6 +160,9 @@
     <EmbeddedResource Include="LoginScreenForm.resx">
       <DependentUpon>LoginScreenForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageTestTypesForm.resx">
+      <DependentUpon>ManageTestTypesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageUsersForm.resx">
       <DependentUpon>ManageUsersForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateApplicationTypeForm.resx">
       <DependentUpon>UpdateApplicationTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTestTypeForm.resx">
+      <DependentUpon>UpdateTestTypeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserDetailsForm.resx">
       <DependentUpon>UserDetailsForm.cs</DependentUpon>
@@ -427,6 +445,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\money 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TestType 5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApplicationTitle1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

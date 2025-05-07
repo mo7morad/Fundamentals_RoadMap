@@ -3,28 +3,33 @@
   "WorkspaceRootPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\updateapplicationtypeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:updateapplicationtypeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dataaccesslayer\\clstestsdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\updateapplicationtypeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:updateapplicationtypeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9885F6B5-7D5F-4CD2-843D-9D5A41230AFA}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\businesslayer\\clstesttypesbusinesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\manageapplicationtypesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageapplicationtypesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\updatetesttypeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:updatetesttypeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\manageapplicationtypesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageapplicationtypesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\updatetesttypeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:updatetesttypeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\updateapplicationtypeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:updateapplicationtypeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dataaccesslayer\\clsapplicationtypesdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\manageapplicationtypesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:manageapplicationtypesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\managetesttypesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:managetesttypesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\managetesttypesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:managetesttypesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\managetesttypesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:managetesttypesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +39,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateApplicationTypeForm.Designer.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateApplicationTypeForm.Designer.cs",
-              "RelativeDocumentMoniker": "UpdateApplicationTypeForm.Designer.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateApplicationTypeForm.Designer.cs*",
-              "RelativeToolTip": "UpdateApplicationTypeForm.Designer.cs*",
-              "ViewState": "AgIAAIgAAAAAAAAAAAD4v5IAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "clsTestTypesBusinessLayer.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsTestTypesBusinessLayer.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\clsTestTypesBusinessLayer.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsTestTypesBusinessLayer.cs*",
+              "RelativeToolTip": "..\\BusinessLayer\\clsTestTypesBusinessLayer.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:38:13.449Z",
+              "WhenOpened": "2025-05-07T13:00:37.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsTestsDataAccess.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsTestsDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsTestsDataAccess.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsTestsDataAccess.cs*",
+              "RelativeToolTip": "..\\DataAccessLayer\\clsTestsDataAccess.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:56:15.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsApplicationTypesDataAccess.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:52:25.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ManageApplicationTypesForm.Designer.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageApplicationTypesForm.Designer.cs",
-              "RelativeDocumentMoniker": "ManageApplicationTypesForm.Designer.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageApplicationTypesForm.Designer.cs",
-              "RelativeToolTip": "ManageApplicationTypesForm.Designer.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAD4v3oAAAAAAAAAAAAAAA==",
+              "Title": "ManageTestTypesForm.Designer.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageTestTypesForm.Designer.cs",
+              "RelativeDocumentMoniker": "ManageTestTypesForm.Designer.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageTestTypesForm.Designer.cs",
+              "RelativeToolTip": "ManageTestTypesForm.Designer.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAD4v3UAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:35:39.873Z",
+              "WhenOpened": "2025-05-07T12:48:34.218Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageApplicationTypesForm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageApplicationTypesForm.cs",
-              "RelativeDocumentMoniker": "ManageApplicationTypesForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageApplicationTypesForm.cs [Design]",
-              "RelativeToolTip": "ManageApplicationTypesForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:35:28.177Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateApplicationTypeForm.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateApplicationTypeForm.cs",
-              "RelativeDocumentMoniker": "UpdateApplicationTypeForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateApplicationTypeForm.cs*",
-              "RelativeToolTip": "UpdateApplicationTypeForm.cs*",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAIwJUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:27:06.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateApplicationTypeForm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateApplicationTypeForm.cs",
-              "RelativeDocumentMoniker": "UpdateApplicationTypeForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateApplicationTypeForm.cs [Design]*",
-              "RelativeToolTip": "UpdateApplicationTypeForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:27:04.958Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ManageApplicationTypesForm.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageApplicationTypesForm.cs",
-              "RelativeDocumentMoniker": "ManageApplicationTypesForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageApplicationTypesForm.cs",
-              "RelativeToolTip": "ManageApplicationTypesForm.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAwwFYAAAARAAAAAAAAAA==",
+              "Title": "UpdateTestTypeForm.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateTestTypeForm.cs",
+              "RelativeDocumentMoniker": "UpdateTestTypeForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateTestTypeForm.cs*",
+              "RelativeToolTip": "UpdateTestTypeForm.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:28:19.913Z",
+              "WhenOpened": "2025-05-07T12:28:49.821Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageTestTypesForm.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageTestTypesForm.cs",
+              "RelativeDocumentMoniker": "ManageTestTypesForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageTestTypesForm.cs",
+              "RelativeToolTip": "ManageTestTypesForm.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwv0EAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:27:50.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageTestTypesForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageTestTypesForm.cs",
+              "RelativeDocumentMoniker": "ManageTestTypesForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageTestTypesForm.cs [Design]",
+              "RelativeToolTip": "ManageTestTypesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:27:46.244Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateTestTypeForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateTestTypeForm.cs",
+              "RelativeDocumentMoniker": "UpdateTestTypeForm.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\UpdateTestTypeForm.cs [Design]*",
+              "RelativeToolTip": "UpdateTestTypeForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:56:36.743Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

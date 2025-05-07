@@ -147,6 +147,7 @@
             this.manageTestTypesToolStripMenuItem.Name = "manageTestTypesToolStripMenuItem";
             this.manageTestTypesToolStripMenuItem.Size = new System.Drawing.Size(394, 70);
             this.manageTestTypesToolStripMenuItem.Text = "Manage Test Types";
+            this.manageTestTypesToolStripMenuItem.Click += new System.EventHandler(this.manageTestTypesToolStripMenuItem_Click);
             // 
             // menuStripPeopleItem
             // 
@@ -183,7 +184,9 @@
             this.menuStripAccountSettingsItem.Name = "menuStripAccountSettingsItem";
             this.menuStripAccountSettingsItem.Size = new System.Drawing.Size(191, 29);
             this.menuStripAccountSettingsItem.Text = "Account Settings";
+            // 
             // currentUserToolStripMenuItem
+            // 
             this.currentUserToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentUserToolStripMenuItem.Image = global::DVLD.Properties.Resources.id_card;
             this.currentUserToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -191,7 +194,9 @@
             this.currentUserToolStripMenuItem.Size = new System.Drawing.Size(204, 38);
             this.currentUserToolStripMenuItem.Text = "Current User";
             this.currentUserToolStripMenuItem.Click += new System.EventHandler(this.currentUserToolStripMenuItem_Click);
+            // 
             // changePasswordToolStripMenuItem
+            // 
             this.changePasswordToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changePasswordToolStripMenuItem.Image = global::DVLD.Properties.Resources.Password_32;
             this.changePasswordToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -199,7 +204,9 @@
             this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(204, 38);
             this.changePasswordToolStripMenuItem.Text = "Change Password";
             this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
+            // 
             // signOutToolStripMenuItem
+            // 
             this.signOutToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signOutToolStripMenuItem.Image = global::DVLD.Properties.Resources.Sign_Out_32;
             this.signOutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;

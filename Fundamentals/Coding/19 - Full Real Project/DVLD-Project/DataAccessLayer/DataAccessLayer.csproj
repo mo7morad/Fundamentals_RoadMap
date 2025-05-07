@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsTestsDataAccess.cs" />
     <Compile Include="clsApplicationTypesDataAccess.cs" />
     <Compile Include="clsUsersDataAccess.cs" />
     <Compile Include="clsCountriesDataAccess.cs" />

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsApplicationTypesBusinessLayer.cs" />
+    <Compile Include="clsTestTypesBusinessLayer.cs" />
     <Compile Include="clsUsersBusinessLayer.cs" />
     <Compile Include="clsPersonService.cs" />
     <Compile Include="clsCountriesBusinessLayer.cs" />
