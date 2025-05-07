@@ -74,5 +74,26 @@ namespace DVLD
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void dataGridViewApplicationTypes_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                // Select the row that was right-clicked
+                if (e.RowIndex >= 0)
+                {
+                    // Clear current selection first
+                    dataGridViewApplicationTypes.ClearSelection();
+
+                    // Select the row under the cursor
+                    dataGridViewApplicationTypes.Rows[e.RowIndex].Selected = true;
+                    dataGridViewApplicationTypes.CurrentCell = dataGridViewApplicationTypes.Rows[e.RowIndex].Cells[e.ColumnIndex >= 0 ? e.ColumnIndex : 0];
+
+                    // Show the context menu at cursor position
+                    contextMenuStrip1.Show(Cursor.Position);
+                }
+            }
+        }
+
     }
 }

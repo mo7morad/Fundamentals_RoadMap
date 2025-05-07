@@ -37,38 +37,6 @@ namespace DataAccessLayer
             return dtApplicationTypes;
         }
 
-        public static bool UpdateApplicationType(int applicationTypeID, string title, decimal fees)
-        {
-            try
-            {
-                string query = @"UPDATE ApplicationTypes 
-                        SET ApplicationTypeTitle = @Title, 
-                            ApplicationFees = @Fees 
-                        WHERE ApplicationTypeID = @ID";
-
-                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
-                {
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@Title", title);
-                        command.Parameters.AddWithValue("@Fees", fees);
-                        command.Parameters.AddWithValue("@ID", applicationTypeID);
-
-                        connection.Open();
-                        return command.ExecuteNonQuery() > 0;
-                    }
-                }
-            }
-            catch (SqlException ex)
-            {
-                throw new Exception("Error updating application type: " + ex.Message);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("An error occurred: " + ex.Message);
-            }
-        }
-
         public static DataTable GetApplicationTypeByID(int applicationTypeID)
         {
             DataTable dtApplicationType = new DataTable();
@@ -100,5 +68,36 @@ namespace DataAccessLayer
             return dtApplicationType;
         }
 
+        public static bool UpdateApplicationType(int applicationTypeID, string title, decimal fees)
+        {
+            try
+            {
+                string query = @"UPDATE ApplicationTypes 
+                        SET ApplicationTypeTitle = @Title, 
+                            ApplicationFees = @Fees 
+                        WHERE ApplicationTypeID = @ID";
+
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@Title", title);
+                        command.Parameters.AddWithValue("@Fees", fees);
+                        command.Parameters.AddWithValue("@ID", applicationTypeID);
+
+                        connection.Open();
+                        return command.ExecuteNonQuery() > 0;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error updating application type: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred: " + ex.Message);
+            }
+        }
     }
 }

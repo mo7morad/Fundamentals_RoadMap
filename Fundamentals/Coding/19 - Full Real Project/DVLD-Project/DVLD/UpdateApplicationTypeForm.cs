@@ -6,13 +6,12 @@ namespace DVLD
 {
     public partial class UpdateApplicationTypeForm : Form
     {
-        public event EventHandler ApplicationTypeUpdated;
         private int _applicationTypeID = -1;
 
         public UpdateApplicationTypeForm(int applicationTypeID)
         {
-            InitializeComponent();
             _applicationTypeID = applicationTypeID;
+            InitializeComponent();
             LoadApplicationTypeInfo();
         }
 
@@ -80,43 +79,39 @@ namespace DVLD
             return isValid;
         }
 
-        //private void btnSave_Click(object sender, EventArgs e)
-        //{
-        //    if (!IsDataValid())
-        //        return;
+        private void SaveLogic(object sender, EventArgs e)
+        {
+            if (!IsDataValid())
+                return;
 
-        //    try
-        //    {
-        //        string title = txtTitle.Text.Trim();
-        //        decimal fees = decimal.Parse(txtFees.Text);
-        //        string errorMsg = string.Empty;
+            try
+            {
+                string title = txtTitle.Text.Trim();
+                decimal fees = decimal.Parse(txtFees.Text);
+                string errorMsg = string.Empty;
 
-        //        bool success = clsApplicationTypesBusinessLayer.UpdateApplicationType(
-        //            _applicationTypeID, title, fees, ref errorMsg);
+                bool updateResult = clsApplicationTypesBusinessLayer.UpdateApplicationType(_applicationTypeID, title, fees);
 
-        //        if (success)
-        //        {
-        //            MessageBox.Show("Application type updated successfully!", "Success",
-        //                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (updateResult)
+                {
+                    MessageBox.Show("Application type updated successfully!", "Success",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-        //            // Notify any listeners that the application type was updated
-        //            ApplicationTypeUpdated?.Invoke(this, EventArgs.Empty);
-
-        //            this.DialogResult = DialogResult.OK;
-        //            this.Close();
-        //        }
-        //        else
-        //        {
-        //            MessageBox.Show($"Failed to update application type: {errorMsg}",
-        //                "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show($"Error updating application type: {ex.Message}",
-        //            "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //    }
-        //}
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show($"Failed to update application type: {errorMsg}",
+                        "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error updating application type: {ex.Message}",
+                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -146,6 +141,11 @@ namespace DVLD
             {
                 e.Handled = true;
             }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            SaveLogic(this, EventArgs.Empty);
         }
     }
 }
