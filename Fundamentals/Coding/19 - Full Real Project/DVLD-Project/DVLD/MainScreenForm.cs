@@ -76,8 +76,16 @@ namespace DVLD
             // Ensure proper image display
             if (item.Image != null)
             {
-                item.ImageScaling = ToolStripItemImageScaling.SizeToFit;
+                // Use None for Account Settings submenu items to preserve original size
+                // This gives better display quality than SizeToFit
+                item.ImageScaling = ToolStripItemImageScaling.None;
                 item.ImageAlign = ContentAlignment.MiddleLeft;
+                
+                // Only increase padding if it's in the Account Settings dropdown
+                if (item.OwnerItem == menuStripAccountSettingsItem)
+                {
+                    item.Padding = new Padding(5, 5, 5, 5);
+                }
             }
 
             // Add hover effect for dropdown items
@@ -90,11 +98,6 @@ namespace DVLD
                 item.ForeColor = Color.FromArgb(40, 40, 40);
                 item.BackColor = Color.FromArgb(240, 240, 240);
             };
-        }
-
-        private void peopleMenuStripItem_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void menuStripPeopleItem_Click(object sender, EventArgs e)
@@ -129,6 +132,12 @@ namespace DVLD
             clsUser user = clsUsersBusinessLayer.GetUserByUserName(CurrentSession.LoggedInUserName);
             UserDetailsForm currentUserForm = new UserDetailsForm(user);
             currentUserForm.ShowDialog();
+        }
+
+        private void manageApplicationTypesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ManageApplicationTypesForm frm = new ManageApplicationTypesForm();
+            frm.ShowDialog();
         }
     }
 
