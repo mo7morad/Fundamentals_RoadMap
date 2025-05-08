@@ -113,11 +113,6 @@ namespace DVLD
                 {
                     person = clsPeopleBusinessLayer.GetPersonByNationalNo(findValue);
                 }
-                else if (findBy == "Name")
-                {
-                    MessageBox.Show("Feature not fully implemented. Please use Person ID or National No.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    return;
-                }
 
                 if (person != null)
                 {

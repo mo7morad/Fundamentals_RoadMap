@@ -1,13 +1,7 @@
 ﻿using BusinessLayer;
 using Entities;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DVLD
@@ -144,6 +138,18 @@ namespace DVLD
         {
             ManageTestTypesForm manageTestTypesForm = new ManageTestTypesForm();
             manageTestTypesForm.ShowDialog();
+        }
+
+        private void localLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LocalDrivingLicenseApplicationForm frm = new LocalDrivingLicenseApplicationForm();
+            frm.ShowDialog();
+        }
+
+        private void localDrivingLicenseApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LocalDrivingLicenseApplicationForm frm = new LocalDrivingLicenseApplicationForm();
+            frm.ShowDialog();
         }
     }
 
