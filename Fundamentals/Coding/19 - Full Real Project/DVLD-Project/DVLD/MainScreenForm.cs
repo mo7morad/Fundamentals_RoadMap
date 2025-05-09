@@ -139,16 +139,15 @@ namespace DVLD
             ManageTestTypesForm manageTestTypesForm = new ManageTestTypesForm();
             manageTestTypesForm.ShowDialog();
         }
-
-        private void localLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        private void subLocalLicenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LocalDrivingLicenseApplicationForm frm = new LocalDrivingLicenseApplicationForm();
             frm.ShowDialog();
         }
 
-        private void localDrivingLicenseApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        private void manageLocalDrivingLicenseApplicationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LocalDrivingLicenseApplicationForm frm = new LocalDrivingLicenseApplicationForm();
+            ManageLocalDrivingLicenseApplicationForm frm = new ManageLocalDrivingLicenseApplicationForm();
             frm.ShowDialog();
         }
     }

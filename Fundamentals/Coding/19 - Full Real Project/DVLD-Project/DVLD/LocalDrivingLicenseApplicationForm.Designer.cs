@@ -1,4 +1,5 @@
 using BusinessLayer;
+using Entities.Enums;
 using System.Data;
 
 namespace DVLD
@@ -84,7 +85,7 @@ namespace DVLD
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        private void InitializeComponent(enFormMode formMode = enFormMode.AddNew)
         {
             this.components = new System.ComponentModel.Container();
             this.panelHeader = new System.Windows.Forms.Panel();
@@ -173,7 +174,7 @@ namespace DVLD
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(193, 22);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(415, 37);
+            this.lblTitle.Size = new System.Drawing.Size(507, 37);
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "New Local Driving License Application";
             // 
@@ -197,7 +198,7 @@ namespace DVLD
             this.linkLabelApplicationInfo.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.linkLabelApplicationInfo.Location = new System.Drawing.Point(124, 10);
             this.linkLabelApplicationInfo.Name = "linkLabelApplicationInfo";
-            this.linkLabelApplicationInfo.Size = new System.Drawing.Size(111, 19);
+            this.linkLabelApplicationInfo.Size = new System.Drawing.Size(105, 19);
             this.linkLabelApplicationInfo.TabIndex = 1;
             this.linkLabelApplicationInfo.TabStop = true;
             this.linkLabelApplicationInfo.Text = "Application Info";
@@ -646,7 +647,7 @@ namespace DVLD
             this.lblApplicationDateCaption.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblApplicationDateCaption.Location = new System.Drawing.Point(3, 30);
             this.lblApplicationDateCaption.Name = "lblApplicationDateCaption";
-            this.lblApplicationDateCaption.Size = new System.Drawing.Size(101, 15);
+            this.lblApplicationDateCaption.Size = new System.Drawing.Size(102, 15);
             this.lblApplicationDateCaption.TabIndex = 2;
             this.lblApplicationDateCaption.Text = "Application Date:";
             // 
@@ -666,7 +667,7 @@ namespace DVLD
             this.lblApplicationFeesCaption.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblApplicationFeesCaption.Location = new System.Drawing.Point(3, 90);
             this.lblApplicationFeesCaption.Name = "lblApplicationFeesCaption";
-            this.lblApplicationFeesCaption.Size = new System.Drawing.Size(103, 15);
+            this.lblApplicationFeesCaption.Size = new System.Drawing.Size(100, 15);
             this.lblApplicationFeesCaption.TabIndex = 4;
             this.lblApplicationFeesCaption.Text = "Application Fees:";
             // 
@@ -688,7 +689,6 @@ namespace DVLD
             this.txtApplicationFees.Name = "txtApplicationFees";
             this.txtApplicationFees.Size = new System.Drawing.Size(100, 23);
             this.txtApplicationFees.TabIndex = 2;
-            this.txtApplicationFees.Text = "15";
             // 
             // txtCreatedBy
             // 
@@ -765,8 +765,7 @@ namespace DVLD
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
-            //
-            //this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnNext
             // 
@@ -793,7 +792,6 @@ namespace DVLD
             // 
             // LocalDrivingLicenseApplicationForm
             // 
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
@@ -805,7 +803,12 @@ namespace DVLD
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "LocalDrivingLicenseApplicationForm";
-            this.Text = "Local Driving License Application";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            if (formMode == enFormMode.AddNew)
+                this.Text = "New Local Driving License Application";
+            else
+                this.Text = "Update Local Driving License Application";
+            this.Load += new System.EventHandler(this.LocalDrivingLicenseApplicationForm_Load);
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
             this.panelTabs.ResumeLayout(false);
@@ -826,6 +829,7 @@ namespace DVLD
             this.panelFooter.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         #endregion

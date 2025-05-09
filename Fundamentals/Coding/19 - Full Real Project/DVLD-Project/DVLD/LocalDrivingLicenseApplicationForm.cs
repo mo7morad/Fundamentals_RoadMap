@@ -20,7 +20,6 @@ namespace DVLD
         public LocalDrivingLicenseApplicationForm()
         {
             InitializeComponent();
-            LocalDrivingLicenseApplicationForm_Load(this, EventArgs.Empty);
         }
 
         private void LocalDrivingLicenseApplicationForm_Load(object sender, EventArgs e)
@@ -28,6 +27,7 @@ namespace DVLD
             // Initialize the form with default values
             _currentTabPage = tabPagePersonalInfo;
             btnNext.Enabled = false;
+            txtApplicationFees.Text = clsApplicationTypesBusinessLayer.GetApplicationFeesByID(1).ToString("N2") + "$";
             // Populate License Classes Combo Box.
             dtLicenseClasses = clsLicensesBusinessLayer.GetAllLicenseClasses();
             dvLicenseClasses = new DataView(dtLicenseClasses);
@@ -180,9 +180,6 @@ namespace DVLD
                 btnSave.Enabled = true;
                 UpdateTabHeaderStyles();
                 
-                // Set default values for application info
-                datePickerApplicationDate.Value = DateTime.Now;
-                txtCreatedBy.Text = "Msaqer77"; // This could be the current user from the system
             }
             else
             {
@@ -236,33 +233,34 @@ namespace DVLD
             }
         }
 
-        //private void btnSave_Click(object sender, EventArgs e)
-        //{
-        //    if (_selectedPersonID <= 0)
-        //    {
-        //        MessageBox.Show("Please select a person first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        return;
-        //    }
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            //if (_selectedPersonID <= 0)
+            //{
+            //    MessageBox.Show("Please select a person first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    return;
+            //}
 
-        //    if (!ValidateApplicationInputs())
-        //    {
-        //        MessageBox.Show("Please fix the validation errors before saving.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        return;
-        //    }
+            //if (!ValidateApplicationInputs())
+            //{
+            //    MessageBox.Show("Please fix the validation errors before saving.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    return;
+            //}
 
-        //    // Here you would save the license application data
-        //    try
-        //    {
-        //        // Mock implementation - this would be replaced with actual saving logic
-        //        MessageBox.Show("License application saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        //        this.DialogResult = DialogResult.OK;
-        //        this.Close();
-        //        OnSave?.Invoke(this, EventArgs.Empty);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show($"Error saving application: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //    }
-        //}
+            //// Here you would save the license application data
+            //try
+            //{
+            //    // Mock implementation - this would be replaced with actual saving logic
+            //    MessageBox.Show("License application saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    this.DialogResult = DialogResult.OK;
+            //    this.Close();
+            //    OnSave?.Invoke(this, EventArgs.Empty);
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show($"Error saving application: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
+        }
+
     }
 }

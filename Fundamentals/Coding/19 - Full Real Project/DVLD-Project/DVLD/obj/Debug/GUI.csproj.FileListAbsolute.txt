@@ -31,3 +31,5 @@ D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\D
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.UpdateApplicationTypeForm.resources
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.ManageTestTypesForm.resources
 D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.UpdateTestTypeForm.resources
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.LocalDrivingLicenseApplicationForm.resources
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\19 - Full Real Project\DVLD-Project\DVLD\obj\Debug\DVLD.ManageLocalDrivingLicenseApplicationForm.resources

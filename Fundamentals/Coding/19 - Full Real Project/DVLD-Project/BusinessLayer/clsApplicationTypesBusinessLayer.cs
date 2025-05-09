@@ -16,6 +16,11 @@ namespace BusinessLayer
             return clsApplicationTypesDataAccess.GetApplicationTypeByID(applicationTypeID);
         }
 
+        public static int GetApplicationFeesByID(int applicationTypeID)
+        {
+            return clsApplicationTypesDataAccess.GetApplicationFeesByID(applicationTypeID);
+        }
+
         public static bool UpdateApplicationType(int applicationTypeID, string title, decimal fees)
         {
             return clsApplicationTypesDataAccess.UpdateApplicationType(applicationTypeID, title, fees);

@@ -68,6 +68,37 @@ namespace DataAccessLayer
             return dtApplicationType;
         }
 
+        public static int GetApplicationFeesByID(int applicationTypeID)
+        {
+            int appFees = 0;
+            try
+            {
+                string query = "SELECT ApplicationFees FROM ApplicationTypes WHERE ApplicationTypeID = @ID";
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@ID", applicationTypeID);
+                        connection.Open();
+                        object result = cmd.ExecuteScalar();
+                        if(result != null)
+                        {
+                            appFees = Convert.ToInt32(result);
+                        }
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error retrieving application type: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred: " + ex.Message);
+            }
+            return appFees;
+        }
+
         public static bool UpdateApplicationType(int applicationTypeID, string title, decimal fees)
         {
             try

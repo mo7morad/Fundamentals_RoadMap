@@ -80,6 +80,12 @@
     <Compile Include="LocalDrivingLicenseApplicationForm.Designer.cs">
       <DependentUpon>LocalDrivingLicenseApplicationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageLocalDrivingLicenseApplicationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageLocalDrivingLicenseApplicationForm.Designer.cs">
+      <DependentUpon>ManageLocalDrivingLicenseApplicationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageTestTypesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,11 +174,17 @@
     <EmbeddedResource Include="ChangePasswordForm.resx">
       <DependentUpon>ChangePasswordForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LocalDrivingLicenseApplicationForm.resx">
+      <DependentUpon>LocalDrivingLicenseApplicationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageApplicationTypesForm.resx">
       <DependentUpon>ManageApplicationTypesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginScreenForm.resx">
       <DependentUpon>LoginScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageLocalDrivingLicenseApplicationForm.resx">
+      <DependentUpon>ManageLocalDrivingLicenseApplicationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageTestTypesForm.resx">
       <DependentUpon>ManageTestTypesForm.cs</DependentUpon>
