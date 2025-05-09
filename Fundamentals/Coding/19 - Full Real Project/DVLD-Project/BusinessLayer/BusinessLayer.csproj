@@ -52,6 +52,7 @@
     <Compile Include="clsPersonService.cs" />
     <Compile Include="clsCountriesBusinessLayer.cs" />
     <Compile Include="clsPeopleBusinessLayer.cs" />
+    <Compile Include="clsLicensesBusinessLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

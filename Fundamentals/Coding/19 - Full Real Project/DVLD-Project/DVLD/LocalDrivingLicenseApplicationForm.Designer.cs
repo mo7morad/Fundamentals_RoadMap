@@ -1,3 +1,6 @@
+using BusinessLayer;
+using System.Data;
+
 namespace DVLD
 {
     partial class LocalDrivingLicenseApplicationForm
@@ -679,6 +682,7 @@ namespace DVLD
             // 
             // txtApplicationFees
             // 
+            this.txtApplicationFees.Enabled = false;
             this.txtApplicationFees.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtApplicationFees.Location = new System.Drawing.Point(232, 93);
             this.txtApplicationFees.Name = "txtApplicationFees";
@@ -688,29 +692,28 @@ namespace DVLD
             // 
             // txtCreatedBy
             // 
+            this.txtCreatedBy.Enabled = false;
             this.txtCreatedBy.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtCreatedBy.Location = new System.Drawing.Point(232, 123);
             this.txtCreatedBy.Name = "txtCreatedBy";
             this.txtCreatedBy.ReadOnly = true;
             this.txtCreatedBy.Size = new System.Drawing.Size(200, 23);
             this.txtCreatedBy.TabIndex = 3;
-            this.txtCreatedBy.Text = "Msaqer77";
+            this.txtCreatedBy.Text = clsCurrentSession.LoggedInUserName;
             // 
             // comboBoxLicenseClass
             // 
             this.comboBoxLicenseClass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLicenseClass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.comboBoxLicenseClass.FormattingEnabled = true;
-            this.comboBoxLicenseClass.Items.AddRange(new object[] {
-            "Class 3 - Ordinary driving license"});
             this.comboBoxLicenseClass.Location = new System.Drawing.Point(232, 63);
             this.comboBoxLicenseClass.Name = "comboBoxLicenseClass";
             this.comboBoxLicenseClass.Size = new System.Drawing.Size(396, 23);
             this.comboBoxLicenseClass.TabIndex = 1;
-            this.comboBoxLicenseClass.SelectedIndex = 0;
             // 
             // datePickerApplicationDate
             // 
+            this.datePickerApplicationDate.Enabled = false;
             this.datePickerApplicationDate.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.datePickerApplicationDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.datePickerApplicationDate.Location = new System.Drawing.Point(232, 33);
@@ -762,7 +765,8 @@ namespace DVLD
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            //
+            //this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnNext
             // 
@@ -789,6 +793,7 @@ namespace DVLD
             // 
             // LocalDrivingLicenseApplicationForm
             // 
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;

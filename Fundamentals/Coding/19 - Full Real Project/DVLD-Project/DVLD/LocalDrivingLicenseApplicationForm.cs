@@ -1,4 +1,5 @@
 using System;
+using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
@@ -10,6 +11,8 @@ namespace DVLD
     public partial class LocalDrivingLicenseApplicationForm : Form
     {
         public event EventHandler OnSave;
+        private DataTable dtLicenseClasses;
+        private DataView dvLicenseClasses;
         private int _selectedPersonID = -1;
         private clsPerson _selectedPerson = null;
         private TabPage _currentTabPage;
@@ -17,25 +20,19 @@ namespace DVLD
         public LocalDrivingLicenseApplicationForm()
         {
             InitializeComponent();
+            LocalDrivingLicenseApplicationForm_Load(this, EventArgs.Empty);
+        }
+
+        private void LocalDrivingLicenseApplicationForm_Load(object sender, EventArgs e)
+        {
+            // Initialize the form with default values
             _currentTabPage = tabPagePersonalInfo;
-            UpdateTabHeaderStyles();
-            SetupTextChangeEvents();
-            btnSave.Enabled = false;
-        }
-
-        private void SetupTextChangeEvents()
-        {
-            // Setup event handlers for validation
-            txtApplicationFees.TextChanged += ApplicationInfo_TextChanged;
-        }
-
-        private void ApplicationInfo_TextChanged(object sender, EventArgs e)
-        {
-            Control control = sender as Control;
-            if (control == null) return;
-
-            // Clear error when user starts typing
-            errorProvider.SetError(control, "");
+            btnNext.Enabled = false;
+            // Populate License Classes Combo Box.
+            dtLicenseClasses = clsLicensesBusinessLayer.GetAllLicenseClasses();
+            dvLicenseClasses = new DataView(dtLicenseClasses);
+            comboBoxLicenseClass.DataSource = dvLicenseClasses;
+            comboBoxLicenseClass.DisplayMember = "ClassName";
         }
 
         private void UpdateTabHeaderStyles()
@@ -202,64 +199,6 @@ namespace DVLD
             this.Close();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-            if (_selectedPersonID <= 0)
-            {
-                MessageBox.Show("Please select a person first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            if (!ValidateApplicationInputs())
-            {
-                MessageBox.Show("Please fix the validation errors before saving.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            // Here you would save the license application data
-            try
-            {
-                // Mock implementation - this would be replaced with actual saving logic
-                MessageBox.Show("License application saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.DialogResult = DialogResult.OK;
-                this.Close();
-                OnSave?.Invoke(this, EventArgs.Empty);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error saving application: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private bool ValidateApplicationInputs()
-        {
-            errorProvider.Clear();
-            
-            bool isFeesValid = ValidateApplicationFees();
-            // Add more validations as needed
-            
-            return isFeesValid; // && other validations
-        }
-
-        private bool ValidateApplicationFees()
-        {
-            string fees = txtApplicationFees.Text.Trim();
-            
-            if (string.IsNullOrWhiteSpace(fees))
-            {
-                errorProvider.SetError(txtApplicationFees, "Application fees are required.");
-                return false;
-            }
-            
-            if (!decimal.TryParse(fees, out decimal feeValue) || feeValue <= 0)
-            {
-                errorProvider.SetError(txtApplicationFees, "Application fees must be a positive number.");
-                return false;
-            }
-            
-            return true;
-        }
-
         private void linkLabelPersonalInfo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             tabControl.SelectedTab = tabPagePersonalInfo;
@@ -290,12 +229,40 @@ namespace DVLD
 
         private void txtFindValue_KeyPress(object sender, KeyPressEventArgs e)
         {
-            // if enter key is pressed, trigger the find button click
             if (e.KeyChar == (char)Keys.Enter)
             {
                 e.Handled = true;
                 btnFindPerson_Click(sender, e);
             }
         }
+
+        //private void btnSave_Click(object sender, EventArgs e)
+        //{
+        //    if (_selectedPersonID <= 0)
+        //    {
+        //        MessageBox.Show("Please select a person first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        return;
+        //    }
+
+        //    if (!ValidateApplicationInputs())
+        //    {
+        //        MessageBox.Show("Please fix the validation errors before saving.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        return;
+        //    }
+
+        //    // Here you would save the license application data
+        //    try
+        //    {
+        //        // Mock implementation - this would be replaced with actual saving logic
+        //        MessageBox.Show("License application saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //        this.DialogResult = DialogResult.OK;
+        //        this.Close();
+        //        OnSave?.Invoke(this, EventArgs.Empty);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show($"Error saving application: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
+        //}
     }
 }

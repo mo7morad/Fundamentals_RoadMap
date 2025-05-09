@@ -116,14 +116,14 @@ namespace DVLD
 
         private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            clsUser user = clsUsersBusinessLayer.GetUserByUserName(CurrentSession.LoggedInUserName);
+            clsUser user = clsUsersBusinessLayer.GetUserByUserName(clsCurrentSession.LoggedInUserName);
             ChangePasswordForm changePasswordForm = new ChangePasswordForm(user);
             changePasswordForm.ShowDialog();
         }
 
         private void currentUserToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            clsUser user = clsUsersBusinessLayer.GetUserByUserName(CurrentSession.LoggedInUserName);
+            clsUser user = clsUsersBusinessLayer.GetUserByUserName(clsCurrentSession.LoggedInUserName);
             UserDetailsForm currentUserForm = new UserDetailsForm(user);
             currentUserForm.ShowDialog();
         }
