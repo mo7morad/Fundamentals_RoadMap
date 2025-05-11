@@ -36,11 +36,17 @@
             this.panelFooter = new System.Windows.Forms.Panel();
             this.btnClose = new System.Windows.Forms.Button();
             this.lblRecords = new System.Windows.Forms.Label();
+            this.panelFilter = new System.Windows.Forms.Panel();
+            this.cmbStatus = new System.Windows.Forms.ComboBox();
+            this.txtFilter = new System.Windows.Forms.TextBox();
+            this.cmbFilterBy = new System.Windows.Forms.ComboBox();
+            this.lblFilterBy = new System.Windows.Forms.Label();
             this.panelMainTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLocalLicense)).BeginInit();
             this.panelDataGridView.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewApplications)).BeginInit();
             this.panelFooter.SuspendLayout();
+            this.panelFilter.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMainTitle
@@ -78,14 +84,68 @@
             this.lblManageLocalLicense.Text = "Local Driving License Applications";
             this.lblManageLocalLicense.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // panelFilter
+            // 
+            this.panelFilter.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelFilter.Controls.Add(this.cmbStatus);
+            this.panelFilter.Controls.Add(this.txtFilter);
+            this.panelFilter.Controls.Add(this.cmbFilterBy);
+            this.panelFilter.Controls.Add(this.lblFilterBy);
+            this.panelFilter.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelFilter.Location = new System.Drawing.Point(0, 147);
+            this.panelFilter.Name = "panelFilter";
+            this.panelFilter.Size = new System.Drawing.Size(880, 40);
+            this.panelFilter.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.panelFilter.TabIndex = 3;
+            // 
+            // lblFilterBy
+            // 
+            this.lblFilterBy.AutoSize = true;
+            this.lblFilterBy.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFilterBy.Location = new System.Drawing.Point(15, 11);
+            this.lblFilterBy.Name = "lblFilterBy";
+            this.lblFilterBy.Size = new System.Drawing.Size(58, 17);
+            this.lblFilterBy.TabIndex = 0;
+            this.lblFilterBy.Text = "Filter by:";
+            // 
+            // cmbFilterBy
+            // 
+            this.cmbFilterBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFilterBy.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbFilterBy.FormattingEnabled = true;
+            this.cmbFilterBy.Location = new System.Drawing.Point(80, 8);
+            this.cmbFilterBy.Name = "cmbFilterBy";
+            this.cmbFilterBy.Size = new System.Drawing.Size(121, 25);
+            this.cmbFilterBy.TabIndex = 1;
+            // 
+            // txtFilter
+            // 
+            this.txtFilter.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFilter.Location = new System.Drawing.Point(210, 8);
+            this.txtFilter.Name = "txtFilter";
+            this.txtFilter.Size = new System.Drawing.Size(200, 25);
+            this.txtFilter.TabIndex = 2;
+            this.txtFilter.Visible = false;
+            // 
+            // cmbStatus
+            // 
+            this.cmbStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbStatus.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbStatus.FormattingEnabled = true;
+            this.cmbStatus.Location = new System.Drawing.Point(210, 8);
+            this.cmbStatus.Name = "cmbStatus";
+            this.cmbStatus.Size = new System.Drawing.Size(200, 25);
+            this.cmbStatus.TabIndex = 3;
+            this.cmbStatus.Visible = false;
+            // 
             // panelDataGridView
             // 
             this.panelDataGridView.Controls.Add(this.dataGridViewApplications);
             this.panelDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDataGridView.Location = new System.Drawing.Point(0, 147);
+            this.panelDataGridView.Location = new System.Drawing.Point(0, 187);
             this.panelDataGridView.Name = "panelDataGridView";
             this.panelDataGridView.Padding = new System.Windows.Forms.Padding(10);
-            this.panelDataGridView.Size = new System.Drawing.Size(880, 268);
+            this.panelDataGridView.Size = new System.Drawing.Size(880, 228);
             this.panelDataGridView.TabIndex = 1;
             // 
             // dataGridViewApplications
@@ -101,7 +161,7 @@
             this.dataGridViewApplications.Name = "dataGridViewApplications";
             this.dataGridViewApplications.ReadOnly = true;
             this.dataGridViewApplications.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewApplications.Size = new System.Drawing.Size(860, 248);
+            this.dataGridViewApplications.Size = new System.Drawing.Size(860, 208);
             this.dataGridViewApplications.TabIndex = 0;
             // 
             // panelFooter
@@ -151,6 +211,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(880, 464);
             this.Controls.Add(this.panelDataGridView);
+            this.Controls.Add(this.panelFilter);
             this.Controls.Add(this.panelFooter);
             this.Controls.Add(this.panelMainTitle);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -164,6 +225,8 @@
             this.panelMainTitle.ResumeLayout(false);
             this.panelMainTitle.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLocalLicense)).EndInit();
+            this.panelFilter.ResumeLayout(false);
+            this.panelFilter.PerformLayout();
             this.panelDataGridView.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewApplications)).EndInit();
             this.panelFooter.ResumeLayout(false);
@@ -182,5 +245,10 @@
         private System.Windows.Forms.Label lblRecords;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.DataGridView dataGridViewApplications;
+        private System.Windows.Forms.Panel panelFilter;
+        private System.Windows.Forms.ComboBox cmbStatus;
+        private System.Windows.Forms.TextBox txtFilter;
+        private System.Windows.Forms.ComboBox cmbFilterBy;
+        private System.Windows.Forms.Label lblFilterBy;
     }
 }

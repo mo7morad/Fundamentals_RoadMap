@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Data;
+using System.Net.NetworkInformation;
 using DataAccessLayer;
 using Entities;
+using Entities.Enums;
 
 namespace BusinessLayer
 {
@@ -17,8 +19,9 @@ namespace BusinessLayer
             if (e == null)
                 throw new ArgumentNullException(nameof(e), "Event args cannot be empty.");
 
-            if (clsApplicationsDataAccess.HasPendingApplication(e.ApplicantPersonID, e.ApplicationTypeID))
-                throw new InvalidOperationException("There is a pending application for this person.");
+            enAppStatus status = clsApplicationsDataAccess.GetApplicationStatus(e.ApplicantPersonID, e.ApplicationTypeID);
+            if (status == enAppStatus.Pending || status != enAppStatus.Approved)
+                throw new InvalidOperationException("Cannot add a new application when there is already an application for this person.");
 
             return clsApplicationsDataAccess.AddNewApplication(e);
         }
@@ -29,6 +32,14 @@ namespace BusinessLayer
                 throw new ArgumentOutOfRangeException(nameof(personID), "Person ID must be greater than zero.");
 
             return clsApplicationsDataAccess.HasPendingApplication(personID, appTypeID);
+        }
+
+        public static enAppStatus GetApplicationStatus(int personID, int appTypeID)
+        {
+            if (personID <= 0)
+                throw new ArgumentOutOfRangeException(nameof(personID), "Person ID must be greater than zero.");
+
+            return clsApplicationsDataAccess.GetApplicationStatus(personID, appTypeID);
         }
 
     }

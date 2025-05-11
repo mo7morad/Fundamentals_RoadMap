@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Entities.Enums;
 using System;
 using System.Data;
 using System.Data.SqlClient;
@@ -174,6 +175,42 @@ namespace DataAccessLayer
             catch (SqlException ex)
             {
                 throw new Exception("Error checking for pending applications: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred: " + ex.Message);
+            }
+        }
+
+        public static enAppStatus GetApplicationStatus(int personID, int appTypeID)
+        {
+            try
+            {
+                string query = "SELECT ApplicationStatus FROM Applications WHERE ApplicantPersonID = @ApplicantPersonID AND ApplicationTypeID = @AppTypeID";
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@AppTypeID", appTypeID);
+                        cmd.Parameters.AddWithValue("@ApplicantPersonID", personID);
+                        connection.Open();
+                        object result = cmd.ExecuteScalar();
+
+                        if (result != null && result != DBNull.Value)
+                        {
+                            int statusValue = Convert.ToInt32(result);
+                            return (enAppStatus)statusValue;
+                        }
+                        else
+                        {
+                            throw new Exception("No application status found for the given person ID and application type ID.");
+                        }
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error checking for pending or completed applications: " + ex.Message);
             }
             catch (Exception ex)
             {
