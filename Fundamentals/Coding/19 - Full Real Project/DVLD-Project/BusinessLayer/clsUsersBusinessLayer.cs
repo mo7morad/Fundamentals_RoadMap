@@ -33,6 +33,11 @@ namespace BusinessLayer
             return clsUsersDataAccess.GetUserByPersonID(personID);
         }
 
+        public static int GetUserIDByUserName(string userName, ref string errorMsg)
+        {
+            return clsUsersDataAccess.GetUserIDByUserName(userName, ref errorMsg);
+        }
+
         public static DataTable GetAllUsers()
         {
             return clsUsersDataAccess.GetAllUsers();

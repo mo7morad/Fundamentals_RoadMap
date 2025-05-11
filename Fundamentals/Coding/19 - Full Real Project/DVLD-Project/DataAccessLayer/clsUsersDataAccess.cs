@@ -130,6 +130,37 @@ namespace DataAccessLayer
             return user;
         }
 
+        public static int GetUserIDByUserName(string userName, ref string errorMessage)
+        {
+            int userID = -1;
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    string query = "SELECT UserID FROM Users WHERE UserName = @UserName";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@UserName", userName);
+                        connection.Open();
+                        object result = command.ExecuteScalar();
+                        if (result != null)
+                        {
+                            userID = Convert.ToInt32(result);
+                        }
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                errorMessage = ex.Message;
+            }
+            catch (Exception ex)
+            {
+                errorMessage = "Unexpected error: " + ex.Message;
+            }
+            return userID;
+        }
+
         public static string GetUserPassword(int userID, ref string errorMessage)
         {
             string password = string.Empty;

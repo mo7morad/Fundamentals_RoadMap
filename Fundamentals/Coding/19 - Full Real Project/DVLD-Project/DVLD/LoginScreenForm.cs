@@ -85,7 +85,9 @@ namespace DVLD
             if (UserValidation(txtUsername.Text, txtPassword.Text))
             {
                 // Authentication successful
+                string errorMsg = String.Empty;
                 clsCurrentSession.LoggedInUserName = txtUsername.Text.ToLower();
+                clsCurrentSession.LoggedInUserID = clsUsersBusinessLayer.GetUserIDByUserName(txtUsername.Text.ToLower(), ref errorMsg);
                 MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 MainScreenForm mainForm = new MainScreenForm();

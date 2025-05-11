@@ -8,15 +8,16 @@ using Entities.Enums;
 
 namespace DVLD
 {
-    public partial class LocalDrivingLicenseApplicationForm : Form
+    public partial class Add_EditLocalDrivingLicenseApplicationForm : Form
     {
+        public event EventHandler OnSave;
         private DataTable dtLicenseClasses;
         private DataView dvLicenseClasses;
         private int _selectedPersonID = -1;
         private clsPerson _selectedPerson = null;
         private TabPage _currentTabPage;
 
-        public LocalDrivingLicenseApplicationForm()
+        public Add_EditLocalDrivingLicenseApplicationForm()
         {
             InitializeComponent();
         }
@@ -234,43 +235,31 @@ namespace DVLD
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (_selectedPersonID <= 0)
-            {
-                MessageBox.Show("Please select a person first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+            //if (_selectedPersonID <= 0)
+            //{
+            //    MessageBox.Show("Please select a person first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    return;
+            //}
 
-            try
-            {
-                // Prepare Application EventArgs
-                clsNewApplicationEventArgs applicationEventArgs = new clsNewApplicationEventArgs
-                {
-                    ApplicantPersonID = _selectedPersonID,
-                    ApplicationCreatedDate = DateTime.Now,
-                    ApplicationTypeID = comboBoxLicenseClass.SelectedIndex + 1,
-                    ApplicationStatus = enAppStatus.Pending,
-                    ApplicationModifiedDate = DateTime.Now,
-                    PaidFees = decimal.Parse(txtApplicationFees.Text.Replace("$", "").Trim()),
-                    CreatedByUserID = clsCurrentSession.LoggedInUserID
-                };
+            //if (!ValidateApplicationInputs())
+            //{
+            //    MessageBox.Show("Please fix the validation errors before saving.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    return;
+            //}
 
-                // Save the application
-                int addedApplicationID = clsApplicationsBusinessLayer.AddNewApplication(applicationEventArgs);
-                if (addedApplicationID > 0)
-                {
-                    MessageBox.Show($"License application added successfully with Application ID: {addedApplicationID}!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Failed to save the application.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error saving application: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            //// Here you would save the license application data
+            //try
+            //{
+            //    // Mock implementation - this would be replaced with actual saving logic
+            //    MessageBox.Show("License application saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    this.DialogResult = DialogResult.OK;
+            //    this.Close();
+            //    OnSave?.Invoke(this, EventArgs.Empty);
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show($"Error saving application: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
         }
 
     }

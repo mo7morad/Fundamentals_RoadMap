@@ -102,16 +102,69 @@ namespace DataAccessLayer
             }
         }
 
-        public static bool IsApplicationExists(int applicationID)
+        //public static bool IsApplicationExists(int applicationID)
+        //{
+        //    try
+        //    {
+        //        string query = "SELECT COUNT(*) FROM Applications WHERE ApplicationID = @ApplicationID";
+        //        using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+        //        {
+        //            using (SqlCommand cmd = new SqlCommand(query, connection))
+        //            {
+        //                cmd.Parameters.AddWithValue("@ApplicationID", applicationID);
+        //                connection.Open();
+        //                int count = (int)cmd.ExecuteScalar();
+        //                return count > 0;
+        //            }
+        //        }
+        //    }
+        //    catch (SqlException ex)
+        //    {
+        //        throw new Exception("Error checking if application exists: " + ex.Message);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new Exception("An error occurred: " + ex.Message);
+        //    }
+        //}
+
+        //public static bool IsPendingApplication(int applicationID)
+        //{
+        //    try
+        //    {
+        //        string query = "SELECT ApplicationStatus FROM Applications WHERE ApplicationID = @ApplicationID";
+        //        using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+        //        {
+        //            using (SqlCommand cmd = new SqlCommand(query, connection))
+        //            {
+        //                cmd.Parameters.AddWithValue("@ApplicationID", applicationID);
+        //                connection.Open();
+        //                int status = (int)cmd.ExecuteScalar();
+        //                return status == 1;
+        //            }
+        //        }
+        //    }
+        //    catch (SqlException ex)
+        //    {
+        //        throw new Exception("Error checking if application is pending: " + ex.Message);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new Exception("An error occurred: " + ex.Message);
+        //    }
+        //}
+
+        public static bool HasPendingApplication(int personID, int appTypeID)
         {
             try
             {
-                string query = "SELECT COUNT(*) FROM Applications WHERE ApplicationID = @ApplicationID";
+                string query = "SELECT COUNT(*) FROM Applications WHERE ApplicantPersonID = @ApplicantPersonID AND ApplicationStatus = 1 AND ApplicationTypeID = @AppTypeID";
                 using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
                 {
                     using (SqlCommand cmd = new SqlCommand(query, connection))
                     {
-                        cmd.Parameters.AddWithValue("@ApplicationID", applicationID);
+                        cmd.Parameters.AddWithValue("@AppTypeID", appTypeID);
+                        cmd.Parameters.AddWithValue("@ApplicantPersonID", personID);
                         connection.Open();
                         int count = (int)cmd.ExecuteScalar();
                         return count > 0;
@@ -120,33 +173,7 @@ namespace DataAccessLayer
             }
             catch (SqlException ex)
             {
-                throw new Exception("Error checking if application exists: " + ex.Message);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("An error occurred: " + ex.Message);
-            }
-        }
-
-        public static bool IsPendingApplication(int applicationID)
-        {
-            try
-            {
-                string query = "SELECT ApplicationStatus FROM Applications WHERE ApplicationID = @ApplicationID";
-                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
-                {
-                    using (SqlCommand cmd = new SqlCommand(query, connection))
-                    {
-                        cmd.Parameters.AddWithValue("@ApplicationID", applicationID);
-                        connection.Open();
-                        int status = (int)cmd.ExecuteScalar();
-                        return status == 1;
-                    }
-                }
-            }
-            catch (SqlException ex)
-            {
-                throw new Exception("Error checking if application is pending: " + ex.Message);
+                throw new Exception("Error checking for pending applications: " + ex.Message);
             }
             catch (Exception ex)
             {

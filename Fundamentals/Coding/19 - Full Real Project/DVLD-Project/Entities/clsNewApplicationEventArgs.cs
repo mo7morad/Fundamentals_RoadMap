@@ -15,6 +15,7 @@ namespace Entities
         public decimal PaidFees { get; set; }
         public int CreatedByUserID { get; set; }
 
+        public clsNewApplicationEventArgs() { }
         public clsNewApplicationEventArgs(int applicationID, int applicantPersonID, DateTime applicationTypeCreatedDate,
             int applicationTypeID, enAppStatus applicationStatus, DateTime applicationTypeModifiedDate,
             decimal paidFees, int userIDCreatedBy)

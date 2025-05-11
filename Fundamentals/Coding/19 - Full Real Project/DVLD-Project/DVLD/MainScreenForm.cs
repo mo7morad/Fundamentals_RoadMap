@@ -97,13 +97,13 @@ namespace DVLD
         private void menuStripPeopleItem_Click(object sender, EventArgs e)
         {
             ManagePeopleForm peopleFrm = new ManagePeopleForm();
-            peopleFrm.ShowDialog();
+            peopleFrm.Show();
         }
 
         private void menuStripUsersItem_Click(object sender, EventArgs e)
         {
             ManageUsersForm manageUsersForm = new ManageUsersForm();
-            manageUsersForm.ShowDialog();
+            manageUsersForm.Show();
         }
 
         private void signOutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -118,37 +118,37 @@ namespace DVLD
         {
             clsUser user = clsUsersBusinessLayer.GetUserByUserName(clsCurrentSession.LoggedInUserName);
             ChangePasswordForm changePasswordForm = new ChangePasswordForm(user);
-            changePasswordForm.ShowDialog();
+            changePasswordForm.Show();
         }
 
         private void currentUserToolStripMenuItem_Click(object sender, EventArgs e)
         {
             clsUser user = clsUsersBusinessLayer.GetUserByUserName(clsCurrentSession.LoggedInUserName);
             UserDetailsForm currentUserForm = new UserDetailsForm(user);
-            currentUserForm.ShowDialog();
+            currentUserForm.Show();
         }
 
         private void manageApplicationTypesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ManageApplicationTypesForm frm = new ManageApplicationTypesForm();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void manageTestTypesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ManageTestTypesForm manageTestTypesForm = new ManageTestTypesForm();
-            manageTestTypesForm.ShowDialog();
+            manageTestTypesForm.Show();
         }
         private void subLocalLicenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LocalDrivingLicenseApplicationForm frm = new LocalDrivingLicenseApplicationForm();
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void manageLocalDrivingLicenseApplicationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ManageLocalDrivingLicenseApplicationForm frm = new ManageLocalDrivingLicenseApplicationForm();
-            frm.ShowDialog();
+            frm.Show();
         }
     }
 
