@@ -529,5 +529,8 @@
   <ItemGroup>
     <None Include="Resources\Drivers 64.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Application 642.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

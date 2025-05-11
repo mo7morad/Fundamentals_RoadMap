@@ -196,5 +196,12 @@ namespace DVLD
         {
             lblRecords.Text = $"# Records: {dvApplications.Count}";
         }
+
+        private void pictureBoxAddNewApp_Click(object sender, EventArgs e)
+        {
+            LocalDrivingLicenseApplicationForm frm = new LocalDrivingLicenseApplicationForm();
+            frm.FormClosed += (s, args) => PopulateApplicationsDataGridView();
+            frm.Show();
+        }
     }
 }
