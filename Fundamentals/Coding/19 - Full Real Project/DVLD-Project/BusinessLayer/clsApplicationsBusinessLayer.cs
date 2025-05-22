@@ -20,7 +20,7 @@ namespace BusinessLayer
                 throw new ArgumentNullException(nameof(e), "Event args cannot be empty.");
 
             enAppStatus status = clsApplicationsDataAccess.GetApplicationStatus(e.ApplicantPersonID, e.ApplicationTypeID);
-            if (status == enAppStatus.Pending || status != enAppStatus.Approved)
+            if (status == enAppStatus.New || status != enAppStatus.Approved)
                 throw new InvalidOperationException("Cannot add a new application when there is already an application for this person.");
 
             return clsApplicationsDataAccess.AddNewApplication(e);

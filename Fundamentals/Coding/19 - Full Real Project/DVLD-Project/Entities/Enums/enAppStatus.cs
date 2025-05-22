@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entities.Enums
+﻿namespace Entities.Enums
 {
     public enum enAppStatus
     {
-        Pending = 1,
-        Rejected = 2,
-        Approved = 3
+        New = 1,
+        Canceled = 2,
+        Rejected = 3,
+        Approved = 4,
+        PassedAllTests = 5,
+        LicenseIssued = 6
     }
 }

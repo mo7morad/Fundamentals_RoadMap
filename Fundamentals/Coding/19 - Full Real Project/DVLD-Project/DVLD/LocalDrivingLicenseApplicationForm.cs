@@ -248,7 +248,7 @@ namespace DVLD
                     ApplicantPersonID = _selectedPersonID,
                     ApplicationCreatedDate = DateTime.Now,
                     ApplicationTypeID = comboBoxLicenseClass.SelectedIndex + 1,
-                    ApplicationStatus = enAppStatus.Pending,
+                    ApplicationStatus = enAppStatus.New,
                     ApplicationModifiedDate = DateTime.Now,
                     PaidFees = decimal.Parse(txtApplicationFees.Text.Replace("$", "").Trim()),
                     CreatedByUserID = clsCurrentSession.LoggedInUserID

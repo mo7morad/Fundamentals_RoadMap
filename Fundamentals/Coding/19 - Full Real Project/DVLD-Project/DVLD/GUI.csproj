@@ -66,6 +66,9 @@
       <DependentUpon>ChangePasswordForm.cs</DependentUpon>
     </Compile>
     <Compile Include="clsCurrentSession.cs" />
+    <Compile Include="D:/Programming/Fundamentals_RoadMap/Fundamentals/Coding/19 - Full Real Project/DVLD-Project/DVLD/Entities/Enums/\enAppStatus.cs">
+      <Link>enAppStatus.cs</Link>
+    </Compile>
     <Compile Include="D:/Programming/Fundamentals_RoadMap/Fundamentals/Coding/19 - Full Real Project/DVLD-Project/DVLD/\LocalDrivingLicenseApplicationForm.cs">
       <Link>LocalDrivingLicenseApplicationForm.cs</Link>
       <SubType>Form</SubType>

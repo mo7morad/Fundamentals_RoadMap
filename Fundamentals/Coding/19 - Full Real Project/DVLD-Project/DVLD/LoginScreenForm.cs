@@ -64,12 +64,17 @@ namespace DVLD
             {
                 if (user.IsActive == false)
                 {
-                    MessageBox.Show("User is inactive. Please contact support.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("User is inactive.\n Please contact support.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return false;
+                }
+                if(user.Password == password)
+                {
+                    return true;
                 }
                 else
                 {
-                    return user.Password == password;
+                    MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
                 }
             }
             return false;

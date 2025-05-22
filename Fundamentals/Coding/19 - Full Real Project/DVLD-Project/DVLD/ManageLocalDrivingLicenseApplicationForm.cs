@@ -203,5 +203,201 @@ namespace DVLD
             frm.FormClosed += (s, args) => PopulateApplicationsDataGridView();
             frm.Show();
         }
+
+        private void dataGridViewApplications_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right && e.RowIndex >= 0)
+            {
+                // Select the row that was right-clicked
+                dataGridViewApplications.ClearSelection();
+                dataGridViewApplications.Rows[e.RowIndex].Selected = true;
+                dataGridViewApplications.CurrentCell = dataGridViewApplications.Rows[e.RowIndex].Cells[e.ColumnIndex >= 0 ? e.ColumnIndex : 0];
+
+                // Update menu items based on application status before showing context menu
+                //UpdateContextMenuItems();
+            }
+        }
+
+        //private void UpdateContextMenuItems()
+        //{
+        //    // If no row is selected, disable all menu items
+        //    if (dataGridViewApplications.SelectedRows.Count == 0)
+        //    {
+        //        foreach (ToolStripItem item in contextMenuStripApp.Items)
+        //        {
+        //            item.Enabled = false;
+        //        }
+        //        return;
+        //    }
+
+        //    // Get the status of the selected application
+        //    int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+        //    int statusID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["StatusID"].Value);
+        //    enAppStatus appStatus = GetAppStatusFromInt(statusID);
+
+        //    // Enable/disable menu items based on application status
+        //    showApplicationDetailsToolStripMenuItem.Enabled = true; // Always enabled
+        //    showPersonLicenseHistoryToolStripMenuItem.Enabled = true; // Always enabled
+
+        //    // Can only edit or delete if status is NEW
+        //    editApplicationToolStripMenuItem.Enabled = (appStatus == enAppStatus.New);
+        //    deleteApplicationToolStripMenuItem.Enabled = (appStatus == enAppStatus.New);
+
+        //    // Can only cancel if status is not CANCELED
+        //    cancelApplicationToolStripMenuItem.Enabled = (appStatus != enAppStatus.Canceled);
+
+        //    // Schedule tests enabled based on application status
+        //    bool canScheduleTests = (appStatus == enAppStatus.New ||
+        //                           appStatus == enAppStatus.Canceled ||
+        //                           appStatus == enAppStatus.Rejected);
+        //    scheduleTestsToolStripMenuItem.Enabled = canScheduleTests;
+        //    scheduleVisionTestToolStripMenuItem.Enabled = canScheduleTests;
+        //    scheduleWrittenTestToolStripMenuItem.Enabled = canScheduleTests;
+        //    scheduleStreetTestToolStripMenuItem.Enabled = canScheduleTests;
+
+        //    // Issue license only if tests are passed
+        //    issueDrivingLicenseFirstTimeToolStripMenuItem.Enabled = (appStatus == enAppStatus.PassedAllTests);
+
+        //    // Show license only if it's been issued
+        //    showLicenseToolStripMenuItem.Enabled = (appStatus == enAppStatus.LicenseIssued);
+        //}
+
+        private void showApplicationDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            // Add your code to show application details
+            MessageBox.Show($"Showing details for Application ID: {applicationID}", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void editApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            // Add your code to edit application
+            MessageBox.Show($"Editing Application ID: {applicationID}", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void deleteApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            DialogResult result = MessageBox.Show($"Are you sure you want to delete Application ID: {applicationID}?",
+                "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                // Add your code to delete application
+                MessageBox.Show($"Application ID: {applicationID} deleted successfully.", "Success",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Refresh the data grid
+                PopulateApplicationsDataGridView();
+            }
+        }
+
+        private void cancelApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            DialogResult result = MessageBox.Show($"Are you sure you want to cancel Application ID: {applicationID}?",
+                "Confirm Cancel", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                // Add your code to cancel application
+                MessageBox.Show($"Application ID: {applicationID} canceled successfully.", "Success",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Refresh the data grid
+                PopulateApplicationsDataGridView();
+            }
+        }
+
+        private void scheduleVisionTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            // Add your code to schedule vision test
+            MessageBox.Show($"Scheduling Vision Test for Application ID: {applicationID}", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void scheduleWrittenTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            // Add your code to schedule written test
+            MessageBox.Show($"Scheduling Written Test for Application ID: {applicationID}", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void scheduleStreetTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            // Add your code to schedule street test
+            MessageBox.Show($"Scheduling Street Test for Application ID: {applicationID}", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void issueDrivingLicenseFirstTimeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            // Add your code to issue driving license
+            MessageBox.Show($"Issuing Driving License for Application ID: {applicationID}", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void showLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+
+            // Add your code to show license
+            MessageBox.Show($"Showing License for Application ID: {applicationID}", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void showPersonLicenseHistoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewApplications.SelectedRows.Count == 0) return;
+
+            int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
+            int personID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["Person ID"].Value);
+
+            // Add your code to show person license history
+            MessageBox.Show($"Showing License History for Person ID: {personID}", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
