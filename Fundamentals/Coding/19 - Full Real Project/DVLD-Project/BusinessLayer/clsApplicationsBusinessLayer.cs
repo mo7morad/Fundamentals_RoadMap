@@ -42,5 +42,12 @@ namespace BusinessLayer
             return clsApplicationsDataAccess.GetApplicationStatus(personID, appTypeID);
         }
 
+        public static bool CancelApplication(int applicationID)
+        {
+            if (applicationID <= 0)
+                throw new ArgumentOutOfRangeException(nameof(applicationID), "Application ID must be greater than zero.");
+            return clsApplicationsDataAccess.CancelApplication(applicationID);
+        }
+
     }
 }

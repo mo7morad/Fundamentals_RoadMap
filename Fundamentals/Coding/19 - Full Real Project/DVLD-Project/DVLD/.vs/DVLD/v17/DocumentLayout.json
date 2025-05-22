@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:managelocaldrivinglicenseapplicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\managelocaldrivinglicenseapplicationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:managelocaldrivinglicenseapplicationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dataaccesslayer\\clsapplicationtypesdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\managelocaldrivinglicenseapplicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:managelocaldrivinglicenseapplicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9885F6B5-7D5F-4CD2-843D-9D5A41230AFA}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\businesslayer\\clsapplicationsbusinesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9450ABD2-9DAE-4B0B-89E5-AB3C002248E2}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dataaccesslayer\\clsapplicationsdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EF10DE-2275-4B97-8A61-BB83BFC39954}|..\\Entities\\Entities.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\entities\\enums\\enappstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ManageLocalDrivingLicenseApplicationForm.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.cs",
-              "RelativeDocumentMoniker": "ManageLocalDrivingLicenseApplicationForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.cs*",
-              "RelativeToolTip": "ManageLocalDrivingLicenseApplicationForm.cs*",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAYwNgAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "clsApplicationsBusinessLayer.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsApplicationsBusinessLayer.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\clsApplicationsBusinessLayer.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsApplicationsBusinessLayer.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\clsApplicationsBusinessLayer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA6wDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:17:50.527Z",
+              "WhenOpened": "2025-05-22T08:36:13.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsApplicationsDataAccess.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsApplicationsDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsApplicationsDataAccess.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsApplicationsDataAccess.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\clsApplicationsDataAccess.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwPUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:34:11.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ManageLocalDrivingLicenseApplicationForm.Designer.cs",
-              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.Designer.cs",
-              "RelativeDocumentMoniker": "ManageLocalDrivingLicenseApplicationForm.Designer.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.Designer.cs",
-              "RelativeToolTip": "ManageLocalDrivingLicenseApplicationForm.Designer.cs",
-              "ViewState": "AgIAAJkBAAAAAAAAAAAkwK0BAAAAAAAAAAAAAA==",
+              "Title": "clsApplicationTypesDataAccess.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:17:42.237Z",
+              "WhenOpened": "2025-05-22T08:33:47.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManageLocalDrivingLicenseApplicationForm.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "ManageLocalDrivingLicenseApplicationForm.cs",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.cs",
               "RelativeDocumentMoniker": "ManageLocalDrivingLicenseApplicationForm.cs",
-              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.cs [Design]*",
-              "RelativeToolTip": "ManageLocalDrivingLicenseApplicationForm.cs [Design]*",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.cs",
+              "RelativeToolTip": "ManageLocalDrivingLicenseApplicationForm.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAAwDYBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:01:13.279Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-22T08:33:21.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "enAppStatus.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Enums\\enAppStatus.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Enums\\enAppStatus.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Enums\\enAppStatus.cs",
+              "RelativeToolTip": "..\\Entities\\Enums\\enAppStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:33:12.889Z",
+              "EditorCaption": ""
             }
           ]
         }

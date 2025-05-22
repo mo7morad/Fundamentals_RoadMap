@@ -313,6 +313,20 @@ namespace DVLD
 
             int selectedRowIndex = dataGridViewApplications.SelectedCells[0].RowIndex;
             int applicationID = Convert.ToInt32(dataGridViewApplications.Rows[selectedRowIndex].Cells["D.L Application ID"].Value);
+            string status = dataGridViewApplications.Rows[selectedRowIndex].Cells["Current Application Status"].Value.ToString();
+
+            if (status == "Canceled")
+            {
+                MessageBox.Show($"Application ID: {applicationID} is already canceled.", "Information",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            if (status == "Approved")
+            {
+                MessageBox.Show($"Application ID: {applicationID} is already approved. Cannot cancel.", "Information",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
 
             DialogResult result = MessageBox.Show($"Are you sure you want to cancel Application ID: {applicationID}?",
                 "Confirm Cancel", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -320,8 +334,12 @@ namespace DVLD
             if (result == DialogResult.Yes)
             {
                 // Add your code to cancel application
-                MessageBox.Show($"Application ID: {applicationID} canceled successfully.", "Success",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if(clsApplicationsBusinessLayer.CancelApplication(applicationID))
+                    MessageBox.Show($"Application ID: {applicationID} canceled successfully.", "Success",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                else
+                    MessageBox.Show($"Failed to cancel Application ID: {applicationID}.", "Error",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 // Refresh the data grid
                 PopulateApplicationsDataGridView();

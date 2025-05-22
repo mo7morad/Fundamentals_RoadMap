@@ -3,6 +3,7 @@ using Entities.Enums;
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Security.Policy;
 
 
 namespace DataAccessLayer
@@ -25,7 +26,7 @@ namespace DataAccessLayer
                                 )AS 'Passed Tests',
                                 CASE A.ApplicationStatus
                                     WHEN 1 THEN 'Pending'
-                                    WHEN 2 THEN 'Rejected'
+                                    WHEN 2 THEN 'Canceled'
                                     WHEN 3 THEN 'Passed'
                                     ELSE 'Unknown'
                                 END AS 'Current Application Status'
@@ -211,6 +212,32 @@ namespace DataAccessLayer
             catch (SqlException ex)
             {
                 throw new Exception("Error checking for pending or completed applications: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred: " + ex.Message);
+            }
+        }
+
+        public static bool CancelApplication(int applicationID)
+        {
+            try
+            {
+                string query = "UPDATE Applications SET ApplicationStatus = 2 WHERE ApplicationID = @ApplicationID";
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@ApplicationID", applicationID);
+                        connection.Open();
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        return rowsAffected > 0;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error canceling application: " + ex.Message);
             }
             catch (Exception ex)
             {
