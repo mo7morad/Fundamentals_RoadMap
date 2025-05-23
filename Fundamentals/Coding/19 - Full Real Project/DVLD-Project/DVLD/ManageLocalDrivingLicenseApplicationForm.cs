@@ -318,13 +318,13 @@ namespace DVLD
             if (status == "Canceled")
             {
                 MessageBox.Show($"Application ID: {applicationID} is already canceled.", "Information",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
-            if (status == "Approved")
+            if (status == "Passed")
             {
                 MessageBox.Show($"Application ID: {applicationID} is already approved. Cannot cancel.", "Information",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 
