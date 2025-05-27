@@ -25,5 +25,21 @@ namespace BusinessLayer
         {
             return clsApplicationTypesDataAccess.UpdateApplicationType(applicationTypeID, title, fees);
         }
+        
+        // Validation methods for application types
+        public static bool ValidateApplicationTypeTitle(string title)
+        {
+            return !string.IsNullOrWhiteSpace(title);
+        }
+        
+        public static bool ValidateApplicationTypeFees(decimal fees)
+        {
+            return fees >= 0;
+        }
+        
+        public static bool ValidateApplicationTypeData(string title, decimal fees)
+        {
+            return ValidateApplicationTypeTitle(title) && ValidateApplicationTypeFees(fees);
+        }
     }
 }

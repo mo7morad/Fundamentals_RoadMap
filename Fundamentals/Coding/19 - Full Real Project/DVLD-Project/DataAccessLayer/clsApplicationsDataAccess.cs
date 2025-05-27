@@ -204,7 +204,8 @@ namespace DataAccessLayer
                         }
                         else
                         {
-                            throw new Exception("No application status found for the given person ID and application type ID.");
+                            // No application found, return NotFound status
+                            return enAppStatus.NotFound;
                         }
                     }
                 }

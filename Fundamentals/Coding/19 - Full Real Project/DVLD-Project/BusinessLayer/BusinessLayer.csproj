@@ -38,10 +38,13 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -54,6 +57,7 @@
     <Compile Include="clsCountriesBusinessLayer.cs" />
     <Compile Include="clsPeopleBusinessLayer.cs" />
     <Compile Include="clsLicensesBusinessLayer.cs" />
+    <Compile Include="clsFormDataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

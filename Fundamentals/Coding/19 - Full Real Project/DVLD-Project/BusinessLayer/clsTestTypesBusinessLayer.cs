@@ -20,5 +20,21 @@ namespace BusinessLayer
         {
             return clsTestsDataAccess.UpdateTestType(testTypeID, title, description, fees);
         }
+        
+        // Validation methods for test types
+        public static bool ValidateTestTypeTitle(string title)
+        {
+            return !string.IsNullOrWhiteSpace(title);
+        }
+        
+        public static bool ValidateTestTypeFees(decimal fees)
+        {
+            return fees >= 0;
+        }
+        
+        public static bool ValidateTestTypeData(string title, decimal fees)
+        {
+            return ValidateTestTypeTitle(title) && ValidateTestTypeFees(fees);
+        }
     }
 }

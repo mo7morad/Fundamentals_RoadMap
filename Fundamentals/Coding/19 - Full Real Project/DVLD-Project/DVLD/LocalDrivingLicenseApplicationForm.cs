@@ -26,12 +26,36 @@ namespace DVLD
             // Initialize the form with default values
             _currentTabPage = tabPagePersonalInfo;
             btnNext.Enabled = false;
-            txtApplicationFees.Text = clsApplicationTypesBusinessLayer.GetApplicationFeesByID(1).ToString("N2") + "$";
-            // Populate License Classes Combo Box.
+            btnSave.Enabled = false;
+            
+            // Set application date to today
+            datePickerApplicationDate.Value = DateTime.Now;
+            
+            // Get application fees from database
+            decimal applicationFees = clsApplicationTypesBusinessLayer.GetApplicationFeesByID(1);
+            txtApplicationFees.Text = applicationFees.ToString("N2") + "$";
+            
+            // Populate License Classes Combo Box
+            LoadLicenseClasses();
+        }
+
+        private void LoadLicenseClasses()
+        {
+            // Populate License Classes Combo Box
             dtLicenseClasses = clsLicensesBusinessLayer.GetAllLicenseClasses();
-            dvLicenseClasses = new DataView(dtLicenseClasses);
-            comboBoxLicenseClass.DataSource = dvLicenseClasses;
-            comboBoxLicenseClass.DisplayMember = "ClassName";
+            
+            if (dtLicenseClasses != null && dtLicenseClasses.Rows.Count > 0)
+            {
+                dvLicenseClasses = new DataView(dtLicenseClasses);
+                comboBoxLicenseClass.DataSource = dvLicenseClasses;
+                comboBoxLicenseClass.DisplayMember = "ClassName";
+                comboBoxLicenseClass.ValueMember = "LicenseClassID";
+                comboBoxLicenseClass.SelectedIndex = 0;
+            }
+            else
+            {
+                MessageBox.Show("Failed to load license classes.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void UpdateTabHeaderStyles()
@@ -231,6 +255,29 @@ namespace DVLD
                 btnFindPerson_Click(sender, e);
             }
         }
+        
+        private bool IsApplicationDataValid()
+        {
+            errorProvider.Clear();
+            bool isValid = true;
+            
+            // Check if a license class is selected
+            if (comboBoxLicenseClass.SelectedIndex == -1)
+            {
+                errorProvider.SetError(comboBoxLicenseClass, "Please select a license class.");
+                isValid = false;
+            }
+            
+            // Make sure fees are valid
+            string feeText = txtApplicationFees.Text.Replace("$", "").Trim();
+            if (!decimal.TryParse(feeText, out decimal fees) || fees <= 0)
+            {
+                errorProvider.SetError(txtApplicationFees, "Application fees must be a valid positive number.");
+                isValid = false;
+            }
+            
+            return isValid;
+        }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
@@ -239,18 +286,58 @@ namespace DVLD
                 MessageBox.Show("Please select a person first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            
+            if (!IsApplicationDataValid())
+            {
+                MessageBox.Show("Please fix validation errors before saving.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             try
             {
+                // Get the selected license class ID
+                if (!(comboBoxLicenseClass.SelectedValue is int licenseClassID))
+                {
+                    MessageBox.Show("Invalid license class selection.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                
+                // Check if person is eligible for this license
+                if (!clsApplicationsBusinessLayer.IsPersonEligibleForLicense(_selectedPersonID, licenseClassID))
+                {
+                    // Check what the current status is to show a more specific message
+                    enAppStatus status = clsApplicationsBusinessLayer.GetApplicationStatus(_selectedPersonID, licenseClassID);
+                    
+                    if (status == enAppStatus.New)
+                    {
+                        MessageBox.Show("This person already has a pending application for this license class.", 
+                            "Pending Application", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else if (status == enAppStatus.Approved || status == enAppStatus.PassedAllTests || status == enAppStatus.LicenseIssued)
+                    {
+                        MessageBox.Show("This person already has an approved application or license for this class.", 
+                            "License Already Issued", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show("This person is not eligible to apply for this license class.", 
+                            "Not Eligible", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    return;
+                }
+                
+                // Parse application fees
+                decimal applicationFees = decimal.Parse(txtApplicationFees.Text.Replace("$", "").Trim());
+                
                 // Prepare Application EventArgs
                 clsNewApplicationEventArgs applicationEventArgs = new clsNewApplicationEventArgs
                 {
                     ApplicantPersonID = _selectedPersonID,
-                    ApplicationCreatedDate = DateTime.Now,
-                    ApplicationTypeID = comboBoxLicenseClass.SelectedIndex + 1,
+                    ApplicationCreatedDate = datePickerApplicationDate.Value,
+                    ApplicationTypeID = licenseClassID,  // Use the actual license class ID selected
                     ApplicationStatus = enAppStatus.New,
                     ApplicationModifiedDate = DateTime.Now,
-                    PaidFees = decimal.Parse(txtApplicationFees.Text.Replace("$", "").Trim()),
+                    PaidFees = applicationFees,
                     CreatedByUserID = clsCurrentSession.LoggedInUserID
                 };
 
@@ -267,11 +354,19 @@ namespace DVLD
                     MessageBox.Show("Failed to save the application.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            catch (InvalidOperationException ex)
+            {
+                MessageBox.Show($"{ex.Message}", "Application Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error saving application: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        
+        private void comboBoxLicenseClass_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            errorProvider.SetError(comboBoxLicenseClass, "");
+        }
     }
 }

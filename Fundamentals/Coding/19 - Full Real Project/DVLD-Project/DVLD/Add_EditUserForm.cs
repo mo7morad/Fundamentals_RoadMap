@@ -379,27 +379,22 @@ namespace DVLD
         {
             string username = txtUsername.Text.Trim();
             
-            if (string.IsNullOrWhiteSpace(username))
+            if (!clsUsersBusinessLayer.ValidateUsername(username, 
+                _formMode == enFormMode.Update && _selectedUser != null ? _selectedUser.UserID : -1))
             {
-                errorProviderLogin.SetError(txtUsername, "Username is required.");
-                return false;
-            }
-            
-            if (username.Length < 3)
-            {
-                errorProviderLogin.SetError(txtUsername, "Username must be at least 3 characters.");
-                return false;
-            }
-            
-            // Check if username exists (only in Add mode or if username changed in Update mode)
-            if (_formMode == enFormMode.AddNew || 
-                (_formMode == enFormMode.Update && _selectedUser != null && _selectedUser.UserName != username))
-            {
-                if (clsUsersBusinessLayer.IsUserNameExists(username))
+                if (string.IsNullOrWhiteSpace(username))
+                {
+                    errorProviderLogin.SetError(txtUsername, "Username is required.");
+                }
+                else if (username.Length < 3)
+                {
+                    errorProviderLogin.SetError(txtUsername, "Username must be at least 3 characters.");
+                }
+                else
                 {
                     errorProviderLogin.SetError(txtUsername, "Username already exists. Please choose a different username.");
-                    return false;
                 }
+                return false;
             }
             
             return true;
@@ -409,24 +404,18 @@ namespace DVLD
         {
             string password = txtPassword.Text;
             
-            if (string.IsNullOrWhiteSpace(password))
+            if (!clsUsersBusinessLayer.ValidatePassword(password))
             {
-                errorProviderLogin.SetError(txtPassword, "Password is required.");
+                if (string.IsNullOrWhiteSpace(password))
+                {
+                    errorProviderLogin.SetError(txtPassword, "Password is required.");
+                }
+                else
+                {
+                    errorProviderLogin.SetError(txtPassword, "Password must be at least 6 characters.");
+                }
                 return false;
             }
-            
-            if (password.Length < 6)
-            {
-                errorProviderLogin.SetError(txtPassword, "Password must be at least 6 characters.");
-                return false;
-            }
-
-            // Password complexity check - uncomment if needed
-            //if (!Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$"))
-            //{
-            //    errorProviderLogin.SetError(txtPassword, "Password must contain at least one uppercase letter, one lowercase letter, and one number.");
-            //    return false;
-            //}
             
             // If confirm password is already filled, check if they match
             if (!string.IsNullOrEmpty(txtConfirmPassword.Text) && password != txtConfirmPassword.Text)

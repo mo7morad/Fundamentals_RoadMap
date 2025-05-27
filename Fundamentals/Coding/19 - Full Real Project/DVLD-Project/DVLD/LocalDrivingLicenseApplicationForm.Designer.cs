@@ -710,6 +710,7 @@ namespace DVLD
             this.comboBoxLicenseClass.Name = "comboBoxLicenseClass";
             this.comboBoxLicenseClass.Size = new System.Drawing.Size(396, 23);
             this.comboBoxLicenseClass.TabIndex = 1;
+            this.comboBoxLicenseClass.SelectedIndexChanged += new System.EventHandler(this.comboBoxLicenseClass_SelectedIndexChanged);
             // 
             // datePickerApplicationDate
             // 

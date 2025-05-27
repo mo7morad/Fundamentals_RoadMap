@@ -45,39 +45,26 @@ namespace DVLD
 
         private bool UserValidation(string userName, string password)
         {
-            // if the username or password are empty, return false
-            if (string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))
+            bool isAuthenticated = clsUsersBusinessLayer.AuthenticateUser(userName, password);
+            
+            if (!isAuthenticated)
             {
-                return false;
-            }
-
-            // Check if the user exists in the database
-            bool isUserExists = clsUsersBusinessLayer.IsUserNameExists(userName);
-            if (!isUserExists)
-            {
-                return false;
-            }
-
-            // if user exists, check the status (active or not).
-            clsUser user = clsUsersBusinessLayer.GetUserByUserName(userName);
-            if (user != null)
-            {
-                if (user.IsActive == false)
+                // Only show message if username exists but authentication failed (wrong password or inactive)
+                if (clsUsersBusinessLayer.IsUserNameExists(userName))
                 {
-                    MessageBox.Show("User is inactive.\n Please contact support.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return false;
-                }
-                if(user.Password == password)
-                {
-                    return true;
-                }
-                else
-                {
-                    MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return false;
+                    clsUser user = clsUsersBusinessLayer.GetUserByUserName(userName);
+                    if (user != null && !user.IsActive)
+                    {
+                        MessageBox.Show("User is inactive.\n Please contact support.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
-            return false;
+            
+            return isAuthenticated;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -87,6 +74,7 @@ namespace DVLD
                 MessageBox.Show("Please enter both username and password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            
             if (UserValidation(txtUsername.Text, txtPassword.Text))
             {
                 // Authentication successful
@@ -103,34 +91,18 @@ namespace DVLD
 
         private void LoginScreenForm_Load(object sender, EventArgs e)
         {
-            // Check if the credentials file exists
-            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DVLD", "credentials.dat");
-            if (File.Exists(filePath))
+            var credentials = clsUsersBusinessLayer.LoadCredentials();
+            if (credentials.username != null && credentials.password != null)
             {
-                byte[] encryptedData = File.ReadAllBytes(filePath);
-                byte[] decryptedData = ProtectedData.Unprotect(encryptedData, null, DataProtectionScope.CurrentUser);
-                string credentials = Encoding.UTF8.GetString(decryptedData);
-                string[] parts = credentials.Split(':');
-                if (parts.Length == 2)
-                {
-                    txtUsername.Text = parts[0];
-                    txtPassword.Text = parts[1];
-                }
+                txtUsername.Text = credentials.username;
+                txtPassword.Text = credentials.password;
             }
         }
         private void chkRememberMe_CheckedChanged(object sender, EventArgs e)
         {
             if (chkRememberMe.Checked)
             {
-                string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DVLD", "credentials.dat");
-                string username = txtUsername.Text.ToLower();
-                string password = txtPassword.Text;
-
-                string combinedCredentials = $"{username}:{password}";
-                byte[] data = Encoding.UTF8.GetBytes(combinedCredentials);
-                byte[] encrypted = ProtectedData.Protect(data, null, DataProtectionScope.CurrentUser);
-
-                File.WriteAllBytes(filePath, encrypted);
+                clsUsersBusinessLayer.SaveCredentials(txtUsername.Text, txtPassword.Text);
             }
         }
     }

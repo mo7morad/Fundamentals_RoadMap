@@ -72,55 +72,37 @@ namespace DVLD
 
         private bool ValidateNationalNo()
         {
-            if (string.IsNullOrWhiteSpace(NationalNumber))
+            if (!clsPersonService.ValidateNationalNo(NationalNumber, int.TryParse(PersonID, out int personId) ? personId : -1))
             {
-                ShowValidationError("National Number is required.", txtNationalNumber);
-                return false;
-            }
-
-            if (_FormMode == enFormMode.AddNew)
-            {
-                if (clsPeopleBusinessLayer.IsNationalNoExists(NationalNumber))
-                {
+                if (string.IsNullOrWhiteSpace(NationalNumber))
+                    ShowValidationError("National Number is required.", txtNationalNumber);
+                else
                     ShowValidationError("This National Number already exists.", txtNationalNumber);
-                    return false;
-                }
-            }
-            else if (_FormMode == enFormMode.Update)
-            {
-                // Get the current person from DB
-                int.TryParse(PersonID, out int personId);
-                clsPerson currentPerson = clsPeopleBusinessLayer.GetPersonByID(personId);
-
-                // If !(national number of the person the same as in the GUI field)
-                if (currentPerson != null && !string.Equals(currentPerson.NationalNo, NationalNumber, StringComparison.OrdinalIgnoreCase))
-                {
-                    if (clsPeopleBusinessLayer.IsNationalNoExists(NationalNumber))
-                    {
-                        ShowValidationError("This National Number already exists.", txtNationalNumber);
-                        return false;
-                    }
-                }
+                return false;
             }
             return true;
         }
 
-
         private bool ValidateName()
         {
-            if (string.IsNullOrWhiteSpace(FirstName)) return ShowValidationError("First Name is required.", txtFirstName);
-            if (string.IsNullOrWhiteSpace(SecondName)) return ShowValidationError("Second Name is required.", txtSecondName);
-            if (string.IsNullOrWhiteSpace(ThirdName)) return ShowValidationError("Third Name is required.", txtThirdName);
-            if (string.IsNullOrWhiteSpace(LastName)) return ShowValidationError("Last Name is required.", txtLastName);
+            if (!clsPersonService.ValidateName(FirstName, SecondName, ThirdName, LastName))
+            {
+                if (string.IsNullOrWhiteSpace(FirstName)) 
+                    return ShowValidationError("First Name is required.", txtFirstName);
+                if (string.IsNullOrWhiteSpace(SecondName)) 
+                    return ShowValidationError("Second Name is required.", txtSecondName);
+                if (string.IsNullOrWhiteSpace(ThirdName)) 
+                    return ShowValidationError("Third Name is required.", txtThirdName);
+                if (string.IsNullOrWhiteSpace(LastName))
+                    return ShowValidationError("Last Name is required.", txtLastName);
+                return false;
+            }
             return true;
         }
 
         private bool ValidateEmail()
         {
-            if (string.IsNullOrWhiteSpace(Email)) return true;
-
-            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
-            if (!Regex.IsMatch(Email, pattern))
+            if (!clsPersonService.ValidateEmail(Email))
             {
                 ShowValidationError("Invalid email format. Example: user@example.com", txtEmail);
                 return false;
@@ -130,8 +112,13 @@ namespace DVLD
 
         private bool ValidatePhone()
         {
-            if (string.IsNullOrWhiteSpace(Phone)) return ShowValidationError("Phone number is required.", txtPhone);
-            if (Phone.Length < 10) return ShowValidationError("Phone number must be at least 10 digits long.", txtPhone);
+            if (!clsPersonService.ValidatePhone(Phone))
+            {
+                if (string.IsNullOrWhiteSpace(Phone))
+                    return ShowValidationError("Phone number is required.", txtPhone);
+                else
+                    return ShowValidationError("Phone number must be at least 10 digits long.", txtPhone);
+            }
             return true;
         }
 
@@ -173,24 +160,17 @@ namespace DVLD
         //
         private void SaveUserImage()
         {
-            string sourcePath = ImagePath;
-            string extension = Path.GetExtension(sourcePath);
-            string nationalID = NationalNumber;
-            string targetDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DVLD", "peoplepictures");
-            Directory.CreateDirectory(targetDir);
-            string destPath = Path.Combine(targetDir, nationalID + extension);
-
-            if (sourcePath == destPath)
+            if (string.IsNullOrEmpty(ImagePath))
                 return;
-
-            try
+                
+            string newImagePath = clsPersonService.SavePersonImage(ImagePath, NationalNumber);
+            if (!string.IsNullOrEmpty(newImagePath))
             {
-                File.Copy(sourcePath, destPath, true);
-                pbUserImage.ImageLocation = destPath;
+                pbUserImage.ImageLocation = newImagePath;
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("Failed to copy image: " + ex.Message);
+                MessageBox.Show("Failed to save image.", "Image Save Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         
@@ -202,12 +182,22 @@ namespace DVLD
                 lblRemoveImage.Visible = false;
                 return;
             }
+            
             try
             {
-                Image image = Image.FromFile(filePath);
-                pbUserImage.Image = image;
-                pbUserImage.ImageLocation = filePath;
-                lblRemoveImage.Visible = true;
+                Image image = clsPersonService.GetPersonImage(filePath, Gender);
+                if (image != null)
+                {
+                    pbUserImage.Image = image;
+                    pbUserImage.ImageLocation = filePath;
+                    lblRemoveImage.Visible = true;
+                }
+                else
+                {
+                    SetDefaultImageByGender();
+                    pbUserImage.ImageLocation = null;
+                    lblRemoveImage.Visible = false;
+                }
             }
             catch
             {
@@ -237,12 +227,12 @@ namespace DVLD
 
         private void txtName_KeyPress(object sender, KeyPressEventArgs e)
         {
-            e.Handled = char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+            e.Handled = !clsFormDataService.IsAlphabeticKey(e.KeyChar);
         }
 
         private void txtPhone_KeyPress(object sender, KeyPressEventArgs e)
         {
-            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+            e.Handled = !clsFormDataService.IsNumericKey(e.KeyChar, false);
         }
 
         //

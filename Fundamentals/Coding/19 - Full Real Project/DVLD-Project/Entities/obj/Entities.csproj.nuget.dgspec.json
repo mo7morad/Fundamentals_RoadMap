@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Entities.csproj": {}
+    "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "d:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Entities.csproj": {
+    "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "d:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Morad\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\obj\\",
+        "outputPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

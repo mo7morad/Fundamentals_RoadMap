@@ -19,9 +19,11 @@ namespace BusinessLayer
             if (e == null)
                 throw new ArgumentNullException(nameof(e), "Event args cannot be empty.");
 
-            enAppStatus status = clsApplicationsDataAccess.GetApplicationStatus(e.ApplicantPersonID, e.ApplicationTypeID);
-            if (status == enAppStatus.New || status != enAppStatus.Approved)
-                throw new InvalidOperationException("Cannot add a new application when there is already an application for this person.");
+            // Check if person already has an application for this license class
+            if (HasPendingApplication(e.ApplicantPersonID, e.ApplicationTypeID))
+            {
+                throw new InvalidOperationException("Cannot add a new application when there is already a pending application for this person.");
+            }
 
             return clsApplicationsDataAccess.AddNewApplication(e);
         }
@@ -49,5 +51,26 @@ namespace BusinessLayer
             return clsApplicationsDataAccess.CancelApplication(applicationID);
         }
 
+        public static bool IsPersonEligibleForLicense(int personID, int licenseClassID)
+        {
+            if (personID <= 0)
+                throw new ArgumentOutOfRangeException(nameof(personID), "Person ID must be greater than zero.");
+            
+            // Check person minimum age
+            clsPerson person = clsPeopleBusinessLayer.GetPersonByID(personID);
+            if (person == null)
+                return false;
+                
+            // Check if they already have a pending application
+            if (HasPendingApplication(personID, licenseClassID))
+                return false;
+                
+            // Check application status
+            enAppStatus status = GetApplicationStatus(personID, licenseClassID);
+            
+            // If there's no application or it was canceled/rejected, they can apply
+            return status == enAppStatus.NotFound || 
+                   status == enAppStatus.Canceled;
+        }
     }
 }
