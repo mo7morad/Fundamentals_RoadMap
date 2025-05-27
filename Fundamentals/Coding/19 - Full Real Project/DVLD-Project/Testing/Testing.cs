@@ -9,7 +9,6 @@ namespace ConsoleTesting
     {
         static void Main(string[] args)
         {
-            
         }
     }
 }

@@ -3,7 +3,10 @@
   "WorkspaceRootPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\managelocaldrivinglicenseapplicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F78584-7CA6-4023-8B78-088C3F0D1933}|..\\Testing\\ConsoleTesting.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\testing\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\managelocaldrivinglicenseapplicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C540EC9-516C-4367-906A-61BE451341AE}|GUI.csproj|solutionrelative:managelocaldrivinglicenseapplicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +37,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Testing.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Testing\\Testing.cs",
+              "RelativeDocumentMoniker": "..\\Testing\\Testing.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Testing\\Testing.cs",
+              "RelativeToolTip": "..\\Testing\\Testing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T16:08:46.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "clsApplicationsBusinessLayer.cs",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\BusinessLayer\\clsApplicationsBusinessLayer.cs",
               "RelativeDocumentMoniker": "..\\BusinessLayer\\clsApplicationsBusinessLayer.cs",
@@ -42,12 +58,11 @@
               "RelativeToolTip": "..\\BusinessLayer\\clsApplicationsBusinessLayer.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAA6wDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:36:13.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T08:36:13.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "clsApplicationsDataAccess.cs",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsApplicationsDataAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsApplicationsDataAccess.cs",
@@ -55,12 +70,11 @@
               "RelativeToolTip": "..\\DataAccessLayer\\clsApplicationsDataAccess.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAmwPUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:34:11.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T08:34:11.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "clsApplicationTypesDataAccess.cs",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
@@ -68,25 +82,23 @@
               "RelativeToolTip": "..\\DataAccessLayer\\clsApplicationTypesDataAccess.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:33:47.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T08:33:47.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ManageLocalDrivingLicenseApplicationForm.cs",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.cs",
               "RelativeDocumentMoniker": "ManageLocalDrivingLicenseApplicationForm.cs",
               "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\ManageLocalDrivingLicenseApplicationForm.cs",
               "RelativeToolTip": "ManageLocalDrivingLicenseApplicationForm.cs",
-              "ViewState": "AgIAAHYBAAAAAAAAAADwvzsBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIwBAAAAAAAAAAA2wDsBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:33:21.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T08:33:21.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "enAppStatus.cs",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\Entities\\Enums\\enAppStatus.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Enums\\enAppStatus.cs",
@@ -94,8 +106,7 @@
               "RelativeToolTip": "..\\Entities\\Enums\\enAppStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:33:12.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T08:33:12.889Z"
             }
           ]
         }
