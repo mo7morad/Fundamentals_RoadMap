@@ -51,13 +51,15 @@
   <ItemGroup>
     <Compile Include="clsApplicationsBusinessLayer.cs" />
     <Compile Include="clsApplicationTypesBusinessLayer.cs" />
+    <Compile Include="clsCountriesBusinessLayer.cs" />
+    <Compile Include="clsFormDataService.cs" />
+    <Compile Include="clsFormValidationService.cs" />
+    <Compile Include="clsLicenseApplicationService.cs" />
+    <Compile Include="clsLicensesBusinessLayer.cs" />
+    <Compile Include="clsPeopleBusinessLayer.cs" />
+    <Compile Include="clsPersonService.cs" />
     <Compile Include="clsTestTypesBusinessLayer.cs" />
     <Compile Include="clsUsersBusinessLayer.cs" />
-    <Compile Include="clsPersonService.cs" />
-    <Compile Include="clsCountriesBusinessLayer.cs" />
-    <Compile Include="clsPeopleBusinessLayer.cs" />
-    <Compile Include="clsLicensesBusinessLayer.cs" />
-    <Compile Include="clsFormDataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

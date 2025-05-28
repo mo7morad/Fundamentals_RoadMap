@@ -32,7 +32,7 @@ namespace DVLD
             datePickerApplicationDate.Value = DateTime.Now;
             
             // Get application fees from database
-            decimal applicationFees = clsApplicationTypesBusinessLayer.GetApplicationFeesByID(1);
+            decimal applicationFees = clsLicenseApplicationService.GetApplicationFeesByID(1);
             txtApplicationFees.Text = applicationFees.ToString("N2") + "$";
             
             // Populate License Classes Combo Box
@@ -41,10 +41,8 @@ namespace DVLD
 
         private void LoadLicenseClasses()
         {
-            // Populate License Classes Combo Box
-            dtLicenseClasses = clsLicensesBusinessLayer.GetAllLicenseClasses();
-            
-            if (dtLicenseClasses != null && dtLicenseClasses.Rows.Count > 0)
+            // Populate License Classes Combo Box using the business layer
+            if (clsLicenseApplicationService.LoadLicenseClasses(ref dtLicenseClasses))
             {
                 dvLicenseClasses = new DataView(dtLicenseClasses);
                 comboBoxLicenseClass.DataSource = dvLicenseClasses;
@@ -72,7 +70,7 @@ namespace DVLD
         private void btnFindPerson_Click(object sender, EventArgs e)
         {
             string findValue = txtFindValue.Text.Trim();
-            if (string.IsNullOrEmpty(findValue))
+            if (clsFormValidationService.IsStringEmpty(findValue))
             {
                 MessageBox.Show("Please enter a value to search for.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -128,19 +126,15 @@ namespace DVLD
             lblPhone.Text = person.Phone;
             lblCountry.Text = person.Country?.CountryName ?? "[Unknown]";
 
-            if (!string.IsNullOrEmpty(person.ImagePath) && System.IO.File.Exists(person.ImagePath))
+            // Use the person service to load the image
+            Image personImage = clsPersonService.LoadPersonImage(person);
+            if (personImage != null)
             {
-                try
-                {
-                    pictureBoxPerson.Image = Image.FromFile(person.ImagePath);
-                }
-                catch
-                {
-                    pictureBoxPerson.Image = person.Gender ? Properties.Resources.DefaultWoman : Properties.Resources.DefaultMan;
-                }
+                pictureBoxPerson.Image = personImage;
             }
             else
             {
+                // Use default image based on gender
                 pictureBoxPerson.Image = person.Gender ? Properties.Resources.DefaultWoman : Properties.Resources.DefaultMan;
             }
         }
@@ -177,7 +171,7 @@ namespace DVLD
 
         private void linkLabelEditPerson_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            if (_selectedPersonID <= 0)
+            if (!clsLicenseApplicationService.IsPersonSelected(_selectedPersonID))
             {
                 MessageBox.Show("Please select a person first.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -229,7 +223,7 @@ namespace DVLD
 
         private void linkLabelApplicationInfo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            if (_selectedPersonID <= 0)
+            if (!clsLicenseApplicationService.IsPersonSelected(_selectedPersonID))
             {
                 MessageBox.Show("Please select a person first.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -262,15 +256,16 @@ namespace DVLD
             bool isValid = true;
             
             // Check if a license class is selected
-            if (comboBoxLicenseClass.SelectedIndex == -1)
+            if (!clsLicenseApplicationService.IsLicenseClassSelected(
+                comboBoxLicenseClass.SelectedIndex != -1 ? 
+                Convert.ToInt32(comboBoxLicenseClass.SelectedValue) : -1))
             {
                 errorProvider.SetError(comboBoxLicenseClass, "Please select a license class.");
                 isValid = false;
             }
             
             // Make sure fees are valid
-            string feeText = txtApplicationFees.Text.Replace("$", "").Trim();
-            if (!decimal.TryParse(feeText, out decimal fees) || fees <= 0)
+            if (!clsLicenseApplicationService.ParseApplicationFees(txtApplicationFees.Text, out _))
             {
                 errorProvider.SetError(txtApplicationFees, "Application fees must be a valid positive number.");
                 isValid = false;
@@ -281,7 +276,7 @@ namespace DVLD
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (_selectedPersonID <= 0)
+            if (!clsLicenseApplicationService.IsPersonSelected(_selectedPersonID))
             {
                 MessageBox.Show("Please select a person first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -302,47 +297,38 @@ namespace DVLD
                     return;
                 }
                 
-                // Check if person is eligible for this license
-                if (!clsApplicationsBusinessLayer.IsPersonEligibleForLicense(_selectedPersonID, licenseClassID))
+                // Check person eligibility for license
+                string eligibilityErrorMessage;
+                if (!clsLicenseApplicationService.IsPersonEligibleForLicense(_selectedPersonID, licenseClassID, out eligibilityErrorMessage))
                 {
-                    // Check what the current status is to show a more specific message
-                    enAppStatus status = clsApplicationsBusinessLayer.GetApplicationStatus(_selectedPersonID, licenseClassID);
-                    
-                    if (status == enAppStatus.New)
-                    {
-                        MessageBox.Show("This person already has a pending application for this license class.", 
-                            "Pending Application", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    }
-                    else if (status == enAppStatus.Approved || status == enAppStatus.PassedAllTests || status == enAppStatus.LicenseIssued)
-                    {
-                        MessageBox.Show("This person already has an approved application or license for this class.", 
-                            "License Already Issued", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    }
-                    else
-                    {
-                        MessageBox.Show("This person is not eligible to apply for this license class.", 
-                            "Not Eligible", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    }
+                    MessageBox.Show(eligibilityErrorMessage, "Not Eligible", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
                 
                 // Parse application fees
-                decimal applicationFees = decimal.Parse(txtApplicationFees.Text.Replace("$", "").Trim());
+                decimal applicationFees;
+                if (!clsLicenseApplicationService.ParseApplicationFees(txtApplicationFees.Text, out applicationFees))
+                {
+                    MessageBox.Show("Invalid application fees.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
                 
                 // Prepare Application EventArgs
                 clsNewApplicationEventArgs applicationEventArgs = new clsNewApplicationEventArgs
                 {
                     ApplicantPersonID = _selectedPersonID,
                     ApplicationCreatedDate = datePickerApplicationDate.Value,
-                    ApplicationTypeID = licenseClassID,  // Use the actual license class ID selected
+                    ApplicationTypeID = licenseClassID,
                     ApplicationStatus = enAppStatus.New,
                     ApplicationModifiedDate = DateTime.Now,
                     PaidFees = applicationFees,
                     CreatedByUserID = clsCurrentSession.LoggedInUserID
                 };
 
-                // Save the application
-                int addedApplicationID = clsApplicationsBusinessLayer.AddNewApplication(applicationEventArgs);
+                // Save the application using the business layer
+                string errorMessage;
+                int addedApplicationID = clsLicenseApplicationService.CreateNewLicenseApplication(applicationEventArgs, out errorMessage);
+                
                 if (addedApplicationID > 0)
                 {
                     MessageBox.Show($"License application added successfully with Application ID: {addedApplicationID}!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -351,12 +337,9 @@ namespace DVLD
                 }
                 else
                 {
-                    MessageBox.Show("Failed to save the application.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(!string.IsNullOrEmpty(errorMessage) ? errorMessage : "Failed to save the application.", 
+                        "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
-            catch (InvalidOperationException ex)
-            {
-                MessageBox.Show($"{ex.Message}", "Application Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             catch (Exception ex)
             {

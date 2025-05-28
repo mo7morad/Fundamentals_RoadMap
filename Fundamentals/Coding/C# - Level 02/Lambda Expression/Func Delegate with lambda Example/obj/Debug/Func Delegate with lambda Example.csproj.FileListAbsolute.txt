@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\03 Func Delegate\Project\Func Delegate with lambda Example\bin\Debug\Func Delegate Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\03 Func Delegate\Project\Func Delegate with lambda Example\bin\Debug\Func Delegate Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\03 Func Delegate\Project\Func Delegate with lambda Example\bin\Debug\Func Delegate Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\03 Func Delegate\Project\Func Delegate with lambda Example\obj\Debug\Func Delegate with lambda Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\03 Func Delegate\Project\Func Delegate with lambda Example\obj\Debug\Func Delegate with lambda Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\03 Func Delegate\Project\Func Delegate with lambda Example\obj\Debug\Func Delegate with lambda Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\03 Func Delegate\Project\Func Delegate with lambda Example\obj\Debug\Func Delegate Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\03 Func Delegate\Project\Func Delegate with lambda Example\obj\Debug\Func Delegate Example.pdb

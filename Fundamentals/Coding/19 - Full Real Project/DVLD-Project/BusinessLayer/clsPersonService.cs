@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
+using System.Drawing;
 using Entities;
 
 namespace BusinessLayer
@@ -102,7 +103,7 @@ namespace BusinessLayer
             }
         }
         
-        public static System.Drawing.Image GetPersonImage(string imagePath, bool isFemale)
+        public static Image GetPersonImage(string imagePath, bool isFemale)
         {
             if (string.IsNullOrEmpty(imagePath) || !System.IO.File.Exists(imagePath))
             {
@@ -112,13 +113,36 @@ namespace BusinessLayer
             
             try
             {
-                return System.Drawing.Image.FromFile(imagePath);
+                return Image.FromFile(imagePath);
             }
             catch
             {
                 // If loading fails, return null to signal default image
                 return null;
             }
+        }
+        
+        public static Image LoadPersonImage(clsPerson person)
+        {
+            if (person == null)
+                return null;
+                
+            // Try to load image from file path
+            if (!string.IsNullOrEmpty(person.ImagePath) && System.IO.File.Exists(person.ImagePath))
+            {
+                try
+                {
+                    return Image.FromFile(person.ImagePath);
+                }
+                catch
+                {
+                    // Fall back to default image if file loading fails
+                    return null;
+                }
+            }
+            
+            // Return null so UI layer can handle default image
+            return null;
         }
     }
 }
