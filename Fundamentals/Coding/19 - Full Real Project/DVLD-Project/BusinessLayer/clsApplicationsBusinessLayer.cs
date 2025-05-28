@@ -68,7 +68,7 @@ namespace BusinessLayer
             // Check application status
             enAppStatus status = GetApplicationStatus(personID, licenseClassID);
             
-            // If there's no application or it was canceled/rejected, they can apply
+            // If there's no application or it was canceled, they can apply
             return status == enAppStatus.NotFound || 
                    status == enAppStatus.Canceled;
         }
