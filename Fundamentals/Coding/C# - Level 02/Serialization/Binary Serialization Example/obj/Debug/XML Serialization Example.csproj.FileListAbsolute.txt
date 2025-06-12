@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\bin\Debug\XML Serialization Example.exe.config
 C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\bin\Debug\XML Serialization Example.exe
 C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\bin\Debug\XML Serialization Example.pdb
@@ -7,6 +8,16 @@ C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projec
 C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\obj\Debug\XML Serialization Example.csproj.CoreCompileInputs.cache
 C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\obj\Debug\XML Serialization Example.exe
 C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\obj\Debug\XML Serialization Example.pdb
+=======
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\bin\Debug\XML Serialization Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\bin\Debug\XML Serialization Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\bin\Debug\XML Serialization Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\obj\Debug\XML Serialization Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\obj\Debug\XML Serialization Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\obj\Debug\XML Serialization Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\obj\Debug\XML Serialization Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\obj\Debug\XML Serialization Example.pdb
+>>>>>>> d9393c5e0564d28d3f69e74801c6f938d0dbce0e
 =======
 C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\bin\Debug\XML Serialization Example.exe.config
 C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\Projects\XML Serialization Example\bin\Debug\XML Serialization Example.exe
