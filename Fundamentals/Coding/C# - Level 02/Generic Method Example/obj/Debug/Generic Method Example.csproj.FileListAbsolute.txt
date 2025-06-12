@@ -1,0 +1,15 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Method Example\bin\Debug\Generic Method Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Method Example\bin\Debug\Generic Method Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Method Example\bin\Debug\Generic Method Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Method Example\obj\Debug\Generic Method Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Method Example\obj\Debug\Generic Method Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Method Example\obj\Debug\Generic Method Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Method Example\obj\Debug\Generic Method Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Method Example\obj\Debug\Generic Method Example.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Generic Method Example\bin\Debug\Generic Method Example.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Generic Method Example\bin\Debug\Generic Method Example.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Generic Method Example\bin\Debug\Generic Method Example.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Generic Method Example\obj\Debug\Generic Method Example.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Generic Method Example\obj\Debug\Generic Method Example.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Generic Method Example\obj\Debug\Generic Method Example.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Generic Method Example\obj\Debug\Generic Method Example.pdb

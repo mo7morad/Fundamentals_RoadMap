@@ -1,0 +1,14 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\bin\Debug\TestControlLibrary.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\bin\Debug\TestControlLibrary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\bin\Debug\TestControlLibrary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.Form1.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.Properties.Resources.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\bin\Debug\MyFirstControlLibrary.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\bin\Debug\MyFirstControlLibrary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\TestControlLibrary\obj\Debug\TestControlLibrary.csproj.CopyComplete

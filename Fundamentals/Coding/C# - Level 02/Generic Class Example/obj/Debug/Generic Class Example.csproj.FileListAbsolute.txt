@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Class Example\bin\Debug\Generic Class Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Class Example\bin\Debug\Generic Class Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Class Example\bin\Debug\Generic Class Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Class Example\obj\Debug\Generic Class Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Class Example\obj\Debug\Generic Class Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Class Example\obj\Debug\Generic Class Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Class Example\obj\Debug\Generic Class Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\16 Generics\Projects\Generic Class Example\obj\Debug\Generic Class Example.pdb

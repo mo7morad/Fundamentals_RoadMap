@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\MyFirstControlLibrary\bin\Debug\MyFirstControlLibrary.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\MyFirstControlLibrary\bin\Debug\MyFirstControlLibrary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\MyFirstControlLibrary\obj\Debug\MyFirstControlLibrary.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\MyFirstControlLibrary\obj\Debug\MyFirstControlLibrary.UserControl1.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\MyFirstControlLibrary\obj\Debug\MyFirstControlLibrary.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\MyFirstControlLibrary\obj\Debug\MyFirstControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\MyFirstControlLibrary\obj\Debug\MyFirstControlLibrary.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\32 Control Library\MyFirstControlLibrary\obj\Debug\MyFirstControlLibrary.pdb
