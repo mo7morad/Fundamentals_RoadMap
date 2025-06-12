@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Cond Att Trace Example\Cond Att Trace Example\bin\Debug\Cond Att Trace Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Cond Att Trace Example\Cond Att Trace Example\bin\Debug\Cond Att Trace Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Cond Att Trace Example\Cond Att Trace Example\bin\Debug\Cond Att Trace Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Cond Att Trace Example\Cond Att Trace Example\obj\Debug\Cond Att Trace Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Cond Att Trace Example\Cond Att Trace Example\obj\Debug\Cond Att Trace Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Cond Att Trace Example\Cond Att Trace Example\obj\Debug\Cond Att Trace Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Cond Att Trace Example\Cond Att Trace Example\obj\Debug\Cond Att Trace Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Cond Att Trace Example\Cond Att Trace Example\obj\Debug\Cond Att Trace Example.pdb
