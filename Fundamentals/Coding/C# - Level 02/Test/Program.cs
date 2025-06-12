@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using System.Xml.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 
 [Serializable]
@@ -19,24 +19,20 @@ class Program
         Person person = new Person { Name = "Mohammed Abu-Hadhoud", Age = 46 };
 
 
-        // XML serialization
-        XmlSerializer serializer = new XmlSerializer(typeof(Person));
-        using (TextWriter writer = new StreamWriter("person.xml"))
+        // Binary serialization
+        BinaryFormatter formatter = new BinaryFormatter();
+        using (FileStream stream = new FileStream("person.bin", FileMode.Create))
         {
-            serializer.Serialize(writer, person);
+            formatter.Serialize(stream, person);
         }
 
 
         // Deserialize the object back
-        using (TextReader reader = new StreamReader("person.xml"))
+        using (FileStream stream = new FileStream("person.bin", FileMode.Open))
         {
-            Person deserializedPerson = (Person)serializer.Deserialize(reader);
+            Person deserializedPerson = (Person)formatter.Deserialize(stream);
             Console.WriteLine($"Name: {deserializedPerson.Name}, Age: {deserializedPerson.Age}");
-        
             Console.ReadKey();
-
-        
         }
     }
 }
-

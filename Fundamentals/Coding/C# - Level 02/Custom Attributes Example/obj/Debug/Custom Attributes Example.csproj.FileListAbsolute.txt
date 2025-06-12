@@ -1,0 +1,15 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Custom Attributes\Custom Attributes Example\bin\Debug\Custom Attributes Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Custom Attributes\Custom Attributes Example\bin\Debug\Custom Attributes Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Custom Attributes\Custom Attributes Example\bin\Debug\Custom Attributes Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Custom Attributes\Custom Attributes Example\obj\Debug\Custom Attributes Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Custom Attributes\Custom Attributes Example\obj\Debug\Custom Attributes Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Custom Attributes\Custom Attributes Example\obj\Debug\Custom Attributes Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Custom Attributes\Custom Attributes Example\obj\Debug\Custom Attributes Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\12 Attributes\Custom Attributes\Custom Attributes Example\obj\Debug\Custom Attributes Example.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Custom Attributes Example\bin\Debug\Custom Attributes Example.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Custom Attributes Example\bin\Debug\Custom Attributes Example.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Custom Attributes Example\bin\Debug\Custom Attributes Example.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Custom Attributes Example\obj\Debug\Custom Attributes Example.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Custom Attributes Example\obj\Debug\Custom Attributes Example.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Custom Attributes Example\obj\Debug\Custom Attributes Example.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Custom Attributes Example\obj\Debug\Custom Attributes Example.pdb
