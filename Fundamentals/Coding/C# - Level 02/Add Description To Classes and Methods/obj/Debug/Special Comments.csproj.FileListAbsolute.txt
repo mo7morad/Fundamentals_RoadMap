@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\Add Description To Classes and Methods\bin\Debug\Add Description To Classes and Methods.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\Add Description To Classes and Methods\bin\Debug\Add Description To Classes and Methods.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\Add Description To Classes and Methods\bin\Debug\Add Description To Classes and Methods.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\Add Description To Classes and Methods\obj\Debug\Special Comments.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\Add Description To Classes and Methods\obj\Debug\Special Comments.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\Add Description To Classes and Methods\obj\Debug\Special Comments.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\Add Description To Classes and Methods\obj\Debug\Add Description To Classes and Methods.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\Add Description To Classes and Methods\obj\Debug\Add Description To Classes and Methods.pdb

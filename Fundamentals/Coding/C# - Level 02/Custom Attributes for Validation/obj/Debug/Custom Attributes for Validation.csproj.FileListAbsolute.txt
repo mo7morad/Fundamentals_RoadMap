@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Custom Attributes for Validation\bin\Debug\Custom Attributes for Validation.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Custom Attributes for Validation\bin\Debug\Custom Attributes for Validation.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Custom Attributes for Validation\bin\Debug\Custom Attributes for Validation.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Custom Attributes for Validation\obj\Debug\Custom Attributes for Validation.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Custom Attributes for Validation\obj\Debug\Custom Attributes for Validation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Custom Attributes for Validation\obj\Debug\Custom Attributes for Validation.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Custom Attributes for Validation\obj\Debug\Custom Attributes for Validation.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Custom Attributes for Validation\obj\Debug\Custom Attributes for Validation.pdb
