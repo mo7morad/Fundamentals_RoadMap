@@ -1,7 +1,0 @@
-C:\Users\USER\Dropbox\Personal\Advices\2021\20 C# Level2\05 Events\05 Order Event Example\Project\Order Event Example\bin\Debug\EventArgs.exe.config
-C:\Users\USER\Dropbox\Personal\Advices\2021\20 C# Level2\05 Events\05 Order Event Example\Project\Order Event Example\bin\Debug\EventArgs.exe
-C:\Users\USER\Dropbox\Personal\Advices\2021\20 C# Level2\05 Events\05 Order Event Example\Project\Order Event Example\bin\Debug\EventArgs.pdb
-C:\Users\USER\Dropbox\Personal\Advices\2021\20 C# Level2\05 Events\05 Order Event Example\Project\Order Event Example\obj\Debug\Order Event Example.csproj.AssemblyReference.cache
-C:\Users\USER\Dropbox\Personal\Advices\2021\20 C# Level2\05 Events\05 Order Event Example\Project\Order Event Example\obj\Debug\Order Event Example.csproj.CoreCompileInputs.cache
-C:\Users\USER\Dropbox\Personal\Advices\2021\20 C# Level2\05 Events\05 Order Event Example\Project\Order Event Example\obj\Debug\EventArgs.exe
-C:\Users\USER\Dropbox\Personal\Advices\2021\20 C# Level2\05 Events\05 Order Event Example\Project\Order Event Example\obj\Debug\EventArgs.pdb

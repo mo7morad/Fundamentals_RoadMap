@@ -1,8 +1,0 @@
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\05 Action Delegate with Lambda\Action Delegate With Lambda Expression\bin\Debug\Action Delegate With Lambda Expression.exe.config
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\05 Action Delegate with Lambda\Action Delegate With Lambda Expression\bin\Debug\Action Delegate With Lambda Expression.exe
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\05 Action Delegate with Lambda\Action Delegate With Lambda Expression\bin\Debug\Action Delegate With Lambda Expression.pdb
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\05 Action Delegate with Lambda\Action Delegate With Lambda Expression\obj\Debug\Action Delegate With Lambda Expression.csproj.AssemblyReference.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\05 Action Delegate with Lambda\Action Delegate With Lambda Expression\obj\Debug\Action Delegate With Lambda Expression.csproj.SuggestedBindingRedirects.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\05 Action Delegate with Lambda\Action Delegate With Lambda Expression\obj\Debug\Action Delegate With Lambda Expression.csproj.CoreCompileInputs.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\05 Action Delegate with Lambda\Action Delegate With Lambda Expression\obj\Debug\Action Delegate With Lambda Expression.exe
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Delegation\05 Action Delegate with Lambda\Action Delegate With Lambda Expression\obj\Debug\Action Delegate With Lambda Expression.pdb
