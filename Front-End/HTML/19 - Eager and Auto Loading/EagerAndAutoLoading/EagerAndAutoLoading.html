@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Example</title>
+</head>
+<body >
+    <h1>My Gallery of Nature</h1>
+    
+    <!-- Ensure that critical images that appear above the fold are not lazy-loaded, as this could delay their visibility. -->
+
+    <!-- Browser will decide on loading based on network trafic, even if there is no loading="auto" -->
+    <img src="images/Diving4.jpg" alt="Abu-Hadhoud Diving in Sharm" loading="auto"  style="width: 80%;height: auto;">
+   
+    <!-- Images near the top of the page loaded eagerly -->
+    <img src="images/Diving6.jpg" alt="Abu-Hadhoud Diving in Tailand" loading="eager" style="width: 60%;height: auto;">
+
+    
+    <!-- Subsequent images loaded lazily -->
+    <p>Scroll down to see images load as they come into view.</p>
+    <div style="height: 800px;">Scroll down</div>
+   
+    <br>
+    <img src="images/Diving.jpg" alt="Abu-Hadhoud Diving in Sharm" loading="lazy" style="width: 40%;height: auto;">
+    <br>
+    <img src="images/Diving2.jpg" alt="Abu-Hadhoud Diving in Sharm" loading="lazy" style="width: 40%;height: auto;">
+    <br>
+    <img src="images/Diving3.jpg" alt="Abu-Hadhoud Diving in Sharm" loading="lazy" style="width: 40%;height: auto;">
+
+
+    <div style="height: 800px;">Keep scrolling</div>
+    <br>
+    <img src="images/dog.jpg" alt="Dog in the morning" loading="lazy" style="width: 40%;height: auto;">
+    <br>
+    <img src="images/n1.jpg" alt="Nature image" loading="lazy" style="width: 25%;height: auto;">
+    <br>
+    <img src="images/n2.jpg" alt="Nature image" loading="lazy" style="width: 25%;height: auto;">
+    <br>
+    <img src="images/n3.jpg" alt="Nature image" loading="lazy" style="width: 25%;height: auto;">
+    
+    
+    <div style="height: 800px;">Keep scrolling</div>
+    <br>
+    <img src="images/n4.jpg" alt="Nature image" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A1.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A2.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A3.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A4.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A5.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A6.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A7.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A8.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A9.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A10.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+    <img src="images/A11.jpg" alt="With animals" loading="lazy" style="width: 35%;height: auto;">
+</body>
+</html>
