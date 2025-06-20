@@ -2,14 +2,17 @@
 using System;
 using System.Windows.Forms;
 using BusinessLayer;
-using System.IO;
-using System.Security.Cryptography;
-using System.Text;
+using Microsoft.Win32;
 
 namespace DVLD
 {
     public partial class LoginScreenForm : Form
     {
+        // Registry keys and paths
+        private const string RegistryPath = @"Software\DVLD";
+        private const string UsernameKey = "LastUsername";
+        private const string PasswordKey = "LastPassword";
+        private const string RememberMeKey = "RememberMe";
 
         public LoginScreenForm()
         {
@@ -46,7 +49,7 @@ namespace DVLD
         private bool UserValidation(string userName, string password)
         {
             bool isAuthenticated = clsUsersBusinessLayer.AuthenticateUser(userName, password);
-            
+
             if (!isAuthenticated)
             {
                 // Only show message if username exists but authentication failed (wrong password or inactive)
@@ -63,7 +66,7 @@ namespace DVLD
                     }
                 }
             }
-            
+
             return isAuthenticated;
         }
 
@@ -74,9 +77,20 @@ namespace DVLD
                 MessageBox.Show("Please enter both username and password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            
+
             if (UserValidation(txtUsername.Text, txtPassword.Text))
             {
+                // Save credentials if Remember Me is checked
+                if (chkRememberMe.Checked)
+                {
+                    SaveCredentialsToRegistry(txtUsername.Text, txtPassword.Text);
+                }
+                else
+                {
+                    // Clear any saved credentials if not remembering
+                    ClearCredentialsFromRegistry();
+                }
+
                 // Authentication successful
                 string errorMsg = String.Empty;
                 clsCurrentSession.LoggedInUserName = txtUsername.Text.ToLower();
@@ -91,19 +105,116 @@ namespace DVLD
 
         private void LoginScreenForm_Load(object sender, EventArgs e)
         {
-            var credentials = clsUsersBusinessLayer.LoadCredentials();
-            if (credentials.username != null && credentials.password != null)
-            {
-                txtUsername.Text = credentials.username;
-                txtPassword.Text = credentials.password;
-            }
+            LoadCredentialsFromRegistry();
         }
+
         private void chkRememberMe_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkRememberMe.Checked)
+            // If Remember Me is checked and we have credentials, save them
+            if (chkRememberMe.Checked &&
+                !string.IsNullOrEmpty(txtUsername.Text) &&
+                !string.IsNullOrEmpty(txtPassword.Text))
             {
-                clsUsersBusinessLayer.SaveCredentials(txtUsername.Text, txtPassword.Text);
+                SaveCredentialsToRegistry(txtUsername.Text, txtPassword.Text);
+            }
+            else if (!chkRememberMe.Checked)
+            {
+                // Clear saved credentials if unchecked
+                ClearCredentialsFromRegistry();
             }
         }
+
+        #region Registry Methods
+
+        private void SaveCredentialsToRegistry(string username, string password)
+        {
+            try
+            {
+                RegistryKey baseKey = Registry.CurrentUser;
+                RegistryKey key = baseKey.CreateSubKey(RegistryPath);
+
+                // Save the credentials
+                key?.SetValue(UsernameKey, username);
+                key?.SetValue(PasswordKey, password);
+                key?.SetValue(RememberMeKey, true);
+
+                key?.Close();
+                baseKey.Close();
+            }
+            catch (Exception ex)
+            {
+                // Handle any registry access errors
+                Console.WriteLine($"Error saving credentials to registry: {ex.Message}");
+            }
+        }
+
+        private void LoadCredentialsFromRegistry()
+        {
+            try
+            {
+                RegistryKey baseKey = Registry.CurrentUser;
+                RegistryKey key = baseKey.OpenSubKey(RegistryPath);
+
+                if (key != null)
+                {
+                    // Check if Remember Me was enabled
+                    object rememberMeValue = key.GetValue(RememberMeKey);
+                    bool rememberMe = rememberMeValue != null && Convert.ToBoolean(rememberMeValue);
+
+                    if (rememberMe)
+                    {
+                        // Get saved username and password
+                        object usernameValue = key.GetValue(UsernameKey);
+                        object passwordValue = key.GetValue(PasswordKey);
+
+                        if (usernameValue != null)
+                            txtUsername.Text = usernameValue.ToString();
+
+                        if (passwordValue != null)
+                            txtPassword.Text = passwordValue.ToString();
+
+                        // Set the checkbox
+                        chkRememberMe.Checked = true;
+                    }
+
+                    key.Close();
+                }
+
+                baseKey.Close();
+            }
+            catch (Exception ex)
+            {
+                // Handle any registry access errors
+                Console.WriteLine($"Error loading credentials from registry: {ex.Message}");
+            }
+        }
+
+        private void ClearCredentialsFromRegistry()
+        {
+            try
+            {
+                RegistryKey baseKey = Registry.CurrentUser;
+                RegistryKey key = baseKey.OpenSubKey(RegistryPath, true);
+
+                if (key != null)
+                {
+                    // Delete the values (not the key itself)
+                    key.DeleteValue(UsernameKey, false);
+                    key.DeleteValue(PasswordKey, false);
+                    key.SetValue(RememberMeKey, false);
+
+                    key.Close();
+                }
+
+                baseKey.Close();
+            }
+            catch (Exception ex)
+            {
+                // Handle any registry access errors
+                Console.WriteLine($"Error clearing credentials from registry: {ex.Message}");
+            }
+        }
+
+        #endregion
     }
 }

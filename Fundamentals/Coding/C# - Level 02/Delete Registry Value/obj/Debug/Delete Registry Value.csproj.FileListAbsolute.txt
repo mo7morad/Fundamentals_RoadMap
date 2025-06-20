@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\05 Delete Value form Registry\Delete Registry Value\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\05 Delete Value form Registry\Delete Registry Value\bin\Debug\ConsoleApp1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\05 Delete Value form Registry\Delete Registry Value\bin\Debug\ConsoleApp1.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\05 Delete Value form Registry\Delete Registry Value\obj\Debug\Delete Registry Value.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\05 Delete Value form Registry\Delete Registry Value\obj\Debug\Delete Registry Value.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\05 Delete Value form Registry\Delete Registry Value\obj\Debug\Delete Registry Value.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\05 Delete Value form Registry\Delete Registry Value\obj\Debug\ConsoleApp1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\05 Delete Value form Registry\Delete Registry Value\obj\Debug\ConsoleApp1.pdb

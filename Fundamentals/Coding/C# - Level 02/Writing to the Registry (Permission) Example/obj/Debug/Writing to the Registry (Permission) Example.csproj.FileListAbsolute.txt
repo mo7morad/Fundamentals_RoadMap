@@ -1,0 +1,15 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\04 Get Permission To Update Registry\Writing to the Registry (Permission) Example\bin\Debug\Writing to the Registry Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\04 Get Permission To Update Registry\Writing to the Registry (Permission) Example\bin\Debug\Writing to the Registry Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\04 Get Permission To Update Registry\Writing to the Registry (Permission) Example\bin\Debug\Writing to the Registry Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\04 Get Permission To Update Registry\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry (Permission) Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\04 Get Permission To Update Registry\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry (Permission) Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\04 Get Permission To Update Registry\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry (Permission) Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\04 Get Permission To Update Registry\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\04 Get Permission To Update Registry\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry Example.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Writing to the Registry (Permission) Example\bin\Debug\Writing to the Registry Example.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Writing to the Registry (Permission) Example\bin\Debug\Writing to the Registry Example.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Writing to the Registry (Permission) Example\bin\Debug\Writing to the Registry Example.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry (Permission) Example.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry (Permission) Example.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry Example.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\Writing to the Registry (Permission) Example\obj\Debug\Writing to the Registry Example.pdb

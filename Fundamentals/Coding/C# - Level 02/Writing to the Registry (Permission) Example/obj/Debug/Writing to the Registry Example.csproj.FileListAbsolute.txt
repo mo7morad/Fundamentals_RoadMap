@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example\bin\Debug\Writing to the Registry Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example\bin\Debug\Writing to the Registry Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example\bin\Debug\Writing to the Registry Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example\obj\Debug\Writing to the Registry Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example\obj\Debug\Writing to the Registry Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example\obj\Debug\Writing to the Registry Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example\obj\Debug\Writing to the Registry Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example\obj\Debug\Writing to the Registry Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example  with permissions\bin\Debug\Writing to the Registry Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example  with permissions\bin\Debug\Writing to the Registry Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example  with permissions\bin\Debug\Writing to the Registry Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example  with permissions\obj\Debug\Writing to the Registry Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example  with permissions\obj\Debug\Writing to the Registry Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example  with permissions\obj\Debug\Writing to the Registry Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example  with permissions\obj\Debug\Writing to the Registry Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\17 Windows Registry\Projects\Writing to the Registry Example  with permissions\obj\Debug\Writing to the Registry Example.pdb

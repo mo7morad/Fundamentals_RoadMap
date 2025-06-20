@@ -54,7 +54,7 @@ namespace BusinessLayer
         public static bool DeleteUser(int userID, ref string errorMessage)
         {
             return clsUsersDataAccess.DeleteUser(userID, ref errorMessage);
-        } 
+        }
 
         public static bool UpdateUser(clsUser user, ref string errorMessage)
         {
@@ -65,16 +65,16 @@ namespace BusinessLayer
         {
             return clsUsersDataAccess.ChangeUserPassword(userID, newPassword, ref errorMessage);
         }
-        
+
         // Added validation methods from UI layer
         public static bool ValidateUsername(string username, int userId = -1)
         {
             if (string.IsNullOrWhiteSpace(username))
                 return false;
-                
+
             if (username.Length < 3)
                 return false;
-                
+
             // For new user or if username changed for existing user
             if (userId == -1)
             {
@@ -90,15 +90,15 @@ namespace BusinessLayer
                 return true;
             }
         }
-        
+
         public static bool ValidatePassword(string password)
         {
             if (string.IsNullOrWhiteSpace(password))
                 return false;
-                
+
             return password.Length >= 6;
         }
-        
+
         public static bool AuthenticateUser(string username, string password)
         {
             // if the username or password are empty, return false
@@ -117,69 +117,11 @@ namespace BusinessLayer
             clsUser user = GetUserByUserName(username);
             if (user == null)
                 return false;
-                
+
             if (!user.IsActive)
                 return false;
-                
-            return user.Password == password;
-        }
-        
-        // Credentials management methods
-        public static void SaveCredentials(string username, string password)
-        {
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
-                return;
-                
-            try
-            {
-                string filePath = Path.Combine(
-                    Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), 
-                    "DVLD", 
-                    "credentials.dat");
-                    
-                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-                
-                string combinedCredentials = $"{username.ToLower()}:{password}";
-                byte[] data = Encoding.UTF8.GetBytes(combinedCredentials);
-                byte[] encrypted = ProtectedData.Protect(data, null, DataProtectionScope.CurrentUser);
 
-                File.WriteAllBytes(filePath, encrypted);
-            }
-            catch (Exception)
-            {
-                // Handle or log exception as needed
-            }
-        }
-        
-        public static (string username, string password) LoadCredentials()
-        {
-            try
-            {
-                string filePath = Path.Combine(
-                    Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), 
-                    "DVLD", 
-                    "credentials.dat");
-                    
-                if (!File.Exists(filePath))
-                    return (null, null);
-                    
-                byte[] encryptedData = File.ReadAllBytes(filePath);
-                byte[] decryptedData = ProtectedData.Unprotect(encryptedData, null, DataProtectionScope.CurrentUser);
-                string credentials = Encoding.UTF8.GetString(decryptedData);
-                
-                string[] parts = credentials.Split(':');
-                if (parts.Length == 2)
-                {
-                    return (parts[0], parts[1]);
-                }
-                
-                return (null, null);
-            }
-            catch (Exception)
-            {
-                // Handle or log exception as needed
-                return (null, null);
-            }
+            return user.Password == password;
         }
     }
 }
