@@ -245,5 +245,36 @@ namespace DataAccessLayer
                 throw new Exception("An error occurred: " + ex.Message);
             }
         }
+
+        public static DataTable GetApplicationByApplicationID(int applicationID)
+        {
+            DataTable dtApplication = new DataTable();
+            try
+            {
+                string query = @"SELECT * FROM Applications WHERE ApplicationID = @AppID";
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@AppID", applicationID);
+                        connection.Open();
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                                dtApplication.Load(reader);
+                        }
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Application Doesn't Exist: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred: " + ex.Message);
+            }
+            return dtApplication;
+        }
     }
 }
