@@ -68,12 +68,15 @@ namespace DVLD
             this.lblDrivingLicenseIDVal = new System.Windows.Forms.Label();
             this.lblPassedTestsVal = new System.Windows.Forms.Label();
             this.lblAppliedLicenseVal = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblDLAppIDCaption = new System.Windows.Forms.Label();
             this.lblDLAppIDValue = new System.Windows.Forms.Label();
             this.lblAppliedForLicenseCaption = new System.Windows.Forms.Label();
+            this.pbLicenseClass = new System.Windows.Forms.PictureBox();
             this.lblLicenseClassValue = new System.Windows.Forms.Label();
             this.linkShowLicenseInfo = new System.Windows.Forms.LinkLabel();
             this.lblPassedTestsCaption = new System.Windows.Forms.Label();
+            this.pbPassedTests = new System.Windows.Forms.PictureBox();
             this.lblPassedTestsValue = new System.Windows.Forms.Label();
             this.groupBoxBasicInfo = new System.Windows.Forms.GroupBox();
             this.lblStatusDateVal = new System.Windows.Forms.Label();
@@ -84,15 +87,23 @@ namespace DVLD
             this.lblApplicantVal = new System.Windows.Forms.Label();
             this.lblTypeVal = new System.Windows.Forms.Label();
             this.lblPersonIDValue = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblPersonID = new System.Windows.Forms.Label();
             this.lblIDValue = new System.Windows.Forms.Label();
             this.lblStatusCaption = new System.Windows.Forms.Label();
+            this.pbStatus = new System.Windows.Forms.PictureBox();
             this.lblStatusValue = new System.Windows.Forms.Label();
             this.lblFeesCaption = new System.Windows.Forms.Label();
+            this.pbFees = new System.Windows.Forms.PictureBox();
             this.lblFeesValue = new System.Windows.Forms.Label();
             this.lblTypeCaption = new System.Windows.Forms.Label();
             this.lblTypeValue = new System.Windows.Forms.Label();
             this.lblApplicantCaption = new System.Windows.Forms.Label();
+            this.pbApplicant = new System.Windows.Forms.PictureBox();
             this.lblApplicantValue = new System.Windows.Forms.Label();
             this.lblDateCaption = new System.Windows.Forms.Label();
             this.lblDateValue = new System.Windows.Forms.Label();
@@ -105,23 +116,11 @@ namespace DVLD
             this.panelAppointments = new System.Windows.Forms.Panel();
             this.lblRecordsCount = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pbLicenseClass = new System.Windows.Forms.PictureBox();
-            this.pbPassedTests = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pbStatus = new System.Windows.Forms.PictureBox();
-            this.pbFees = new System.Windows.Forms.PictureBox();
-            this.pbApplicant = new System.Windows.Forms.PictureBox();
             this.groupBoxAppInfo.SuspendLayout();
-            this.groupBoxBasicInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLicenseClass)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPassedTests)).BeginInit();
+            this.groupBoxBasicInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -130,6 +129,7 @@ namespace DVLD
             ((System.ComponentModel.ISupportInitialize)(this.pbStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFees)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbApplicant)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxAppInfo
@@ -167,7 +167,7 @@ namespace DVLD
             // lblPassedTestsVal
             // 
             this.lblPassedTestsVal.AutoSize = true;
-            this.lblPassedTestsVal.Location = new System.Drawing.Point(388, 64);
+            this.lblPassedTestsVal.Location = new System.Drawing.Point(380, 64);
             this.lblPassedTestsVal.Name = "lblPassedTestsVal";
             this.lblPassedTestsVal.Size = new System.Drawing.Size(22, 15);
             this.lblPassedTestsVal.TabIndex = 33;
@@ -176,11 +176,21 @@ namespace DVLD
             // lblAppliedLicenseVal
             // 
             this.lblAppliedLicenseVal.AutoSize = true;
-            this.lblAppliedLicenseVal.Location = new System.Drawing.Point(388, 25);
+            this.lblAppliedLicenseVal.Location = new System.Drawing.Point(381, 27);
             this.lblAppliedLicenseVal.Name = "lblAppliedLicenseVal";
             this.lblAppliedLicenseVal.Size = new System.Drawing.Size(22, 15);
             this.lblAppliedLicenseVal.TabIndex = 32;
             this.lblAppliedLicenseVal.Text = "???";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DVLD.Properties.Resources.Number_32;
+            this.pictureBox1.Location = new System.Drawing.Point(89, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // lblDLAppIDCaption
             // 
@@ -210,6 +220,16 @@ namespace DVLD
             this.lblAppliedForLicenseCaption.TabIndex = 2;
             this.lblAppliedForLicenseCaption.Text = "Applied For License:";
             // 
+            // pbLicenseClass
+            // 
+            this.pbLicenseClass.Image = global::DVLD.Properties.Resources.New_Driving_License_322;
+            this.pbLicenseClass.Location = new System.Drawing.Point(339, 22);
+            this.pbLicenseClass.Name = "pbLicenseClass";
+            this.pbLicenseClass.Size = new System.Drawing.Size(24, 24);
+            this.pbLicenseClass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLicenseClass.TabIndex = 3;
+            this.pbLicenseClass.TabStop = false;
+            // 
             // lblLicenseClassValue
             // 
             this.lblLicenseClassValue.AutoSize = true;
@@ -237,6 +257,16 @@ namespace DVLD
             this.lblPassedTestsCaption.Size = new System.Drawing.Size(74, 15);
             this.lblPassedTestsCaption.TabIndex = 6;
             this.lblPassedTestsCaption.Text = "Passed Tests:";
+            // 
+            // pbPassedTests
+            // 
+            this.pbPassedTests.Image = global::DVLD.Properties.Resources.PassedTests_32;
+            this.pbPassedTests.Location = new System.Drawing.Point(339, 55);
+            this.pbPassedTests.Name = "pbPassedTests";
+            this.pbPassedTests.Size = new System.Drawing.Size(24, 24);
+            this.pbPassedTests.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbPassedTests.TabIndex = 7;
+            this.pbPassedTests.TabStop = false;
             // 
             // lblPassedTestsValue
             // 
@@ -361,6 +391,56 @@ namespace DVLD
             this.lblPersonIDValue.TabIndex = 25;
             this.lblPersonIDValue.Text = "???";
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::DVLD.Properties.Resources.Calendar_32;
+            this.pictureBox6.Location = new System.Drawing.Point(415, 56);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 24;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::DVLD.Properties.Resources.Man_32;
+            this.pictureBox5.Location = new System.Drawing.Point(415, 88);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 23;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::DVLD.Properties.Resources.Calendar_32;
+            this.pictureBox4.Location = new System.Drawing.Point(415, 28);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 22;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::DVLD.Properties.Resources.ApplicationType;
+            this.pictureBox3.Location = new System.Drawing.Point(79, 87);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 21;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::DVLD.Properties.Resources.id_card;
+            this.pictureBox2.Location = new System.Drawing.Point(80, 28);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
             // lblPersonID
             // 
             this.lblPersonID.AutoSize = true;
@@ -389,6 +469,16 @@ namespace DVLD
             this.lblStatusCaption.TabIndex = 2;
             this.lblStatusCaption.Text = "Status:";
             // 
+            // pbStatus
+            // 
+            this.pbStatus.Image = global::DVLD.Properties.Resources.Number_32;
+            this.pbStatus.Location = new System.Drawing.Point(79, 112);
+            this.pbStatus.Name = "pbStatus";
+            this.pbStatus.Size = new System.Drawing.Size(20, 20);
+            this.pbStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbStatus.TabIndex = 3;
+            this.pbStatus.TabStop = false;
+            // 
             // lblStatusValue
             // 
             this.lblStatusValue.AutoSize = true;
@@ -405,6 +495,16 @@ namespace DVLD
             this.lblFeesCaption.Size = new System.Drawing.Size(33, 15);
             this.lblFeesCaption.TabIndex = 5;
             this.lblFeesCaption.Text = "Fees:";
+            // 
+            // pbFees
+            // 
+            this.pbFees.Image = global::DVLD.Properties.Resources.money_32;
+            this.pbFees.Location = new System.Drawing.Point(79, 139);
+            this.pbFees.Name = "pbFees";
+            this.pbFees.Size = new System.Drawing.Size(20, 20);
+            this.pbFees.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFees.TabIndex = 6;
+            this.pbFees.TabStop = false;
             // 
             // lblFeesValue
             // 
@@ -440,6 +540,16 @@ namespace DVLD
             this.lblApplicantCaption.TabIndex = 10;
             this.lblApplicantCaption.Text = "Applicant:";
             // 
+            // pbApplicant
+            // 
+            this.pbApplicant.Image = global::DVLD.Properties.Resources.User_32__2;
+            this.pbApplicant.Location = new System.Drawing.Point(79, 58);
+            this.pbApplicant.Name = "pbApplicant";
+            this.pbApplicant.Size = new System.Drawing.Size(20, 20);
+            this.pbApplicant.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbApplicant.TabIndex = 11;
+            this.pbApplicant.TabStop = false;
+            // 
             // lblApplicantValue
             // 
             this.lblApplicantValue.AutoSize = true;
@@ -468,7 +578,7 @@ namespace DVLD
             // lblStatusDateCaption
             // 
             this.lblStatusDateCaption.AutoSize = true;
-            this.lblStatusDateCaption.Location = new System.Drawing.Point(340, 60);
+            this.lblStatusDateCaption.Location = new System.Drawing.Point(317, 61);
             this.lblStatusDateCaption.Name = "lblStatusDateCaption";
             this.lblStatusDateCaption.Size = new System.Drawing.Size(93, 15);
             this.lblStatusDateCaption.TabIndex = 15;
@@ -547,116 +657,6 @@ namespace DVLD
             this.pictureBox7.TabIndex = 5;
             this.pictureBox7.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::DVLD.Properties.Resources.Number_32;
-            this.pictureBox1.Location = new System.Drawing.Point(89, 27);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pbLicenseClass
-            // 
-            this.pbLicenseClass.Image = global::DVLD.Properties.Resources.New_Driving_License_322;
-            this.pbLicenseClass.Location = new System.Drawing.Point(339, 22);
-            this.pbLicenseClass.Name = "pbLicenseClass";
-            this.pbLicenseClass.Size = new System.Drawing.Size(24, 24);
-            this.pbLicenseClass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLicenseClass.TabIndex = 3;
-            this.pbLicenseClass.TabStop = false;
-            // 
-            // pbPassedTests
-            // 
-            this.pbPassedTests.Image = global::DVLD.Properties.Resources.PassedTests_32;
-            this.pbPassedTests.Location = new System.Drawing.Point(339, 55);
-            this.pbPassedTests.Name = "pbPassedTests";
-            this.pbPassedTests.Size = new System.Drawing.Size(24, 24);
-            this.pbPassedTests.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPassedTests.TabIndex = 7;
-            this.pbPassedTests.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::DVLD.Properties.Resources.Calendar_32;
-            this.pictureBox6.Location = new System.Drawing.Point(415, 56);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 24;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::DVLD.Properties.Resources.Man_32;
-            this.pictureBox5.Location = new System.Drawing.Point(415, 88);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 23;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::DVLD.Properties.Resources.Calendar_32;
-            this.pictureBox4.Location = new System.Drawing.Point(415, 28);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 22;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::DVLD.Properties.Resources.ApplicationType;
-            this.pictureBox3.Location = new System.Drawing.Point(79, 87);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 21;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::DVLD.Properties.Resources.id_card;
-            this.pictureBox2.Location = new System.Drawing.Point(80, 28);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pbStatus
-            // 
-            this.pbStatus.Image = global::DVLD.Properties.Resources.Number_32;
-            this.pbStatus.Location = new System.Drawing.Point(79, 112);
-            this.pbStatus.Name = "pbStatus";
-            this.pbStatus.Size = new System.Drawing.Size(20, 20);
-            this.pbStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbStatus.TabIndex = 3;
-            this.pbStatus.TabStop = false;
-            // 
-            // pbFees
-            // 
-            this.pbFees.Image = global::DVLD.Properties.Resources.money_32;
-            this.pbFees.Location = new System.Drawing.Point(79, 139);
-            this.pbFees.Name = "pbFees";
-            this.pbFees.Size = new System.Drawing.Size(20, 20);
-            this.pbFees.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbFees.TabIndex = 6;
-            this.pbFees.TabStop = false;
-            // 
-            // pbApplicant
-            // 
-            this.pbApplicant.Image = global::DVLD.Properties.Resources.User_32__2;
-            this.pbApplicant.Location = new System.Drawing.Point(79, 58);
-            this.pbApplicant.Name = "pbApplicant";
-            this.pbApplicant.Size = new System.Drawing.Size(20, 20);
-            this.pbApplicant.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbApplicant.TabIndex = 11;
-            this.pbApplicant.TabStop = false;
-            // 
             // usrCtrlDrivingLicenseAppInfo
             // 
             this.Controls.Add(this.pictureBox7);
@@ -669,12 +669,11 @@ namespace DVLD
             this.Size = new System.Drawing.Size(644, 462);
             this.groupBoxAppInfo.ResumeLayout(false);
             this.groupBoxAppInfo.PerformLayout();
-            this.groupBoxBasicInfo.ResumeLayout(false);
-            this.groupBoxBasicInfo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLicenseClass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPassedTests)).EndInit();
+            this.groupBoxBasicInfo.ResumeLayout(false);
+            this.groupBoxBasicInfo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -683,6 +682,7 @@ namespace DVLD
             ((System.ComponentModel.ISupportInitialize)(this.pbStatus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFees)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbApplicant)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
