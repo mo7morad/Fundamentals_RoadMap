@@ -74,21 +74,27 @@ namespace BusinessLayer
                    status == enAppStatus.Canceled;
         }
 
-        public static clsApplicationBasicInfo GetApplicationBasicInfo(int applicationID)
+        public static clsApplicationBasicInfo GetApplicationBasicInfo(int applicationID, int DrivingLicenseAppID)
         {
             if (applicationID <= 0)
                 throw new ArgumentOutOfRangeException(nameof(applicationID), "Application ID must be greater than zero.");
 
-            DataTable dt = clsApplicationsDataAccess.GetApplicationByApplicationID(applicationID);
+            DataTable dt = clsApplicationsDataAccess.GetApplicationDetailsByApplicationID(applicationID, DrivingLicenseAppID);
             if (dt.Rows.Count > 0)
             {
-                int applicantID = Convert.ToInt32(dt.Rows[0]["ApplicantPersonID"]);
-                int createdByID = Convert.ToInt32(dt.Rows[0]["CreatedByUserID"]);
-                int applicationTypeID = Convert.ToInt32(dt.Rows[0]["ApplicationTypeID"]);
-                short applicationStatus = Convert.ToInt16(dt.Rows[0]["ApplicationStatus"].ToString());
-                decimal applicationFees = Convert.ToDecimal(dt.Rows[0]["PaidFees"]);
-                DateTime submissionDate = Convert.ToDateTime(dt.Rows[0]["ApplicationDate"]);
-                DateTime lastStatusDate= Convert.ToDateTime(dt.Rows[0]["ApplicationStatus"]);
+                DataRow row = dt.Rows[0];
+                return new clsApplicationBasicInfo(
+                    Convert.ToInt32(row["ApplicationID"]),
+                    DrivingLicenseAppID,
+                    (enAppStatus)Convert.ToInt16(row["ApplicationStatus"]),
+                    Convert.ToDecimal(row["PaidFees"]),
+                    row["ApplicationTypeTitle"].ToString(),
+                    row["ApplicantName"].ToString(),
+                    row["DrivingLicenseClass"].ToString(),
+                    Convert.ToDateTime(row["SubmissionDate"]),
+                    Convert.ToDateTime(row["ModificationDate"]),
+                    row["CreatedBy"].ToString()
+                );
 
             }
             return null;

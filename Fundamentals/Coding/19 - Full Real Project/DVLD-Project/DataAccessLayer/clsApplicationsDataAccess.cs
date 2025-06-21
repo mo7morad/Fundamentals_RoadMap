@@ -18,12 +18,7 @@ namespace DataAccessLayer
                 string query = @"SELECT A.ApplicationID AS 'D.L Application ID', LC.ClassName AS 'License Class', P.NationalNo AS 'National Number',
                                 CONCAT(P.FirstName, ' ', P.SecondName, ' ', P.ThirdName, ' ', P.LastName) AS 'Full Name',
                                 A.ApplicationDate AS 'Created Application Date',
-                                (
-                                    SELECT COUNT(*) 
-                                    FROM Applications A2 
-                                    WHERE A2.ApplicantPersonID = A.ApplicantPersonID
-                                    AND A2.ApplicationStatus = 3
-                                )AS 'Passed Tests',
+
                                 CASE A.ApplicationStatus
                                     WHEN 1 THEN 'Pending'
                                     WHEN 2 THEN 'Canceled'
@@ -246,17 +241,34 @@ namespace DataAccessLayer
             }
         }
 
-        public static DataTable GetApplicationByApplicationID(int applicationID)
+        public static DataTable GetApplicationDetailsByApplicationID(int applicationID, int drivingLicenseAppID)
         {
             DataTable dtApplication = new DataTable();
             try
             {
-                string query = @"SELECT * FROM Applications WHERE ApplicationID = @AppID";
+                string query = @"SELECT Applications.ApplicationID, Applications.ApplicationDate, Applications.ApplicationStatus, Applications.LastStatusDate, Applications.PaidFees,
+                                People.FirstName + ' ' + People.SecondName + ' ' + People.ThirdName + ' ' + People.LastName AS 'ApplicantName',
+                                ApplicationTypes.ApplicationTypeTitle, Users.UserName,
+                                (SELECT COUNT(*) 
+                                FROM TestAppointments
+                                JOIN Tests ON TestAppointments.TestAppointmentID = Tests.TestAppointmentID
+                                WHERE TestTypeID in (1, 2, 3) AND TestResult = 1 AND LocalDrivingLicenseApplicationID = @DLAppID
+                                ) AS PassedTests
+
+                                FROM Applications
+                                JOIN People
+                                ON Applications.ApplicantPersonID = People.PersonID
+                                JOIN ApplicationTypes
+                                ON Applications.ApplicationTypeID = ApplicationTypes.ApplicationTypeID
+                                JOIN Users
+                                ON Applications.CreatedByUserID = Users.UserID
+                                WHERE ApplicationID = @AppID;";
                 using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
                 {
                     using (SqlCommand cmd = new SqlCommand(query, connection))
                     {
                         cmd.Parameters.AddWithValue("@AppID", applicationID);
+                        cmd.Parameters.AddWithValue("@DLAppID", drivingLicenseAppID); 
                         connection.Open();
                         using (SqlDataReader reader = cmd.ExecuteReader())
                         {
