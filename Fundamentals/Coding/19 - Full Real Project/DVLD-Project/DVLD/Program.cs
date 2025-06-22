@@ -1,4 +1,7 @@
-﻿using System;
+﻿using DVLD.Applications;
+using DVLD.Login;
+using DVLD.Tests;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -6,7 +9,7 @@ using System.Windows.Forms;
 
 namespace DVLD
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +19,12 @@ namespace DVLD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginScreenForm());
+            // Application.Run(new frmMain());
+          // Application.Run(new frmTest2());
+          Application.Run(new frmLogin());
+         
+
+
         }
     }
 }
