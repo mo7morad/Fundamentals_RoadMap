@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image with srcset</title>
+</head>
+<body >
+
+    <h1>Responsive Image Example using srcset</h1>
+    <img src="Images/default-image.jpg"
+         srcset="Images/small-image.jpg 500w,
+                 Images/medium-image.jpg 1000w,
+                 Images/large-image.jpg 1500w"
+         sizes="(max-width: 600px) 480px,
+                (max-width: 900px) 800px,
+                1200px"
+         alt="Responsive Image">
+    <p>This image uses the srcset attribute to load different image sizes based on the viewport width.</p>
+
+
+<!-- 
+Breakdown of the Example
+src Attribute:
+
+    src="default-image.jpg" serves as the fallback image source for browsers that do not support the srcset attribute.
+    srcset Attribute:
+
+    Specifies a list of image sources along with their respective widths in pixels (w).
+    small-image.jpg 500w, medium-image.jpg 1000w, large-image.jpg 1500w tell the browser the natural width of each image source.
+
+sizes Attribute:
+
+    Provides the browser with information on the size the image will display at different viewport widths.
+    (max-width: 600px) 480px: When the viewport width is 600px or less, the image's display size should be 480px.
+    (max-width: 900px) 800px: When the viewport width is between 601px and 900px, the image's display size should be 800px.
+    1200px: For viewports wider than 900px, the image should display at 1200px wide.
+
+alt Attribute: Provides a text description of the image, which is essential for accessibility. 
+
+How It Works
+    When the webpage is loaded, the browser evaluates the current viewport size and uses the conditions specified in the sizes attribute to determine which image size from the srcset should be downloaded and displayed. This approach ensures that the most appropriate image version is used, optimizing loading times and improving user experience across different devices and resolutions.
+
+    This setup provides a responsive image solution that adapts to different screen sizes, ensuring efficient use of bandwidth and optimal image display.
+
+-->
+
+    
+
+
+   
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame Example</title>
+</head>
+<body>
+    
+     <!-- default borders  -->
+    <p>Defualt Borders</p>
+    
+    <iframe src="Page1.html" title="Example Frame1">
+    </iframe>
+
+    <iframe src="Page2.html" title="Example Frame2">
+    </iframe>
+
+
+    <br><br>
+    <!-- borders red -->
+    <p>Borders Red</p>
+    <iframe src="Page1.html" style="border:2px solid red;" title="Example Frame1">
+    </iframe>
+
+    <iframe src="Page2.html" style="border:2px solid red;" title="Example Frame2">
+    </iframe>
+    
+    <br><br>
+    <!-- Changing Width and Height -->
+    <p>Changing Width and Height</p>
+    <iframe src="Page1.html" width="600px" height="400px" style="border:2px solid red;" title="Example Frame1">
+    </iframe>
+
+    <iframe src="Page2.html" width="400px" height="400px" style="border:2px solid red;" title="Example Frame2">
+    </iframe>
+
+
+    <br><br>
+    <!-- no borders -->
+    <p>No Borders</p>
+    <iframe src="Page1.html" style="border:none;" loading="lazy" title="Example Frame2">
+    </iframe>
+
+    <iframe src="Page2.html" style="border:none;" loading="lazy" title="Example Frame2">
+    </iframe>
+
+    <br><br>
+
+    <!-- Embed Video -->
+    <p>ُExample Embedding Video</p>
+   
+    <iframe 
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/sWCQMMfP8p8?si=UdtLtMALT1VF5h1B" title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+</body>
+</html>
