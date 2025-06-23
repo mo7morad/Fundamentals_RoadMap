@@ -281,7 +281,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnClose;
-            this.ClientSize = new System.Drawing.Size(1264, 701);
+            this.ClientSize = new System.Drawing.Size(1150, 700);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnAddPerson);
             this.Controls.Add(this.lblTitle);

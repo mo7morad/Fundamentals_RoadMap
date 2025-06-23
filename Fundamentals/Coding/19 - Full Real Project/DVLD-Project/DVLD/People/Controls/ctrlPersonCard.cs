@@ -38,7 +38,7 @@ namespace DVLD.Controls
 
         public void LoadPersonInfo(int PersonID)
         {
-            _Person=clsPerson.Find(PersonID);
+            _Person = clsPerson.Find(PersonID);
             if (_Person == null)
             {
                 ResetPersonInfo();
