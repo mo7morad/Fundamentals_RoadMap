@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigator with Iframe</title>
+</head>
+<body style="display: flex; margin: 0; height: 100vh;">
+
+    <!-- left section div -->
+    <div id="navigator" style="width: 20%; border-right: 1px solid #ccc; margin-left: 10px;">
+      
+     <h2>Short Stories:</h2>
+      <!-- page1 will be shown inside the iframe that has id=contentFrame -->
+      <a href="page1.html" target="contentFrame">The Grateful Traveler</a>
+      <br>
+      <!-- page2 will be shown inside the iframe that has id=contentFrame -->
+      <a href="page2.html" target="contentFrame">The Wise Owl and the Rabbit</a>
+      <br>
+      <!-- page3 will be shown inside the iframe that has id=contentFrame -->
+      <a href="page3.html" target="contentFrame">The Brave Little Squirrel</a>
+
+    </div>
+    <!-- right section div -->
+    <div id="content" style="width: 70%; border: none; margin-left: 20px;">
+        
+        <h2 align="center" style="color:red">Short Story Section</h2>
+         
+        <!-- this iframe will show the pages content -->
+        <iframe name="contentFrame" src="page1.html" style="width: 100%; height: 100%; border: none;"></iframe>
+
+    </div>
+</body>
+</html>

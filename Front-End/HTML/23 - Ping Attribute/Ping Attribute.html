@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of Ping Attribute</title>
+</head>
+<body>
+    <h1>Ping Attribute Example</h1>
+    <p>
+        To learn Programming the right way Check out this 
+        <a href="https://www.programmingAdvices.com"
+           ping="https://www.analyticsprovider.com/track?event=linkClick https://www.othertracker.com/logger"
+           target="_blank">
+           vist ProgrammingAdvices.com
+        </a>!
+    </p>
+
+    <!-- Explanation of the Example:
+        href="https://www.programmingAdvices.com": The main link that the user will navigate to upon clicking the anchor.
+        ping="https://www.analyticsprovider.com/track?event=linkClick https://www.othertracker.com/logger": This attribute contains two URLs, separated by spaces. 
+        
+        Each URL is a destination where the browser will send POST requests when the link is clicked. 
+        These requests help in tracking that the link was clicked, without interrupting the user's navigation to "https://www.ProgrammingAdvices.com".
+
+        target="_blank": Opens the linked document in a new tab or window. -->
+
+</body>
+</html>

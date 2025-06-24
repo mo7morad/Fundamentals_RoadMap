@@ -205,7 +205,7 @@
             this.ScheduleTestsMenue.Name = "ScheduleTestsMenue";
             this.ScheduleTestsMenue.Size = new System.Drawing.Size(261, 38);
             this.ScheduleTestsMenue.Text = "Sechdule &Tests";
-             // 
+            // 
             // scheduleVisionTestToolStripMenuItem
             // 
             this.scheduleVisionTestToolStripMenuItem.Image = global::DVLD.Properties.Resources.Vision_Test_32;
@@ -329,7 +329,7 @@
             // 
             this.btnAddNewApplication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddNewApplication.Image = global::DVLD.Properties.Resources.New_Application_64;
-            this.btnAddNewApplication.Location = new System.Drawing.Point(1330, 254);
+            this.btnAddNewApplication.Location = new System.Drawing.Point(1117, 264);
             this.btnAddNewApplication.Name = "btnAddNewApplication";
             this.btnAddNewApplication.Size = new System.Drawing.Size(88, 75);
             this.btnAddNewApplication.TabIndex = 129;
@@ -356,7 +356,7 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(1283, 698);
+            this.btnClose.Location = new System.Drawing.Point(1070, 698);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(135, 36);
             this.btnClose.TabIndex = 118;
@@ -369,7 +369,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1431, 749);
+            this.ClientSize = new System.Drawing.Size(1217, 749);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAddNewApplication);
             this.Controls.Add(this.pbPersonImage);

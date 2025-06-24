@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Innermost Iframe</title>
+</head>
+<body>
+    <h3>Innermost Iframe</h3>
+    <p>This is the deepest level of nesting. Click below to open a link in the parent frame, which is the first nested level.</p>
+
+    <!-- Link will open page1 inside the current page by default target=_self -->
+    <p> <strong>target="_self":</strong>  <a href="page1.html" >Open Page1 in the same window</a></p>
+
+    <!-- Link will open page1 in a new window -->
+    <p> 
+        <strong>target="_blank":</strong> 
+        <a href="page1.html" target="_blank">Open Page1 in new window/tab</a>
+    </p>
+
+    <!-- Link that targets the parent frame, which is nested-iframe.html -->
+    <p> 
+        <strong>target="_parent":</strong> 
+        <a href="page1.html" target="_parent">Open Page1 in Parent Frame</a>
+    </p>
+
+    <!-- Link will open page1 in the top most window in the page,page1 will open in the full body of the window, breaking out of any frameset or iframe.  -->
+    <p> 
+        <strong>target="_top":</strong> 
+        <a href="page1.html" target="_top">Open Page1 in the top most window, break out all frames</a>
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nested Iframe</title>
+</head>
+<body>
+    <h2>Nested Iframe Level 1</h2>
+    <p>This iframe contains another nested iframe and a link with target="_parent".</p>
+
+    <!-- Second level nested iframe -->
+    <iframe src="inner-iframe.html" style="width: 100%; height: 300px; border: 1px solid red;"></iframe>
+
+    <!-- Link that targets the parent of the current context -->
+    <p><a href="page1.html" target="_parent">Open page1 in Parent Frame</a></p>
+    
+    <!-- Link will open page1 in the top most window in the page,page1 will open in the full body of the window, breaking out of any frameset or iframe.  -->
+     <p><a href="page1.html" target="_top">Open Page1 in the top most window, break out all frames</a></p>
+</body>
+</html>

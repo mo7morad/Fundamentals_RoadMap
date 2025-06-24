@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Data;
-using System.Runtime.Remoting.Messaging;
-using System.Security.Cryptography;
-using System.Xml.Linq;
 using DVLD_DataAccess;
-using static System.Net.Mime.MediaTypeNames;
-using static DVLD_Buisness.clsTestType;
 
 
 namespace DVLD_Buisness
@@ -21,10 +16,10 @@ namespace DVLD_Buisness
         public clsLicenseClass LicenseClassInfo;
         public string PersonFullName   
         {
-            get { 
-                return clsPerson.Find(ApplicantPersonID).FullName; 
-            }   
-            
+            get
+            {
+                return clsPerson.Find(ApplicantPersonID).FullName;
+            }
         }
 
         public clsLocalDrivingLicenseApplication()
