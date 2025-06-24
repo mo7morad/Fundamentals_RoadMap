@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{46A8427B-DCFC-4DAF-A14C-E3F4789A993D}|..\\DVLD_Buisness\\DVLD_Buisness.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld_buisness\\clslocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|d:\\programming\\fundamentals_roadmap\\fundamentals\\coding\\19 - full real project\\dvld-project\\dvld\\applications\\local driving license\\frmlistlocaldrivinglicesnseapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:applications\\local driving license\\frmlistlocaldrivinglicesnseapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +38,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsLocalDrivingLicenseApplication.cs",
+              "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD_Buisness\\clsLocalDrivingLicenseApplication.cs",
+              "RelativeDocumentMoniker": "..\\DVLD_Buisness\\clsLocalDrivingLicenseApplication.cs",
+              "ToolTip": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD_Buisness\\clsLocalDrivingLicenseApplication.cs*",
+              "RelativeToolTip": "..\\DVLD_Buisness\\clsLocalDrivingLicenseApplication.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T19:08:41.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmListLocalDrivingLicesnseApplications.cs",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\Applications\\Local Driving License\\frmListLocalDrivingLicesnseApplications.cs",
               "RelativeDocumentMoniker": "Applications\\Local Driving License\\frmListLocalDrivingLicesnseApplications.cs",
@@ -47,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmListLocalDrivingLicesnseApplications.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\Applications\\Local Driving License\\frmListLocalDrivingLicesnseApplications.cs",
               "RelativeDocumentMoniker": "Applications\\Local Driving License\\frmListLocalDrivingLicesnseApplications.cs",
@@ -59,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmListTestAppointments.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\Tests\\frmListTestAppointments.cs",
               "RelativeDocumentMoniker": "Tests\\frmListTestAppointments.cs",
@@ -71,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmScheduleTest.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\19 - Full Real Project\\DVLD-Project\\DVLD\\Tests\\frmScheduleTest.cs",
               "RelativeDocumentMoniker": "Tests\\frmScheduleTest.cs",
