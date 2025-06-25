@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\19 Cryptography\Projects\Symmetric Encryption Example\bin\Debug\Symmetric Encryption Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\19 Cryptography\Projects\Symmetric Encryption Example\bin\Debug\Symmetric Encryption Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\19 Cryptography\Projects\Symmetric Encryption Example\bin\Debug\Symmetric Encryption Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\19 Cryptography\Projects\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\19 Cryptography\Projects\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\19 Cryptography\Projects\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\19 Cryptography\Projects\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\19 Cryptography\Projects\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 Cryptography\05 Symmetric Encryption Example\Symmetric Encryption Example\bin\Debug\Symmetric Encryption Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 Cryptography\05 Symmetric Encryption Example\Symmetric Encryption Example\bin\Debug\Symmetric Encryption Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 Cryptography\05 Symmetric Encryption Example\Symmetric Encryption Example\bin\Debug\Symmetric Encryption Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 Cryptography\05 Symmetric Encryption Example\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 Cryptography\05 Symmetric Encryption Example\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 Cryptography\05 Symmetric Encryption Example\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 Cryptography\05 Symmetric Encryption Example\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 Cryptography\05 Symmetric Encryption Example\Symmetric Encryption Example\obj\Debug\Symmetric Encryption Example.pdb
