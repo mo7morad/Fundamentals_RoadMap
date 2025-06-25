@@ -1,6 +1,7 @@
 ﻿using DVLD.Classes;
 using DVLD_Buisness;
 using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,8 +13,10 @@ using System.Windows.Forms;
 
 namespace DVLD.Login
 {
+
     public partial class frmLogin : Form
     {
+        private string loggerSourceName = "DVLD App";
         public frmLogin()
         {
             InitializeComponent();
@@ -54,13 +57,13 @@ namespace DVLD.Login
                     return;
                 }
 
-                 clsGlobal.CurrentUser = user;
-                 this.Hide();
-                 frmMain frm = new frmMain(this);
-                 frm.ShowDialog();
-
-
-            } else
+                logSuccessfulUserLogin();
+                clsGlobal.CurrentUser = user;
+                this.Hide();
+                frmMain frm = new frmMain(this);
+                frm.ShowDialog();
+            } 
+            else
             {
                 txtUserName.Focus();
                 MessageBox.Show("Invalid Username/Password.", "Wrong Credintials", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -82,6 +85,26 @@ namespace DVLD.Login
                 chkRememberMe.Checked = false;
 
         }
+
+        private void logSuccessfulUserLogin()
+        {
+            try
+            {
+                if(!EventLog.SourceExists(loggerSourceName))
+                {
+                    EventLog.CreateEventSource(loggerSourceName, "Application");
+                    EventLog.WriteEntry(loggerSourceName, $"User {clsGlobal.CurrentUser} logged Successfully", EventLogEntryType.Information);
+                }
+                else
+                {
+                    EventLog.WriteEntry(loggerSourceName, $"User {clsGlobal.CurrentUser} logged Successfully", EventLogEntryType.Information);
+                }
+            }
+            catch(Exception ex)
+            {
+                EventLog.WriteEntry(loggerSourceName, $"Error in logging the user log " + ex.Message, EventLogEntryType.Error);
+            }
+        }    
 
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\Project\Event Log Example\bin\Debug\Event Log Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\Project\Event Log Example\bin\Debug\Event Log Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\Project\Event Log Example\bin\Debug\Event Log Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\Project\Event Log Example\obj\Debug\Event Log Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\Project\Event Log Example\obj\Debug\Event Log Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\Project\Event Log Example\obj\Debug\Event Log Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\Project\Event Log Example\obj\Debug\Event Log Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\Project\Event Log Example\obj\Debug\Event Log Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\02 Event Log Example\Event Log Example\bin\Debug\Event Log Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\02 Event Log Example\Event Log Example\bin\Debug\Event Log Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\02 Event Log Example\Event Log Example\bin\Debug\Event Log Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\02 Event Log Example\Event Log Example\obj\Debug\Event Log Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\02 Event Log Example\Event Log Example\obj\Debug\Event Log Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\02 Event Log Example\Event Log Example\obj\Debug\Event Log Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\02 Event Log Example\Event Log Example\obj\Debug\Event Log Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\18 Event Log\02 Event Log Example\Event Log Example\obj\Debug\Event Log Example.pdb
