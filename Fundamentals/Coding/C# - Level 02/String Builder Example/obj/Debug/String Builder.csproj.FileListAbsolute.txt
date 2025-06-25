@@ -1,0 +1,15 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 String Builder\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 String Builder\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 String Builder\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 String Builder\ConsoleApp1\obj\Debug\String Builder.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 String Builder\ConsoleApp1\obj\Debug\String Builder.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 String Builder\ConsoleApp1\obj\Debug\String Builder.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 String Builder\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\20 String Builder\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\String Builder Example\bin\Debug\ConsoleApp1.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\String Builder Example\bin\Debug\ConsoleApp1.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\String Builder Example\bin\Debug\ConsoleApp1.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\String Builder Example\obj\Debug\String Builder.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\String Builder Example\obj\Debug\String Builder.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\String Builder Example\obj\Debug\ConsoleApp1.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\C# - Level 02\String Builder Example\obj\Debug\ConsoleApp1.pdb
