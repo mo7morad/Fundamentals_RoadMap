@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+</head>
+<body style="font-size: 20px;">
+    <p>In this table we use table footer to Enhances accessibility and Provide a semantic way to organize the table structure:  </p>
+    
+    <table style="width:50%;" border="1px;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <!-- While <tfoot> should logically follow <tbody> in presentation, it is often placed before <tbody> in the markup to allow browsers to render footers more quickly. -->
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Salaries</td>
+                <td>$105,000</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td>Alice Smith</td>
+                <td>Marketing</td>
+                <td>$50,000</td>
+            </tr>
+            <tr>
+                <td>Bob Johnson</td>
+                <td>IT</td>
+                <td>$55,000</td>
+            </tr>
+        </tbody>
+       
+    </table>
+    
+</body>
+</html>
