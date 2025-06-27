@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asymmetric Encryption Example", "Asymmetric Encryption Example.csproj", "{FD0F09E6-B64D-4F02-A9D1-BAA822E94770}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD0F09E6-B64D-4F02-A9D1-BAA822E94770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0F09E6-B64D-4F02-A9D1-BAA822E94770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0F09E6-B64D-4F02-A9D1-BAA822E94770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0F09E6-B64D-4F02-A9D1-BAA822E94770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {020A620C-F9F8-48C8-8C33-13985C65A32C}
+	EndGlobalSection
+EndGlobal
