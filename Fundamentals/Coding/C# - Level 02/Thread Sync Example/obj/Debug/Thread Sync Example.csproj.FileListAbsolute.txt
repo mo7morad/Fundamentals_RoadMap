@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\23 Multithreading\06 Thread Synchronization\Thread Sync Example\bin\Debug\Thread Sync Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\23 Multithreading\06 Thread Synchronization\Thread Sync Example\bin\Debug\Thread Sync Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\23 Multithreading\06 Thread Synchronization\Thread Sync Example\bin\Debug\Thread Sync Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\23 Multithreading\06 Thread Synchronization\Thread Sync Example\obj\Debug\Thread Sync Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\23 Multithreading\06 Thread Synchronization\Thread Sync Example\obj\Debug\Thread Sync Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\23 Multithreading\06 Thread Synchronization\Thread Sync Example\obj\Debug\Thread Sync Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\23 Multithreading\06 Thread Synchronization\Thread Sync Example\obj\Debug\Thread Sync Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\23 Multithreading\06 Thread Synchronization\Thread Sync Example\obj\Debug\Thread Sync Example.pdb
