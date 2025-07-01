@@ -30,12 +30,17 @@
         {
             this.btnClose = new System.Windows.Forms.Button();
             this.ctrlUserCard1 = new DVLD.Controls.ctrlUserCard();
+            this.lblFooterMorad = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnClose
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.BackColor = System.Drawing.Color.LightGray;
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(720, 413);
@@ -57,17 +62,30 @@
             this.ctrlUserCard1.Size = new System.Drawing.Size(839, 399);
             this.ctrlUserCard1.TabIndex = 0;
             // 
+            // lblFooterMorad
+            // 
+            this.lblFooterMorad.Text = "Designed by Morad";
+            this.lblFooterMorad.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Italic);
+            this.lblFooterMorad.ForeColor = System.Drawing.Color.Gray;
+            this.lblFooterMorad.AutoSize = true;
+            this.lblFooterMorad.Location = new System.Drawing.Point(12, 437);
+            this.lblFooterMorad.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            this.lblFooterMorad.Name = "lblFooterMorad";
+            this.lblFooterMorad.Size = new System.Drawing.Size(112, 13);
+            this.lblFooterMorad.TabIndex = 17;
+            // 
             // frmUserInfo
             // 
             this.AcceptButton = this.btnClose;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(859, 462);
+            this.Controls.Add(this.lblFooterMorad);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.ctrlUserCard1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmUserInfo";
@@ -75,6 +93,7 @@
             this.Text = "frmUserInfo";
             this.Load += new System.EventHandler(this.frmUserInfo_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -82,5 +101,6 @@
 
         private Controls.ctrlUserCard ctrlUserCard1;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label lblFooterMorad;
     }
 }

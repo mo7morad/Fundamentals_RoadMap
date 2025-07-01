@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\04 TaskFactory Class\TaskFactory Class Example\bin\Debug\TaskFactory Class Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\04 TaskFactory Class\TaskFactory Class Example\bin\Debug\TaskFactory Class Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\04 TaskFactory Class\TaskFactory Class Example\bin\Debug\TaskFactory Class Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\04 TaskFactory Class\TaskFactory Class Example\obj\Debug\Task.Run Class Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\04 TaskFactory Class\TaskFactory Class Example\obj\Debug\Task.Run Class Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\04 TaskFactory Class\TaskFactory Class Example\obj\Debug\Task.Run Class Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\04 TaskFactory Class\TaskFactory Class Example\obj\Debug\TaskFactory Class Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\04 TaskFactory Class\TaskFactory Class Example\obj\Debug\TaskFactory Class Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\03 Task.Run\Task.Run Example\bin\Debug\TaskFactory Class Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\03 Task.Run\Task.Run Example\bin\Debug\TaskFactory Class Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\03 Task.Run\Task.Run Example\bin\Debug\TaskFactory Class Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\03 Task.Run\Task.Run Example\obj\Debug\Task.Run Class Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\03 Task.Run\Task.Run Example\obj\Debug\Task.Run Class Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\03 Task.Run\Task.Run Example\obj\Debug\Task.Run Class Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\03 Task.Run\Task.Run Example\obj\Debug\TaskFactory Class Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\03 Task.Run\Task.Run Example\obj\Debug\TaskFactory Class Example.pdb

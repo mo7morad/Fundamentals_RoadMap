@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\Parallel.For Example\bin\Debug\Parallel.For Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\Parallel.For Example\bin\Debug\Parallel.For Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\Parallel.For Example\bin\Debug\Parallel.For Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\Parallel.For Example\obj\Debug\Parallel.For Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\Parallel.For Example\obj\Debug\Parallel.For Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\Parallel.For Example\obj\Debug\Parallel.For Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\Parallel.For Example\obj\Debug\Parallel.For Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\Parallel.For Example\obj\Debug\Parallel.For Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\bin\Debug\Parallel.For Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\bin\Debug\Parallel.For Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\bin\Debug\Parallel.For Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\obj\Debug\Parallel.For Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\obj\Debug\Parallel.For Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\obj\Debug\Parallel.For Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\obj\Debug\Parallel.For Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\06 Parallel Class\Parallel.For\Parallel.For Example\obj\Debug\Parallel.For Example.pdb

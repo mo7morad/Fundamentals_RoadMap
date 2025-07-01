@@ -1,4 +1,6 @@
-﻿namespace DVLD.User
+﻿using System.Windows.Forms;
+
+namespace DVLD.User
 {
     partial class frmChangePassword
     {
@@ -10,7 +12,7 @@
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -42,6 +44,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.ctrlUserCard1 = new DVLD.Controls.ctrlUserCard();
+            this.lblFooterMorad = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -57,6 +60,8 @@
             this.txtConfirmPassword.PasswordChar = '*';
             this.txtConfirmPassword.Size = new System.Drawing.Size(167, 26);
             this.txtConfirmPassword.TabIndex = 3;
+            this.txtConfirmPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtConfirmPassword.BackColor = System.Drawing.Color.White;
             this.txtConfirmPassword.Validating += new System.ComponentModel.CancelEventHandler(this.txtConfirmPassword_Validating);
             // 
             // label3
@@ -90,6 +95,8 @@
             this.txtNewPassword.PasswordChar = '*';
             this.txtNewPassword.Size = new System.Drawing.Size(167, 26);
             this.txtNewPassword.TabIndex = 2;
+            this.txtNewPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNewPassword.BackColor = System.Drawing.Color.White;
             this.txtNewPassword.Validating += new System.ComponentModel.CancelEventHandler(this.txtNewPassword_Validating);
             // 
             // pictureBox1
@@ -115,7 +122,11 @@
             // btnClose
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.BackColor = System.Drawing.Color.LightGray;
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(580, 605);
@@ -129,7 +140,11 @@
             // 
             // btnSave
             // 
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(0, 122, 204);
+            this.btnSave.ForeColor = System.Drawing.Color.White;
+            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.Image = global::DVLD.Properties.Resources.Save_32;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSave.Location = new System.Drawing.Point(714, 605);
@@ -161,6 +176,8 @@
             this.txtCurrentPassword.PasswordChar = '*';
             this.txtCurrentPassword.Size = new System.Drawing.Size(167, 26);
             this.txtCurrentPassword.TabIndex = 1;
+            this.txtCurrentPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCurrentPassword.BackColor = System.Drawing.Color.White;
             this.txtCurrentPassword.Validating += new System.ComponentModel.CancelEventHandler(this.txtCurrentPassword_Validating);
             // 
             // pictureBox2
@@ -187,13 +204,23 @@
             this.ctrlUserCard1.Size = new System.Drawing.Size(839, 404);
             this.ctrlUserCard1.TabIndex = 0;
             // 
+            // lblFooterMorad
+            // 
+            this.lblFooterMorad.Text = "Designed by Morad";
+            this.lblFooterMorad.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Italic);
+            this.lblFooterMorad.ForeColor = System.Drawing.Color.Gray;
+            this.lblFooterMorad.AutoSize = true;
+            this.lblFooterMorad.Location = new System.Drawing.Point(12, this.ClientSize.Height - 25);
+            this.lblFooterMorad.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            this.Controls.Add(this.lblFooterMorad);
+            // 
             // frmChangePassword
             // 
             this.AcceptButton = this.btnSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(868, 673);
             this.Controls.Add(this.label1);
@@ -208,7 +235,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.ctrlUserCard1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmChangePassword";
@@ -222,6 +249,24 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+            // Add bottom border panels for textboxes
+            Panel panelCur = new Panel();
+            panelCur.BackColor = System.Drawing.Color.FromArgb(0, 122, 204);
+            panelCur.Size = new System.Drawing.Size(this.txtCurrentPassword.Width, 2);
+            panelCur.Location = new System.Drawing.Point(this.txtCurrentPassword.Left, this.txtCurrentPassword.Bottom + 1);
+            this.Controls.Add(panelCur);
+
+            Panel panelNew = new Panel();
+            panelNew.BackColor = System.Drawing.Color.FromArgb(0, 122, 204);
+            panelNew.Size = new System.Drawing.Size(this.txtNewPassword.Width, 2);
+            panelNew.Location = new System.Drawing.Point(this.txtNewPassword.Left, this.txtNewPassword.Bottom + 1);
+            this.Controls.Add(panelNew);
+
+            Panel panelConf = new Panel();
+            panelConf.BackColor = System.Drawing.Color.FromArgb(0, 122, 204);
+            panelConf.Size = new System.Drawing.Size(this.txtConfirmPassword.Width, 2);
+            panelConf.Location = new System.Drawing.Point(this.txtConfirmPassword.Left, this.txtConfirmPassword.Bottom + 1);
+            this.Controls.Add(panelConf);
         }
 
         #endregion
@@ -239,5 +284,6 @@
         private System.Windows.Forms.TextBox txtCurrentPassword;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label lblFooterMorad;
     }
 }

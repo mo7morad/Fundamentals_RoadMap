@@ -22,7 +22,11 @@ namespace DVLD.Applications.ReplaceLostOrDamagedLicense
         public frmReplaceLostOrDamagedLicenseApplication()
         {
             InitializeComponent();
+            this.Size = new Size(900, 600);
+            this.MinimumSize = new Size(700, 500);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
         }
+
 
         private int _GetApplicationTypeID()
         {

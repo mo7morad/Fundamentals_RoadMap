@@ -38,15 +38,19 @@ namespace DVLD.People
         {
             InitializeComponent();
             _Mode = enMode.AddNew;
-
+            this.Size = new Size(1000, 650);
+            this.MinimumSize = new Size(800, 500);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
         }
 
         public frmAddUpdatePerson(int PersonID)
         {
             InitializeComponent();
-
             _Mode = enMode.Update;
             _PersonID = PersonID;
+            this.Size = new Size(1000, 650);
+            this.MinimumSize = new Size(800, 500);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
         }
 
         private void _ResetDefualtValues()

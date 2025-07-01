@@ -30,16 +30,21 @@ namespace DVLD.Applications
         {
             InitializeComponent();
             _Mode = enMode.AddNew;
+            this.Size = new Size(900, 650);
+            this.MinimumSize = new Size(700, 500);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
         }
 
         public frmAddUpdateLocalDrivingLicesnseApplication(int LocalDrivingLicenseApplicationID)
         {
             InitializeComponent();
-
             _Mode = enMode.Update;
             _LocalDrivingLicenseApplicationID = LocalDrivingLicenseApplicationID;
-
+            this.Size = new Size(900, 650);
+            this.MinimumSize = new Size(700, 500);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
         }
+
 
         private void _FillLicenseClassesInComoboBox()
         {

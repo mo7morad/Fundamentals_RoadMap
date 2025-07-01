@@ -18,8 +18,10 @@ namespace DVLD.Applications
         public frmLocalDrivingLicenseApplicationInfo(int ApplicationID)
         {
             InitializeComponent();
-            _ApplicationID= ApplicationID;
-
+            _ApplicationID = ApplicationID;
+            this.Size = new Size(800, 600);
+            this.MinimumSize = new Size(600, 400);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
         }
 
         private void btnClose_Click(object sender, EventArgs e)

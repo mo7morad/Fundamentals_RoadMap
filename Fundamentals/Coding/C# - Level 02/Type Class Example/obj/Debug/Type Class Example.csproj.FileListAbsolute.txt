@@ -1,8 +1,0 @@
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Type Class Example\bin\Debug\Type Class Example.exe.config
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Type Class Example\bin\Debug\Type Class Example.exe
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Type Class Example\bin\Debug\Type Class Example.pdb
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Type Class Example\obj\Debug\Type Class Example.csproj.AssemblyReference.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Type Class Example\obj\Debug\Type Class Example.csproj.SuggestedBindingRedirects.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Type Class Example\obj\Debug\Type Class Example.csproj.CoreCompileInputs.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Type Class Example\obj\Debug\Type Class Example.exe
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\13 Reflection\Projects\Type Class Example\obj\Debug\Type Class Example.pdb

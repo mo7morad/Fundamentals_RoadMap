@@ -1,8 +1,0 @@
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\04 Binary Example\Binary Serialization Example\bin\Debug\XML Serialization Example.exe.config
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\04 Binary Example\Binary Serialization Example\bin\Debug\XML Serialization Example.exe
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\04 Binary Example\Binary Serialization Example\bin\Debug\XML Serialization Example.pdb
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\04 Binary Example\Binary Serialization Example\obj\Debug\Binary Serialization Example.csproj.AssemblyReference.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\04 Binary Example\Binary Serialization Example\obj\Debug\Binary Serialization Example.csproj.SuggestedBindingRedirects.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\04 Binary Example\Binary Serialization Example\obj\Debug\Binary Serialization Example.csproj.CoreCompileInputs.cache
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\04 Binary Example\Binary Serialization Example\obj\Debug\XML Serialization Example.exe
-C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\11 Serialization\04 Binary Example\Binary Serialization Example\obj\Debug\XML Serialization Example.pdb

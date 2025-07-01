@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\01 Task Class\Task Class Example 1\bin\Debug\Task Class Example 1.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\01 Task Class\Task Class Example 1\bin\Debug\Task Class Example 1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\01 Task Class\Task Class Example 1\bin\Debug\Task Class Example 1.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\01 Task Class\Task Class Example 1\obj\Debug\Task Class Example 1.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\01 Task Class\Task Class Example 1\obj\Debug\Task Class Example 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\01 Task Class\Task Class Example 1\obj\Debug\Task Class Example 1.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\01 Task Class\Task Class Example 1\obj\Debug\Task Class Example 1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\24 Async\01 Task Class\Task Class Example 1\obj\Debug\Task Class Example 1.pdb

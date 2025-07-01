@@ -25,7 +25,11 @@ namespace DVLD.Applications.Detain_License
         public frmDetainLicenseApplication()
         {
             InitializeComponent();
+            this.Size = new Size(900, 600);
+            this.MinimumSize = new Size(700, 500);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
         }
+
 
         private void btnDetain_Click(object sender, EventArgs e)
         {

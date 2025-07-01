@@ -229,7 +229,7 @@
             this.cbLicenseClass.Name = "cbLicenseClass";
             this.cbLicenseClass.Size = new System.Drawing.Size(270, 28);
             this.cbLicenseClass.TabIndex = 134;
-             // 
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::DVLD.Properties.Resources.Renew_Driving_License_32;
@@ -339,7 +339,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(877, 632);
+            this.ClientSize = new System.Drawing.Size(877, 638);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.tcApplicationInfo);
             this.Controls.Add(this.btnClose);

@@ -19,7 +19,11 @@ namespace DVLD.Tests
         public frmListTestTypes()
         {
             InitializeComponent();
+            this.Size = new Size(900, 600);
+            this.MinimumSize = new Size(700, 500);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
         }
+
 
         private void btnClose_Click(object sender, EventArgs e)
         {

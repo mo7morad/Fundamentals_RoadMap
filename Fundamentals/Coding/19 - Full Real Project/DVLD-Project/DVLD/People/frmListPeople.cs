@@ -41,7 +41,27 @@ namespace DVLD.People
         public frmListPeople()
         {
             InitializeComponent();
+            this.Size = new Size(1200, 700);
+            this.MinimumSize = new Size(900, 500);
+            this.FormBorderStyle = FormBorderStyle.Sizable;
+            this.BackColor = System.Drawing.Color.WhiteSmoke; // Subtle background
+
+            // --- Modern button hover effects ---
+            btnAddPerson.FlatAppearance.BorderSize = 0;
+            btnAddPerson.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(30, 136, 229);
+            btnAddPerson.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(21, 101, 192);
+
+            btnAddPerson.MouseEnter += (s, e) => btnAddPerson.BackColor = System.Drawing.Color.FromArgb(30, 136, 229);
+            btnAddPerson.MouseLeave += (s, e) => btnAddPerson.BackColor = System.Drawing.Color.FromArgb(33, 150, 243);
+
+            btnClose.FlatAppearance.BorderSize = 0;
+            btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(211, 47, 47);
+            btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(183, 28, 28);
+
+            btnClose.MouseEnter += (s, e) => btnClose.BackColor = System.Drawing.Color.FromArgb(211, 47, 47);
+            btnClose.MouseLeave += (s, e) => btnClose.BackColor = System.Drawing.Color.FromArgb(244, 67, 54);
         }
+
 
         private void frmListPeople_Load(object sender, EventArgs e)
         {
@@ -49,6 +69,20 @@ namespace DVLD.People
             dgvPeople.DataSource = _dtPeople;
             cbFilterBy.SelectedIndex = 0;
             lblRecordsCount.Text = dgvPeople.Rows.Count.ToString();
+
+            // --- Ensure DataGridView modern style after data binding ---
+            dgvPeople.EnableHeadersVisualStyles = false;
+            dgvPeople.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(33, 150, 243);
+            dgvPeople.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            dgvPeople.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            dgvPeople.DefaultCellStyle.BackColor = System.Drawing.Color.White;
+            dgvPeople.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 11F);
+            dgvPeople.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(232, 240, 254);
+            dgvPeople.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
+            dgvPeople.AlternatingRowsDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(245, 247, 250);
+            dgvPeople.BorderStyle = BorderStyle.None;
+            dgvPeople.GridColor = System.Drawing.Color.FromArgb(224, 224, 224);
+
             if (dgvPeople.Rows.Count > 0)
             {
 
