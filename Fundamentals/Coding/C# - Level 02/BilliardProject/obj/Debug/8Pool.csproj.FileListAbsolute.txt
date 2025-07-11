@@ -1,0 +1,69 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\bin\Debug\8Pool.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\bin\Debug\8Pool.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\bin\Debug\8Pool.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\8Pool.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\8Pool.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\_8Pool.PoolTable.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\_8Pool.Properties.Resources.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\8Pool.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\8Pool.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\8Pool.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\8Pool.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\14- C# Level1\Projects\8Pool\obj\Debug\_8Pool.Form1.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\bin\Debug\8Pool.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\bin\Debug\8Pool.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\bin\Debug\8Pool.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\8Pool.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\8Pool.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\_8Pool.Form1.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\_8Pool.frmTest.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\_8Pool.PoolTable.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\_8Pool.Properties.Resources.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\8Pool.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\8Pool.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\8Pool.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Projects\8Pool\obj\Debug\8Pool.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\bin\Debug\8Pool.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\bin\Debug\8Pool.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\bin\Debug\8Pool.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\8Pool.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\8Pool.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\_8Pool.Form1.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\_8Pool.frmTest.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\_8Pool.PoolTable.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\_8Pool.Properties.Resources.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\8Pool.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\8Pool.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\8Pool.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\31 User Controls Part 2\Pool\8Pool\obj\Debug\8Pool.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\bin\Debug\8Pool.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\bin\Debug\8Pool.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\bin\Debug\8Pool.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\8Pool.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\_8Pool.Form1.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\_8Pool.frmTest.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\_8Pool.PoolTable.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\_8Pool.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\8Pool.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\8Pool.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\8Pool.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\8Pool.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\_8Pool.CtrlSetPoolInfos.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\_8Pool.frmSetTableInfos.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\25-Pool Club Project\Pool\obj\Debug\_8Pool.frmTableResult.resources
+C:\Users\Morad\Downloads\Pool\bin\Debug\8Pool.exe.config
+C:\Users\Morad\Downloads\Pool\bin\Debug\8Pool.exe
+C:\Users\Morad\Downloads\Pool\bin\Debug\8Pool.pdb
+C:\Users\Morad\Downloads\Pool\obj\Debug\8Pool.csproj.AssemblyReference.cache
+C:\Users\Morad\Downloads\Pool\obj\Debug\8Pool.exe.config
+C:\Users\Morad\Downloads\Pool\obj\Debug\_8Pool.CtrlSetPoolInfos.resources
+C:\Users\Morad\Downloads\Pool\obj\Debug\_8Pool.Form1.resources
+C:\Users\Morad\Downloads\Pool\obj\Debug\_8Pool.frmSetTableInfos.resources
+C:\Users\Morad\Downloads\Pool\obj\Debug\_8Pool.frmTableResult.resources
+C:\Users\Morad\Downloads\Pool\obj\Debug\_8Pool.frmTest.resources
+C:\Users\Morad\Downloads\Pool\obj\Debug\_8Pool.PoolTable.resources
+C:\Users\Morad\Downloads\Pool\obj\Debug\_8Pool.Properties.Resources.resources
+C:\Users\Morad\Downloads\Pool\obj\Debug\8Pool.csproj.GenerateResource.cache
+C:\Users\Morad\Downloads\Pool\obj\Debug\8Pool.csproj.CoreCompileInputs.cache
+C:\Users\Morad\Downloads\Pool\obj\Debug\8Pool.exe
+C:\Users\Morad\Downloads\Pool\obj\Debug\8Pool.pdb

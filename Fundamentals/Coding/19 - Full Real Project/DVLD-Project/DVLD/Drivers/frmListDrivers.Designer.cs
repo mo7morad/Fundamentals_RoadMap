@@ -147,7 +147,7 @@ namespace DVLD.Drivers
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(913, 615);
+            this.btnClose.Location = new System.Drawing.Point(933, 615);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(135, 40);
             this.btnClose.TabIndex = 118;
@@ -208,7 +208,7 @@ namespace DVLD.Drivers
             this.panelFilter.Controls.Add(this.panelFilterUnderline);
             this.panelFilter.Location = new System.Drawing.Point(20, 90);
             this.panelFilter.Name = "panelFilter";
-            this.panelFilter.Size = new System.Drawing.Size(1028, 60);
+            this.panelFilter.Size = new System.Drawing.Size(1061, 60);
             this.panelFilter.TabIndex = 127;
             // 
             // panelFilterUnderline
@@ -240,7 +240,7 @@ namespace DVLD.Drivers
             this.panelGrid.Controls.Add(this.dgvDrivers);
             this.panelGrid.Location = new System.Drawing.Point(20, 160);
             this.panelGrid.Name = "panelGrid";
-            this.panelGrid.Size = new System.Drawing.Size(1028, 440);
+            this.panelGrid.Size = new System.Drawing.Size(1035, 440);
             this.panelGrid.TabIndex = 128;
             // 
             // dgvDrivers
@@ -255,7 +255,6 @@ namespace DVLD.Drivers
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
@@ -281,7 +280,7 @@ namespace DVLD.Drivers
             this.dgvDrivers.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvDrivers.RowTemplate.Height = 28;
             this.dgvDrivers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDrivers.Size = new System.Drawing.Size(1028, 440);
+            this.dgvDrivers.Size = new System.Drawing.Size(1035, 440);
             this.dgvDrivers.TabIndex = 119;
             this.dgvDrivers.TabStop = false;
             // 
@@ -290,7 +289,7 @@ namespace DVLD.Drivers
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1068, 685);
+            this.ClientSize = new System.Drawing.Size(1081, 685);
             this.Controls.Add(this.panelFilter);
             this.Controls.Add(this.panelGrid);
             this.Controls.Add(this.lblTitle);

@@ -1,0 +1,12 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\bin\Debug\trafik light Project.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\bin\Debug\trafik light Project.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\bin\Debug\trafik light Project.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik light Project.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik light Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik_light_Project.Properties.Resources.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik light Project.csproj.GenerateResource.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik light Project.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik light Project.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik light Project.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik_light_Project.ctrlTraficLight.resources
+C:\Users\Acer\Dropbox\Personal\Advices\2021\20 C# Level2\Projects\trafik light Project\obj\Debug\trafik_light_Project.Form1.resources
