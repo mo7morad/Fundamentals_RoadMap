@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Embed Elements Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        embed {
+            border: 1px solid #ccc; /* Adds a light grey border around the embed element */
+            margin-bottom: 20px; /* Spacing between each embed element */
+            display: block; /* Ensures embed elements do not inline and take the full specified dimensions */
+        }
+    </style>
+</head>
+<body>
+    <h1>Demonstration of Various Embedded Content Types</h1>
+
+    <!--
+     The <embed> element is an HTML tag used to embed external content such as applications, interactive content, or multimedia (like PDFs, videos, and audio files) directly into web pages.
+    
+        Purpose of the <embed> Element:
+            The <embed> element allows web developers to integrate external multimedia elements and other content into HTML documents.
+            It supports various types of content, including Flash, QuickTime, and Acrobat files, among others. 
+    -->
+
+    <!-- Embedding an image -->
+    <h2>Embedded Image</h2>
+    <embed src="assets/A2.jpg" type="image/jpeg" width="600" height="400"></embed>
+
+    <!-- Embedding a PDF document -->
+    <h2>Embedded PDF Document</h2>
+    <embed src="assets/Test.pdf" type="application/pdf" width="600" height="500"></embed>
+
+    <!-- Embedding a video file -->
+    <h2>Embedded Video File</h2>
+    <embed src="assets/Funny.mp4" type="video/mp4" width="600" height="400"></embed>
+
+    <!-- Embedding an audio file -->
+    <h2>Embedded Audio File</h2>
+    <embed src="assets/sample.mp3" type="audio/mp3" width="300" height="250"></embed>
+
+    <!-- Embedding an HTML document -->
+    <h2>Embedded HTML Document</h2>
+    <embed src="assets/OtherHTMLPage.html" type="text/html" width="600" height="400"></embed>
+
+    <p>This webpage is a demonstration of how to use the HTML <code><embed></code> tag to include various types of media and applications directly into a web page. Each embedded element is provided with appropriate dimensions and a MIME type to ensure proper handling by the browser.</p>
+</body>
+</html>

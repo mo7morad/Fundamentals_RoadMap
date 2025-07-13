@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The map and area elements</h1>
+
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+<!-- Embeds an image that uses a map for defining clickable areas. 
+     The 'usemap' attribute links this image to the map defined below with the name "workmap". -->
+
+<map name="workmap">
+  <!-- The map element where the name attribute must correspond to the usemap attribute in the img tag. -->
+  
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="Computer.html">
+  <!-- Defines a rectangular clickable area over the image where the computer is located.
+       The 'coords' attribute specifies the top-left and bottom-right corners of the rectangle.
+       Clicking within this rectangle navigates to 'Computer.html'. -->
+
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+  <!-- Another rectangle for the phone area, linking to 'phone.html'. -->
+
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html">
+  <!-- A circular area defined around the cup of coffee, where 'coords' specifies the center
+       and radius of the circle. Clicking this circle navigates to 'coffee.html'. -->
+</map>
+
+</body>
+</html>

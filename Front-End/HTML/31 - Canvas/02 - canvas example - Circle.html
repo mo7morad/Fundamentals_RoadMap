@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draw a Circle</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="200" style="border:1px solid #000000;">
+    </canvas>
+
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var ctx = canvas.getContext('2d');
+        ctx.beginPath();
+        ctx.arc(100, 100, 150, 0, 2 * Math.PI); // Circle centered at (100,100) with radius 50
+        ctx.stroke();
+    </script>
+</body>
+</html>

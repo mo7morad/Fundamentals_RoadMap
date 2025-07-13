@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Web Page with Semantic Elements</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        header, footer, article, nav, aside { border: 1px solid #ccc; padding: 8px; margin: 10px; }
+        figure { margin: 10px; }
+        figcaption { font-style: italic; }
+        time { font-weight: bold; }
+    </style>
+</head>
+
+<body>
+    <!-- Header section of the web page, typically containing navigational links or intro content -->
+    <header>
+        <h1>My Blog</h1>
+        <!-- Navigation block, should contain primary navigation links -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area of the document: 
+     <main>: Designate the primary content of the document. It should be unique to the document and exclude what is repeated across pages such as navigation links and footers.-->
+    <main>
+        <!-- Article element represents a self-contained composition in a document, page, or site -->
+        <article>
+            <!-- Header of the article, containing its title and publication date -->
+            <header>
+                <h2>The Importance of Semantic HTML</h2>
+                <!-- Time element, denotes the date/time at which the article was published -->
+                <time datetime="2023-01-23">Published on January 23, 2023</time>
+            </header>
+            <!-- Figure element, used for illustrations, diagrams, photos, or code, often with a caption -->
+            <figure>
+                <img src="html.png" alt="HTML5 Logo" width="100">
+                <!-- Figcaption defines a caption for a figure element -->
+                <figcaption>HTML5 is the latest evolution of the standard that defines HTML.</figcaption>
+            </figure>
+            <!-- Content of the article -->
+            <p>Using <mark>semantic elements</mark> in HTML helps improve accessibility and search engine optimization. Semantic tags provide information about the contents of those tags, making it easier for search engines and assistive devices to serve users better.</p>
+            <!-- Footer of the article, typically contains small print or other metadata -->
+            <footer>
+                Written by the Editorial Team.
+            </footer>
+        </article>
+
+        <!-- Aside element for content that is slightly related to the main content, like a sidebar -->
+        <aside>
+            <h3>Related Posts</h3>
+            <ul>
+                <li><a href="#">Using CSS for Effective Styling</a></li>
+                <li><a href="#">Introduction to JavaScript</a></li>
+            </ul>
+        </aside>
+
+        <!-- Section element, groups thematically related content -->
+        <section>
+            <h3>User Comments</h3>
+            <!-- Details element, used for disclosure widgets from which the user can retrieve additional information -->
+            <details>
+                <!-- Summary element, specifies a summary, caption, or legend for a details element -->
+                <summary>View comments (2)</summary>
+                <p>Jane Doe: Great article!</p>
+                <p>John Smith: Very informative. Thanks!</p>
+            </details>
+        </section>
+        
+    </main>
+
+    <!-- Footer of the document or section, typically contains authorship information, links to related documents, etc. -->
+    <footer>
+        <p>Copyright © 2023 My Website. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

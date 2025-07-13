@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="index, follow"> 
+    <!-- 
+    Purpose: This tag provides general instructions to all web crawlers about indexing and linking.
+    
+    index: Allows search engine bots to index the page, meaning the page can appear in search results.
+    follow: Instructs bots to follow the links on the page, potentially indexing linked pages as well. -->
+
+    <meta name="noarchive" content="noarchive"> 
+    <!-- Purpose: Prevents search engines from storing a cached copy of the page.
+    
+    noarchive: Search engines like Google typically cache versions of web pages. This directive stops them from doing so, which might be necessary for content that is sensitive or changes frequently. -->
+
+
+    <meta name="noindex" content="noindex"> 
+    <!-- 
+    Purpose: Stops search engines from including the page in their index.
+    
+    noindex: Useful for pages that should not appear in search results, such as internal pages, confidential information, or duplicate content. -->
+
+
+    <meta name="nofollow" content="nofollow"> 
+    <!-- 
+    Purpose: Prevents search engines from following any links on the page.
+    
+    nofollow: Useful for pages where you do not want to pass link equity to the pages you link to, or when the links on the page are user-generated and potentially untrustworthy. -->
+
+
+
+    <meta name="revisit-after" content="7 days"> 
+    <!-- 
+    Purpose: Advises search engines on how often they should revisit the page for potential re-indexing.
+    
+    revisit-after: This is more of an advisory tag and may not be strictly adhered to by crawlers, but it can be used to suggest a review frequency. -->
+
+
+    <meta name="nosnippet" content="nosnippet"> 
+    <!-- 
+    Purpose: Prevents the display of snippets in search results.
+    
+    nosnippet: Can be used to control privacy or just to keep the search listings clean. This ensures that no text or video previews are shown in the search results. -->
+
+
+    <meta name="noimageindex" content="noimageindex">
+    <!-- 
+    Purpose: Ensures that images on the page are not indexed.
+    
+    noimageindex: Important for pages where you may have copyrighted or sensitive images that you do not want appearing in image search results. -->
+
+
+    <meta name="googlebot" content="index, follow, max-snippet:-1"> 
+    <!-- 
+    Purpose: Provides specific instructions only to Google's crawler.
+    
+    max-snippet:-1: This particular directive tells Google not to limit the size of the snippet. It could be used for giving Google specific indexing or snippet handling instructions differing from other bots. -->
+
+
+    <meta name="bingbot" content="index, follow, noarchive"> <!-- Specific directives for Bing's crawler -->
+    <!-- 
+    Purpose: Specific directives tailored for Bing's crawler.
+    Combines general indexing and following behavior with a noarchive directive specifically for Bing, potentially differing in handling from Google or other search engines. -->
+
+    
+
+    
+    <title>SEO & Crawler Directives in HTML Meta Tags</title>
+</head>
+<body>
+    <h1>Effective Use of SEO & Crawler Directive Meta Tags</h1>
+</body>
+</html>

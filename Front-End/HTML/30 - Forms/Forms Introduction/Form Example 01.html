@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example 1</title>
+   
+</head>
+<body>
+    <h1>Contact Information</h1>
+    
+    
+    <form action="TagetPage_Koko.html" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0">
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <p>Subscription Type:</p>
+            <label for="basic">Basic</label>
+            <input type="radio" id="basic" name="subscription" value="basic" checked>
+            <label for="premium">Premium</label>
+            <input type="radio" id="premium" name="subscription" value="premium">
+            
+            <p>Newsletter:</p>
+            <label for="subscribe">Subscribe to newsletter?</label>
+            <input type="checkbox" id="subscribe" name="subscribe" checked>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="jo">Jordan</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Message</legend>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" ></textarea>
+        </fieldset>
+        <br>
+        <button type="submit" align="center">Send</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encType in Form Examples</title>
+</head>
+<body style="font-size: 20px;">
+
+<p>Form with application/x-www-form-urlencoded</p>
+
+    <!-- Form with application/x-www-form-urlencoded -->
+
+    <!-- 
+    Description: This is the default encoding type. Data is encoded in key-value pairs, and characters are URL-encoded (spaces are converted to "+" symbols, special characters to %XX where XX is the ASCII hex value).
+    
+    Use Case: Best used for forms that submit text fields. This content type is efficient for small forms and where files are not being submitted. 
+    -->
+<form action="Destination.html" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <button type="submit">Submit</button>
+</form>
+
+<br><br>
+<p>Form with text/plain for debugging</p>
+<!-- Form with text/plain for debugging -->
+<!-- 
+Description: A simple encoding type where spaces are converted to "+" symbols, but no other encoding is performed. This means special characters are not encoded.
+
+Use Case: Rarely used in production; primarily for debugging purposes because it allows 
+-->
+<form action="Destination.html" method="post" enctype="text/plain">
+    <label for="info">Info:</label>
+    <input type="text" id="info" name="info">
+    <button type="submit">Send</button>
+</form>
+
+
+<br><br>
+<p>Form with multipart/form-data for file uploads</p>
+<!-- Form with multipart/form-data for file uploads -->
+<!-- 
+Description: With this encoding type, each form value is sent as a block of data ("part"), with a user agent-defined delimiter ("boundary") separating each part. It is required when a form includes any file uploads.
+
+Use Case: Essential for forms that include file uploads, as it allows files to be sent to the server along with the text data. Also useful when submitting large data sets that include binary data. 
+-->
+
+
+
+<form action="Destination.html" method="post" enctype="multipart/form-data">
+    <label for="file">File:</label>
+    <input type="file" id="file" name="file">
+    <button type="submit">Upload</button>
+</form>
+
+
+
+</body>
+</html>

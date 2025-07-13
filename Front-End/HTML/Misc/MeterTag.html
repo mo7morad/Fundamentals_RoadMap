@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disk Usage Meter Example</title>
+    <style>
+        /* Basic styling for the meter element */
+        meter {
+            width: 40%;
+            height: 20px; /* Set the height of the meter */
+        }
+    </style>
+</head>
+<body>
+    <h1>Check Your System's Disk Usage</h1>
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10" low="2" high="8" optimum="6">2 out of 10</meter>
+    <p>This meter shows the current disk usage of drive C. A value of 2 indicates low usage.</p>
+</body>
+</html>

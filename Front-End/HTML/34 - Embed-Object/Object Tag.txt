@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object Element Demonstration</title>
+    <style>
+        object {
+            width: 60%;
+            min-height: 300px; /* Ensures a minimum height for smaller objects */
+            margin-bottom: 20px;
+            border: 1px solid #ccc; /* Adds a light border for visibility */
+        }
+    </style>
+</head>
+<body>
+    <h1>Demonstration of the HTML `< object >` Element</h1>
+
+    <!-- Embedding a PDF Document -->
+    <h2>Embedded PDF Document</h2>
+    <object data="assets/Test.pdf" type="application/pdf" width="600" height="500">
+        <p>Your browser does not support this object. <a href="assets/Test.pdf">Download the PDF</a> to view it.</p>
+    </object>
+
+    <!-- Embedding an SVG Image -->
+    <h2>Embedded SVG Image</h2>
+    <object data="assets/AJ_Digital_Camera.svg" type="image/svg+xml" >
+        <p>Your browser does not support this object. Here is a <a href="assets/AJ_Digital_Camera.svg">link to the image</a> instead.</p>
+    </object>
+
+
+    <!-- Embedding an HTML Document -->
+    <h2>Embedded HTML Document</h2>
+    <object data="assets/OtherHTMLPage.html" type="text/html">
+        <p>Your browser does not support this object. Here is a <a href="assets/OtherHTMLPage.html">link to the HTML content</a> instead.</p>
+    </object>
+
+    <!-- Embedding a Video File -->
+    <h2>Embedded Video File</h2>
+    <object data="assets/Funny.mp4" type="video/mp4">
+        <p>Your browser does not support this object. Here is a <a href="assets/Funny.mp4">link to the video</a> instead.</p>
+    </object>
+
+    <p>This page showcases different uses of the `< object >` element to embed various types of content within a web page. Each example provides fallback content for browsers that do not support the `< object >` tag.</p>
+</body>
+</html>

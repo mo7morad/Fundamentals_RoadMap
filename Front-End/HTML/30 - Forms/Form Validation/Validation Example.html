@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form id="registrationForm" action="Destination.html" method="post">
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter a valid email">
+        <br><br>
+        <!-- Age input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="65" required title="Age must be between 18 and 65">
+        <br><br>
+        <!-- Website input -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" pattern="https?://.*" required title="Include http:// or https://">
+        <br><br>
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required title="Password must be at least 8 characters long">
+        <br><br>
+        <!-- Telephone input -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required title="Enter a 10-digit phone number without any dashes or spaces">
+        <br><br>
+        <!-- Date of Birth input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        <!-- Color input -->
+        <label for="favoriteColor">Favorite Color:</label>
+        <input type="color" id="favoriteColor" name="favoriteColor" required>
+        <br><br>
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
