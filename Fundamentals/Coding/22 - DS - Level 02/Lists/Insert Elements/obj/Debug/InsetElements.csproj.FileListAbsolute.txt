@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\01.1 Inseting\InsetElements\bin\Debug\InsetElements.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\01.1 Inseting\InsetElements\bin\Debug\InsetElements.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\01.1 Inseting\InsetElements\bin\Debug\InsetElements.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\01.1 Inseting\InsetElements\obj\Debug\InsetElements.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\01.1 Inseting\InsetElements\obj\Debug\InsetElements.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\01.1 Inseting\InsetElements\obj\Debug\InsetElements.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\01.1 Inseting\InsetElements\obj\Debug\InsetElements.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\01.1 Inseting\InsetElements\obj\Debug\InsetElements.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.1 Inserting Elements into a List\InsetElements\bin\Debug\InsetElements.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.1 Inserting Elements into a List\InsetElements\bin\Debug\InsetElements.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.1 Inserting Elements into a List\InsetElements\bin\Debug\InsetElements.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.1 Inserting Elements into a List\InsetElements\obj\Debug\InsetElements.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.1 Inserting Elements into a List\InsetElements\obj\Debug\InsetElements.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.1 Inserting Elements into a List\InsetElements\obj\Debug\InsetElements.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.1 Inserting Elements into a List\InsetElements\obj\Debug\InsetElements.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.1 Inserting Elements into a List\InsetElements\obj\Debug\InsetElements.pdb

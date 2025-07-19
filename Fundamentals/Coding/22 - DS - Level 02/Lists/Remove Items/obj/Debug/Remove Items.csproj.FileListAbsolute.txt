@@ -1,0 +1,24 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\Remove Items\bin\Debug\Remove Items.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\Remove Items\bin\Debug\Remove Items.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\Remove Items\bin\Debug\Remove Items.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\Remove Items\obj\Debug\Remove Items.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\Remove Items\obj\Debug\Remove Items.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\Remove Items\obj\Debug\Remove Items.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\Remove Items\obj\Debug\Remove Items.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\Remove Items\obj\Debug\Remove Items.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.2 Removing Items\Remove Items\bin\Debug\Remove Items.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.2 Removing Items\Remove Items\bin\Debug\Remove Items.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.2 Removing Items\Remove Items\bin\Debug\Remove Items.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.2 Removing Items\Remove Items\obj\Debug\Remove Items.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.2 Removing Items\Remove Items\obj\Debug\Remove Items.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.2 Removing Items\Remove Items\obj\Debug\Remove Items.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.2 Removing Items\Remove Items\obj\Debug\Remove Items.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\01.2 Removing Items\Remove Items\obj\Debug\Remove Items.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Lists\Remove Items\obj\Debug\Remove Items.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Lists\Remove Items\obj\Debug\Remove Items.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Lists\Remove Items\obj\Debug\Remove Items.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Lists\Remove Items\obj\Debug\Remove Items.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Lists\Remove Items\obj\Debug\Remove Items.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Lists\Remove Items\bin\Debug\Remove Items.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Lists\Remove Items\bin\Debug\Remove Items.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Lists\Remove Items\bin\Debug\Remove Items.pdb

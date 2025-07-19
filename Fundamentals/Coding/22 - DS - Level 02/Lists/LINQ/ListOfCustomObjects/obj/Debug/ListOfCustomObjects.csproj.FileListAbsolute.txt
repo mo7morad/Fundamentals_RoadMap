@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\11 Custom Object List\ListOfCustomObjects\bin\Debug\ListOfCustomObjects.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\11 Custom Object List\ListOfCustomObjects\bin\Debug\ListOfCustomObjects.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\11 Custom Object List\ListOfCustomObjects\bin\Debug\ListOfCustomObjects.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\11 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\11 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\11 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\11 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\11 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\08 Custom Object List\ListOfCustomObjects\bin\Debug\ListOfCustomObjects.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\08 Custom Object List\ListOfCustomObjects\bin\Debug\ListOfCustomObjects.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\08 Custom Object List\ListOfCustomObjects\bin\Debug\ListOfCustomObjects.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\08 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\08 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\08 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\08 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\08 Custom Object List\ListOfCustomObjects\obj\Debug\ListOfCustomObjects.pdb

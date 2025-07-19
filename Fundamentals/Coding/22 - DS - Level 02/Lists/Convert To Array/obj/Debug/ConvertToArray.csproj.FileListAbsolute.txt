@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\ConvertToArray\bin\Debug\ConvertToArray.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\ConvertToArray\bin\Debug\ConvertToArray.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\ConvertToArray\bin\Debug\ConvertToArray.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\ConvertToArray\obj\Debug\ConvertToArray.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\ConvertToArray\obj\Debug\ConvertToArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\ConvertToArray\obj\Debug\ConvertToArray.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\ConvertToArray\obj\Debug\ConvertToArray.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\08 Removing Items\ConvertToArray\obj\Debug\ConvertToArray.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\09 Convert List to Array\ConvertToArray\bin\Debug\ConvertToArray.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\09 Convert List to Array\ConvertToArray\bin\Debug\ConvertToArray.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\09 Convert List to Array\ConvertToArray\bin\Debug\ConvertToArray.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\09 Convert List to Array\ConvertToArray\obj\Debug\ConvertToArray.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\09 Convert List to Array\ConvertToArray\obj\Debug\ConvertToArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\09 Convert List to Array\ConvertToArray\obj\Debug\ConvertToArray.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\09 Convert List to Array\ConvertToArray\obj\Debug\ConvertToArray.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\09 Convert List to Array\ConvertToArray\obj\Debug\ConvertToArray.pdb

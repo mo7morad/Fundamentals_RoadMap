@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Items", "Remove Items.csproj", "{16EC5A3F-7A62-4E6A-9EA9-A848A89E2765}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16EC5A3F-7A62-4E6A-9EA9-A848A89E2765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EC5A3F-7A62-4E6A-9EA9-A848A89E2765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EC5A3F-7A62-4E6A-9EA9-A848A89E2765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EC5A3F-7A62-4E6A-9EA9-A848A89E2765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E061077E-636E-43F5-97C1-CD6536CF83F0}
+	EndGlobalSection
+EndGlobal

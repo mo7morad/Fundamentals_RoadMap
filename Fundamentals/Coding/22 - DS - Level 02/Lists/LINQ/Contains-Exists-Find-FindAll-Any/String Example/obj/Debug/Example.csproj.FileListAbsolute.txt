@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\bin\Debug\Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\bin\Debug\Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\bin\Debug\Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\bin\Debug\Example.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\bin\Debug\Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\bin\Debug\Example.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\03 Lists\07 Contains, Exists, Find, FindAll, and Any with string list\Example\obj\Debug\Example.pdb

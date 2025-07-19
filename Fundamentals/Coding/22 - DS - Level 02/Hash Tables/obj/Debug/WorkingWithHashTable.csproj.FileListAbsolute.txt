@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 HashTable\02 Working with Hashtable\WorkingWithHashTable\bin\Debug\WorkingWithHashTable.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 HashTable\02 Working with Hashtable\WorkingWithHashTable\bin\Debug\WorkingWithHashTable.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 HashTable\02 Working with Hashtable\WorkingWithHashTable\bin\Debug\WorkingWithHashTable.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 HashTable\02 Working with Hashtable\WorkingWithHashTable\obj\Debug\WorkingWithHashTable.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 HashTable\02 Working with Hashtable\WorkingWithHashTable\obj\Debug\WorkingWithHashTable.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 HashTable\02 Working with Hashtable\WorkingWithHashTable\obj\Debug\WorkingWithHashTable.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 HashTable\02 Working with Hashtable\WorkingWithHashTable\obj\Debug\WorkingWithHashTable.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 HashTable\02 Working with Hashtable\WorkingWithHashTable\obj\Debug\WorkingWithHashTable.pdb

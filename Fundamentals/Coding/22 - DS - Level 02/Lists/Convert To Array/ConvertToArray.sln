@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToArray", "ConvertToArray.csproj", "{758856B0-4F43-41C5-9B6A-FFA415D2C7F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{758856B0-4F43-41C5-9B6A-FFA415D2C7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758856B0-4F43-41C5-9B6A-FFA415D2C7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758856B0-4F43-41C5-9B6A-FFA415D2C7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758856B0-4F43-41C5-9B6A-FFA415D2C7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A61535F-1FEC-4967-A0DD-002107CFA1DD}
+	EndGlobalSection
+EndGlobal
