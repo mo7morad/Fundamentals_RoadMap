@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryGetValue Method", "TryGetValue Method.csproj", "{460BFD62-6A0D-4657-BF96-ED3FD9B64102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{460BFD62-6A0D-4657-BF96-ED3FD9B64102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460BFD62-6A0D-4657-BF96-ED3FD9B64102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460BFD62-6A0D-4657-BF96-ED3FD9B64102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460BFD62-6A0D-4657-BF96-ED3FD9B64102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {150176A6-446F-4AEF-896F-F9FF2DADCFF7}
+	EndGlobalSection
+EndGlobal

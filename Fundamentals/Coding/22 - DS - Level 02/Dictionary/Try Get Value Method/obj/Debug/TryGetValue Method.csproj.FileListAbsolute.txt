@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\02 TryGetValue\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\02 TryGetValue\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\02 TryGetValue\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\02 TryGetValue\ConsoleApp1\obj\Debug\TryGetValue Method.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\02 TryGetValue\ConsoleApp1\obj\Debug\TryGetValue Method.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\02 TryGetValue\ConsoleApp1\obj\Debug\TryGetValue Method.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\02 TryGetValue\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\02 TryGetValue\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Dictionary\Try Get Value Method\bin\Debug\ConsoleApp1.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Dictionary\Try Get Value Method\bin\Debug\ConsoleApp1.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Dictionary\Try Get Value Method\bin\Debug\ConsoleApp1.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Dictionary\Try Get Value Method\obj\Debug\TryGetValue Method.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Dictionary\Try Get Value Method\obj\Debug\ConsoleApp1.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Dictionary\Try Get Value Method\obj\Debug\TryGetValue Method.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Dictionary\Try Get Value Method\obj\Debug\ConsoleApp1.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\Dictionary\Try Get Value Method\obj\Debug\ConsoleApp1.pdb

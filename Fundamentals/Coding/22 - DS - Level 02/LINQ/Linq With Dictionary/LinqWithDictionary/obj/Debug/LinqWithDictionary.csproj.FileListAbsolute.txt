@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\03 Linq with Dictionary\LinqWithDictionary\bin\Debug\LinqWithDictionary.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\03 Linq with Dictionary\LinqWithDictionary\bin\Debug\LinqWithDictionary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\03 Linq with Dictionary\LinqWithDictionary\bin\Debug\LinqWithDictionary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\03 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\03 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\03 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\03 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\03 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\04 Linq with Dictionary\LinqWithDictionary\bin\Debug\LinqWithDictionary.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\04 Linq with Dictionary\LinqWithDictionary\bin\Debug\LinqWithDictionary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\04 Linq with Dictionary\LinqWithDictionary\bin\Debug\LinqWithDictionary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\04 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\04 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\04 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\04 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\04 Linq with Dictionary\LinqWithDictionary\obj\Debug\LinqWithDictionary.pdb

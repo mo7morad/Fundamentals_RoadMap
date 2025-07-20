@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\04 Adv Linq with Dictionary\Adv Linq with Dictionary\bin\Debug\Adv Linq with Dictionary.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\04 Adv Linq with Dictionary\Adv Linq with Dictionary\bin\Debug\Adv Linq with Dictionary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\04 Adv Linq with Dictionary\Adv Linq with Dictionary\bin\Debug\Adv Linq with Dictionary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\04 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\04 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\04 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\04 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Dictionary\04 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\05 Adv Linq with Dictionary\Adv Linq with Dictionary\bin\Debug\Adv Linq with Dictionary.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\05 Adv Linq with Dictionary\Adv Linq with Dictionary\bin\Debug\Adv Linq with Dictionary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\05 Adv Linq with Dictionary\Adv Linq with Dictionary\bin\Debug\Adv Linq with Dictionary.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\05 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\05 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\05 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\05 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Dictionary\05 Adv Linq with Dictionary\Adv Linq with Dictionary\obj\Debug\Adv Linq with Dictionary.pdb

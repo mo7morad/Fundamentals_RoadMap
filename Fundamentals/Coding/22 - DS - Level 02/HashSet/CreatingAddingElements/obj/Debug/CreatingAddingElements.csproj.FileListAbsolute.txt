@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\Creating and Adding Elements to HashSet\CreatingAddingElements\bin\Debug\CreatingAddingElements.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\Creating and Adding Elements to HashSet\CreatingAddingElements\bin\Debug\CreatingAddingElements.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\Creating and Adding Elements to HashSet\CreatingAddingElements\bin\Debug\CreatingAddingElements.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\Creating and Adding Elements to HashSet\CreatingAddingElements\obj\Debug\CreatingAddingElements.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\Creating and Adding Elements to HashSet\CreatingAddingElements\obj\Debug\CreatingAddingElements.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\Creating and Adding Elements to HashSet\CreatingAddingElements\obj\Debug\CreatingAddingElements.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\Creating and Adding Elements to HashSet\CreatingAddingElements\obj\Debug\CreatingAddingElements.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\Creating and Adding Elements to HashSet\CreatingAddingElements\obj\Debug\CreatingAddingElements.pdb
