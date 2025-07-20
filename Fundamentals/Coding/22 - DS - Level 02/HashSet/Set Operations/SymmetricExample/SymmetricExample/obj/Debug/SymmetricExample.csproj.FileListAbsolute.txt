@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\04 Symmetric Difference Operation with HashSet\SymmetricExample\SymmetricExample\bin\Debug\SymmetricExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\04 Symmetric Difference Operation with HashSet\SymmetricExample\SymmetricExample\bin\Debug\SymmetricExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\04 Symmetric Difference Operation with HashSet\SymmetricExample\SymmetricExample\bin\Debug\SymmetricExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\04 Symmetric Difference Operation with HashSet\SymmetricExample\SymmetricExample\obj\Debug\SymmetricExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\04 Symmetric Difference Operation with HashSet\SymmetricExample\SymmetricExample\obj\Debug\SymmetricExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\04 Symmetric Difference Operation with HashSet\SymmetricExample\SymmetricExample\obj\Debug\SymmetricExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\04 Symmetric Difference Operation with HashSet\SymmetricExample\SymmetricExample\obj\Debug\SymmetricExample.pdb

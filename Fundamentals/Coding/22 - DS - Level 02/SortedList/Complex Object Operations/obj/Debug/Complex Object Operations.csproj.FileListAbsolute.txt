@@ -1,0 +1,8 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\06 Linq\Complex Object Operations\bin\Debug\Complex Object Operations.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\06 Linq\Complex Object Operations\bin\Debug\Complex Object Operations.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\06 Linq\Complex Object Operations\bin\Debug\Complex Object Operations.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\06 Linq\Complex Object Operations\obj\Debug\Complex Object Operations.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\06 Linq\Complex Object Operations\obj\Debug\Complex Object Operations.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\06 Linq\Complex Object Operations\obj\Debug\Complex Object Operations.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\06 Linq\Complex Object Operations\obj\Debug\Complex Object Operations.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\06 Linq\Complex Object Operations\obj\Debug\Complex Object Operations.pdb

@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\01 Union Operation with HashSet\UnionExample\UnionExample\bin\Debug\UnionExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\01 Union Operation with HashSet\UnionExample\UnionExample\bin\Debug\UnionExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\01 Union Operation with HashSet\UnionExample\UnionExample\bin\Debug\UnionExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\01 Union Operation with HashSet\UnionExample\UnionExample\obj\Debug\UnionExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\01 Union Operation with HashSet\UnionExample\UnionExample\obj\Debug\UnionExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\01 Union Operation with HashSet\UnionExample\UnionExample\obj\Debug\UnionExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\01 Union Operation with HashSet\UnionExample\UnionExample\obj\Debug\UnionExample.pdb

@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.pdb

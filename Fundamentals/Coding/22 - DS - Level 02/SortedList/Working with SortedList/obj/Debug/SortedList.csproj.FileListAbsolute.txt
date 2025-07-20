@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Sorted Lists\SortedList\bin\Debug\SortedList.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Sorted Lists\SortedList\bin\Debug\SortedList.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Sorted Lists\SortedList\bin\Debug\SortedList.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Sorted Lists\SortedList\obj\Debug\SortedList.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Sorted Lists\SortedList\obj\Debug\SortedList.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Sorted Lists\SortedList\obj\Debug\SortedList.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Sorted Lists\SortedList\obj\Debug\SortedList.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\23 DataStructures Level 2\Sorted Lists\SortedList\obj\Debug\SortedList.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\SortedList\bin\Debug\SortedList.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\SortedList\bin\Debug\SortedList.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\SortedList\bin\Debug\SortedList.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\SortedList\obj\Debug\SortedList.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\SortedList\obj\Debug\SortedList.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\SortedList\obj\Debug\SortedList.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\SortedList\obj\Debug\SortedList.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\SortedList\obj\Debug\SortedList.pdb

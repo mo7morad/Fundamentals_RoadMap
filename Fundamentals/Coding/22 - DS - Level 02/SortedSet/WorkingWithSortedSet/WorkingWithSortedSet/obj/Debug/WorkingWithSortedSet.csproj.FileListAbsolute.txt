@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\WorkingWithSortedSet\WorkingWithSortedSet\bin\Debug\WorkingWithSortedSet.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\WorkingWithSortedSet\WorkingWithSortedSet\bin\Debug\WorkingWithSortedSet.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\WorkingWithSortedSet\WorkingWithSortedSet\bin\Debug\WorkingWithSortedSet.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\WorkingWithSortedSet\WorkingWithSortedSet\obj\Debug\WorkingWithSortedSet.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\WorkingWithSortedSet\WorkingWithSortedSet\obj\Debug\WorkingWithSortedSet.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\WorkingWithSortedSet\WorkingWithSortedSet\obj\Debug\WorkingWithSortedSet.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\WorkingWithSortedSet\WorkingWithSortedSet\obj\Debug\WorkingWithSortedSet.pdb

@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\03 IsSupersetOf\IsSupersetOfExample\IsSupersetOfExample\bin\Debug\IsSupersetOfExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\03 IsSupersetOf\IsSupersetOfExample\IsSupersetOfExample\bin\Debug\IsSupersetOfExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\03 IsSupersetOf\IsSupersetOfExample\IsSupersetOfExample\bin\Debug\IsSupersetOfExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\03 IsSupersetOf\IsSupersetOfExample\IsSupersetOfExample\obj\Debug\IsSupersetOfExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\03 IsSupersetOf\IsSupersetOfExample\IsSupersetOfExample\obj\Debug\IsSupersetOfExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\03 IsSupersetOf\IsSupersetOfExample\IsSupersetOfExample\obj\Debug\IsSupersetOfExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\03 IsSupersetOf\IsSupersetOfExample\IsSupersetOfExample\obj\Debug\IsSupersetOfExample.pdb

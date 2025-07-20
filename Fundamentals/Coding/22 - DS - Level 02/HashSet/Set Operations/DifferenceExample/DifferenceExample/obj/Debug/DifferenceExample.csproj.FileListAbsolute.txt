@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\03 Difference Operation with HashSet\DifferenceExample\DifferenceExample\bin\Debug\DifferenceExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\03 Difference Operation with HashSet\DifferenceExample\DifferenceExample\bin\Debug\DifferenceExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\03 Difference Operation with HashSet\DifferenceExample\DifferenceExample\bin\Debug\DifferenceExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\03 Difference Operation with HashSet\DifferenceExample\DifferenceExample\obj\Debug\DifferenceExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\03 Difference Operation with HashSet\DifferenceExample\DifferenceExample\obj\Debug\DifferenceExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\03 Difference Operation with HashSet\DifferenceExample\DifferenceExample\obj\Debug\DifferenceExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\03 Difference Operation with HashSet\DifferenceExample\DifferenceExample\obj\Debug\DifferenceExample.pdb

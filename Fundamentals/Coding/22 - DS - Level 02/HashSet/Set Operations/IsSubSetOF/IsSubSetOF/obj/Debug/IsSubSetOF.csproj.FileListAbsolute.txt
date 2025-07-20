@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\02 IsSubsetOf\IsSubSetOF\IsSubSetOF\bin\Debug\IsSubSetOF.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\02 IsSubsetOf\IsSubSetOF\IsSubSetOF\bin\Debug\IsSubSetOF.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\02 IsSubsetOf\IsSubSetOF\IsSubSetOF\bin\Debug\IsSubSetOF.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\02 IsSubsetOf\IsSubSetOF\IsSubSetOF\obj\Debug\IsSubSetOF.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\02 IsSubsetOf\IsSubSetOF\IsSubSetOF\obj\Debug\IsSubSetOF.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\02 IsSubsetOf\IsSubSetOF\IsSubSetOF\obj\Debug\IsSubSetOF.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\02 IsSubsetOf\IsSubSetOF\IsSubSetOF\obj\Debug\IsSubSetOF.pdb

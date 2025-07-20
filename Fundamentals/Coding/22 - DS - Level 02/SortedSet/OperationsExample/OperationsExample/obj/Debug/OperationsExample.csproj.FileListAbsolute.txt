@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\03 Operations Example\OperationsExample\OperationsExample\obj\Debug\OperationsExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\03 Operations Example\OperationsExample\OperationsExample\obj\Debug\OperationsExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\03 Operations Example\OperationsExample\OperationsExample\bin\Debug\OperationsExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\03 Operations Example\OperationsExample\OperationsExample\bin\Debug\OperationsExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\03 Operations Example\OperationsExample\OperationsExample\bin\Debug\OperationsExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\03 Operations Example\OperationsExample\OperationsExample\obj\Debug\OperationsExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\03 Operations Example\OperationsExample\OperationsExample\obj\Debug\OperationsExample.pdb

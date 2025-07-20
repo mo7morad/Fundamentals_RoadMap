@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\02 Working with ArrayList\WorkingWithArrayList\WorkingWithArrayList\bin\Debug\WorkingWithArrayList.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\02 Working with ArrayList\WorkingWithArrayList\WorkingWithArrayList\bin\Debug\WorkingWithArrayList.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\02 Working with ArrayList\WorkingWithArrayList\WorkingWithArrayList\bin\Debug\WorkingWithArrayList.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\02 Working with ArrayList\WorkingWithArrayList\WorkingWithArrayList\obj\Debug\WorkingWithArrayList.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\02 Working with ArrayList\WorkingWithArrayList\WorkingWithArrayList\obj\Debug\WorkingWithArrayList.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\02 Working with ArrayList\WorkingWithArrayList\WorkingWithArrayList\obj\Debug\WorkingWithArrayList.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\02 Working with ArrayList\WorkingWithArrayList\WorkingWithArrayList\obj\Debug\WorkingWithArrayList.pdb

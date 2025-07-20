@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\02 Creating and Adding Items to ObservableCollection\CreatingAddingOC\CreatingAddingOC\bin\Debug\CreatingAddingOC.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\02 Creating and Adding Items to ObservableCollection\CreatingAddingOC\CreatingAddingOC\bin\Debug\CreatingAddingOC.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\02 Creating and Adding Items to ObservableCollection\CreatingAddingOC\CreatingAddingOC\bin\Debug\CreatingAddingOC.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\02 Creating and Adding Items to ObservableCollection\CreatingAddingOC\CreatingAddingOC\obj\Debug\CreatingAddingOC.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\02 Creating and Adding Items to ObservableCollection\CreatingAddingOC\CreatingAddingOC\obj\Debug\CreatingAddingOC.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\02 Creating and Adding Items to ObservableCollection\CreatingAddingOC\CreatingAddingOC\obj\Debug\CreatingAddingOC.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\02 Creating and Adding Items to ObservableCollection\CreatingAddingOC\CreatingAddingOC\obj\Debug\CreatingAddingOC.pdb

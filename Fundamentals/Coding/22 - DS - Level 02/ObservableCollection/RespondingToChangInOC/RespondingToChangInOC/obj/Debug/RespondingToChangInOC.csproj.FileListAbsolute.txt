@@ -1,0 +1,15 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\03 Responding to Changes in ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\bin\Debug\RespondingToChangInOC.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\03 Responding to Changes in ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\bin\Debug\RespondingToChangInOC.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\03 Responding to Changes in ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\bin\Debug\RespondingToChangInOC.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\03 Responding to Changes in ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\03 Responding to Changes in ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\03 Responding to Changes in ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\11 ObservableCollection\03 Responding to Changes in ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\bin\Debug\RespondingToChangInOC.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\bin\Debug\RespondingToChangInOC.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\bin\Debug\RespondingToChangInOC.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\ObservableCollection\RespondingToChangInOC\RespondingToChangInOC\obj\Debug\RespondingToChangInOC.pdb

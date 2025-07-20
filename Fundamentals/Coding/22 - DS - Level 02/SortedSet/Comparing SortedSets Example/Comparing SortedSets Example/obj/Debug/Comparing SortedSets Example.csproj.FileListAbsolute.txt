@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\06 Comparing SortedSets\Comparing SortedSets Example\Comparing SortedSets Example\bin\Debug\Comparing SortedSets Example.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\06 Comparing SortedSets\Comparing SortedSets Example\Comparing SortedSets Example\bin\Debug\Comparing SortedSets Example.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\06 Comparing SortedSets\Comparing SortedSets Example\Comparing SortedSets Example\bin\Debug\Comparing SortedSets Example.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\06 Comparing SortedSets\Comparing SortedSets Example\Comparing SortedSets Example\obj\Debug\Comparing SortedSets Example.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\06 Comparing SortedSets\Comparing SortedSets Example\Comparing SortedSets Example\obj\Debug\Comparing SortedSets Example.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\06 Comparing SortedSets\Comparing SortedSets Example\Comparing SortedSets Example\obj\Debug\Comparing SortedSets Example.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\08 SortedSet\06 Comparing SortedSets\Comparing SortedSets Example\Comparing SortedSets Example\obj\Debug\Comparing SortedSets Example.pdb

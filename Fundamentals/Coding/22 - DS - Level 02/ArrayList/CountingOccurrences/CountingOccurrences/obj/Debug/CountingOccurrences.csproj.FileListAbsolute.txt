@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\06 Counting occurrences\CountingOccurrences\CountingOccurrences\bin\Debug\CountingOccurrences.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\06 Counting occurrences\CountingOccurrences\CountingOccurrences\bin\Debug\CountingOccurrences.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\06 Counting occurrences\CountingOccurrences\CountingOccurrences\bin\Debug\CountingOccurrences.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\06 Counting occurrences\CountingOccurrences\CountingOccurrences\obj\Debug\CountingOccurrences.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\06 Counting occurrences\CountingOccurrences\CountingOccurrences\obj\Debug\CountingOccurrences.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\06 Counting occurrences\CountingOccurrences\CountingOccurrences\obj\Debug\CountingOccurrences.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\10 ArrayList\06 Counting occurrences\CountingOccurrences\CountingOccurrences\obj\Debug\CountingOccurrences.pdb

@@ -1,0 +1,16 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\Linq with Sorted List\LinqWithSortedListExample1\bin\Debug\LinqWithSortedListExample1.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\Linq with Sorted List\LinqWithSortedListExample1\bin\Debug\LinqWithSortedListExample1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\Linq with Sorted List\LinqWithSortedListExample1\bin\Debug\LinqWithSortedListExample1.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\04 Sorted Lists\Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\03 Linq with Sorted List\LinqWithSortedListExample1\bin\Debug\LinqWithSortedListExample1.exe.config
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\03 Linq with Sorted List\LinqWithSortedListExample1\bin\Debug\LinqWithSortedListExample1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\03 Linq with Sorted List\LinqWithSortedListExample1\bin\Debug\LinqWithSortedListExample1.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\03 Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\03 Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\03 Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\03 Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.exe
+C:\Users\Acer\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\05 Sorted Lists\03 Linq with Sorted List\LinqWithSortedListExample1\obj\Debug\LinqWithSortedListExample1.pdb

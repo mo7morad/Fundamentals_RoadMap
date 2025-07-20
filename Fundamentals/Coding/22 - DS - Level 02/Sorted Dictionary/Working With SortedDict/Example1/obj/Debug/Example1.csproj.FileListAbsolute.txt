@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\09 Sorted Dictionary\02 Working with SortedDictionary\Example1\Example1\bin\Debug\Example1.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\09 Sorted Dictionary\02 Working with SortedDictionary\Example1\Example1\bin\Debug\Example1.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\09 Sorted Dictionary\02 Working with SortedDictionary\Example1\Example1\bin\Debug\Example1.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\09 Sorted Dictionary\02 Working with SortedDictionary\Example1\Example1\obj\Debug\Example1.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\09 Sorted Dictionary\02 Working with SortedDictionary\Example1\Example1\obj\Debug\Example1.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\09 Sorted Dictionary\02 Working with SortedDictionary\Example1\Example1\obj\Debug\Example1.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\09 Sorted Dictionary\02 Working with SortedDictionary\Example1\Example1\obj\Debug\Example1.pdb

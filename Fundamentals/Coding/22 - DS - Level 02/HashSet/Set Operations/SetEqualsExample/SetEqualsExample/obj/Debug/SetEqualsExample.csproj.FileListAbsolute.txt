@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\01 SetEquals\SetEqualsExample\SetEqualsExample\bin\Debug\SetEqualsExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\01 SetEquals\SetEqualsExample\SetEqualsExample\bin\Debug\SetEqualsExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\01 SetEquals\SetEqualsExample\SetEqualsExample\bin\Debug\SetEqualsExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\01 SetEquals\SetEqualsExample\SetEqualsExample\obj\Debug\SetEqualsExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\01 SetEquals\SetEqualsExample\SetEqualsExample\obj\Debug\SetEqualsExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\01 SetEquals\SetEqualsExample\SetEqualsExample\obj\Debug\SetEqualsExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\New folder\01 SetEquals\SetEqualsExample\SetEqualsExample\obj\Debug\SetEqualsExample.pdb
