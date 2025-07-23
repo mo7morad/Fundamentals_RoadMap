@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\03 Linq With Jagged Array\LinqWithJaggedArrayExample\LinqWithJaggedArrayExample\bin\Debug\LinqWithJaggedArrayExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\03 Linq With Jagged Array\LinqWithJaggedArrayExample\LinqWithJaggedArrayExample\bin\Debug\LinqWithJaggedArrayExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\03 Linq With Jagged Array\LinqWithJaggedArrayExample\LinqWithJaggedArrayExample\bin\Debug\LinqWithJaggedArrayExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\03 Linq With Jagged Array\LinqWithJaggedArrayExample\LinqWithJaggedArrayExample\obj\Debug\LinqWithJaggedArrayExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\03 Linq With Jagged Array\LinqWithJaggedArrayExample\LinqWithJaggedArrayExample\obj\Debug\LinqWithJaggedArrayExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\03 Linq With Jagged Array\LinqWithJaggedArrayExample\LinqWithJaggedArrayExample\obj\Debug\LinqWithJaggedArrayExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\03 Linq With Jagged Array\LinqWithJaggedArrayExample\LinqWithJaggedArrayExample\obj\Debug\LinqWithJaggedArrayExample.pdb

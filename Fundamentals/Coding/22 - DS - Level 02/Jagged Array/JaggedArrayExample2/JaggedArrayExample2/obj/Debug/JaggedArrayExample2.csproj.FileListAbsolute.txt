@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\02 Advanced Concepts in Jagged Arrays\JaggedArrayExample2\JaggedArrayExample2\bin\Debug\JaggedArrayExample2.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\02 Advanced Concepts in Jagged Arrays\JaggedArrayExample2\JaggedArrayExample2\bin\Debug\JaggedArrayExample2.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\02 Advanced Concepts in Jagged Arrays\JaggedArrayExample2\JaggedArrayExample2\bin\Debug\JaggedArrayExample2.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\02 Advanced Concepts in Jagged Arrays\JaggedArrayExample2\JaggedArrayExample2\obj\Debug\JaggedArrayExample2.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\02 Advanced Concepts in Jagged Arrays\JaggedArrayExample2\JaggedArrayExample2\obj\Debug\JaggedArrayExample2.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\02 Advanced Concepts in Jagged Arrays\JaggedArrayExample2\JaggedArrayExample2\obj\Debug\JaggedArrayExample2.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\02 Advanced Concepts in Jagged Arrays\JaggedArrayExample2\JaggedArrayExample2\obj\Debug\JaggedArrayExample2.pdb

@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\12 BitArray\03 BitWiseOperators with BitArray\BitWiseOperatorsWithBitArray\BitWiseOperatorsWithBitArray\bin\Debug\BitWiseOperatorsWithBitArray.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\12 BitArray\03 BitWiseOperators with BitArray\BitWiseOperatorsWithBitArray\BitWiseOperatorsWithBitArray\bin\Debug\BitWiseOperatorsWithBitArray.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\12 BitArray\03 BitWiseOperators with BitArray\BitWiseOperatorsWithBitArray\BitWiseOperatorsWithBitArray\bin\Debug\BitWiseOperatorsWithBitArray.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\12 BitArray\03 BitWiseOperators with BitArray\BitWiseOperatorsWithBitArray\BitWiseOperatorsWithBitArray\obj\Debug\BitWiseOperatorsWithBitArray.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\12 BitArray\03 BitWiseOperators with BitArray\BitWiseOperatorsWithBitArray\BitWiseOperatorsWithBitArray\obj\Debug\BitWiseOperatorsWithBitArray.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\12 BitArray\03 BitWiseOperators with BitArray\BitWiseOperatorsWithBitArray\BitWiseOperatorsWithBitArray\obj\Debug\BitWiseOperatorsWithBitArray.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\12 BitArray\03 BitWiseOperators with BitArray\BitWiseOperatorsWithBitArray\BitWiseOperatorsWithBitArray\obj\Debug\BitWiseOperatorsWithBitArray.pdb

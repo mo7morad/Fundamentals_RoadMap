@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\01 What is Jagged Array\JaggedArrayExample1\JaggedArrayExample1\bin\Debug\JaggedArrayExample1.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\01 What is Jagged Array\JaggedArrayExample1\JaggedArrayExample1\bin\Debug\JaggedArrayExample1.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\01 What is Jagged Array\JaggedArrayExample1\JaggedArrayExample1\bin\Debug\JaggedArrayExample1.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\01 What is Jagged Array\JaggedArrayExample1\JaggedArrayExample1\obj\Debug\JaggedArrayExample1.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\01 What is Jagged Array\JaggedArrayExample1\JaggedArrayExample1\obj\Debug\JaggedArrayExample1.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\01 What is Jagged Array\JaggedArrayExample1\JaggedArrayExample1\obj\Debug\JaggedArrayExample1.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\17 Jagged Arrays\01 What is Jagged Array\JaggedArrayExample1\JaggedArrayExample1\obj\Debug\JaggedArrayExample1.pdb
