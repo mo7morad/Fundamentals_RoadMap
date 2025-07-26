@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -130,6 +131,43 @@ namespace HashTable
             }
         }
 
+        public class HashTableWithBucket<TKey, TValue>
+        {
+            private static int _capacity = 20;
+            private Bucket[] _entries;
+            private struct Bucket
+            {
+                public TKey key;
+                public TValue value;
+                public int hashCode;
+            }
+            public HashTableWithBucket()
+            {
+                _entries = new Bucket[_capacity];
+            }
+
+            private int Hash(TKey key) => Math.Abs(key.GetHashCode()) % _capacity;
+
+            public void Add(TKey key, TValue value)
+            {
+                int hashCode = Hash(key);
+                _entries[hashCode].key = key;
+                _entries[hashCode].value = value;
+                _entries[hashCode].hashCode = hashCode;
+            }
+
+            public void DisplayAll()
+            {
+                foreach (Bucket item in _entries)
+                {
+                    if(item.key != null)
+                    {
+                        Console.WriteLine($"Key: {item.key}, value: {item.value}");
+                    }
+
+                }
+            }
+        }    
 
 
         public static void Main()
@@ -175,12 +213,36 @@ namespace HashTable
 
             hashTable2.Remove("Nada");
             Console.WriteLine("Removed 'Nada'");
-
+            
 
             Console.WriteLine("\nFinal HashTable2 contents:");
             hashTable2.Display();
 
+            // ---------------------------------------
 
+            HashTableWithBucket<string, string> myHashBucket = new HashTableWithBucket<string, string>();
+
+            myHashBucket.Add("Morad", "Student");
+            myHashBucket.Add("Ali", "Developer");
+            myHashBucket.Add("Omar", "Designer");
+            myHashBucket.Add("Laila", "Doctor");
+            myHashBucket.Add("Nada", "Nurse");
+
+            Console.WriteLine("My Hashtable Bucket Elements: ");
+            myHashBucket.DisplayAll();
+
+            Dictionary<string, string> myDict = new Dictionary<string, string>();
+
+            myDict.Add("Morad", "Student");
+            myDict.Add("Ali", "Developer");
+            myDict.Add("Omar", "Designer");
+            myDict.Add("Laila", "Doctor");
+            myDict.Add("Nada", "Nurse");
+
+            foreach (var item in myDict)
+            {
+                Console.WriteLine($"{item.Key}: {item.Value}");
+            }
 
         }
     }
