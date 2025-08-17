@@ -1,0 +1,3 @@
+
+ALTER TABLE Students
+ADD IsActive BIT DEFAULT 1;
