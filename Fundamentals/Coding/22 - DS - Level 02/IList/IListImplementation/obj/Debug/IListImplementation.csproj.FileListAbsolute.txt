@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 IList\02 Implementation of IList\IListImplementation\IListImplementation\bin\Debug\IListImplementation.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 IList\02 Implementation of IList\IListImplementation\IListImplementation\bin\Debug\IListImplementation.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 IList\02 Implementation of IList\IListImplementation\IListImplementation\bin\Debug\IListImplementation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 IList\02 Implementation of IList\IListImplementation\IListImplementation\obj\Debug\IListImplementation.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 IList\02 Implementation of IList\IListImplementation\IListImplementation\obj\Debug\IListImplementation.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 IList\02 Implementation of IList\IListImplementation\IListImplementation\obj\Debug\IListImplementation.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 IList\02 Implementation of IList\IListImplementation\IListImplementation\obj\Debug\IListImplementation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\03 IList\02 Implementation of IList\IListImplementation\IListImplementation\bin\Debug\IListImplementation.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\03 IList\02 Implementation of IList\IListImplementation\IListImplementation\bin\Debug\IListImplementation.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\03 IList\02 Implementation of IList\IListImplementation\IListImplementation\bin\Debug\IListImplementation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\03 IList\02 Implementation of IList\IListImplementation\IListImplementation\obj\Debug\IListImplementation.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\03 IList\02 Implementation of IList\IListImplementation\IListImplementation\obj\Debug\IListImplementation.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\03 IList\02 Implementation of IList\IListImplementation\IListImplementation\obj\Debug\IListImplementation.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\03 IList\02 Implementation of IList\IListImplementation\IListImplementation\obj\Debug\IListImplementation.pdb
