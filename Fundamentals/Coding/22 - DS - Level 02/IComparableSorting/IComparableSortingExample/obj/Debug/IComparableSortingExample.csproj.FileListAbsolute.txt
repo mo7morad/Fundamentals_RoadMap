@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\bin\Debug\IComparableSortingExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\bin\Debug\IComparableSortingExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\bin\Debug\IComparableSortingExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\obj\Debug\IComparableSortingExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\obj\Debug\IComparableSortingExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\obj\Debug\IComparableSortingExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\obj\Debug\IComparableSortingExample.pdb
