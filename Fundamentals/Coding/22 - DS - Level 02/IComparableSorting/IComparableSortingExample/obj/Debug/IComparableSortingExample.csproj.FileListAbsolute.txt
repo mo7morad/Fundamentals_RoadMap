@@ -5,3 +5,8 @@ D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\Sortin
 D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\obj\Debug\IComparableSortingExample.csproj.CoreCompileInputs.cache
 D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\obj\Debug\IComparableSortingExample.exe
 D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\20 IComparable\SortingEx\IComparableSortingExample\IComparableSortingExample\obj\Debug\IComparableSortingExample.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\IComparableSorting\IComparableSortingExample\obj\Debug\IComparableSortingExample.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\IComparableSorting\IComparableSortingExample\obj\Debug\IComparableSortingExample.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\IComparableSorting\IComparableSortingExample\obj\Debug\IComparableSortingExample.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\IComparableSorting\IComparableSortingExample\obj\Debug\IComparableSortingExample.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\IComparableSorting\IComparableSortingExample\obj\Debug\IComparableSortingExample.pdb

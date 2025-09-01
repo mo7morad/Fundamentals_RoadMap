@@ -1,57 +1,94 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
-public class Person : IComparable<Person>
-{
-    public string Name { get; set; }
-    public int Age { get; set; }
 
-    //Implementing the CompareTo method for Person class
-    public int CompareTo(Person other)
-    {
-        // If other is not a valid object reference, this instance is greater.
-        if (other == null) return 1;
 
-        // Use the Age property to determine the order of Person instances.
-        return this.Age.CompareTo(other.Age);
-    }
 
-    // Constructor for easier initialization
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
 
-    // Override ToString to make output easier to read
-    public override string ToString()
-    {
-        return $"{Name}, {Age} years old";
-    }
-}
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Creating a list of Person instances
-        List<Person> people = new List<Person>
+        int BinarySearch(IEnumerable<int> list, int key)
         {
-            new Person("John", 30),
-            new Person("Jane", 25),
-            new Person("Doe", 28),
-        };
+            int low, high, mid, listSize;
 
-        // Sorting the list using IComparable implementation
-        people.Sort();
+            listSize = list.Count;
+            low = list[0];
+            calcMid();
+            high = list[list.Count - 1];
 
-        // Printing the sorted list
-        Console.WriteLine("People sorted by age:");
-        foreach (Person person in people)
-        {
-            Console.WriteLine(person.ToString());
+            if (evaluate() != -1)
+                return key
+            else
+            {
+                reAdjust();
+            }
+
+            while (evaluate() == -1 && !checkIfConsecutive())
+            {
+                reAdjust();
+            }
+
+            return evaluate();
+
+
+            void calcMid()
+            {
+                if (listSize % 2 == 0)
+                {
+                    mid = (listSize / 2) - 1;
+                }
+                else
+                {
+                    mid = listSize / 2;
+                }
+            }
+
+            int evaluate()
+            {
+                if (listSize == 0)
+                    return -1;
+
+                if (key == low || key == high || key == mid)
+                    return key;
+
+                else
+                    return -1;
+            }
+
+            void reAdjust()
+            {
+                if (key > mid)
+                {
+                    low = mid;
+                    calcMid();
+                }
+                else
+                {
+                    high = mid;
+                    calcMid();
+                }
+            }
+
+            bool checkIfConsecutive()
+            {
+                if (low == list[0] && mid = list[1] && high == list[2])
+                    return true;
+                if (low == list[listSize - 3] && mid == list[listSize - 2] high == list[listSize - 1])
+                    return true;
+                return false;
+            }
         }
-        Console.ReadKey();
 
+        List<int> myNumbers = new List<int> {10, 20, 30, 40, 50 ,60, 70, 80}
+
+        int result = BinarySearch(myNumbers, 40);
+
+        Console.WriteLine("The result is " + result);
     }
 }
