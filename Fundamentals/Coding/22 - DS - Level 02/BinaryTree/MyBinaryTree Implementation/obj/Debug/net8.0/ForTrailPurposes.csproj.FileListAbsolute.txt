@@ -1,0 +1,14 @@
+C:\Users\Morad\Desktop\ForTrailPurposes\bin\Debug\net8.0\ForTrailPurposes.exe
+C:\Users\Morad\Desktop\ForTrailPurposes\bin\Debug\net8.0\ForTrailPurposes.deps.json
+C:\Users\Morad\Desktop\ForTrailPurposes\bin\Debug\net8.0\ForTrailPurposes.runtimeconfig.json
+C:\Users\Morad\Desktop\ForTrailPurposes\bin\Debug\net8.0\ForTrailPurposes.dll
+C:\Users\Morad\Desktop\ForTrailPurposes\bin\Debug\net8.0\ForTrailPurposes.pdb
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\ForTrailPurposes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\ForTrailPurposes.AssemblyInfoInputs.cache
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\ForTrailPurposes.AssemblyInfo.cs
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\ForTrailPurposes.csproj.CoreCompileInputs.cache
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\ForTrailPurposes.dll
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\refint\ForTrailPurposes.dll
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\ForTrailPurposes.pdb
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\ForTrailPurposes.genruntimeconfig.cache
+C:\Users\Morad\Desktop\ForTrailPurposes\obj\Debug\net8.0\ref\ForTrailPurposes.dll

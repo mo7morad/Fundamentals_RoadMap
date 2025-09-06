@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\Tree Data Structure\FamilyTreeExample\FamilyTreeExample\bin\Debug\FamilyTreeExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\Tree Data Structure\FamilyTreeExample\FamilyTreeExample\bin\Debug\FamilyTreeExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\Tree Data Structure\FamilyTreeExample\FamilyTreeExample\bin\Debug\FamilyTreeExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\Tree Data Structure\FamilyTreeExample\FamilyTreeExample\obj\Debug\FamilyTreeExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\Tree Data Structure\FamilyTreeExample\FamilyTreeExample\obj\Debug\FamilyTreeExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\Tree Data Structure\FamilyTreeExample\FamilyTreeExample\obj\Debug\FamilyTreeExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\Tree Data Structure\FamilyTreeExample\FamilyTreeExample\obj\Debug\FamilyTreeExample.pdb
