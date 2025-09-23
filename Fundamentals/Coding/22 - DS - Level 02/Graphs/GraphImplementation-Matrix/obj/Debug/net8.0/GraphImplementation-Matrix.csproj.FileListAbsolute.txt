@@ -1,0 +1,29 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.deps.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\refint\GraphImplementation-Matrix.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\22 Graph Ds\03 Graph Representations\Code\GraphImplementation\GraphImplementation-Matrix\obj\Debug\net8.0\ref\GraphImplementation-Matrix.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.deps.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.runtimeconfig.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\bin\Debug\net8.0\GraphImplementation-Matrix.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.AssemblyInfoInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.AssemblyInfo.cs
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.sourcelink.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\refint\GraphImplementation-Matrix.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\GraphImplementation-Matrix.genruntimeconfig.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\GraphImplementation-Matrix\obj\Debug\net8.0\ref\GraphImplementation-Matrix.dll

@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\bin\Debug\net8.0\HeapDS Insert Opertaion.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\bin\Debug\net8.0\HeapDS Insert Opertaion.deps.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\bin\Debug\net8.0\HeapDS Insert Opertaion.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\bin\Debug\net8.0\HeapDS Insert Opertaion.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\bin\Debug\net8.0\HeapDS Insert Opertaion.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\HeapDS Insert Opertaion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\HeapDS Insert Opertaion.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\HeapDS Insert Opertaion.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\HeapDS Insert Opertaion.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\HeapDS Insert Opertaion.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\refint\HeapDS Insert Opertaion.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\HeapDS Insert Opertaion.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\HeapDS Insert Opertaion.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\01 Insert\HeapDS Insert Opertaion\obj\Debug\net8.0\ref\HeapDS Insert Opertaion.dll

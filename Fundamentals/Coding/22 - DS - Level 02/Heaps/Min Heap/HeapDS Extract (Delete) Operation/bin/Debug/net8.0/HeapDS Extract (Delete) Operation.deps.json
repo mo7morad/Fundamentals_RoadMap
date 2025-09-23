@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HeapDS Extract (Delete) Operation/1.0.0": {
+        "runtime": {
+          "HeapDS Extract (Delete) Operation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HeapDS Extract (Delete) Operation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

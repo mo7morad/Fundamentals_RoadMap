@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\bin\Debug\net8.0\HeapDS Extract (Delete) Operation.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\bin\Debug\net8.0\HeapDS Extract (Delete) Operation.deps.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\bin\Debug\net8.0\HeapDS Extract (Delete) Operation.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\bin\Debug\net8.0\HeapDS Extract (Delete) Operation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\bin\Debug\net8.0\HeapDS Extract (Delete) Operation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\HeapDS Extract (Delete) Operation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\HeapDS Extract (Delete) Operation.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\HeapDS Extract (Delete) Operation.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\HeapDS Extract (Delete) Operation.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\HeapDS Extract (Delete) Operation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\refint\HeapDS Extract (Delete) Operation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\HeapDS Extract (Delete) Operation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\HeapDS Extract (Delete) Operation.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\03 Delete (Extract)\HeapDS Extract (Delete) Operation\obj\Debug\net8.0\ref\HeapDS Extract (Delete) Operation.dll

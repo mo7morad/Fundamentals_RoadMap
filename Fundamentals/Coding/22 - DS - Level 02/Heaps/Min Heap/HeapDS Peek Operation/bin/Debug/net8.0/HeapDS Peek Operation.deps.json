@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HeapDS Peek Operation/1.0.0": {
+        "runtime": {
+          "HeapDS Peek Operation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HeapDS Peek Operation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

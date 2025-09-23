@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\bin\Debug\net8.0\MaxHeap - Implementation.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\bin\Debug\net8.0\MaxHeap - Implementation.deps.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\bin\Debug\net8.0\MaxHeap - Implementation.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\bin\Debug\net8.0\MaxHeap - Implementation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\bin\Debug\net8.0\MaxHeap - Implementation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\MaxHeap - Implementation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\MaxHeap - Implementation.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\MaxHeap - Implementation.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\MaxHeap - Implementation.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\MaxHeap - Implementation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\refint\MaxHeap - Implementation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\MaxHeap - Implementation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\MaxHeap - Implementation.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\04 Max Heap\MaxHeap - Implementation\obj\Debug\net8.0\ref\MaxHeap - Implementation.dll

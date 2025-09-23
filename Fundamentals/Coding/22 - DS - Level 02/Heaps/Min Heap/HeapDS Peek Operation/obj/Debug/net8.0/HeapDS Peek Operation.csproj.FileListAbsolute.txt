@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\bin\Debug\net8.0\HeapDS Peek Operation.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\bin\Debug\net8.0\HeapDS Peek Operation.deps.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\bin\Debug\net8.0\HeapDS Peek Operation.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\bin\Debug\net8.0\HeapDS Peek Operation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\bin\Debug\net8.0\HeapDS Peek Operation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\HeapDS Peek Operation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\HeapDS Peek Operation.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\HeapDS Peek Operation.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\HeapDS Peek Operation.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\HeapDS Peek Operation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\refint\HeapDS Peek Operation.dll
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\HeapDS Peek Operation.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\HeapDS Peek Operation.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\23 Heap DS\02 Operations\02 Peek\HeapDS Peek Operation\obj\Debug\net8.0\ref\HeapDS Peek Operation.dll
