@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\refint\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\ref\NotificationService-SRP.dll

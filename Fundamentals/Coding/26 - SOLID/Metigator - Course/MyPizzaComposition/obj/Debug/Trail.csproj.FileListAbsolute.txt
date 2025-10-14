@@ -1,0 +1,7 @@
+C:\Users\Morad\Desktop\Trail\bin\Debug\Trail.exe.config
+C:\Users\Morad\Desktop\Trail\bin\Debug\Trail.exe
+C:\Users\Morad\Desktop\Trail\bin\Debug\Trail.pdb
+C:\Users\Morad\Desktop\Trail\obj\Debug\Trail.csproj.AssemblyReference.cache
+C:\Users\Morad\Desktop\Trail\obj\Debug\Trail.csproj.CoreCompileInputs.cache
+C:\Users\Morad\Desktop\Trail\obj\Debug\Trail.exe
+C:\Users\Morad\Desktop\Trail\obj\Debug\Trail.pdb

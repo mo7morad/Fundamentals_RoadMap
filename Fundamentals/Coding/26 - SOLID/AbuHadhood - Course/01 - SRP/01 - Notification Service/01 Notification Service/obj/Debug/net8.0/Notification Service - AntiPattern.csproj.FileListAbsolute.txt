@@ -1,0 +1,1 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\00 Exmple 1 - Notification Service\Notification Service\obj\Debug\net8.0\Notification Service - AntiPattern.GeneratedMSBuildEditorConfig.editorconfig

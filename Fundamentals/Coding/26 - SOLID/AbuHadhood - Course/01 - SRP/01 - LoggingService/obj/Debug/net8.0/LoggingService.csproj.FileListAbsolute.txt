@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\LoggingService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\LoggingService.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\LoggingService.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\LoggingService.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\bin\Debug\net8.0\LoggingService.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\bin\Debug\net8.0\LoggingService.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\bin\Debug\net8.0\LoggingService.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\bin\Debug\net8.0\LoggingService.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\bin\Debug\net8.0\LoggingService.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\LoggingService.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\refint\LoggingService.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\LoggingService.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\LoggingService.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\02 Logging Service\LoggingService\obj\Debug\net8.0\ref\LoggingService.dll
