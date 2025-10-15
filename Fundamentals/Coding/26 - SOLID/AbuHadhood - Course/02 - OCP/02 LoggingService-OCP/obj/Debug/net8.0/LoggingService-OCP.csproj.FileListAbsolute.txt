@@ -1,0 +1,28 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\refint\LoggingService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\ref\LoggingService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\bin\Debug\net8.0\LoggingService-OCP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\refint\LoggingService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\LoggingService-OCP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 Solution - Logging Service - OCP\LoggingService-OCP\obj\Debug\net8.0\ref\LoggingService-OCP.dll

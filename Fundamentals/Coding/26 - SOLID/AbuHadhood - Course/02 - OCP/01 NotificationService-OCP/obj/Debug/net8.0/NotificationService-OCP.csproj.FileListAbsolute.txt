@@ -1,0 +1,28 @@
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.exe
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.deps.json
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.runtimeconfig.json
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.dll
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.pdb
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.AssemblyInfoInputs.cache
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.AssemblyInfo.cs
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.dll
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\refint\NotificationService-OCP.dll
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.pdb
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.genruntimeconfig.cache
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\ref\NotificationService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-OCP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\refint\NotificationService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-OCP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\ref\NotificationService-OCP.dll

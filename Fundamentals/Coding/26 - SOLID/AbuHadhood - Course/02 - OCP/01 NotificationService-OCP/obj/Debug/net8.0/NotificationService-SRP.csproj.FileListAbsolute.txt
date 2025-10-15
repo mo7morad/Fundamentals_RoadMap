@@ -1,0 +1,70 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\refint\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\NotificationService-SRP\obj\Debug\net8.0\ref\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\bin\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\refint\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\NotificationService-SRP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\01 Single Responsiblitiy Principle (SRP)\02 Examples\01 Notification Service\02 NotificationService-SRP\obj\Debug\net8.0\ref\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\refint\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\02 NotificationService-OCP\obj\Debug\net8.0\ref\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\refint\NotificationService-SRP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\01 NotificationService-OCP\obj\Debug\net8.0\ref\NotificationService-SRP.dll
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.exe
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.deps.json
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.runtimeconfig.json
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.dll
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\bin\Debug\net8.0\NotificationService-SRP.pdb
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfoInputs.cache
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.AssemblyInfo.cs
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.dll
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\refint\NotificationService-SRP.dll
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.pdb
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\NotificationService-SRP.genruntimeconfig.cache
+C:\Users\LEGION\Downloads\01 NotificationService-OCP\01 NotificationService-OCP\obj\Debug\net8.0\ref\NotificationService-SRP.dll

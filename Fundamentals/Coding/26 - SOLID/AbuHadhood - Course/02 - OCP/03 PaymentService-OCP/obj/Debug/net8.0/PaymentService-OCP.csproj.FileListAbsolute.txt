@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\bin\Debug\net8.0\PaymentService-OCP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\bin\Debug\net8.0\PaymentService-OCP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\bin\Debug\net8.0\PaymentService-OCP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\bin\Debug\net8.0\PaymentService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\bin\Debug\net8.0\PaymentService-OCP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\PaymentService-OCP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\PaymentService-OCP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\PaymentService-OCP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\PaymentService-OCP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\PaymentService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\refint\PaymentService-OCP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\PaymentService-OCP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\PaymentService-OCP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\02 OCP\02 Examples\03 PaymentService-OCP\PaymentService-OCP\obj\Debug\net8.0\ref\PaymentService-OCP.dll
