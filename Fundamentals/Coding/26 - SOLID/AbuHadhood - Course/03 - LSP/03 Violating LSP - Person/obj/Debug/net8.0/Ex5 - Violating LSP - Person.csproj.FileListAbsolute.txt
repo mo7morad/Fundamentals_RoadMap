@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\bin\Debug\net8.0\Ex5 - Violating LSP - Person.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\bin\Debug\net8.0\Ex5 - Violating LSP - Person.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\bin\Debug\net8.0\Ex5 - Violating LSP - Person.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\bin\Debug\net8.0\Ex5 - Violating LSP - Person.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\bin\Debug\net8.0\Ex5 - Violating LSP - Person.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\Ex5 - Violating LSP - Person.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\Ex5 - Violating LSP - Person.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\Ex5 - Violating LSP - Person.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\Ex5 - Violating LSP - Person.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\Ex5 - Violating LSP - Person.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\refint\Ex5 - Violating LSP - Person.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\Ex5 - Violating LSP - Person.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\Ex5 - Violating LSP - Person.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\05 Example5 - Violating LSP\Ex5 - Violating LSP - Person\obj\Debug\net8.0\ref\Ex5 - Violating LSP - Person.dll

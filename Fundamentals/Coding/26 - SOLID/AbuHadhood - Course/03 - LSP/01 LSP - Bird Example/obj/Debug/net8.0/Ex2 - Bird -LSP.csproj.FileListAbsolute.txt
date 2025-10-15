@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\Ex2 - Bird -LSP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\Ex2 - Bird -LSP.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\Ex2 - Bird -LSP.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\Ex2 - Bird -LSP.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\bin\Debug\net8.0\Ex2 - Bird -LSP.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\bin\Debug\net8.0\Ex2 - Bird -LSP.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\bin\Debug\net8.0\Ex2 - Bird -LSP.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\bin\Debug\net8.0\Ex2 - Bird -LSP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\bin\Debug\net8.0\Ex2 - Bird -LSP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\Ex2 - Bird -LSP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\refint\Ex2 - Bird -LSP.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\Ex2 - Bird -LSP.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\Ex2 - Bird -LSP.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\02 Example2 - LSP\Ex2 - Bird -LSP\obj\Debug\net8.0\ref\Ex2 - Bird -LSP.dll

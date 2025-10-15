@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\bin\Debug\net8.0\Ex3 - Violating LSP - Vehicle.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\bin\Debug\net8.0\Ex3 - Violating LSP - Vehicle.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\bin\Debug\net8.0\Ex3 - Violating LSP - Vehicle.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\bin\Debug\net8.0\Ex3 - Violating LSP - Vehicle.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\bin\Debug\net8.0\Ex3 - Violating LSP - Vehicle.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\Ex3 - Violating LSP - Vehicle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\Ex3 - Violating LSP - Vehicle.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\Ex3 - Violating LSP - Vehicle.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\Ex3 - Violating LSP - Vehicle.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\Ex3 - Violating LSP - Vehicle.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\refint\Ex3 - Violating LSP - Vehicle.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\Ex3 - Violating LSP - Vehicle.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\Ex3 - Violating LSP - Vehicle.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\03 LSP\02 Examples\03 Example3 - violating LSP\Ex3 - Violating LSP - Vehicle\obj\Debug\net8.0\ref\Ex3 - Violating LSP - Vehicle.dll

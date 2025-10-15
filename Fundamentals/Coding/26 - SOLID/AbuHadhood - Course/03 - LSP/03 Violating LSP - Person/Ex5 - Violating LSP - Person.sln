@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex5 - Violating LSP - Person", "Ex5 - Violating LSP - Person.csproj", "{E84FFD4D-6BCE-4CBA-B587-DFD9BC1C75CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E84FFD4D-6BCE-4CBA-B587-DFD9BC1C75CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84FFD4D-6BCE-4CBA-B587-DFD9BC1C75CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84FFD4D-6BCE-4CBA-B587-DFD9BC1C75CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84FFD4D-6BCE-4CBA-B587-DFD9BC1C75CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B29984C9-5A48-413C-A333-12335B681D8C}
+	EndGlobalSection
+EndGlobal
