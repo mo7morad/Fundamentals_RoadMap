@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\bin\Debug\net8.0\Ex2 - Applying ISP - Printer.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\bin\Debug\net8.0\Ex2 - Applying ISP - Printer.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\bin\Debug\net8.0\Ex2 - Applying ISP - Printer.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\bin\Debug\net8.0\Ex2 - Applying ISP - Printer.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\bin\Debug\net8.0\Ex2 - Applying ISP - Printer.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\Ex2 - Applying ISP - Printer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\Ex2 - Applying ISP - Printer.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\Ex2 - Applying ISP - Printer.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\Ex2 - Applying ISP - Printer.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\Ex2 - Applying ISP - Printer.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\refint\Ex2 - Applying ISP - Printer.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\Ex2 - Applying ISP - Printer.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\Ex2 - Applying ISP - Printer.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\02 Ex2 Applying ISP - Printer\Ex2 - Applying ISP - Printer\obj\Debug\net8.0\ref\Ex2 - Applying ISP - Printer.dll

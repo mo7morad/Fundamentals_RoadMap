@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\bin\Debug\net8.0\Ex1 - Violate DIP - Report.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\bin\Debug\net8.0\Ex1 - Violate DIP - Report.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\bin\Debug\net8.0\Ex1 - Violate DIP - Report.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\bin\Debug\net8.0\Ex1 - Violate DIP - Report.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\bin\Debug\net8.0\Ex1 - Violate DIP - Report.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\Ex1 - Violate DIP - Report.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\Ex1 - Violate DIP - Report.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\Ex1 - Violate DIP - Report.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\Ex1 - Violate DIP - Report.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\Ex1 - Violate DIP - Report.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\refint\Ex1 - Violate DIP - Report.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\Ex1 - Violate DIP - Report.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\Ex1 - Violate DIP - Report.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\01 Ex1 - Violate DIP - Report\Ex1 - Violate DIP - Report\obj\Debug\net8.0\ref\Ex1 - Violate DIP - Report.dll

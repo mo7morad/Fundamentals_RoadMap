@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\bin\Debug\net8.0\Ex2- DIP - Report.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\bin\Debug\net8.0\Ex2- DIP - Report.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\bin\Debug\net8.0\Ex2- DIP - Report.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\bin\Debug\net8.0\Ex2- DIP - Report.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\bin\Debug\net8.0\Ex2- DIP - Report.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\Ex2- DIP - Report.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\Ex2- DIP - Report.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\Ex2- DIP - Report.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\Ex2- DIP - Report.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\Ex2- DIP - Report.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\refint\Ex2- DIP - Report.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\Ex2- DIP - Report.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\Ex2- DIP - Report.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\05 DIP\02 Examples\02 Ex2 - DIP - Report\Ex2- DIP - Report\obj\Debug\net8.0\ref\Ex2- DIP - Report.dll

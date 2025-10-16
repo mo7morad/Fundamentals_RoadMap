@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\Ex1 - Violating ISP - Printer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\Ex1 - Violating ISP - Printer.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\Ex1 - Violating ISP - Printer.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\Ex1 - Violating ISP - Printer.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\bin\Debug\net8.0\Ex1 - Violating ISP - Printer.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\bin\Debug\net8.0\Ex1 - Violating ISP - Printer.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\bin\Debug\net8.0\Ex1 - Violating ISP - Printer.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\bin\Debug\net8.0\Ex1 - Violating ISP - Printer.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\bin\Debug\net8.0\Ex1 - Violating ISP - Printer.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\Ex1 - Violating ISP - Printer.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\refint\Ex1 - Violating ISP - Printer.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\Ex1 - Violating ISP - Printer.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\Ex1 - Violating ISP - Printer.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\01 Ex1 Violating ISP - Printer\Ex1 - Violating ISP - Printer\obj\Debug\net8.0\ref\Ex1 - Violating ISP - Printer.dll

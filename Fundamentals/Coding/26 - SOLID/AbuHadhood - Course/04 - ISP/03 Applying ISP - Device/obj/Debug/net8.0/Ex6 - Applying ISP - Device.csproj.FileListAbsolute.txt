@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\bin\Debug\net8.0\Ex6 - Applying ISP - Device.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\bin\Debug\net8.0\Ex6 - Applying ISP - Device.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\bin\Debug\net8.0\Ex6 - Applying ISP - Device.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\bin\Debug\net8.0\Ex6 - Applying ISP - Device.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\bin\Debug\net8.0\Ex6 - Applying ISP - Device.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\Ex6 - Applying ISP - Device.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\Ex6 - Applying ISP - Device.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\Ex6 - Applying ISP - Device.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\Ex6 - Applying ISP - Device.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\Ex6 - Applying ISP - Device.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\refint\Ex6 - Applying ISP - Device.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\Ex6 - Applying ISP - Device.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\Ex6 - Applying ISP - Device.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\06 Ex6 Applying ISP - Device\Ex6 - Applying ISP - Device\obj\Debug\net8.0\ref\Ex6 - Applying ISP - Device.dll

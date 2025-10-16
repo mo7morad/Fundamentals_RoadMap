@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ex2 - Bird -LSP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14bc19721a31a8bf25d0bb4964f41d410d0d24c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b90b5cd7d7cec204fb045913abdd9c5d4618843")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ex2 - Bird -LSP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ex2 - Bird -LSP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

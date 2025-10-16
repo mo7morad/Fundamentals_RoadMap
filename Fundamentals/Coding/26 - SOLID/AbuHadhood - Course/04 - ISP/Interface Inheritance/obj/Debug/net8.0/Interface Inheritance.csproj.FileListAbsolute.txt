@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\bin\Debug\net8.0\Interface Inheritance.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\bin\Debug\net8.0\Interface Inheritance.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\bin\Debug\net8.0\Interface Inheritance.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\bin\Debug\net8.0\Interface Inheritance.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\bin\Debug\net8.0\Interface Inheritance.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\Interface Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\Interface Inheritance.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\Interface Inheritance.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\Interface Inheritance.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\Interface Inheritance.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\refint\Interface Inheritance.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\Interface Inheritance.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\Interface Inheritance.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\07 Interface inheritance\Interface Inheritance\obj\Debug\net8.0\ref\Interface Inheritance.dll

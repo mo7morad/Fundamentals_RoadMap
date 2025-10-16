@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\bin\Debug\net8.0\Ex3 - Violating ISP - Payment.exe
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\bin\Debug\net8.0\Ex3 - Violating ISP - Payment.deps.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\bin\Debug\net8.0\Ex3 - Violating ISP - Payment.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\bin\Debug\net8.0\Ex3 - Violating ISP - Payment.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\bin\Debug\net8.0\Ex3 - Violating ISP - Payment.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\Ex3 - Violating ISP - Payment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\Ex3 - Violating ISP - Payment.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\Ex3 - Violating ISP - Payment.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\Ex3 - Violating ISP - Payment.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\Ex3 - Violating ISP - Payment.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\refint\Ex3 - Violating ISP - Payment.dll
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\Ex3 - Violating ISP - Payment.pdb
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\Ex3 - Violating ISP - Payment.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\26 Software Design\Solid Principles\04 ISP\02 Examples\03 Ex3 Violating ISP - Payment\Ex3 - Violating ISP - Payment\obj\Debug\net8.0\ref\Ex3 - Violating ISP - Payment.dll
