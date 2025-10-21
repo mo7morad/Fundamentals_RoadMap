@@ -47,8 +47,3 @@ class MyInsertionSort
         Console.ReadKey();
     }
 }
-
-
-
-
-

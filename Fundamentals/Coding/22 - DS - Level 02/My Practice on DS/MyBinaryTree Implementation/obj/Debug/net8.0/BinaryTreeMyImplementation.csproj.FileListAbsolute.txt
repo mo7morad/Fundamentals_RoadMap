@@ -1,0 +1,15 @@
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\bin\Debug\net8.0\BinaryTreeMyImplementation.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\bin\Debug\net8.0\BinaryTreeMyImplementation.deps.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\bin\Debug\net8.0\BinaryTreeMyImplementation.runtimeconfig.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\bin\Debug\net8.0\BinaryTreeMyImplementation.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\bin\Debug\net8.0\BinaryTreeMyImplementation.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\BinaryTreeMyImplementation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\BinaryTreeMyImplementation.AssemblyInfoInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\BinaryTreeMyImplementation.AssemblyInfo.cs
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\BinaryTreeMyImplementation.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\BinaryTreeMyImplementation.sourcelink.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\BinaryTreeMyImplementation.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\refint\BinaryTreeMyImplementation.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\BinaryTreeMyImplementation.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\BinaryTreeMyImplementation.genruntimeconfig.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\22 - DS - Level 02\My Practice on DS\MyBinaryTree Implementation\obj\Debug\net8.0\ref\BinaryTreeMyImplementation.dll
