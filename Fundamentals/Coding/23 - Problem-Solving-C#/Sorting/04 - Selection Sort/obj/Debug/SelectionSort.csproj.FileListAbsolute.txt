@@ -1,0 +1,7 @@
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\04 - Selection Sort\SelectionSort\bin\Debug\SelectionSort.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\04 - Selection Sort\SelectionSort\bin\Debug\SelectionSort.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\04 - Selection Sort\SelectionSort\bin\Debug\SelectionSort.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\04 - Selection Sort\SelectionSort\obj\Debug\SelectionSort.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\04 - Selection Sort\SelectionSort\obj\Debug\SelectionSort.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\04 - Selection Sort\SelectionSort\obj\Debug\SelectionSort.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\04 - Selection Sort\SelectionSort\obj\Debug\SelectionSort.pdb

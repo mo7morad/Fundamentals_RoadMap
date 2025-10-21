@@ -1,0 +1,15 @@
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\01 Basic Searches\04 Binary Search Implementation\BinarySearchExample\BinarySearchExample\bin\Debug\BinarySearchExample.exe.config
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\01 Basic Searches\04 Binary Search Implementation\BinarySearchExample\BinarySearchExample\bin\Debug\BinarySearchExample.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\01 Basic Searches\04 Binary Search Implementation\BinarySearchExample\BinarySearchExample\bin\Debug\BinarySearchExample.pdb
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\01 Basic Searches\04 Binary Search Implementation\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\01 Basic Searches\04 Binary Search Implementation\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\01 Basic Searches\04 Binary Search Implementation\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\01 Basic Searches\04 Binary Search Implementation\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\02 - Binary Search\BinarySearchExample\BinarySearchExample\bin\Debug\BinarySearchExample.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\02 - Binary Search\BinarySearchExample\BinarySearchExample\bin\Debug\BinarySearchExample.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\02 - Binary Search\BinarySearchExample\BinarySearchExample\bin\Debug\BinarySearchExample.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\02 - Binary Search\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\02 - Binary Search\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\02 - Binary Search\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\02 - Binary Search\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\02 - Binary Search\BinarySearchExample\BinarySearchExample\obj\Debug\BinarySearchExample.pdb

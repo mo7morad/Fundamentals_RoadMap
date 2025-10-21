@@ -1,0 +1,15 @@
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\02 Implementing Bubble Sort\BubbleSort\BubbleSort\bin\Debug\BubbleSort.exe.config
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\02 Implementing Bubble Sort\BubbleSort\BubbleSort\bin\Debug\BubbleSort.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\02 Implementing Bubble Sort\BubbleSort\BubbleSort\bin\Debug\BubbleSort.pdb
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\02 Implementing Bubble Sort\BubbleSort\BubbleSort\obj\Debug\BubbleSort.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\02 Implementing Bubble Sort\BubbleSort\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\02 Implementing Bubble Sort\BubbleSort\BubbleSort\obj\Debug\BubbleSort.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\02 Implementing Bubble Sort\BubbleSort\BubbleSort\obj\Debug\BubbleSort.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\03 - Bubble Sort\BubbleSort\bin\Debug\BubbleSort.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\03 - Bubble Sort\BubbleSort\bin\Debug\BubbleSort.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\03 - Bubble Sort\BubbleSort\bin\Debug\BubbleSort.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\03 - Bubble Sort\BubbleSort\obj\Debug\BubbleSort.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\03 - Bubble Sort\BubbleSort\obj\Debug\BubbleSort.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\03 - Bubble Sort\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\03 - Bubble Sort\BubbleSort\obj\Debug\BubbleSort.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\03 - Bubble Sort\BubbleSort\obj\Debug\BubbleSort.pdb

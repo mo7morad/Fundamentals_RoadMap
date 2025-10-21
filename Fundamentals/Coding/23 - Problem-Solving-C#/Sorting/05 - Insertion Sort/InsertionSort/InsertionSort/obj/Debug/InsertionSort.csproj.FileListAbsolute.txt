@@ -1,0 +1,15 @@
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\06 Implementing Insertion Sort\InsertionSort\InsertionSort\bin\Debug\InsertionSort.exe.config
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\06 Implementing Insertion Sort\InsertionSort\InsertionSort\bin\Debug\InsertionSort.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\06 Implementing Insertion Sort\InsertionSort\InsertionSort\bin\Debug\InsertionSort.pdb
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\06 Implementing Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\06 Implementing Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\06 Implementing Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\02 Sorting\01 Simple Sorts\06 Implementing Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\Sorting\05 - Insertion Sort\InsertionSort\InsertionSort\bin\Debug\InsertionSort.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\Sorting\05 - Insertion Sort\InsertionSort\InsertionSort\bin\Debug\InsertionSort.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\Sorting\05 - Insertion Sort\InsertionSort\InsertionSort\bin\Debug\InsertionSort.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\Sorting\05 - Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\Sorting\05 - Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\Sorting\05 - Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\Sorting\05 - Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\Sorting\05 - Insertion Sort\InsertionSort\InsertionSort\obj\Debug\InsertionSort.pdb

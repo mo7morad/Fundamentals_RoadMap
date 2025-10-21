@@ -1,0 +1,16 @@
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\Bubble Sort Trail\obj\Debug\Bubble Sort Trail.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\Bubble Sort Trail\obj\Debug\Bubble Sort Trail.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\Bubble Sort Trail\bin\Debug\Bubble Sort Trail.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\Bubble Sort Trail\bin\Debug\Bubble Sort Trail.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\Bubble Sort Trail\bin\Debug\Bubble Sort Trail.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\Bubble Sort Trail\obj\Debug\Bubble Sort Trail.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\Bubble Sort Trail\obj\Debug\Bubble Sort Trail.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\Bubble Sort Trail\obj\Debug\Bubble Sort Trail.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\My Bubble Sort Trail\bin\Debug\Bubble Sort Trail.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\My Bubble Sort Trail\bin\Debug\Bubble Sort Trail.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\My Bubble Sort Trail\bin\Debug\Bubble Sort Trail.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\My Bubble Sort Trail\obj\Debug\Bubble Sort Trail.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\My Bubble Sort Trail\obj\Debug\Bubble Sort Trail.exe.config
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\My Bubble Sort Trail\obj\Debug\Bubble Sort Trail.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\My Bubble Sort Trail\obj\Debug\Bubble Sort Trail.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\23 - Problem-Solving-C#\My Practice\My Bubble Sort Trail\obj\Debug\Bubble Sort Trail.pdb
