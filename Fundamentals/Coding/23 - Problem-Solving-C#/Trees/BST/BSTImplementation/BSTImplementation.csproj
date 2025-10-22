@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9454FF89-2DF8-436B-B7C5-19F58A486271}</ProjectGuid>
+    <ProjectGuid>{41BB2215-3CE6-4075-A0E0-243D3B2D61C7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BT_Implementation</RootNamespace>
-    <AssemblyName>BT Implementation</AssemblyName>
+    <RootNamespace>BSTImplementation</RootNamespace>
+    <AssemblyName>BSTImplementation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

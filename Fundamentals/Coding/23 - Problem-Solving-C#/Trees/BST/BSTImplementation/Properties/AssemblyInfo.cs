@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BT Implementation")]
+[assembly: AssemblyTitle("BSTImplementation")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BT Implementation")]
+[assembly: AssemblyProduct("BSTImplementation")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9454ff89-2df8-436b-b7c5-19f58a486271")]
+[assembly: Guid("41bb2215-3ce6-4075-a0e0-243d3b2d61c7")]
 
 // Version information for an assembly consists of the following four values:
 //
