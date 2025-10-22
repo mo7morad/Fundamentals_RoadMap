@@ -31,39 +31,57 @@ namespace MyBinarySearchTree
             Root = new BinarySearchTreeNode<T>(value);
         }
 
-        public void Insert(T value)
+    public void Insert(T value)
+    {
+      BinarySearchTreeNode<T> newNode = new BinarySearchTreeNode<T>(value);
+
+      if (Root == null)
+      {
+        Root = newNode;
+        return;
+      }
+
+      BinarySearchTreeNode<T> current = Root;
+
+      while (true)
+      {
+        if (Comparer<T>.Default.Compare(value, current.Value) < 0)
         {
-            BinarySearchTreeNode<T> newNode = new BinarySearchTreeNode<T>(value);
+          if (current.LeftChild == null)
+          {
+            current.LeftChild = newNode;
+            break;
+          }
+          current = current.LeftChild;
+        }
+        else
+        {
+          if (current.RightChild == null)
+          {
+            current.RightChild = newNode;
+            break;
+          }
+          current = current.RightChild;
+        }
+      }
+    }
 
-            if (Root == null)
+        public bool Search(T value)
+    
+        {
+            BinarySearchTreeNode<T>? current = Root;
+
+            while (current != null)
             {
-                Root = newNode;
-                return;
-            }
-
-            BinarySearchTreeNode<T> current = Root;
-
-            while (true)
-            {
-                if (Comparer<T>.Default.Compare(value, current.Value) < 0)
-                {
-                    if (current.LeftChild == null)
-                    {
-                        current.LeftChild = newNode;
-                        break;
-                    }
+                int comparison = Comparer<T>.Default.Compare(value, current.Value);
+                if (comparison == 0)
+                    return true;
+                else if (comparison < 0)
                     current = current.LeftChild;
-                }
                 else
-                {
-                    if (current.RightChild == null)
-                    {
-                        current.RightChild = newNode;
-                        break;
-                    }
                     current = current.RightChild;
-                }
             }
+            return false;
         }
 
         public void PrintTree()
@@ -105,6 +123,10 @@ namespace MyBinarySearchTree
 
             Console.WriteLine("Binary Search Tree:");
             bst.PrintTree();
+
+            int searchValue = 7;
+            bool found = bst.Search(searchValue);
+            Console.WriteLine($"\n\nSearch for {searchValue}: " + (found ?"Found" : "Not Found"));
 
             Console.WriteLine("\n\nPress any key to exit...");
             Console.ReadKey();
