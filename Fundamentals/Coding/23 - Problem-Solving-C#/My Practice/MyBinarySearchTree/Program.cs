@@ -66,23 +66,22 @@ namespace MyBinarySearchTree
       }
     }
 
-        public bool Search(T value)
-    
-        {
-            BinarySearchTreeNode<T>? current = Root;
+    public bool Search(T value)
+    {
+        BinarySearchTreeNode<T>? current = Root;
 
-            while (current != null)
-            {
-                int comparison = Comparer<T>.Default.Compare(value, current.Value);
-                if (comparison == 0)
-                    return true;
-                else if (comparison < 0)
-                    current = current.LeftChild;
-                else
-                    current = current.RightChild;
-            }
-            return false;
+        if(Root.Value == value)
+            return true;
+        while (current != null)
+        {
+          if (Comparer<T>.Default.Compare(value, current.Value) == 0)
+              return true;
+          else if (Comparer<T>.Default.Compare(value, current.Value) < 0)
+              current = current.LeftChild;
+          else
+              current = current.RightChild;
         }
+      }
 
         public void PrintTree()
         {
