@@ -69,6 +69,59 @@ namespace BinarySearchTreeDemo
             }
         }
 
+        // DELETE FUNCTION
+        public void Delete(T value)
+        {
+            Root = DeleteNode(Root, value);
+        }
+
+        private BinarySearchTreeNode<T> DeleteNode(BinarySearchTreeNode<T> root, T value)
+        {
+            if (root == null)
+                return null;
+
+            // Traverse left or right
+            if (value.CompareTo(root.Value) < 0)
+            {
+                root.Left = DeleteNode(root.Left, value);
+            }
+            else if (value.CompareTo(root.Value) > 0)
+            {
+                root.Right = DeleteNode(root.Right, value);
+            }
+            else
+            {
+                // Case 1: No child
+                if (root.Left == null && root.Right == null)
+                    return null;
+
+                // Case 2: One child
+                else if (root.Left == null)
+                    return root.Right;
+                else if (root.Right == null)
+                    return root.Left;
+
+                // Case 3: Two children
+                else
+                {
+                    // Find inorder successor (smallest in right subtree)
+                    var successor = FindMin(root.Right);
+                    root.Value = successor.Value;
+                    root.Right = DeleteNode(root.Right, successor.Value);
+                }
+            }
+
+            return root;
+        }
+
+        private BinarySearchTreeNode<T> FindMin(BinarySearchTreeNode<T> node)
+        {
+            while (node.Left != null)
+                node = node.Left;
+            return node;
+        }
+
+        // Traversals
         public void InOrderTraversal()
         {
             InOrderTraversal(Root);
@@ -139,8 +192,6 @@ namespace BinarySearchTreeDemo
 
             PrintTree(root.Left, space);
         }
-
-
     }
 
     class Program
@@ -159,22 +210,26 @@ namespace BinarySearchTreeDemo
             bst.Insert(12);
             bst.Insert(20);
             bst.Insert(50);
+
+            Console.WriteLine("Initial Tree:");
             bst.PrintTree();
 
-            Console.WriteLine("\nDoes the BST contain 79? " + bst.Search(79)); // Expected: True
-            Console.WriteLine("Does the BST contain 100? " + bst.Search(100)); // Expected: False
+            Console.WriteLine("\nDeleting 79 (node with one child)...");
+            bst.Delete(79);
+            bst.PrintTree();
 
-            Console.WriteLine("\nInOrder Traversal:");
-            bst.InOrderTraversal(); 
+            Console.WriteLine("\nDeleting 15 (node with two children)...");
+            bst.Delete(15);
+            bst.PrintTree();
 
-            Console.WriteLine("\nPreOrder Traversal:");
-            bst.PreOrderTraversal(); 
+            Console.WriteLine("\nDeleting 10 (leaf node)...");
+            bst.Delete(10);
+            bst.PrintTree();
 
-            Console.WriteLine("\nPostOrder Traversal:");
-            bst.PostOrderTraversal(); 
+            Console.WriteLine("\nInOrder Traversal After Deletions:");
+            bst.InOrderTraversal();
 
             Console.ReadKey();
-
         }
     }
 }
