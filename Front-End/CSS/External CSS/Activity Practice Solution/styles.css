@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Style for the body element */
+body {
+    background-color: #f4f4f4; /* light gray background */
+    font-family: Arial, sans-serif; /* using Arial or sans-serif fonts */
+    margin: 20px; /* 20px margin around the body */
+    color: #333; /* dark gray text color */
+}
+  
+/* Style for the h1 element */
+h1 {
+    color: darkblue; /* dark blue text */
+    text-align: center; /* center align text */
+    margin-bottom: 20px; /* 20px bottom margin */
+}
+  
+/* Style for the paragraph element */
+p {
+    font-size: 18px; /* font size 18px */
+    line-height: 1.6; /* line height 1.6 for readability */
+    margin-bottom: 20px; /* 20px bottom margin */
+}
+  
+/* Style for the table element */
+table {
+    width: 60%; /* table width is 60% of its container */
+    border-collapse: collapse; /* merge table borders */
+    margin: 20px auto; /* Centers the table horizontally */
+}
+  
+/* Style for table, th, and td elements */
+table, th, td {
+    border: 1px solid blue; /* blue border for table, th, and td */
+}
+  
+/* Style for the table header (th) elements */
+th {
+    padding: 10px; /* 10px padding */
+    text-align: center; /* center align text in header cells */
+    background-color: wheat; /* wheat background color for header cells */
+}
+ 
+/* Style for the table data (td) elements */
+td {
+    padding: 10px; /* 10px padding */
+    text-align: left; /* left align text in data cells */
+}

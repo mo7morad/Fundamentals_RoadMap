@@ -1,0 +1,10 @@
+ /* Style for Headers with different colors */
+ h1 { color: red; }
+ h2 { color: orange; }
+ h3 { color: yellowgreen; }
+ h4 { color: green; }
+ h5 { color: blue; }
+ h6 { color: purple; }
+ 
+ /* Style for all paragraphs */
+ p { color: #555; font-family: Arial, sans-serif; }

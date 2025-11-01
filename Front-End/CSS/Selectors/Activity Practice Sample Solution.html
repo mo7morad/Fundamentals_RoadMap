@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Selectors Advanced Practice Activity</title>
+  <style>
+    /* Basic Selectors */
+    
+    /* Element Selector: styles all <p> elements */
+    p {
+      color: #333;               /* Default text color */
+      font-size: 16px;           /* Font size for paragraphs */
+      margin: 10px 0;            /* Vertical spacing */
+    }
+    
+    /* ID Selector: uniquely styles the header with id "main-header" */
+    #main-header {
+      color: darkblue;           /* Dark blue text */
+      text-align: center;        /* Centered text */
+      font-size: 2em;            /* Larger font size */
+      margin-bottom: 20px;       /* Bottom margin */
+    }
+    
+    /* Class Selector: styles elements with class "highlight" */
+    .highlight {
+      background-color: yellow;  /* Yellow background */
+      font-weight: bold;         /* Bold text */
+    }
+    
+    /* Combined Selector: targets <p> elements with class "highlight" */
+    p.highlight {
+      color: red;                /* Overrides text color to red */
+    }
+    
+    /* Attribute Selector: styles input fields of type text */
+    input[type="text"] {
+      border: 1px solid #ccc;    /* Light gray border */
+      padding: 5px;              /* Padding inside input */
+      font-size: 14px;           /* Font size for input text */
+    }
+    
+    /* Pseudo-class: styles links on hover */
+    a:hover {
+      color: green;              /* Change link color on hover */
+      text-decoration: underline;/* Underline link on hover */
+    }
+    
+    /* Advanced Selectors */
+    
+    /* 1. Descendant Selector: targets every <span> inside a <div> */
+    div span {
+      color: purple;             /* Purple text for spans within divs */
+      font-style: italic;        /* Italic text style */
+    }
+    
+    /* 2. Child Selector: styles <p> elements that are direct children of .container */
+    .container > p {
+      border: 1px solid blue;    /* Blue border for direct child paragraphs */
+      padding: 5px;              /* Padding inside the paragraphs */
+    }
+    
+    /* 3. Adjacent Sibling Selector: styles the <p> element immediately following an <h2> */
+    h2 + p {
+      color: darkred;            /* Dark red text for the first paragraph after h2 */
+    }
+    
+    /* 4. General Sibling Selector: styles all <p> elements that follow an <h2> in the same parent */
+    h2 ~ p {
+      font-size: 14px;           /* Smaller font size for paragraphs following h2 */
+    }
+    
+    /* 5. Multiple Class Selector: targets elements with both "btn" and "primary" classes */
+    .btn.primary {
+      background-color: blue;    /* Blue background */
+      color: white;              /* White text */
+      padding: 10px;             /* Padding for the button */
+      border: none;              /* No border */
+      text-align: center;        /* Centered text */
+      display: inline-block;     /* Button-like appearance */
+    }
+  </style>
+</head>
+<body>
+  <!-- ID Selector Example -->
+  <h1 id="main-header">CSS Selectors Advanced Practice Activity</h1>
+  
+  <!-- Element Selector Example -->
+  <p>This is a standard paragraph styled with the element selector.</p>
+  
+  <!-- Class and Combined Selector Example -->
+  <p class="highlight">This paragraph uses the "highlight" class, and the combined selector sets its text color to red.</p>
+  <p class="highlight">Another highlighted paragraph to demonstrate consistent styling.</p>
+  
+  <!-- Attribute Selector Example -->
+  <input type="text" placeholder="Enter your text here">
+  
+  <!-- Pseudo-class Example -->
+  <a href="https://example.com" target="_blank">Hover over this link to see the hover effect</a>
+  
+  <!-- Advanced: Descendant Selector Example -->
+  <div title="Descendant Demo">
+    <p>This div, because of its title attribute, could also be styled differently. Below is a nested span:</p>
+    <span>This span is styled by the descendant selector (div span) and appears in purple italics.</span>
+  </div>
+  
+  <!-- Advanced: Child Selector Example -->
+  <div class="container">
+    <p>This paragraph is a direct child of the container and is styled with a blue border and padding.</p>
+    <div>
+      <p>This paragraph is nested deeper (inside a div) and will not get the child selector styling from .container.</p>
+    </div>
+  </div>
+  
+  <!-- Advanced: Adjacent Sibling and General Sibling Selector Examples -->
+  <h2>Section Header</h2>
+  <p>This paragraph is immediately after the h2, so it is styled with dark red text (adjacent sibling selector).</p>
+  <p>This paragraph, although not immediately after the h2, is still a sibling and gets a smaller font size (general sibling selector).</p>
+  
+  <!-- Advanced: Multiple Class Selector Example -->
+  <div class="btn primary">Button Styled with Multiple Classes</div>
+  
+  <!--
+    Observations:
+    - Element Selector: Applies base styles to all paragraphs.
+    - ID Selector: Uniquely styles the main header.
+    - Class & Combined Selector: Applies specific styling to elements with the "highlight" class.
+    - Attribute Selector: Targets input fields based on their type attribute.
+    - Pseudo-class: Provides interactivity on link hover.
+    - Descendant Selector: Styles all <span> elements inside a <div>.
+    - Child Selector: Only styles direct child paragraphs within a container.
+    - Adjacent Sibling Selector: Targets the first paragraph immediately following an <h2>.
+    - General Sibling Selector: Styles all paragraphs following an <h2> within the same parent.
+    - Multiple Class Selector: Applies styling only to elements that possess both specified classes.
+    
+    Experiment with modifying the CSS rules to observe how each selector affects the elements.
+  -->
+</body>
+</html>

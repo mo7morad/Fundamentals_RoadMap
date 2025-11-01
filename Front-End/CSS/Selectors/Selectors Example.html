@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Selectors Example</title>
+  <style>
+    /* Element Selector */
+    p {
+      color: #333;
+      font-size: 16px;
+    }
+
+    /* Style for the table element */
+    table {
+      width: 60%;
+      /* table width is 60% of its container */
+      border-collapse: collapse;
+      /* merge table borders */
+      margin: 20px 0;
+      /* 20px margin on top and bottom */
+    }
+
+    /* Style for table, th, and td elements */
+    table,
+    th,
+    td {
+      border: 1px solid blue;
+      /* blue border for table, th, and td */
+    }
+
+    /* ID Selector */
+    #unique {
+      color: darkblue;
+      font-weight: bold;
+    }
+
+    /* Attribute Selector */
+    input[type="text"] {
+      border: 2px solid #aaa;
+      padding: 5px;
+    }
+
+    /* Pseudo-class */
+    a:hover {
+      color: red;
+    }
+
+     /* Class Selector */
+     .highlight {
+      background-color: yellow;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <h1>CSS Selectors in Action! 🎉</h1>
+
+  <p>This is a normal paragraph styled using an element selector.</p>
+
+  <p class="highlight">This paragraph is highlighted using a class selector.</p>
+
+  <p id="unique">This paragraph is uniquely styled using an ID selector.</p>
+
+  <input type="text" placeholder="Type here...">
+
+  <br><br>
+  
+  <a href="#">Hover over this link</a>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Row 1, Cell 1</td>
+        <td>Row 1, Cell 2</td>
+      </tr>
+      <tr>
+        <td>Row 2, Cell 1</td>
+        <td>Row 2, Cell 2</td>
+      </tr>
+    </tbody>
+  </table>
+
+  
+</body>
+
+</html>

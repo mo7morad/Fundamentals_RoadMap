@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Selectors Demo</title>
+  <style>
+    /* Element Selector: Styles all <p> elements */
+    p {
+      color: #333;               /* Default text color */
+      font-size: 16px;           /* Font size for paragraphs */
+      margin: 10px 0;            /* Vertical spacing */
+    }
+    
+    /* Class Selector: Styles elements with the class "highlight" */
+    .highlight {
+      background-color: yellow;  /* Yellow background for highlighted elements */
+    }
+    
+    /* ID Selector: Styles the element with id "main-header" */
+    #main-header {
+      color: darkblue;           /* Dark blue text color */
+      text-align: center;        /* Centered text */
+      font-size: 24px;           /* Larger font size */
+    }
+    
+    /* Attribute Selector: Styles elements that have a "title" attribute */
+    [title] {
+      border: 2px dashed green;  /* Dashed green border */
+      padding: 5px;              /* Padding around content */
+    }
+    
+    /* Pseudo-class: Styles links when hovered */
+    a:hover {
+      color: red;                /* Change text color to red on hover */
+      text-decoration: underline;/* Underline text on hover */
+    }
+    
+    /* Pseudo-element: Styles the first line of each <p> element */
+    p::first-line {
+      font-weight: bold;         /* Bold font for the first line */
+    }
+    
+    /* Descendant Selector: Styles <span> elements that are inside <div> elements */
+    div span {
+      color: purple;             /* Purple text for spans inside divs */
+      font-style: italic;        /* Italic text */
+    }
+    
+    /* Child Selector: Styles <p> elements that are direct children of elements with class "container" */
+    .container > p {
+      border: 1px solid blue;    /* Blue border */
+      padding: 5px;              /* Padding inside the paragraphs */
+    }
+    
+    /* Adjacent Sibling Selector: Styles the <p> element immediately following an <h2> */
+    h2 + p {
+      color: darkred;            /* Dark red text color */
+    }
+    
+    /* General Sibling Selector: Styles all <p> elements that follow an <h2> (not just the first one) */
+    h2 ~ p {
+      font-size: 14px;           /* Smaller font size for these paragraphs */
+    }
+    
+    /* Multiple Class Selector: Styles elements that have both "btn" and "primary" classes */
+    .btn.primary {
+      background-color: blue;    /* Blue background */
+      color: white;              /* White text */
+      padding: 10px;             /* Padding for the button */
+      border: none;              /* No border */
+      text-align: center;        /* Centered text */
+      display: inline-block;     /* Inline-block display for button-like appearance */
+    }
+  </style>
+</head>
+<body>
+  <!-- Using an ID Selector -->
+  <h1 id="main-header">CSS Selectors Demo</h1>
+  
+  <!-- Using an Element Selector and Pseudo-element (::first-line) -->
+  <p>This paragraph is styled using an element selector. Notice the first line is bold due to the pseudo-element styling.</p>
+  
+  <!-- Using a Class Selector -->
+  <p class="highlight">This paragraph has the "highlight" class, giving it a yellow background.</p>
+  
+  <!-- Using an Attribute Selector (div with title) and Descendant Selector (span inside div) -->
+  <div title="Information Box">
+    <p>This div has a title attribute and thus gets a dashed green border. It demonstrates the attribute selector.</p>
+    <span>This span is targeted by the descendant selector (div span) and appears in purple italics.</span>
+  </div>
+  
+  <!-- Using a Child Selector -->
+  <div class="container">
+    <p>This paragraph is a direct child of a container div, so it receives specific styling (blue border and padding).</p>
+    <p>Another directly nested paragraph in the container with the same styling.</p>
+  </div>
+  
+  <!-- Using an Adjacent Sibling Selector and a General Sibling Selector -->
+  <h2>Section Header</h2>
+  <p>This paragraph is immediately after an <code>&lt;h2&gt;</code> element, so it's styled with dark red text (adjacent sibling selector).</p>
+  <p>This paragraph is a sibling of the <code>&lt;h2&gt;</code> but not immediately adjacent, so it gets a smaller font size (general sibling selector).</p>
+  
+  <!-- Using a Pseudo-class on a link -->
+  <a href="#">Hover over this link to see the effect</a>
+  <br>
+  <!-- Using a Multiple Class Selector -->
+  <div class="btn primary">Button Styled with Multiple Classes</div>
+</body>
+</html>
