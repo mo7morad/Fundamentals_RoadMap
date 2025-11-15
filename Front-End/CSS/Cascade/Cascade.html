@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Cascade in CSS – How Multiple Rules Interact</title>
+  <style>
+    /* Base rule: Element Selector
+       Applies to all <p> elements; initially sets text color to blue and font size to 16px */
+    p {
+      color: blue; /* Base color for paragraphs */
+      font-size: 16px;
+    }
+    
+    /* Class Selector: Applies to elements with the class "example"
+       Overrides the base color to green and increases font size to 18px */
+    .example {
+      color: green;
+      font-size: 18px;
+    }
+    
+    /* ID Selector: Applies to the element with id "unique"
+       This is more specific than class and element selectors, setting color to purple and font size to 20px */
+    #unique {
+      color: purple;
+      font-size: 20px;
+    }
+    
+    /* Another element rule for <p> defined later to demonstrate order of appearance 
+       Adds a 1px solid black border to all paragraphs */
+    p {
+      border: 1px solid black;
+    }
+    
+    /* The !important rule in the class "important" forces the text color to orange regardless of other rules */
+    .important {
+      color: orange !important;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Cascade in CSS – How Multiple Rules Interact</h1>
+  <p>
+    Welcome to the lesson on the CSS cascade! This page demonstrates how multiple CSS rules can target the same element and how the final style is determined by factors such as the origin of the styles, specificity, order of appearance, and the use of <code>!important</code>.
+  </p>
+  
+  <h2>Example 1: Basic Cascade and Specificity</h2>
+  <p class="example">
+    This paragraph is styled by multiple rules:
+    <br>
+    - The element selector sets the color to blue.
+    <br>
+    - The class selector (.example) changes the color to green and increases the font size.
+  </p>
+  
+  <h2>Example 2: ID Selector Overrides Class and Element</h2>
+  <p id="unique" class="example">
+    This paragraph has both an ID ("unique") and a class ("example").
+    <br>
+    The ID selector, being more specific, overrides the class and element selectors. The final text color is purple and the font size is 20px.
+  </p>
+  
+  <h2>Example 3: Inline Style Wins</h2>
+  <p id="unique" class="example" style="color: red; font-size: 22px;">
+    This paragraph has an inline style that sets the text color to red and font size to 22px.
+    <br>
+    Inline styles have the highest specificity, so these values override the ID, class, and element selectors.
+  </p>
+  
+  <h2>Example 4: Order of Appearance</h2>
+  <p>
+    When two rules have the same specificity, the one that appears later in the stylesheet wins.
+    <br>
+    In our CSS, the second <code>p</code> rule (adding a border) is applied after the first one, ensuring that every paragraph gets a black border.
+  </p>
+  
+  <h2>Example 5: Using <code>!important</code></h2>
+  <p class="example important">
+    This paragraph uses the class "important", which applies the style <code>color: orange !important</code>.
+    <br>
+    The <code>!important</code> declaration forces the color to be orange, overriding even inline styles or more specific selectors for color.
+  </p>
+  
+  <h2>Summary</h2>
+  <p>
+    The cascade in CSS is the process by which the browser determines which styles to apply. It takes into account:
+  </p>
+  <ul>
+    <li><strong>Origin of the Styles:</strong> (user, author, or user-agent stylesheets)</li>
+    <li><strong>Specificity:</strong> Inline styles > IDs > Classes/attributes/pseudo-classes > Elements/pseudo-elements</li>
+    <li><strong>Order of Appearance:</strong> Later rules override earlier ones if specificity is equal</li>
+    <li><strong>Importance:</strong> The <code>!important</code> declaration forces a rule to override others</li>
+  </ul>
+  <p>
+    Think of the cascade as the full recipe 🍲 and specificity as one of the key ingredients that decides the final flavor of your dish!
+  </p>
+</body>
+</html>

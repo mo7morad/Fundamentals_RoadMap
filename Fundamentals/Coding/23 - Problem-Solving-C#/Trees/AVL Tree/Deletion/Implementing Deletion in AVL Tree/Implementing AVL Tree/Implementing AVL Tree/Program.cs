@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Security.Policy;
 
 class AVLNode
 {
@@ -38,7 +37,7 @@ class AVLTree
             return node; // Duplicate values are not allowed
 
         UpdateHeight(node);
-       // return node;
+        // return node;
         return Balance(node);
     }
 
@@ -276,10 +275,10 @@ class Program
 
         tree.PrintTree();
        
-       tree.Delete(30);
-       Console.WriteLine("\nAfter Deletion.\n");
+        tree.Delete(30);
+        Console.WriteLine("\nAfter Deletion.\n");
 
-      tree.PrintTree();
+        tree.PrintTree();
 
 
         Console.ReadKey();  

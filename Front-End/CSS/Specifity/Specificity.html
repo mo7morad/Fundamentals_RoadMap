@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Specificity Example</title>
+  <style>
+    /* Element Selector: Lowest specificity */
+    p {
+      color: blue;
+    }
+    /* Class Selector: Medium specificity */
+    .important {
+      color: green;
+    }
+    /* ID Selector: Higher specificity */
+    #special {
+      color: orange;
+    }
+  </style>
+</head>
+<body>
+ 
+    <!-- This paragraph has n element selector, an ID, a class, and an inline style -->
+  <p id="special" class="important" style="color: red;">
+    This text will be red because inline styles win the contest!
+  </p>
+
+  <!-- This paragraph has an element selector, an ID, a class -->
+  <p id="special" class="important" >
+    This text will be orange because ID slector win the contest!
+  </p>
+
+  <!-- This paragraph has element selector and  a class selector -->
+  <p  class="important" >
+    This text will be green because class slector win the contest!
+  </p>
+
+  <!-- This paragraph has only element selectore -->
+  <p>
+    This text will be blue because element slector has lowest specificity and no other specificity compete with it.
+  </p>
+
+
+</body>
+</html>
+
+<!-- What is Specificity?
+- Definition: Specificity is a system used by browsers to decide which CSS rule should be applied if multiple rules target the same element.
+
+-How It Works: CSS rules are ranked by specificity in the following order (from highest to lowest):
+
+1- Inline styles (e.g., <p style="color: red;">)
+2- IDs (e.g., #header)
+3- Classes, attributes, and pseudo-classes (e.g., .highlight, [type="text"], :hover)
+4- Elements and pseudo-elements (e.g., p, h1, ::first-line)
+
+- Imagine specificity as a contest 🏆 where the rule with the highest specificity takes home the styling prize! -->
