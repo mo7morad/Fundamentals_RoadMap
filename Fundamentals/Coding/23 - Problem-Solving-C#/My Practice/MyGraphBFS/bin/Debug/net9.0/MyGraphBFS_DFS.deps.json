@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MyGraphBFS_DFS/1.0.0": {
+        "runtime": {
+          "MyGraphBFS_DFS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyGraphBFS_DFS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

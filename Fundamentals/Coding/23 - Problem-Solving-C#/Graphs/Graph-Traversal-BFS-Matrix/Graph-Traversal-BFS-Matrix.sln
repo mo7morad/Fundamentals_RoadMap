@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph-Traversal-BFS-Matrix", "Graph-Traversal-BFS-Matrix.csproj", "{42F89C4D-9B23-4F00-8067-16AF8DB8250C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F89C4D-9B23-4F00-8067-16AF8DB8250C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F89C4D-9B23-4F00-8067-16AF8DB8250C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F89C4D-9B23-4F00-8067-16AF8DB8250C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F89C4D-9B23-4F00-8067-16AF8DB8250C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {332A7854-EEA5-4466-B5CB-423DE0A1D4F0}
+	EndGlobalSection
+EndGlobal
