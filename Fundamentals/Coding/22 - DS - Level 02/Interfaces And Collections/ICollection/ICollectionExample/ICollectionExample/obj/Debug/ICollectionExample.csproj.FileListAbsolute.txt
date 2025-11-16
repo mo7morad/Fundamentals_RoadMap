@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 ICollection\02 Implementing ICollection\ICollectionExample\ICollectionExample\bin\Debug\ICollectionExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 ICollection\02 Implementing ICollection\ICollectionExample\ICollectionExample\bin\Debug\ICollectionExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 ICollection\02 Implementing ICollection\ICollectionExample\ICollectionExample\bin\Debug\ICollectionExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 ICollection\02 Implementing ICollection\ICollectionExample\ICollectionExample\obj\Debug\ICollectionExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 ICollection\02 Implementing ICollection\ICollectionExample\ICollectionExample\obj\Debug\ICollectionExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 ICollection\02 Implementing ICollection\ICollectionExample\ICollectionExample\obj\Debug\ICollectionExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\02 ICollection\02 Implementing ICollection\ICollectionExample\ICollectionExample\obj\Debug\ICollectionExample.pdb

@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\RedBlackTree-Delete\bin\Debug\RedBlackTree-Delete.exe.config
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\RedBlackTree-Delete\bin\Debug\RedBlackTree-Delete.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\RedBlackTree-Delete\bin\Debug\RedBlackTree-Delete.pdb
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\RedBlackTree-Delete\obj\Debug\RedBlackTree-Delete.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\RedBlackTree-Delete\obj\Debug\RedBlackTree-Delete.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\RedBlackTree-Delete\obj\Debug\RedBlackTree-Delete.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\RedBlackTree-Delete\obj\Debug\RedBlackTree-Delete.pdb
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\Delete Algorithm\04 Delete Code\RedBlackTree-Delete\bin\Debug\RedBlackTree-Delete.exe.config
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\Delete Algorithm\04 Delete Code\RedBlackTree-Delete\bin\Debug\RedBlackTree-Delete.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\Delete Algorithm\04 Delete Code\RedBlackTree-Delete\bin\Debug\RedBlackTree-Delete.pdb
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\Delete Algorithm\04 Delete Code\RedBlackTree-Delete\obj\Debug\RedBlackTree-Delete.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\Delete Algorithm\04 Delete Code\RedBlackTree-Delete\obj\Debug\RedBlackTree-Delete.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\Delete Algorithm\04 Delete Code\RedBlackTree-Delete\obj\Debug\RedBlackTree-Delete.exe
+D:\Dropbox\Personal\Advices\2021\23 Algorithms Level 6\04 BST\07 Balancing\02 Red-Black Tree\03 Operations\04 Delete Operation\Delete Algorithm\04 Delete Code\RedBlackTree-Delete\obj\Debug\RedBlackTree-Delete.pdb

@@ -1,7 +1,0 @@
-D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\01 IEnumerable\02 IEnumerable Example\UsingIEnumerableExample\UsingIEnumerableExample\bin\Debug\UsingIEnumerableExample.exe.config
-D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\01 IEnumerable\02 IEnumerable Example\UsingIEnumerableExample\UsingIEnumerableExample\bin\Debug\UsingIEnumerableExample.exe
-D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\01 IEnumerable\02 IEnumerable Example\UsingIEnumerableExample\UsingIEnumerableExample\bin\Debug\UsingIEnumerableExample.pdb
-D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\01 IEnumerable\02 IEnumerable Example\UsingIEnumerableExample\UsingIEnumerableExample\obj\Debug\UsingIEnumerableExample.csproj.AssemblyReference.cache
-D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\01 IEnumerable\02 IEnumerable Example\UsingIEnumerableExample\UsingIEnumerableExample\obj\Debug\UsingIEnumerableExample.csproj.CoreCompileInputs.cache
-D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\01 IEnumerable\02 IEnumerable Example\UsingIEnumerableExample\UsingIEnumerableExample\obj\Debug\UsingIEnumerableExample.exe
-D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\19 Collection Interfaces\01 IEnumerable\02 IEnumerable Example\UsingIEnumerableExample\UsingIEnumerableExample\obj\Debug\UsingIEnumerableExample.pdb
