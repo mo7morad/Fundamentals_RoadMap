@@ -164,12 +164,12 @@ namespace MyGraphBFS_DFS
             company.PrintGraph();
 
             Console.WriteLine("DFS 1 → 3: " + company.HasPathDFS(1, 3));  // true
-            Console.WriteLine("DFS 3 → 1: " + company.HasPathDFS(3, 1));  // true
-            Console.WriteLine("DFS 2 → 1: " + company.HasPathDFS(2, 1));  // true
+            Console.WriteLine("DFS 3 → 1: " + company.HasPathDFS(3, 1));  // false
+            Console.WriteLine("DFS 2 → 1: " + company.HasPathDFS(2, 1));  // false
 
             Console.WriteLine();
             Console.WriteLine("BFS 1 → 3: " + company.HasPathBFS(1, 3));  // true
-            Console.WriteLine("BFS 3 → 1: " + company.HasPathBFS(3, 1));  // true
+            Console.WriteLine("BFS 3 → 1: " + company.HasPathBFS(3, 1));  // false
         }
     }
 }
