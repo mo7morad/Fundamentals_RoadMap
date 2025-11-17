@@ -86,7 +86,7 @@ Here’s a quick overview of the key projects included in this repository:
 ## ✉️ Connect with Me
 
 - GitHub: [mo7morad](https://github.com/mo7morad)  
-- LinkedIn: https://linkedin.com/in/momorad
+- LinkedIn: [Mohamed Morad](https://linkedin.com/in/momorad)
 
 
 ---
