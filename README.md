@@ -5,18 +5,23 @@
 ![Problem Solving](https://img.shields.io/badge/Problem%20Solving-185%2B%20Solved%20Problems-success?style=for-the-badge)  
 ![Projects](https://img.shields.io/badge/Projects-18%20Completed-ff5733?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-Welcome to my **Fundamentals Roadmap** repository! This repo captures my journey through 26 foundational programming courses taught by **Eng. Mohamed Abo-Hadhoud**, including problem-solving tasks, full projects, and course materials.
+Welcome to my **Fundamentals Roadmap** repository! This repo captures my journey through 26 foundational programming courses including problem-solving, full projects, course materials, and certificates.
 
 ---
 
 ## 📂 Repository Structure
 
-- **Certificates/** — My earned certificates  
-- **Coding/** — Problem-solving tasks and full projects  
-  - Levels 1–5 for C++  
-  - OOP projects in C++  
-  - Desktop apps in C# / WinForms  
-- **Courses/** — Trainer-provided material (slides, annotated code)  
+Fundamentals_Roadmap/
+├── 📁 Certificates/       # Certificates earned during the journey (updated regularly).
+├── 📁 Coding/             # Problem-solving solutions and full projects.
+│   ├── Problem-Solving-Level-01-in-C++/  # 20+ solved problems.
+│   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 console projects.
+│   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 console projects.
+│   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 console projects.
+│   ├── Problem-Solving-Level-05-in-C++/  # 8   console projects.
+│   ├── OOP-C++/                          # 3   OOP console projects.
+│   ├── 14 - C# & WinForms/               # 2   Simple .Net Desktop Projects.
+├── 📁 Courses/            # Trainer-provided material and slides.
 
 ---
 
