@@ -14,6 +14,7 @@ Welcome to my **Fundamentals Roadmap** repository! This repo captures my journey
 ```yaml
 Fundamentals_Roadmap/
 ├── 📁 Certificates/       # Certificates earned during the journey (updated regularly).
+│
 ├── 📁 Coding/             # Problem-solving solutions and full projects.
 │   ├── Problem-Solving-Level-01-in-C++/  # 20+ solved problems.
 │   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 console projects.
@@ -22,6 +23,7 @@ Fundamentals_Roadmap/
 │   ├── Problem-Solving-Level-05-in-C++/  # 8   console projects.
 │   ├── OOP-C++/                          # 3   OOP console projects.
 │   ├── 14 - C# & WinForms/               # 2   Simple .Net Desktop Projects.
+│
 ├── 📁 Courses/            # Trainer-provided material and slides.
 ```
 
