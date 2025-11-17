@@ -31,14 +31,45 @@ Fundamentals_Roadmap/
 
 ## 🚀 Featured Projects
 
-Here are some of the standout projects from this roadmap:
+Here’s a quick overview of the key projects included in this repository:
 
-- **Banking System** — A full-featured, object-oriented banking console app (C++)  
-- **ATM System** — Simulated ATM with deposit, withdrawal, authentication, and transaction logging  
-- **Undo/Redo System** — Stack-based string management system  
-- **Queue Line Tickets** — A queue data structure project to manage a ticketing/line system  
-- **Tic-Tac-Toe (C#)** — WinForms game with two-player mode  
-- **Pizza Shop (C#)** — Desktop ordering app with UI  
+### **>_ Console Applications**
+
+1. **MathQuiz**  
+   🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
+
+2. **ScissorsPaperRock**  
+   ✂️ *A classic implementation of the "Scissors Paper Rock" game in C++, delivering nostalgic fun with a modern twist.*
+
+3. **Banking System**  
+   🏦 *A fully object-oriented banking system featuring comprehensive account management, seamless transactions, and robust data persistence.*
+
+4. **ATM-System-Project**  
+   💳 *A console-based ATM simulation that supports quick & normal withdrawals, deposits, balance inquiries, secure user authentication, and efficient transaction processing.*
+
+5. **ContactsSystem**  
+   📇 *A versatile contacts management application that allows users to add, remove, search, and display contacts, with all data persistently stored in a text file.*
+
+6. **Driving-Simulation**  
+   🚗 *A dynamic driving simulation that handles user inputs for movement, acceleration, braking, and collision detection, offering real-time feedback and control.*
+
+7. **Undo/Redo System**  
+   ↩️ *An innovative string management system implementing Undo/Redo functionality using stack data structures, perfect for enhancing text editing capabilities.*
+
+8. **Queue Line Tickets**  
+   ⏱️ *A dynamic solution for managing line ordering using a queue data structure, featuring advanced validation and real-time updates.*
+
+---
+
+### **🖥️ C# Desktop Apps (.Net)**
+
+9. **🎮 Tic-Tac-Toe Game**  
+   *A simple yet engaging implementation of the classic game using **C# and Windows Forms**.*
+
+10. **🍕 Pizza Shop Project**  
+    *A C# application designed to simulate a pizza ordering system with a user-friendly interface.*
+
+---
 
 > For a full list, check the `/Coding/` folder or click into each sub-directory.
 
