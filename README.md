@@ -11,6 +11,7 @@ Welcome to my **Fundamentals Roadmap** repository! This repo captures my journey
 
 ## 📂 Repository Structure
 
+```yaml
 Fundamentals_Roadmap/
 ├── 📁 Certificates/       # Certificates earned during the journey (updated regularly).
 ├── 📁 Coding/             # Problem-solving solutions and full projects.
@@ -22,6 +23,7 @@ Fundamentals_Roadmap/
 │   ├── OOP-C++/                          # 3   OOP console projects.
 │   ├── 14 - C# & WinForms/               # 2   Simple .Net Desktop Projects.
 ├── 📁 Courses/            # Trainer-provided material and slides.
+```
 
 ---
 
