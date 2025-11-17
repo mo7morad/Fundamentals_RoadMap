@@ -75,14 +75,6 @@ Here’s a quick overview of the key projects included in this repository:
 
 ---
 
-## 📘 What You’ll Find Here
-
-1. **Coding Solutions** — All solved problems, console apps, and desktop projects.  
-2. **Course Material** — Annotated code, slides, and exercises from each course.  
-3. **Certificates** — Proof of completed courses and achievements.  
-
----
-
 ## 📖 How to Navigate
 
 - Start with **Coding/** to see the projects and solved problems by level.  
@@ -94,8 +86,8 @@ Here’s a quick overview of the key projects included in this repository:
 ## ✉️ Connect with Me
 
 - GitHub: [mo7morad](https://github.com/mo7morad)  
-- Email: *[your email here]*  
-- Portfolio: *[if you have one]*  
+- LinkedIn: https://linkedin.com/in/momorad
+
 
 ---
 
