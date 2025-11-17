@@ -2,7 +2,7 @@
 
 ![Completed Courses](https://img.shields.io/badge/Completed_Courses-22%2F26-blue?style=for-the-badge)  
 ![Status](https://img.shields.io/badge/Status-Work_In_Progress-orange?style=for-the-badge)  
-![Problem Solving](https://img.shields.io/badge/Problem%20Solving-185%2B%20Solved%20Problems-success?style=for-the-badge)  
+![Problem Solving](https://img.shields.io/badge/Problem%20Solving-215%2B%20Solved%20Problems-success?style=for-the-badge)  
 ![Projects](https://img.shields.io/badge/Projects-18%20Completed-ff5733?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 Welcome to my **Fundamentals Roadmap** repository! This repo captures my journey through 26 foundational programming courses including problem-solving, full projects, course materials, and certificates.
@@ -16,7 +16,7 @@ Fundamentals_Roadmap/
 ├── 📁 Certificates/       # Certificates earned during the journey (updated regularly).
 │
 ├── 📁 Coding/             # Problem-solving solutions and full projects.
-│   ├── Problem-Solving-Level-01-in-C++/  # 20+ solved problems.
+│   ├── Problem-Solving-Level-01-in-C++/  # 50+ solved problems.
 │   ├── Problem-Solving-Level-02-in-C++/  # 50+ solved problems + 2 console projects.
 │   ├── Problem-Solving-Level-03-in-C++/  # 50+ solved problems + 2 console projects.
 │   ├── Problem-Solving-Level-04-in-C++/  # 65+ solved problems + 2 console projects.
