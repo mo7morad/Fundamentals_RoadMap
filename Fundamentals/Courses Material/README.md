@@ -21,5 +21,5 @@ This folder contains the learning resources.
 
 ## Purpose
 
-These materials help reinforce the fundamentals and serve as reference material for future projects.  
+These materials help reinforce the fundamentals and as a reference.  
 
