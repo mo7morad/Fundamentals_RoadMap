@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\02 Screen Res\Getting Screen Resolution\Getting Screen Resolution\bin\Debug\Getting Screen Resolution.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\02 Screen Res\Getting Screen Resolution\Getting Screen Resolution\bin\Debug\Getting Screen Resolution.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\02 Screen Res\Getting Screen Resolution\Getting Screen Resolution\bin\Debug\Getting Screen Resolution.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\02 Screen Res\Getting Screen Resolution\Getting Screen Resolution\obj\Debug\Getting Screen Resolution.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\02 Screen Res\Getting Screen Resolution\Getting Screen Resolution\obj\Debug\Getting Screen Resolution.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\02 Screen Res\Getting Screen Resolution\Getting Screen Resolution\obj\Debug\Getting Screen Resolution.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\02 Screen Res\Getting Screen Resolution\Getting Screen Resolution\obj\Debug\Getting Screen Resolution.pdb

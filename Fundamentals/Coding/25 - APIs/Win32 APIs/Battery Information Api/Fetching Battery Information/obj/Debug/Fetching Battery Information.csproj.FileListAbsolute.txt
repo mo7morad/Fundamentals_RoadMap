@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\03 Battery Info\Fetching Battery Information\Fetching Battery Information\bin\Debug\Fetching Battery Information.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\03 Battery Info\Fetching Battery Information\Fetching Battery Information\bin\Debug\Fetching Battery Information.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\03 Battery Info\Fetching Battery Information\Fetching Battery Information\bin\Debug\Fetching Battery Information.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\03 Battery Info\Fetching Battery Information\Fetching Battery Information\obj\Debug\Fetching Battery Information.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\03 Battery Info\Fetching Battery Information\Fetching Battery Information\obj\Debug\Fetching Battery Information.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\03 Battery Info\Fetching Battery Information\Fetching Battery Information\obj\Debug\Fetching Battery Information.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\03 Battery Info\Fetching Battery Information\Fetching Battery Information\obj\Debug\Fetching Battery Information.pdb

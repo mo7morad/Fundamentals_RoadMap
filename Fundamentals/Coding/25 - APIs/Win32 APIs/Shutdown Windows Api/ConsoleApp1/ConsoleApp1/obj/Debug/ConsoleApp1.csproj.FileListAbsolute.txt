@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\04 Shutdown Windows\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\04 Shutdown Windows\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\04 Shutdown Windows\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\04 Shutdown Windows\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\04 Shutdown Windows\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\04 Shutdown Windows\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\04 Shutdown Windows\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

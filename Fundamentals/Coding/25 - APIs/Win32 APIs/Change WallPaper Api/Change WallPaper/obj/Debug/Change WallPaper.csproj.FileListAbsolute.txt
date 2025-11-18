@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\05 Change WallPaper\Change WallPaper\Change WallPaper\bin\Debug\Change WallPaper.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\05 Change WallPaper\Change WallPaper\Change WallPaper\bin\Debug\Change WallPaper.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\05 Change WallPaper\Change WallPaper\Change WallPaper\bin\Debug\Change WallPaper.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\05 Change WallPaper\Change WallPaper\Change WallPaper\obj\Debug\Change WallPaper.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\05 Change WallPaper\Change WallPaper\Change WallPaper\obj\Debug\Change WallPaper.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\05 Change WallPaper\Change WallPaper\Change WallPaper\obj\Debug\Change WallPaper.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\05 Change WallPaper\Change WallPaper\Change WallPaper\obj\Debug\Change WallPaper.pdb
