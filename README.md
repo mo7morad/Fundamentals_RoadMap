@@ -35,39 +35,40 @@ Here’s a quick overview of the key projects included in this repository:
 
 ### **>_ Console Applications**
 
-1. **MathQuiz**  
+1. [**Math Quiz**](Coding/Problem-Solving-Level-02-in-C++/Projects/MathQuiz-Solution)  
    🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
 
-2. **ScissorsPaperRock**  
+2. [**ScissorsPaperRock**](Coding/Problem-Solving-Level-02-in-C++/Projects/ScissorsPaperRock)  
    ✂️ *A classic implementation of the "Scissors Paper Rock" game in C++, delivering nostalgic fun with a modern twist.*
 
-3. **Banking System**  
+3. [**Banking System**](Coding/Problem-Solving-Level-03-in-C++/Projects/Banking-System)  
    🏦 *A fully object-oriented banking system featuring comprehensive account management, seamless transactions, and robust data persistence.*
 
-4. **ATM-System-Project**  
+4. [**ATM-System-Project**](Coding/Problem-Solving-Level-04-in-C++/Projects/ATM-System-Project)  
    💳 *A console-based ATM simulation that supports quick & normal withdrawals, deposits, balance inquiries, secure user authentication, and efficient transaction processing.*
 
-5. **ContactsSystem**  
+5. [**ContactsSystem**](Coding/Problem-Solving-Level-02-in-C++/Projects/ContactsSystem)  
    📇 *A versatile contacts management application that allows users to add, remove, search, and display contacts, with all data persistently stored in a text file.*
 
-6. **Driving-Simulation**  
+6. [**Driving-Simulation**](Coding/Problem-Solving-Level-03-in-C++/Projects/Driving-Simulation)  
    🚗 *A dynamic driving simulation that handles user inputs for movement, acceleration, braking, and collision detection, offering real-time feedback and control.*
 
-7. **Undo/Redo System**  
-   ↩️ *An innovative string management system implementing Undo/Redo functionality using stack data structures, perfect for enhancing text editing capabilities.*
+7. [**Undo/Redo System**](Coding/Problem-Solving-Level-05-in-C++/Projects/Undo-Redo-System)  
+   ↩️ *A string management system implementing Undo/Redo functionality using stack data structures, perfect for enhancing text editing capabilities.*
 
-8. **Queue Line Tickets**  
+8. [**Queue Line Tickets**](Coding/Problem-Solving-Level-05-in-C++/Projects/Queue-Line-Tickets)  
    ⏱️ *A dynamic solution for managing line ordering using a queue data structure, featuring advanced validation and real-time updates.*
 
 ---
 
-### **🖥️ C# Desktop Apps (.Net)**
+### 🖥️ C# Desktop Apps (.Net)
 
-9. **🎮 Tic-Tac-Toe Game**  
-   *A simple yet engaging implementation of the classic game using **C# and Windows Forms**.*
+9. [**Tic-Tac-Toe Game**](Coding/14%20-%20C#%20&%20WinForms/Tic-Tac-Toe)  
+   🎮 *A simple yet engaging implementation of the classic game using **C# and Windows Forms**.*
 
-10. **🍕 Pizza Shop Project**  
-    *A C# application designed to simulate a pizza ordering system with a user-friendly interface.*
+10. [**Pizza Shop Project**](Coding/14%20-%20C#%20&%20WinForms/Pizza-Shop)  
+    🍕 *A C# application designed to simulate a pizza ordering system with a user-friendly interface.*
+
 
 ---
 
