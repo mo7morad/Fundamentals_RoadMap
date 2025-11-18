@@ -35,13 +35,13 @@ Here’s a quick overview of the key projects included in this repository:
 
 ### **>_ Console Applications**
 
-1. [**Math Quiz**](Fundamentals/Coding/Problem-Solving-level-02-C++/Projects/MathQuiz)  
+1. [**Math Quiz**](Fundamentals/Coding/Problem-Solving-level-02-in-C++/Projects/MathQuiz)  
    🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
 
-2. [**ScissorsPaperRock**](Fundamentals/Coding/Problem-Solving-level-02-C++/Projects/Scissors-Paper-Rock)  
+2. [**ScissorsPaperRock**](Fundamentals/Coding/Problem-Solving-level-02-in-C++/Projects/Scissors-Paper-Rock)  
    ✂️ *A classic implementation of the "Scissors Paper Rock" game in C++, delivering nostalgic fun with a modern twist.*
 
-3. [**Banking System**](Coding/Problem-Solving-Level-03-in-C++/Projects/Banking-System)  
+3. [**Banking System**](Fundamentals/Coding/Problem-Solving-Level-03-in-C++/BankingSystem-Project)  
    🏦 *A fully object-oriented banking system featuring comprehensive account management, seamless transactions, and robust data persistence.*
 
 4. [**ATM-System-Project**](Coding/Problem-Solving-Level-04-in-C++/Projects/ATM-System-Project)  
