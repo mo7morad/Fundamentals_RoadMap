@@ -35,7 +35,7 @@ Here’s a quick overview of the key projects included in this repository:
 
 ### **>_ Console Applications**
 
-1. [**Math Quiz**](Coding/Problem-Solving-Level-02-in-C++/Projects/MathQuiz-Solution)  
+1. [**Math Quiz**](Coding/Problem-Solving-Level-02-in-C++/Projects/MathQuiz)  
    🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
 
 2. [**ScissorsPaperRock**](Coding/Problem-Solving-Level-02-in-C++/Projects/ScissorsPaperRock)  
