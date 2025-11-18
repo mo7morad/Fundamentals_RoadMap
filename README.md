@@ -38,7 +38,7 @@ Here’s a quick overview of the key projects included in this repository:
 1. [**Math Quiz**](Fundamentals/Coding/Problem-Solving-level-02-C++/Projects/MathQuiz)  
    🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
 
-2. [**ScissorsPaperRock**](Fundamentals/Coding/Problem-Solving-level-02-C++/Projects/ScissorsPaperRock)  
+2. [**ScissorsPaperRock**](Fundamentals/Coding/Problem-Solving-level-02-C++/Projects/Scissors-Paper-Rock)  
    ✂️ *A classic implementation of the "Scissors Paper Rock" game in C++, delivering nostalgic fun with a modern twist.*
 
 3. [**Banking System**](Coding/Problem-Solving-Level-03-in-C++/Projects/Banking-System)  
