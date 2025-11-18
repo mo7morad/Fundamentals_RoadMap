@@ -33,7 +33,7 @@ Fundamentals_Roadmap/
 
 Here’s a quick overview of the key projects included in this repository:
 
-### **>_ Console Applications**
+### **>_ 9 Console Applications**
 
 1. [**Math Quiz**](Fundamentals/Coding/Problem-Solving-level-02-in-C++/Projects/MathQuiz)  
    🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
@@ -41,22 +41,25 @@ Here’s a quick overview of the key projects included in this repository:
 2. [**ScissorsPaperRock**](Fundamentals/Coding/Problem-Solving-level-02-in-C++/Projects/Scissors-Paper-Rock)  
    ✂️ *A classic implementation of the "Scissors Paper Rock" game in C++, delivering nostalgic fun with a modern twist.*
 
-3. [**Banking System**](Fundamentals/Coding/Problem-Solving-Level-03-in-C++/BankingSystem-Project)  
+3. [**Banking System**](Fundamentals/Coding/Problem-Solving-level-03-in-C++/BankingSystem-Project)  
    🏦 *A fully object-oriented banking system featuring comprehensive account management, seamless transactions, and robust data persistence.*
 
-4. [**ATM-System-Project**](Coding/Problem-Solving-Level-04-in-C++/Projects/ATM-System-Project)  
+4. [**ATM-System-Project**](Fundamentals/Coding/Problem-Solving-level-04-in-C++/Project/ATM-System)  
    💳 *A console-based ATM simulation that supports quick & normal withdrawals, deposits, balance inquiries, secure user authentication, and efficient transaction processing.*
 
-5. [**ContactsSystem**](Coding/Problem-Solving-Level-02-in-C++/Projects/ContactsSystem)  
+5. [**ContactsSystem**](Fundamentals/Coding/11 - OOP-C++/Projects/ContactsSystem-Project)  
    📇 *A versatile contacts management application that allows users to add, remove, search, and display contacts, with all data persistently stored in a text file.*
 
-6. [**Driving-Simulation**](Coding/Problem-Solving-Level-03-in-C++/Projects/Driving-Simulation)  
+6. [**Driving-Simulation**](Fundamentals/Coding/11 - OOP-C++/Projects/DrivingSimulation-Project)  
    🚗 *A dynamic driving simulation that handles user inputs for movement, acceleration, braking, and collision detection, offering real-time feedback and control.*
 
-7. [**Undo/Redo System**](Coding/Problem-Solving-Level-05-in-C++/Projects/Undo-Redo-System)  
+7. [**OOP Updated Banking System**](Fundamentals/Coding/11 - OOP-C++/Projects/OOP-BankingSystem-Project)  
+   🏦 *The Banking System in its new OOP enhanced version, the latest Banking System Version*
+
+8. [**Undo/Redo System**](Coding/Problem-Solving-Level-05-in-C++/Projects/Undo-Redo-System)  
    ↩️ *A string management system implementing Undo/Redo functionality using stack data structures, perfect for enhancing text editing capabilities.*
 
-8. [**Queue Line Tickets**](Coding/Problem-Solving-Level-05-in-C++/Projects/Queue-Line-Tickets)  
+9. [**Queue Line Tickets**](Coding/Problem-Solving-Level-05-in-C++/Projects/Queue-Line-Tickets)  
    ⏱️ *A dynamic solution for managing line ordering using a queue data structure, featuring advanced validation and real-time updates.*
 
 ---
