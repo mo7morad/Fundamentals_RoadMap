@@ -13,9 +13,8 @@ This folder contains the learning resources.
 ## How to Use
 
 1. Explore each course folder (named by course number or title)  
-2. View or run code samples provided by the trainer  
+2. View the material provided by trainer  
 3. Use the slides to review the theory  
-4. Try solving the provided exercises on your own, then compare with solutions
 
 ---
 
