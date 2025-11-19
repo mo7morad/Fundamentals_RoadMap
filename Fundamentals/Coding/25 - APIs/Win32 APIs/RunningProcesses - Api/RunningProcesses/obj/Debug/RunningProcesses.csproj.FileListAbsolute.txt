@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\06 Processes\RunningProcesses\RunningProcesses\bin\Debug\RunningProcesses.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\06 Processes\RunningProcesses\RunningProcesses\bin\Debug\RunningProcesses.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\06 Processes\RunningProcesses\RunningProcesses\bin\Debug\RunningProcesses.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\06 Processes\RunningProcesses\RunningProcesses\obj\Debug\RunningProcesses.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\06 Processes\RunningProcesses\RunningProcesses\obj\Debug\RunningProcesses.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\06 Processes\RunningProcesses\RunningProcesses\obj\Debug\RunningProcesses.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\06 Processes\RunningProcesses\RunningProcesses\obj\Debug\RunningProcesses.pdb

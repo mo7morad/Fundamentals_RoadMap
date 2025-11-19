@@ -1,0 +1,8 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\12 PowerPointCreator\PowerPointCreator\PowerPointCreator\obj\Debug\PowerPointCreator.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\12 PowerPointCreator\PowerPointCreator\PowerPointCreator\obj\Debug\PowerPointCreator.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\12 PowerPointCreator\PowerPointCreator\PowerPointCreator\bin\Debug\PowerPointCreator.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\12 PowerPointCreator\PowerPointCreator\PowerPointCreator\bin\Debug\PowerPointCreator.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\12 PowerPointCreator\PowerPointCreator\PowerPointCreator\bin\Debug\PowerPointCreator.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\12 PowerPointCreator\PowerPointCreator\PowerPointCreator\obj\Debug\PowerPointCreator.csproj.ResolveComReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\12 PowerPointCreator\PowerPointCreator\PowerPointCreator\obj\Debug\PowerPointCreator.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\12 PowerPointCreator\PowerPointCreator\PowerPointCreator\obj\Debug\PowerPointCreator.pdb

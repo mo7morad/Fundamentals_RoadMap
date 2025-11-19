@@ -1,0 +1,7 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\08 Wifi Networks\WifiNetworks\WifiNetworks\bin\Debug\WifiNetworks.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\08 Wifi Networks\WifiNetworks\WifiNetworks\bin\Debug\WifiNetworks.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\08 Wifi Networks\WifiNetworks\WifiNetworks\bin\Debug\WifiNetworks.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\08 Wifi Networks\WifiNetworks\WifiNetworks\obj\Debug\WifiNetworks.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\08 Wifi Networks\WifiNetworks\WifiNetworks\obj\Debug\WifiNetworks.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\08 Wifi Networks\WifiNetworks\WifiNetworks\obj\Debug\WifiNetworks.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\08 Wifi Networks\WifiNetworks\WifiNetworks\obj\Debug\WifiNetworks.pdb

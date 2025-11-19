@@ -1,0 +1,8 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\11 ExcelSheetCreator\ExcelSheetCreator\ExcelSheetCreator\obj\Debug\ExcelSheetCreator.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\11 ExcelSheetCreator\ExcelSheetCreator\ExcelSheetCreator\obj\Debug\ExcelSheetCreator.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\11 ExcelSheetCreator\ExcelSheetCreator\ExcelSheetCreator\bin\Debug\ExcelSheetCreator.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\11 ExcelSheetCreator\ExcelSheetCreator\ExcelSheetCreator\bin\Debug\ExcelSheetCreator.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\11 ExcelSheetCreator\ExcelSheetCreator\ExcelSheetCreator\bin\Debug\ExcelSheetCreator.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\11 ExcelSheetCreator\ExcelSheetCreator\ExcelSheetCreator\obj\Debug\ExcelSheetCreator.csproj.ResolveComReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\11 ExcelSheetCreator\ExcelSheetCreator\ExcelSheetCreator\obj\Debug\ExcelSheetCreator.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\11 ExcelSheetCreator\ExcelSheetCreator\ExcelSheetCreator\obj\Debug\ExcelSheetCreator.pdb

@@ -1,0 +1,8 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\09 OutlookEmailSender\OutlookEmailSender\OutlookEmailSender\bin\Debug\OutlookEmailSender.exe.config
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\09 OutlookEmailSender\OutlookEmailSender\OutlookEmailSender\bin\Debug\OutlookEmailSender.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\09 OutlookEmailSender\OutlookEmailSender\OutlookEmailSender\bin\Debug\OutlookEmailSender.pdb
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\09 OutlookEmailSender\OutlookEmailSender\OutlookEmailSender\obj\Debug\OutlookEmailSender.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\09 OutlookEmailSender\OutlookEmailSender\OutlookEmailSender\obj\Debug\OutlookEmailSender.csproj.ResolveComReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\09 OutlookEmailSender\OutlookEmailSender\OutlookEmailSender\obj\Debug\OutlookEmailSender.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\09 OutlookEmailSender\OutlookEmailSender\OutlookEmailSender\obj\Debug\OutlookEmailSender.exe
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\00 Windows APIs\09 OutlookEmailSender\OutlookEmailSender\OutlookEmailSender\obj\Debug\OutlookEmailSender.pdb
