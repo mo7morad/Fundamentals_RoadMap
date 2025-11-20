@@ -47,13 +47,13 @@ Here’s a quick overview of the key projects included in this repository:
 4. [**ATM-System-Project**](Fundamentals/Coding/Problem-Solving-level-04-in-C++/Project/ATM-System)  
    💳 *A console-based ATM simulation that supports quick & normal withdrawals, deposits, balance inquiries, secure user authentication, and efficient transaction processing.*
 
-5. [**ContactsSystem**](Fundamentals/Coding/11 - OOP-C++/Projects/ContactsSystem-Project)  
+5. [**ContactsSystem**](Fundamentals/Coding/11%20-%20OOP-C++/Projects/ContactsSystem-Project)  
    📇 *A versatile contacts management application that allows users to add, remove, search, and display contacts, with all data persistently stored in a text file.*
 
-6. [**Driving-Simulation**](Fundamentals/Coding/11 - OOP-C++/Projects/DrivingSimulation-Project)  
+6. [**Driving-Simulation**](Fundamentals/Coding/11%20-%20OOP-C++/Projects/DrivingSimulation-Project)  
    🚗 *A dynamic driving simulation that handles user inputs for movement, acceleration, braking, and collision detection, offering real-time feedback and control.*
 
-7. [**OOP Updated Banking System**](Fundamentals/Coding/11 - OOP-C++/Projects/OOP-BankingSystem-Project)  
+7. [**OOP Updated Banking System**](Fundamentals/Coding/11%20-%20OOP-C++/Projects/OOP-BankingSystem-Project)  
    🏦 *A complete console-based banking system application designed to manage users, customers, and multiple currency exchange rates. The system includes a full transactions logging module, detailed user activity logs, and solid administrative controls.*
 
 8. [**Queue Line Tickets**](Coding/Problem-Solving-Level-05-in-C++/Project8-QueueLineProject)  
