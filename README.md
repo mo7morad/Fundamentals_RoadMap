@@ -57,17 +57,17 @@ Here’s a quick overview of the key projects included in this repository:
    🏦 *A complete console-based banking system application designed to manage users, customers, and multiple currency exchange rates. The system includes a full transactions logging module, detailed user activity logs, and solid administrative controls.*
 
 8. [**Queue Line Tickets**](Coding/Problem-Solving-Level-05-in-C++/Project8-QueueLineProject)  
-   ⏱️ *A dynamic solution for managing line ordering using a queue data structure, featuring advanced validation and real-time updates.*
+   ⏱️ *A dynamic solution for managing line ordering using a queue data structure*
 
 ---
 
 ### 🖥️ C# Desktop Apps (.Net)
 
-9. [**Tic-Tac-Toe Game**](Coding/14%20-%20C#%20&%20WinForms/Tic-Tac-Toe)  
-   🎮 *A simple yet engaging implementation of the classic game using **C# and Windows Forms**.*
+9. [**Tic-Tac-Toe Game**](Coding/14%20-%20C#%20&%20WinForms/Projects/Tic-Tac-Toe)  
+   🎮 *A simple engaging TicTacToe Game using **C# and Windows Forms**.*
 
-10. [**Pizza Shop Project**](Coding/14%20-%20C#%20&%20WinForms/Pizza-Shop)  
-    🍕 *A C# application designed to simulate a pizza ordering system with a user-friendly interface.*
+10. [**Pizza Shop Project**](Coding/14%20-%20C#%20&%20WinForms/Projects/Pizza-Shop)  
+    🍕 *A WindowsForms C# application designed to simulate a pizza ordering system.*
 
 
 ---
