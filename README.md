@@ -42,7 +42,7 @@ Here’s a quick overview of the key projects included in this repository:
    ✂️ *A classic implementation of the "Scissors Paper Rock" game in C++, delivering nostalgic fun with a modern twist.*
 
 3. [**Banking System**](Fundamentals/Coding/Problem-Solving-level-03-in-C++/BankingSystem-Project)  
-   🏦 *A fully object-oriented banking system featuring comprehensive account management, seamless transactions, and robust data persistence.*
+   🏦 *A simple banking system featuring comprehensive account management, seamless transactions, and robust data persistence and logging.*
 
 4. [**ATM-System-Project**](Fundamentals/Coding/Problem-Solving-level-04-in-C++/Project/ATM-System)  
    💳 *A console-based ATM simulation that supports quick & normal withdrawals, deposits, balance inquiries, secure user authentication, and efficient transaction processing.*
@@ -54,12 +54,9 @@ Here’s a quick overview of the key projects included in this repository:
    🚗 *A dynamic driving simulation that handles user inputs for movement, acceleration, braking, and collision detection, offering real-time feedback and control.*
 
 7. [**OOP Updated Banking System**](Fundamentals/Coding/11 - OOP-C++/Projects/OOP-BankingSystem-Project)  
-   🏦 *The Banking System in its new OOP enhanced version, the latest Banking System Version*
+   🏦 *A complete console-based banking system application designed to manage users, customers, and multiple currency exchange rates. The system includes a full transactions logging module, detailed user activity logs, and solid administrative controls.*
 
-8. [**Undo/Redo System**](Coding/Problem-Solving-Level-05-in-C++/Projects/Undo-Redo-System)  
-   ↩️ *A string management system implementing Undo/Redo functionality using stack data structures, perfect for enhancing text editing capabilities.*
-
-9. [**Queue Line Tickets**](Coding/Problem-Solving-Level-05-in-C++/Projects/Queue-Line-Tickets)  
+8. [**Queue Line Tickets**](Coding/Problem-Solving-Level-05-in-C++/Project8-QueueLineProject)  
    ⏱️ *A dynamic solution for managing line ordering using a queue data structure, featuring advanced validation and real-time updates.*
 
 ---
