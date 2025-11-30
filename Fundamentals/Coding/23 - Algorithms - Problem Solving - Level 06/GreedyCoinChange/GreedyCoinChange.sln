@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreedyCoinChange", "GreedyCoinChange.csproj", "{5D411D3A-DD45-E19B-6684-EDD05DCEB153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D411D3A-DD45-E19B-6684-EDD05DCEB153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D411D3A-DD45-E19B-6684-EDD05DCEB153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D411D3A-DD45-E19B-6684-EDD05DCEB153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D411D3A-DD45-E19B-6684-EDD05DCEB153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD11AC69-357F-4578-9F41-725BAF00195B}
+	EndGlobalSection
+EndGlobal
