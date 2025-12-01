@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinary", "DecimalToBinary\DecimalToBinary.csproj", "{36AD91B8-5944-89A5-9788-E1497482037D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserBackButton", "BrowserBackButton\BrowserBackButton.csproj", "{906224CF-9275-9811-18F7-2067D82E4329}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36AD91B8-5944-89A5-9788-E1497482037D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36AD91B8-5944-89A5-9788-E1497482037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36AD91B8-5944-89A5-9788-E1497482037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36AD91B8-5944-89A5-9788-E1497482037D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906224CF-9275-9811-18F7-2067D82E4329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906224CF-9275-9811-18F7-2067D82E4329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906224CF-9275-9811-18F7-2067D82E4329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906224CF-9275-9811-18F7-2067D82E4329}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CA9830B-248F-4681-A6D3-00162660A302}
+	EndGlobalSection
+EndGlobal
