@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qjVgG4ksve4=",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Fundamentals_RoadMap\\Fundamentals\\Coding\\25 - APIs\\StudentAPI\\02 - Get Passed Students\\02 StudentApiClient v2\\StudentApiClient\\StudentApiClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Morad\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
