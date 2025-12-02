@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebAPI-ServerSideCode", "FirstWebAPI-ServerSideCode.csproj", "{CB6D1A80-7A7F-4F81-A916-590F04186DBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB6D1A80-7A7F-4F81-A916-590F04186DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6D1A80-7A7F-4F81-A916-590F04186DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6D1A80-7A7F-4F81-A916-590F04186DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6D1A80-7A7F-4F81-A916-590F04186DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA76CA0F-4B6E-4F2A-A0B8-99ADE3F9BB31}
+	EndGlobalSection
+EndGlobal

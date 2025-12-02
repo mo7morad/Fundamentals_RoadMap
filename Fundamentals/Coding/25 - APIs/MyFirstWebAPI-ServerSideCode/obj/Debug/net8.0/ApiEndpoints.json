@@ -1,0 +1,53 @@
+[
+  {
+    "ContainingType": "FirstWebAPI_ServerSideCode.Controllers.MyFirstAPIController",
+    "Method": "GetMyName",
+    "RelativePath": "api/MyFirstAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FirstWebAPI_ServerSideCode.Controllers.MyFirstAPIController",
+    "Method": "Sum2Numbers",
+    "RelativePath": "api/MyFirstAPI/num1, num2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "num1",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "num2",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
