@@ -1,0 +1,49 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CopyComplete
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll

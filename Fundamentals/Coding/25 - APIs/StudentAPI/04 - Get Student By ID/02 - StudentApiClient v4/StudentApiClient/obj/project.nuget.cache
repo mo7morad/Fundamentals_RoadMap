@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0p/et6FaZ0gWcn5QGnX+mlA/AIVmfIEejV0IEd/pj3bYzKbXLPx6G7AMpV+QdzAY+SdESy8PsNGkcWFCLa4GTg==",
+  "success": true,
+  "projectFilePath": "D:\\Dropbox\\Personal\\Advices\\2021\\Web\\WebAPI Course\\01 WebAPI\\Final CRUD\\03 Student API Project\\04 temp\\02 StudentApiClient\\StudentApiClient\\StudentApiClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LEGION\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

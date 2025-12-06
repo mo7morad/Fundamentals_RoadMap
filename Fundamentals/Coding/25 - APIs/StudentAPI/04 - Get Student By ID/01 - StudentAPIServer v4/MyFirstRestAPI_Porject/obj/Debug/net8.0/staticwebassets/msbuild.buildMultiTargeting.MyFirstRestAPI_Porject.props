@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyFirstRestAPI_Porject.props" />
+</Project>

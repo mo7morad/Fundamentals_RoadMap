@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sPBSPsEQGz2IYpoke2ps+NrUUGzmh6/SPpAEIO7qZZamGvwp0qIKJqCOG6hi94H3s1iMHBBwc3ULwXl3V7z/Vg==",
+  "success": true,
+  "projectFilePath": "C:\\Temp\\02 StudentApiClient v5\\StudentApiClient\\StudentApiClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LEGION\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
