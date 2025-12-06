@@ -1,0 +1,52 @@
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.AssemblyReference.cache
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfoInputs.cache
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfo.cs
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.deps.json
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Temp\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.deps.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.deps.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.deps.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfoInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfo.cs
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.sourcelink.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentModels.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentModels.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentD.34317F30.Up2Date

@@ -1,0 +1,12 @@
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\bin\Debug\net8.0\StudentModels.deps.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\bin\Debug\net8.0\StudentModels.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\bin\Debug\net8.0\StudentModels.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\StudentModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\StudentModels.AssemblyInfoInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\StudentModels.AssemblyInfo.cs
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\StudentModels.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\StudentModels.sourcelink.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\StudentModels.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\refint\StudentModels.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\StudentModels.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\StudentModels\obj\Debug\net8.0\ref\StudentModels.dll

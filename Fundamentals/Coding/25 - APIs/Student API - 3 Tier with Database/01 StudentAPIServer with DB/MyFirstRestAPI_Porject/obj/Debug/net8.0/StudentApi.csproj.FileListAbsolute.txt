@@ -1,0 +1,428 @@
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\Web\WebAPI Course\01 WebAPI\Final CRUD\03 Student API Project\05 Student API Project v5 - Put - Add New\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CopyComplete
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+C:\Temp\01 StudentAPIServer v5\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CopyComplete
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+C:\Temp\01 StudentAPIServer v6\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CopyComplete
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+C:\Temp\01 StudentAPIServer v7 - Update Student\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CopyComplete
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Azure.Core.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Azure.Identity.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.ClientModel.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentAPIBusinessLayer.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentAPIBusinessLayer.pdb
+C:\Temp\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Azure.Core.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Azure.Identity.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.ClientModel.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentAPIBusinessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentAPIBusinessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CopyComplete
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\04 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Azure.Core.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Azure.Identity.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.ClientModel.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentAPIBusinessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentAPIBusinessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.StudentApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentApi.props
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CopyComplete
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.staticwebassets.endpoints.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Azure.Core.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Azure.Identity.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.ClientModel.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentAPIBusinessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentAPIBusinessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.sourcelink.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.Up2Date
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentModels.dll
+D:\Programming\Fundamentals_RoadMap\Fundamentals\Coding\25 - APIs\Student API - 3 Tier with Database\01 StudentAPIServer with DB\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentModels.pdb
