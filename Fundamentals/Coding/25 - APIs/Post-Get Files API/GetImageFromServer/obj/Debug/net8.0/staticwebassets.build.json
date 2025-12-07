@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+bszgKLLxsR0E8lvpobE7XiFUWEwZgIsK59BnnTRcOk=",
+  "Source": "GetImageFromServer",
+  "BasePath": "_content/GetImageFromServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
