@@ -46,5 +46,16 @@ Applied programming logic to real-world scenarios:
 * Mastered the logic of swapping values, which is fundamental for sorting algorithms later.
 * Gained confidence in translating mathematical problems into code.
 
+## 🚀 How to Run
+To run any of these files, use a standard C++ compiler:
+
+1.  **Compile:**
+    ```bash
+    g++ structures&Enums.cpp -o myProgram
+    ```
+2.  **Run:**
+    ```bash
+    ./myProgram
+    ```
 ---
 *This repository documents my journey in mastering Backend Engineering.*
