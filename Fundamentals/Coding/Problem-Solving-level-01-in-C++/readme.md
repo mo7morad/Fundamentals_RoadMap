@@ -1,4 +1,4 @@
-# C++ Programming Fundamentals
+#Course 01: C++ Syntax and Programming Fundamentals
 
 This directory contains my solutions to the programming problems and exercises for level 01 of my the Backend fundamentals Roadmap.
 
