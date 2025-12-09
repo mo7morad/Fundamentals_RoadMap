@@ -13,7 +13,7 @@ This folder contains all the Back-End code, problem-solving tasks, console proje
 | [**Level 03 (C++)**](Problem-Solving-level-03-in-C++) | ~50 problems + Banking System (2 versions). |
 | [**Level 04 (C++)**](Problem-Solving-level-04-in-C++) | ~65 problems + ATM simulation, Bank extension. |
 | [**Level 05 (C++)**](Problem-Solving-level-05-in-C++) | Data structures (linked list, queue, stack, dynamic array, etc.). |
-| [**Level 06 (C#)**](Problem-Solving-level-06-in-C++) | Data structures (linked list, queue, stack, dynamic array, etc.). |
+| [**Level 06 (C#)**](Problem-Solving-level-06-in-C#) | Data structures (linked list, queue, stack, dynamic array, etc.). |
 ---
 ## Projects
 
