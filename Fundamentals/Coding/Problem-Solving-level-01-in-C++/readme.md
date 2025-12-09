@@ -1,4 +1,4 @@
-# Course 04: C++ Programming Fundamentals And Problem Solving
+# Course 04: Algorithms & Problem Solving Level 01
 
 This directory contains my solutions to the programming problems and exercises for level 01 of my the Backend fundamentals Roadmap.
 
