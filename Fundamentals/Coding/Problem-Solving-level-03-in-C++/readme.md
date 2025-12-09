@@ -6,7 +6,6 @@ In this phase, I transitioned from solving isolated problems to building a compl
 
 ## 🏆 Capstone Project: Console Banking System
 
-
 I architected a fully functional Banking Application that persists data to the hard drive. This project evolved through two major iterations:
 
 ### 📥 Version 1: The Core System (`#52_Project1_Bank-1.cpp`)
@@ -29,24 +28,24 @@ Beyond the project, I solved 50+ problems to master low-level data manipulation.
 
 ### 1. 🔢 Matrix (2D Array) Manipulation
 I built a suite of functions to handle complex 3x3 matrix operations:
-* [cite_start]**Core Ops:** Random generation `[cite: 7][cite_start]`, Row/Column Summation `[cite: 27, 67][cite_start]`, and Transposing matrices `[cite: 109]`.
+* **Core Ops:** Random generation, Row/Column Summation, and Transposing matrices.
 * **Advanced Math:**
-    * [cite_start]**Matrix Multiplication:** Implemented the mathematical logic to multiply two 3x3 matrices `[cite: 126]`.
-    * [cite_start]**Comparison:** Algorithms to check if matrices are **Equal** `[cite: 192][cite_start]`, **Typical** `[cite: 215][cite_start]`, or **Scalar** `[cite: 263]`.
-    * [cite_start]**Special Types:** Detection logic for **Identity Matrices** `[cite: 238][cite_start]`, **Sparse Matrices** `[cite: 320][cite_start]`, and **Palindrome Matrices** `[cite: 421]`.
-* [cite_start]**Search & Intersection:** Finding Min/Max values `[cite: 399, 402][cite_start]` and identifying intersected numbers between two matrices `[cite: 376]`.
+    * **Matrix Multiplication:** Implemented the mathematical logic to multiply two 3x3 matrices.
+    * **Comparison:** Algorithms to check if matrices are **Equal**, **Typical**, or **Scalar**.
+    * **Special Types:** Detection logic for **Identity Matrices**, **Sparse Matrices**, and **Palindrome Matrices**.
+* **Search & Intersection:** Finding Min/Max values and identifying intersected numbers between two matrices.
 
 ### 2. 📝 String Processing Library
 Instead of using standard libraries, I built my own string utilities to understand parsing and text manipulation:
 * **Parsing & Tokenization:**
-    * [cite_start]`SplitString`: Breaks a long string into a `vector` of words based on any delimiter `[cite: 633]`.
-    * [cite_start]`JoinString`: Reverses the process, joining a vector into a single string `[cite: 665]`.
+    * `SplitString`: Breaks a long string into a `vector` of words based on any delimiter.
+    * `JoinString`: Reverses the process, joining a vector into a single string.
 * **Trimming & Cleaning:**
-    * [cite_start]`TrimLeft` / `TrimRight`: Manually removing whitespace from string edges `[cite: 648, 650]`.
-    * [cite_start]`RemovePunctuations`: Cleaning strings of special characters `[cite: 741]`.
+    * `TrimLeft` / `TrimRight`: Manually removing whitespace from string edges.
+    * `RemovePunctuations`: Cleaning strings of special characters.
 * **Analysis:**
-    * [cite_start]Counting Words `[cite: 608][cite_start]`, Vowels `[cite: 567][cite_start]`, and Letter frequency `[cite: 537]`.
-    * [cite_start]**Case Inverter:** Logic to swap Case (Upper/Lower) for characters `[cite: 481]` or entire strings.
+    * Counting Words, Vowels, and Letter frequency.
+    * **Case Inverter:** Logic to swap Case (Upper/Lower) for characters or entire strings.
 
 ## 🛠️ Tech Stack
 * **Language:** C++
@@ -59,7 +58,7 @@ To run the Banking System:
 
 1.  **Compile:**
     ```bash
-    g++ "#02_SumOfMatrixRow.cpp" -o SumOfMatrix
+    g++ "#53_Project2_Bank-2.cpp" -o BankApp
     ```
 2.  **Run:**
     ```bash
