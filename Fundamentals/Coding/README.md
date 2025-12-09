@@ -24,19 +24,6 @@ This folder contains all the Back-End code, problem-solving tasks, console appli
 ---
 
 ## 🚀 How to Run
-To run any of these files, you can use a standard C++ compiler like `g++`.
-
-1.  **Compile:**
-    ```bash
-    g++ FileName.cpp -o OutputName
-    ```
-2.  **Run:**
-    ```bash
-    ./OutputName
-    ```
-
-
-## How to Run Code
 
 1. Open the folder of the project or level you want to explore.  
 2. Look at `.cpp` or `.cs` files.  
@@ -54,26 +41,7 @@ To run any of these files, you can use a standard C++ compiler like `g++`.
 
 ---
 
-## Why These Projects?
 
-These tasks and projects are designed to:
-- Strengthen problem-solving skills  
-- Practice core data structures  
-- Build real-world console applications  
-- Understand object-oriented design  
-- Learn C# GUI development through WinForms
-
----
-
-## What I Learned
-
-- Syntax mastery in C++  
-- OOP principles through real projects  
-- Persistent data management (files, logs)  
-- User input validation and state management  
-- UI development with C# and Windows Forms
-
----
 
 **Explore the sub-folders to see individual project details and instructions.**
 
