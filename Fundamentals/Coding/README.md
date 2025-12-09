@@ -37,5 +37,5 @@ This folder contains all the Back-End code, problem-solving tasks, console proje
 
 ---
 
-**Explore the sub-folders to see individual project details and instructions.**
+**Explore the rest of the folders to see the other content each folder named, and has its own readme.**
 
