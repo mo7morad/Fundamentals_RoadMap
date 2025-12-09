@@ -4,14 +4,16 @@ This directory contains my solutions to the programming problems and exercises f
 
 The focus of this course was to build a strong foundation in **algorithmic thinking**, **problem-solving**, and the core syntax of **C++**. Instead of jumping straight into complex frameworks, I focused on breaking down problems into logical steps and translating them into efficient code.
 
+## 🛠️ Tech Stack
+* **Language:** C++
+* **Concepts:** Variables, Data Types, Input/Output (`cin`/`cout`), Arithmetic Operators, Math Library (`cmath`), Conditional Logic, Loops.
+
 ## 📂 Project Structure & Topics Covered
 
 The exercises in this course cover various fundamental concepts, categorized below:
 
 ### 1. 🧮 Basic Algorithms & Logic
-* **Half Number:** Simple input/output and arithmetic operations.
 * **Swap Numbers:** Swapping variables using a temporary variable.
-* **Sum of 3 Numbers:** Basic aggregation logic.
 * **Power Calculation:** Calculating exponents using loops and `pow()` functions.
 * **Factorial/Sequence Printing:** (Derived from logic) Understanding number sequences.
 
@@ -37,21 +39,6 @@ Applied programming logic to real-world scenarios:
 * **Seconds to Days/Hours/Minutes:** Converting a raw total of seconds into a readable time format (`D:H:M:S`).
 * **Task Duration:** Calculating total duration in seconds from days, hours, and minutes.
 
-## 🛠️ Tech Stack
-* **Language:** C++
-* **Concepts:** Variables, Data Types, Input/Output (`cin`/`cout`), Arithmetic Operators, Math Library (`cmath`), Conditional Logic, Loops.
-
-## 🚀 How to Run
-To run any of these files, you can use a standard C++ compiler like `g++`.
-
-1.  **Compile:**
-    ```bash
-    g++ FileName.cpp -o OutputName
-    ```
-2.  **Run:**
-    ```bash
-    ./OutputName
-    ```
 
 ## 📝 Key Takeaways
 * Learned how to structure a program with the standard `main` function entry point.
