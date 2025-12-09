@@ -1,6 +1,6 @@
 # C++ Programming Fundamentals
 
-This directory contains my solutions to the programming problems and exercises from **Course 01** of my the Backend fundamentals Roadmap.
+This directory contains my solutions to the programming problems and exercises for level 01 of my the Backend fundamentals Roadmap.
 
 The focus of this course was to build a strong foundation in **algorithmic thinking**, **problem-solving**, and the core syntax of **C++**. Instead of jumping straight into complex frameworks, I focused on breaking down problems into logical steps and translating them into efficient code.
 
