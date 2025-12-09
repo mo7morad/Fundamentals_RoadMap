@@ -33,7 +33,7 @@ Fundamentals_Roadmap/
 
 Here’s a quick overview of the key projects included in this repository:
 
-### **>_ 9 Console Applications**
+### **>_ 8 Console Applications**
 
 1. [**Math Quiz**](Fundamentals/Coding/Problem-Solving-level-02-in-C++/Projects/MathQuiz)  
    🎯 *A simple, interactive math quiz game that sharpens arithmetic skills through engaging challenges.*
