@@ -1,0 +1,707 @@
+==========================================
+START OF FILE: #01-Util.cpp
+==========================================
+#include <iostream>
+#include "headers/lib/clsUtil.h"
+
+int main()
+
+{
+    clsUtil::Srand();
+    cout << clsUtil::RandomNumber(1, 10) << endl;
+    cout << clsUtil::GetRandomCharacter(clsUtil::CapitalLetter) << endl;
+    cout << clsUtil::GenerateWord(clsUtil::MixChars, 8) << endl;
+    cout << clsUtil::GenerateKey(clsUtil::MixChars) << endl;
+    clsUtil::GenerateKeys(10, clsUtil::MixChars);
+
+    cout << "\n";
+
+    //Swap Int
+    int x = 10, y = 20;
+    cout << x << " " << y << endl;
+    clsUtil::Swap(x, y);
+    cout << x << " " << y << endl << endl;
+
+    //Swap double
+    double a = 10.5, b = 20.5;
+    cout << a << " " << b << endl;
+    clsUtil::Swap(a, b);
+    cout << a << " " << b << endl << endl;
+
+    //Swap String
+    string s1 = "Ali", s2 = "Ahmed";
+    cout << s1 << " " << s2 << endl;
+    clsUtil::Swap(s1, s2);
+    cout << s1 << " " << s2 << endl << endl;
+
+    //Swap Dates
+    clsDate d1(1, 10, 2022), d2(1, 1, 2022);
+    cout << d1.DateToString() << " " << d2.DateToString() << endl;
+    clsUtil::Swap(d1, d2);
+    cout << d1.DateToString() << " " << d2.DateToString() << endl;
+
+    //Shuffl Array
+
+    //int array
+    int Arr1[5] = { 1,2,3,4,5 };
+    clsUtil::ShuffleArray(Arr1, 5);
+    cout << "\nArray after shuffle:\n";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << Arr1[i] << endl;
+    }
+
+    //string array
+    string Arr2[5] = { "Ali","Fadi","Ahmed","Qasem","Khalid" };
+    clsUtil::ShuffleArray(Arr2, 5);
+    cout << "\nArray after shuffle:\n";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << Arr2[i] << endl;
+    }
+
+    int Arr3[5];
+    clsUtil::FillArrayWithRandomNumbers(Arr3, 5, 20, 50);
+    cout << "\nArray after fill:\n";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << Arr3[i] << endl;
+    }
+
+
+    string Arr4[5];
+    clsUtil::FillArrayWithRandomWords(Arr4, 5, clsUtil::MixChars, 8);
+    cout << "\nArray after fill:\n";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << Arr4[i] << endl;
+    }
+
+
+    string Arr5[5];
+    clsUtil::FillArrayWithRandomKeys(Arr5, 5, clsUtil::MixChars);
+    cout << "\nArray after filling keys:\n";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << Arr5[i] << endl;
+    }
+
+    cout << "\nText1 " << clsUtil::Tabs(5) << "Text2\n";
+
+    const short EncryptionKey = 2; //this is the key.
+
+    string TextAfterEncryption, TextAfterDecryption;
+    string Text = "Mohamed Essam Ahmed Morad";
+    TextAfterEncryption = clsUtil::EncryptText(Text, EncryptionKey);
+    TextAfterDecryption = clsUtil::DecryptText(TextAfterEncryption, EncryptionKey);
+
+    cout << "\nText Before Encryption : ";
+    cout << Text << endl;
+    cout << "Text After Encryption  : ";
+    cout << TextAfterEncryption << endl;
+    cout << "Text After Decryption  : ";
+    cout << TextAfterDecryption << endl;
+
+    system("pause>0");
+
+    return 0;
+}
+
+
+==========================================
+START OF FILE: #02-InputValidation.cpp
+==========================================
+#include <iostream>
+#include "headers/lib/clsInputValidation.h"
+
+int main()
+
+{
+  cout << clsInputValidation::IsNumberBetween(5, 1, 10) << endl;
+  cout << clsInputValidation::IsNumberBetween(5.5, 1.3, 10.8) << endl;
+
+  cout << clsInputValidation::IsDateBetween(clsDate(),
+                                          clsDate(8, 12, 2022),
+                                          clsDate(31, 12, 2022))
+                                          << endl;
+
+  cout << clsInputValidation::IsDateBetween(clsDate(),
+                                          clsDate(31, 12, 2022),
+                                          clsDate(8, 12, 2022))
+                                          << endl;
+
+  cout << "\nPlease Enter a Number:\n";
+  int x = clsInputValidation::ReadIntNumber("Invalid Number, Enter again:\n");
+  cout << "x=" << x;
+
+  cout << "\nPlease Enter a Number between 1 and 5:\n";
+  int y = clsInputValidation::ReadIntNumberBetween(1, 5, "Number is not within range, enter again:\n");
+  cout << "y=" << y;
+
+  cout << "\nPlease Enter a Double Number:\n";
+  double a = clsInputValidation::ReadDoubleNumber("Invalid Number, Enter again:\n");
+  cout << "a=" << a;
+
+  cout << "\nPlease Enter a Double Number between 1 and 5:\n";
+  double b = clsInputValidation::ReadDoubleNumberBetween(1, 5, "Number is not within range, enter again:\n");
+  cout << "b=" << b;
+
+  cout << endl << clsInputValidation::IsValideDate(clsDate(35, 12, 2022)) << endl;
+  
+  return 0;
+}
+
+
+==========================================
+START OF FILE: #03-FindClient.cpp
+==========================================
+#include <iostream>
+#include "headers/core/clsBankClient.h"
+
+int main()
+
+{
+
+    clsBankClient Client1 = clsBankClient::Find("A101");
+    if (!Client1.IsEmpty())
+    {
+        cout << "\nClient Found :-)\n";
+    } 
+    else
+    {
+        cout << "\nClient Was not Found :-(\n";
+    }
+    
+    Client1.Print();
+
+    clsBankClient Client2 = clsBankClient::Find("A101", "1234");
+    if (!Client2.IsEmpty())
+    {
+        cout << "\nClient Found :-)\n";
+    }
+    else
+    {
+        cout << "\nClient Was not Found :-(\n";
+    }
+    Client2.Print();
+
+    
+    cout << "\nIs Client Exist? "<< clsBankClient::IsClientExist("A101");
+
+    return 0;
+}
+
+
+==========================================
+START OF FILE: #04-UpdateClient.cpp
+==========================================
+#include <iostream>
+#include "headers/core/clsBankClient.h"
+#include "headers/lib/clsInputValidation.h"
+
+using namespace std;
+
+// Function to read client information from user input
+void ReadClientInfo(clsBankClient &Client)
+{
+    cout << "\nEnter First Name: ";
+    Client.SetFirstName(clsInputValidation::ReadString());
+
+    cout << "\nEnter Last Name: ";
+    Client.SetLastName(clsInputValidation::ReadString());
+
+    cout << "\nEnter Email: ";
+    Client.SetEmail(clsInputValidation::ReadString());
+
+    cout << "\nEnter Phone: ";
+    Client.SetPhone(clsInputValidation::ReadString());
+
+    cout << "\nEnter Pin Code: ";
+    Client.SetPinCode(clsInputValidation::ReadString());
+
+    cout << "\nEnter Account Balance: ";
+    Client.SetAccountBalance(clsInputValidation::ReadDoubleNumber()); // Use ReadDoubleNumber for balance
+}
+
+// Function to update client information
+void UpdateClient()
+{
+    string AccountNumber;
+
+    cout << "\nPlease Enter Client Account Number: ";
+    AccountNumber = clsInputValidation::ReadString();
+
+    // Check if the client exists
+    while (!clsBankClient::IsClientExist(AccountNumber))
+    {
+        cout << "\nAccount number is not found, please choose another one: ";
+        AccountNumber = clsInputValidation::ReadString();
+    }
+
+    // Find the client and print their information
+    clsBankClient Client1 = clsBankClient::Find(AccountNumber);
+    Client1.Print();
+
+    cout << "\n\nUpdate Client Info:";
+    cout << "\n____________________\n";
+
+    // Read new client information
+    ReadClientInfo(Client1);
+
+    // Save the updated client information
+    clsBankClient::enSaveResults SaveResult = Client1.Save();
+
+    // Handle the result of the save operation
+    switch (SaveResult)
+    {
+    case clsBankClient::enSaveResults::svSucceeded:
+        cout << "\nAccount Updated Successfully :-)\n";
+        Client1.Print();
+        break;
+
+    case clsBankClient::enSaveResults::svFaildEmptyObject:
+        cout << "\nError: Account was not saved because it's empty.";
+        break;
+
+    case clsBankClient::enSaveResults::svFaildAccountNumberExists:
+        cout << "\nError: Account number already exists.";
+        break;
+    }
+}
+
+// Main function
+int main()
+{
+    UpdateClient();
+    return 0;
+}
+
+
+==========================================
+START OF FILE: #05-AddNewClient.cpp
+==========================================
+#include <iostream>
+#include "headers/core/clsPerson.h"
+#include "headers/core/clsBankClient.h"
+#include "headers/lib/clsInputValidation.h"
+
+// Function to read client information from user input
+void ReadClientInfo(clsBankClient &Client)
+{
+    cout << "\nEnter First Name: ";
+    Client.SetFirstName(clsInputValidation::ReadString());
+
+    cout << "\nEnter Last Name: ";
+    Client.SetLastName(clsInputValidation::ReadString());
+
+    cout << "\nEnter Email: ";
+    Client.SetEmail(clsInputValidation::ReadString());
+
+    cout << "\nEnter Phone: ";
+    Client.SetPhone(clsInputValidation::ReadString());
+
+    cout << "\nEnter Pin Code: ";
+    Client.SetPinCode(clsInputValidation::ReadString());
+
+    cout << "\nEnter Account Balance: ";
+    Client.SetAccountBalance(clsInputValidation::ReadDoubleNumber()); // Use ReadDoubleNumber for balance
+}
+
+// Function to add new client
+void AddNewClient()
+{
+    // Get Account Number
+    string AccountNumber = "";
+    cout << "\nPlease Enter Account Number: ";
+    AccountNumber = clsInputValidation::ReadString();
+
+    // Check if account number is already exists
+    while (clsBankClient::IsClientExist(AccountNumber))
+    {  
+        // if account number is already exists
+        cout << "\nAccount Number Is Already Used, Choose another one: ";
+        AccountNumber = clsInputValidation::ReadString();
+    }
+
+    // Create new client object if acc num does not exists
+    clsBankClient NewClient = clsBankClient::GetAddNewClientObject(AccountNumber);
+    ReadClientInfo(NewClient);
+
+    clsBankClient::enSaveResults SaveResult;
+    SaveResult = NewClient.Save();
+
+    // UI handling based on save result
+    switch (SaveResult)
+    {
+    case  clsBankClient::enSaveResults::svSucceeded:
+    {
+        cout << "\nAccount Addeded Successfully :-)\n";
+        NewClient.Print();
+        break;
+    }
+    case clsBankClient::enSaveResults::svFaildEmptyObject:
+    {
+        cout << "\nError account was not saved because it's Empty";
+        break;
+    }
+    case clsBankClient::enSaveResults::svFaildAccountNumberExists:
+    {
+        cout << "\nError account was not saved because account number is used!\n";
+        break;
+    }
+    }
+}
+
+
+int main()
+
+{
+    AddNewClient();
+    return 0;
+}
+
+
+==========================================
+START OF FILE: #06-DeleteClient.cpp
+==========================================
+#include <iostream>
+#include "headers/core/clsPerson.h"
+#include "headers/core/clsBankClient.h"
+#include "headers/lib/clsInputValidation.h"
+
+void DeleteClient()
+{
+    string AccountNumber = "";
+
+    cout << "\nPlease Enter Account Number: ";
+    AccountNumber = clsInputValidation::ReadString();
+    while (!clsBankClient::IsClientExist(AccountNumber))
+    {
+        cout << "\nAccount number is not found, choose another one: ";
+        AccountNumber = clsInputValidation::ReadString();
+    }
+
+    clsBankClient Client1 = clsBankClient::Find(AccountNumber);
+    Client1.Print();
+
+    cout << "\nAre you sure you want to delete this client y/n? ";
+    
+    char Answer = 'n';
+    cin >> Answer;
+
+    if (tolower(Answer) == 'y')
+    {
+        if (Client1.Delete())
+        {
+            cout << "\nClient Deleted Successfully :-)\n";
+            Client1.Print();
+        }
+        else
+        {
+            cout << "\nError Client Was not Deleted!\n";
+        }
+    }
+}
+
+int main()
+
+{
+    DeleteClient();
+    return 0;
+}
+
+
+==========================================
+START OF FILE: #07-ListClients.cpp
+==========================================
+#include <iostream>
+#include "headers/core/clsBankClient.h"
+#include "headers/lib/clsInputValidation.h"
+#include <iomanip>
+
+void PrintClientRecordLine(clsBankClient Client)
+{
+    cout << "| " << setw(15) << left << Client.GetAccountNumber();
+    cout << "| " << setw(20) << left << Client.GetFullName();
+    cout << "| " << setw(12) << left << Client.GetPhone();
+    cout << "| " << setw(20) << left << Client.GetEmail();
+    cout << "| " << setw(10) << left << Client.GetPinCode();
+    cout << "| " << setw(12) << left << Client.GetAccountBalance();
+}
+
+void ShowClientsList()
+{
+    vector <clsBankClient> vClients = clsBankClient::GetClientsList();
+
+    cout << "\n\t\t\t\t\tClient List (" << vClients.size() << ") Client(s).";
+    cout << "\n_______________________________________________________";
+    cout << "_________________________________________\n" << endl;
+
+    cout << "| " << left << setw(15) << "Accout Number";
+    cout << "| " << left << setw(20) << "Client Name";
+    cout << "| " << left << setw(12) << "Phone";
+    cout << "| " << left << setw(20) << "Email";
+    cout << "| " << left << setw(10) << "Pin Code";
+    cout << "| " << left << setw(12) << "Balance";
+    cout << "\n_______________________________________________________";
+    cout << "_________________________________________\n" << endl;
+
+    if (vClients.size() == 0)
+        cout << "\t\t\t\tNo Clients Available In the System!";
+    else
+        for (clsBankClient Client : vClients)
+        {
+            PrintClientRecordLine(Client);
+            cout << endl;
+        }
+    cout << "\n_______________________________________________________";
+    cout << "_________________________________________\n" << endl;
+
+}
+
+int main()
+
+{
+    ShowClientsList();
+    return 0;
+}
+
+
+==========================================
+START OF FILE: #08-TotalBalances.cpp
+==========================================
+#include <iostream>
+#include "headers/core/clsBankClient.h"
+#include "headers/lib/clsInputValidation.h"
+#include "headers/lib/clsUtil.h"
+#include <iomanip>
+
+
+void PrintClientRecordBalanceLine(clsBankClient Client)
+{
+    cout << "| " << setw(15) << left << Client.GetAccountNumber();
+    cout << "| " << setw(40) << left << Client.GetFullName();
+    cout << "| " << setw(12) << left << Client.GetAccountBalance();
+}
+
+
+void ShowTotalBalances()
+{
+    vector <clsBankClient> vClients = clsBankClient::GetClientsList();
+    
+    cout << "\n\t\t\t\t\tBalances List (" << vClients.size() << ") Client(s).";
+    cout << "\n_______________________________________________________";
+    cout << "_________________________________________\n" << endl;
+
+    cout << "| " << left << setw(15) << "Accout Number";
+    cout << "| " << left << setw(40) << "Client Name";
+    cout << "| " << left << setw(12) << "Balance";
+    cout << "\n_______________________________________________________";
+    cout << "_________________________________________\n" << endl;
+
+    double TotalBalances = clsBankClient::GetTotalBalances();
+
+    if (vClients.size() == 0)
+        cout << "\t\t\t\tNo Clients Available In the System!";
+    else
+
+        for (clsBankClient Client : vClients)
+        {
+            PrintClientRecordBalanceLine(Client);
+            cout << endl;
+        }
+
+    cout << "\n_______________________________________________________";
+    cout << "_________________________________________\n" << endl;
+    cout << "\t\t\t\t\t   Total Balances = " << TotalBalances << endl;
+    cout << "\t\t\t\t\t   ( " << clsUtil::NumberToText(TotalBalances) << ")" << endl;
+}
+
+int main()
+
+{
+    ShowTotalBalances();
+    return 0;
+}
+
+
+==========================================
+START OF FILE: #09-to-23-MainScreen.cpp
+==========================================
+#include <iostream>
+#include "headers/screens/clsMainScreen.h"
+
+int main()
+{
+  clsMainScreen::ShowMainMenu();
+  cin.get();
+  return 0;
+}
+
+
+==========================================
+START OF FILE: #24-to-End-LoginScreen.cpp
+==========================================
+#include <iostream>
+#include "headers/screens/user/clsLoginScreen.h"
+
+int main()
+
+{
+  // prompt the login screen after every logout.
+  while (true)
+  {
+    if(!clsLoginScreen::ShowLoginScreen())
+      break;
+  }
+  return 0;
+}
+
+
+==========================================
+START OF FILE: #48-CurrencyClassTest.cpp
+==========================================
+#include <iostream>
+#include "headers/core/clsCurrency.h"
+
+
+static void _PrintCurrency(clsCurrency Currency)
+{
+    cout << "\nCurrency Card:\n";
+    cout << "_____________________________\n";
+    cout << "\nCountry    : " << Currency.Country();
+    cout << "\nCode       : " << Currency.CurrencyCode();
+    cout << "\nName       : " << Currency.CurrencyName();
+    cout << "\nRate(1$) = : " << Currency.Rate();
+
+    cout << "\n_____________________________\n";
+
+}
+
+int main()
+
+{
+    clsCurrency Currency1 = Currency1.FindByCode("mang");
+
+    if (Currency1.IsEmpty())
+    {
+        cout << "\nCurrency Is Not Found!\n";
+    }
+    else
+    {
+        _PrintCurrency(Currency1);
+    }
+
+    clsCurrency Currency2 = Currency2.FindByCountry("Egypt");
+
+    if (Currency2.IsEmpty())
+    {
+        cout << "\nCurrency Is Not Found!\n";
+    }
+    else
+    {
+        _PrintCurrency(Currency2);
+    }
+
+    cout << "Currency1 after updating Rate:\n";
+    Currency1.UpdateRate(0.71);
+    _PrintCurrency(Currency1);
+
+
+    return 0;
+}
+
+
+
+
+==========================================
+START OF FILE: #59-TemplateFunctions.cpp
+==========================================
+#include <iostream>
+using namespace std;
+
+template <typename T1, typename T2>
+auto MyMax(T1 number1, T2 number2)
+{
+  return (number1 > number2) ? number1 : number2;
+}
+
+
+int main()
+{
+  cout << "Max of 3, 4 is: " << MyMax(3, 4) << endl;
+  cout << "Max of 3.5 and 4.5 is: " << MyMax(3.5, 4.5) << endl;
+  cout << "Max of 3.5 and 4 is: " << MyMax(3.5, 4) << endl;
+  cout << "Max of 3 and 4.5 is: " << MyMax(3, 4.5) << endl;
+  return 0;
+}
+
+
+==========================================
+START OF FILE: #60-TemplateClass.cpp
+==========================================
+#include <iostream>
+using namespace std;
+
+template <class T>
+class Calculator
+{
+private:
+  T _number1, _number2;
+
+public:
+  Calculator(T number1, T number2)
+  {
+    _number1 = number1;
+    _number2 = number2;
+  }
+
+  void print()
+  {
+    cout << "Numbers  : " << _number1 << " And " << _number2 << endl;
+    cout << _number1 << " + " << _number2 << " = " << add() << endl;
+    cout << _number1 << " - " << _number2 << " = " << subtract() << endl;
+    cout << _number1 << " / " << _number2 << " = " << divide() << endl;
+    cout << _number1 << " * " << _number2 << " = " << multiply() << endl;
+  }
+
+  T add()
+  {
+    return _number1 + _number2;
+  }
+
+  T subtract()
+  {
+    return _number1 - _number2;
+  }
+
+  T divide()
+  {
+    return _number1 / _number2;
+  }
+
+  T multiply()
+  {
+    return _number1 * _number2;
+  }
+};
+
+int main()
+{
+
+  Calculator<int> integerCalc(10, 20);
+
+  cout << "Intger Template Generic Results :  \n";
+  integerCalc.print();
+
+  Calculator<float> floatCalc(10.5, 20.8);
+
+  cout << "\n\nFloat Template Generic Results :  \n";
+  floatCalc.print();
+
+  system("pause > 0");
+
+  return 0;
+}
+
+
