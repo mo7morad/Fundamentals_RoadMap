@@ -10,15 +10,15 @@ Here is a walkthrough of the game flow:
 
 ### 1. Game Configuration
 The user selects the number of questions, difficulty level (Easy/Med/Hard/Mix), and operation type (+, -, *, /, Mix).
-![Game Start](../../../../../Repo%20Images/)
+![Game Start](../../../../../Repo%20Images/MathQuiz1.png)
 
 ### 2. Gameplay & Validation
 The system generates problems dynamically. It provides immediate feedback (Right/Wrong) and shows the correct answer if the user fails.
-![Gameplay](../../../../../Repo%20Images/)
+![Gameplay](../../../../../Repo%20Images/MathQuiz2.png)
 
 ### 3. Final Results
 At the end of the quiz, a "Pass/Fail" report is generated with a detailed score summary.
-![Game Over](../../Repo%20Images/MathQuiz3.png)
+![Game Over](../../../../../Repo%20Images/MathQuiz3.png)
 
 ## ✨ Features
 
