@@ -8,7 +8,9 @@
 Welcome to my **Fundamentals Roadmap** repository! This repo captures my journey through 26 foundational programming courses including problem-solving, full projects, course materials, and certificates.
 
 ---
-
+> For a full list, check the `/Coding/` folder or click into each sub-directory.
+> [**Please click here to see all things that I have learned.**](Fundamentals/Coding)
+---
 ## 🚀 Featured Projects
 
 Here’s a quick overview of the key projects included in this repository:
@@ -49,10 +51,6 @@ Here’s a quick overview of the key projects included in this repository:
 10. [**Pizza Shop Project**](Fundamentals/Coding/14%20-%20C#%20&%20WinForms/Projects/Pizza-Shop)  
     🍕 *A WindowsForms C# application designed to simulate a pizza ordering system.*
 
-
----
-
-> For a full list, check the `/Coding/` folder or click into each sub-directory.
 
 ---
 
