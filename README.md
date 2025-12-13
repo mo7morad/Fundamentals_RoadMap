@@ -24,7 +24,7 @@ Here’s a quick overview of the key projects included in this repository:
 3. [**Banking System**](Fundamentals/Coding/Problem-Solving-level-03-in-C++/BankingSystem-Project)  
    🏦 *A simple banking system featuring comprehensive account management, seamless transactions, and robust data persistence and logging.*
 
-4. [**Banking System V3**](Fundamentals/Coding/Problem-Solving-level-04-in-C++/Project/ATM-System)  
+4. [**Banking System V3**](Fundamentals/Coding/Problem-Solving-level-04-in-C++/Project/ATM-System/ATM-System-Upgrade)  
    💳 *In this version I added secure user authentication, managing clients, CRUD for the users, and more efficient transaction processing.*
 
 5. [**ContactsSystem**](Fundamentals/Coding/11%20-%20OOP-C++/Projects/ContactsSystem-Project)  
