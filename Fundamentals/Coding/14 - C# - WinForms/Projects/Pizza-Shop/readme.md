@@ -1,4 +1,4 @@
-# 🍕 Pizza Order System (Windows Forms)
+# 🍕 Pizza Shop (Windows Forms)
 
 **A desktop Point-of-Sale (POS) application built with C# and Windows Forms to simulate a real-time pizza ordering process.**
 
@@ -10,16 +10,16 @@ Here is a walkthrough of the ordering process:
 
 ### 1. Default State
 When the application starts, it initializes with a default "Medium" size and "Thin" crust. The base price is automatically calculated.
-![Main Interface](../../../../../../Repo%20Images/PizzaOrder1.png)
+![Main Interface](../../../../../../../../Repo%20Images/PizzaShop1.png)
 
 ### 2. Live Price Calculation
 As the user selects different sizes (Small/Large) or adds toppings (Cheese, Mushrooms, etc.), the **Total Price** updates instantly without needing a "Calculate" button.
 * *Example:* Changing from Medium ($10) to Large ($15) adds $5 immediately.
-![Price Update](../../../../../../Repo%20Images/PizzaOrder2.png)
+![Price Update](../../../../../../Repo%20Images/PizzaShop2.png)
 
 ### 3. Order Confirmation
 Clicking "Order Pizza" locks the form to prevent changes and displays a confirmation summary. The "Reset" button clears all fields to start a new order.
-![Order Confirmation](../../../../../../Repo%20Images/PizzaOrder3.png)
+![Order Confirmation](../../../../../../Repo%20Images/PizzaShop3.png)
 
 ## ✨ Features
 
