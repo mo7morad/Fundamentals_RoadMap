@@ -30,13 +30,13 @@ The course moved from console-based logic to visual event-driven programming:
 
 To apply these concepts, I built two interactive Desktop Applications.
 
-### 1. 🍕 [Pizza Order System](./Projects/PizzaProject)
+### 1. 🍕 [Pizza Order System](./Projects/Pizza-Shop)
 A complete Point-of-Sale (POS) dashboard for a pizza shop.
 * **Dynamic Pricing:** Real-time price updates as the user selects sizes, crust types, and toppings.
 * **Event Handling:** Heavy use of `CheckedChanged` events to toggle options logic.
 * **UI Design:** Organized using GroupBoxes to separate "Size", "Toppings", and "Order Summary".
 
-### 2. ❌⭕ [Tic-Tac-Toe Game](./Projects/TicTacToeGame)
+### 2. ❌⭕ [Tic-Tac-Toe Game](./Projects/Tic-Tac-Toe)
 A graphical implementation of the classic game.
 * **Game Logic:** Checks for win conditions (Rows, Columns, Diagonals) after every move.
 * **Visual Feedback:** Paints the winning line and freezes the board upon victory.
