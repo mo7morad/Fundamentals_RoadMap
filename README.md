@@ -36,7 +36,7 @@ Here’s a quick overview of the key projects included in this repository:
 7. [**OOP Banking System V4**](Fundamentals/Coding/11%20-%20OOP-C++/Projects/OOP-BankingSystem-Project)  
    🏦 *This is the last updated version; A complete console-based banking system application designed to manage users, customers, and multiple currency exchange rates. The system includes a full transactions logging module, detailed user activity logs, and solid administrative controls.*
 
-8. [**Queue Line Tickets**](Coding/Problem-Solving-Level-05-in-C++/Project8-QueueLineProject)  
+8. [**Queue Line Tickets**](Fundamentals/Coding/Problem-Solving-Level-05-in-C++/Project8-QueueLineProject)  
    ⏱️ *A dynamic solution for managing line ordering using a queue data structure*
 
 ---
