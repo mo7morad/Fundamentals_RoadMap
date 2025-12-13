@@ -1,66 +1,81 @@
-# Course 13: Data Structures Level 2 (Queue, Stack, Dynamic Array)
+# Course 13: Applying on Data Structures (13 - Algorithms & Problem Solving Level 5)
 
-This directory contains my implementations of advanced **Data Structures** in C++, created for **Course 13** of the Backend Engineering Roadmap.
+This directory contains my solutions and custom implementations for **Course 13** of the Backend Engineering Roadmap.
 
-In this phase, I expanded my data structure toolkit beyond Linked Lists. I built custom implementations for **Queues**, **Stacks**, and **Dynamic Arrays** using Templates for generic type support. I also applied these concepts to a real-world **Queue Management System**.
+In this phase, I moved beyond Linked Lists to build more complex linear data structures. I implemented **Queues** and **Stacks** in two different ways (Linked-List-based vs. Array-based) to understand the trade-offs. I also built a robust **Dynamic Array** class and applied these concepts in a **Ticket Management System**.
 
-## 📂 Topics & Implementations
+## 📂 Directory Structure & Projects
 
-The code files demonstrate the manual construction of the following structures:
+The course is organized into specific projects, each mastering a different structure:
 
-### 1. 📦 [Queue (`Queue.h`)](./MySolution/Queue.h)
-A First-In-First-Out (FIFO) structure.
-* **Implementation:** Built on top of my `DoublyLinkedList` for $O(1)$ operations at both ends.
-* **Core Operations:** `push` (enqueue), `pop` (dequeue), `front`, and `back` access.
-* **Extensions:** Added helper methods like `UpdateItem`, `InsertAfter`, and `Reverse` to extend functionality beyond a standard queue.
+### 1. 🏗️ Core Data Structures
+* **[Project 1: Doubly Linked List](./Project1-DoublyLinkedList)** - The foundation for many other structures.
+* **[Project 4: Dynamic Array](./Project4-DynamicArray)** - A resizeable array class (`vector` equivalent) with manual memory management.
 
-### 2. 📚 [Stack (`Stack.h`)](./MySolution/Stack.h)
-A Last-In-First-Out (LIFO) structure.
-* **Inheritance:** Implemented by inheriting from `Queue` but restricting access to LIFO behavior.
-* **Core Operations:** `push` (insert at top), `Top` (peek top), and `Bottom` (peek bottom).
-* **Efficiency:** Leverages the existing Doubly Linked List logic for memory management.
+### 2. 📚 Stack & Queue Implementations
+I implemented these structures twice to compare performance and logic:
 
-### 3. 🎢 [Dynamic Array (`DynamicArray.h`)](./MySolution/DynamicArray.h)
-A resizeable array implementation similar to `std::vector`.
-* **Memory Management:** Implemented `_Enlarge` and `_Shrink` to automatically manage heap memory as elements are added or removed.
-* **CRUD:** Full support for `InsertAt`, `DeleteAt`, `Update`, and `Search`.
-* **Merging:** Logic to merge two dynamic arrays into a new one.
+| Structure | Linked-List Based | Dynamic-Array Based |
+| :--- | :--- | :--- |
+| **Queue** | **[Project 2](./Project2-Queue)** <br> Uses `DoublyLinkedList` for $O(1)$ Enqueue/Dequeue. | **[Project 5](./Project5-QueueArray)** <br> Uses `DynamicArray` composition. |
+| **Stack** | **[Project 3](./Project3-Stack)** <br> Inherits from `Queue` but restricts to LIFO operations. | **[Project 6](./Project6-StackArray)** <br> Inherits from `QueueArray`. |
 
-### 4. 🔄 [MyString (Undo/Redo) (`MyString.h`)](./MySolution/MyString.h)
-A practical application of Stacks.
-* **Functionality:** A string class that remembers its history.
-* **Undo/Redo:** Uses two internal stacks (`_UndoStack`, `_RedoStack`) to track state changes, allowing infinite undo/redo steps.
+### 3. 🛠️ Applied Systems
+* **[Project 7: Undo/Redo System](./Project7-Undo_Redo)**
+    * **Logic:** Uses two stacks (`_UndoStack` and `_RedoStack`) to track state changes.
+    * **Feature:** Allows infinite navigation backward and forward through string history.
 
-### 5. 🎫 [Queue Line Project (`QueueLine.h`)](./MySolution/QueueLine.h)
-A simulation of a ticket waiting system (like in a bank or customer service center).
-* **Ticket Structure:** Tracks `IssuingTime`, `WaitingList` count, and `EstimatedServeTime`.
-* **Visualization:** Renders the queue visually (e.g., `A01 <-- A02 <-- A03`) to show flow direction (RTL or LTR).
-* **Logic:** Calculates wait times dynamically based on a fixed `_ServingTime` per client.
+* **[Project 8: Queue Line Capstone](./Project8-QueueLineProject)**
+    * **Description:** A bank ticket management system.
+    * **Logic:** Calculates "Estimated Serve Time" based on the number of waiting clients and average serving time.
+    * **Visualization:** Prints the queue flow visually (RTL and LTR).
+
+---
+
+## 💻 Technical Implementation Details
+
+### 1. Dynamic Array (Vector Clone)
+A template-based array that resizes itself automatically.
+* **Memory Management:**
+    * `_Enlarge()`: Allocates a larger block and copies data when the array is full.
+    * `_Shrink()`: Reduces memory usage when the array is mostly empty.
+* **Access:** Provides safe access via `GetItem(index)` with bounds checking.
+
+### 2. Stack & Queue Architecture
+* **Composition Pattern:** The `Queue` class contains a `DoublyLinkedList` object (`list`) to handle the actual storage. This adheres to the "Don't Repeat Yourself" (DRY) principle.
+* **Inheritance Pattern:** The `Stack` class inherits from `Queue` but effectively "hides" the FIFO methods, exposing only LIFO methods like `push()` (InsertFirst) and `Top()`.
+
+### 3. Queue Line System
+A simulation of a real-world waiting line.
+* **Ticket Struct:** Stores `IssuingTime`, `WaitingList` count, and `TicketNumber`.
+* **Service Logic:**
+    ```cpp
+    TimeToServe = (TicketNumber - 1) * ServingTime;
+    ```
+    This formula dynamically calculates how long a new client must wait.
 
 ## 🛠️ Tech Stack
 * **Language:** C++
 * **Concepts:**
-    * **Templates (`template <class T>`):** Used extensively to make all structures generic.
-    * **Inheritance:** Reusing code by deriving `Stack` from `Queue`.
-    * **Composition:** Using `DoublyLinkedList` inside `Queue` to handle storage.
+    * **Templates:** Used for all data structures to ensure they can hold any data type (`<int>`, `<string>`, `<clsClient>`).
+    * **Big O Analysis:** Understanding why Linked-List Queues are $O(1)$ for insertion while Array Queues might trigger an $O(N)$ resize.
+    * **Inheritance vs. Composition:** deciding when to *use* a class (Queue uses List) vs *be* a class (Stack is a Queue).
 
 ## 🚀 How to Run
+To run the **Queue Line** simulation:
 
-To test the Dynamic Array implementation:
-
-1.  **Compile:**
+1.  Navigate to the project folder:
     ```bash
-    g++ main.cpp -o App
+    cd Project8-QueueLineProject
     ```
-2.  **Run:**
+2.  Compile the project:
     ```bash
-    ./App
+    g++ main.cpp -o QueueApp
     ```
-
-## 📝 Key Takeaways
-* **Code Reuse:** I learned that a **Stack** is just a restricted **Queue**, and a **Queue** can be built easily on a **Linked List**. I didn't write new storage logic for every class.
-* **Memory Management:** Building `DynamicArray` taught me the cost of resizing (copying old data to new memory) and why reserving space is important.
-* **Generic Programming:** Using templates allows these structures to store `int`, `string`, or even custom `clsClient` objects without changing a single line of code.
+3.  Run the executable:
+    ```bash
+    ./QueueApp
+    ```
 
 ---
 *This repository documents my journey in mastering Backend Engineering.*
