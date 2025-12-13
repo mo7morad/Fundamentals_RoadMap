@@ -10,14 +10,16 @@ Here is the game in action:
 
 ### 1. Gameplay & Turn Management
 The game tracks player turns (Player 1 vs Player 2). Clicking a button updates its icon to "X" or "O" and disables it to prevent overwriting.
-![Gameplay](../../../../../../Repo%20Images/TicTacToe1.png)
+
+![Gameplay](../../../../../Repo%20Images/TicTacToe1.png)
 
 ### 2. Win Detection & Drawing
 When a win condition is met (3 in a row), the system:
 1.  Detects the winning pattern (Horizontal, Vertical, or Diagonal).
 2.  **Draws a line** directly on the form using `Pen` and `Graphics` objects.
 3.  Displays a "Game Over" message.
-![Game Over](../../../../../../Repo%20Images/TicTacToe2.png)
+4.  
+![Game Over](../../../../../Repo%20Images/TicTacToe2.png)
 
 ## ✨ Features
 
