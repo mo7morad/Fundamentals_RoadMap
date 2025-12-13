@@ -10,19 +10,23 @@ Here is a walkthrough of the system's core features:
 
 ### 1. Main Dashboard
 The application separates administrative tasks (Client Management) from financial operations (Transactions) via a clean menu system.
-![Main Menu](../../../../../Repo%20Images/BankingSystemPrbLevel3_1.png)
+
+![Main Menu](../../../../Repo%20Images/BankingSystemPrbLevel3_1.png)
 
 ### 2. Client Management (CRUD)
 The system allows adding new clients with automatic duplicate detection (preventing two clients from having the same Account Number). It also supports updating, deleting, and finding client records.
-![Add Client](../../../../../Repo%20Images/BankingSystemPrbLevel3_3.png)
+
+![Add Client](../../../../Repo%20Images/BankingSystemPrbLevel3_3.png)
 
 ### 3. Reporting & Visualization
 Administrators can generate formatted reports of all active clients, showing personal details and current balances in a structured table.
-![Client List](../../../../../Repo%20Images/BankingSystemPrbLevel3_2.png)
+
+![Client List](../../../../Repo%20Images/BankingSystemPrbLevel3_2.png)
 
 ### 4. Financial Transactions
 A dedicated transaction menu handles Deposits and Withdrawals. The system updates the "Database" file in real-time, ensuring balances are accurate immediately after a transaction.
-![Deposit Transaction](../../../../../Repo%20Images/BankingSystemPrbLevel3_4.png)
+
+![Deposit Transaction](../../../../Repo%20Images/BankingSystemPrbLevel3_4.png)
 
 ## ✨ Features
 
