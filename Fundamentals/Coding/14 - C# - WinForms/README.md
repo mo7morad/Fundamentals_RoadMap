@@ -1,40 +1,56 @@
-# C# Desktop Applications (WinForms)
+# Course 14: Introduction to C# & .NET Framework
 
-This folder contains two WinForms desktop applications written in C#:
+This directory contains my notes, exercises, and capstone projects for **Course 14** of the Backend Engineering Roadmap.
 
-1. **Tic-Tac-Toe**  
-   - Simple two-player game  
-   - Win/Draw detection  
-   - Restart functionality
+This course marked my official transition from C++ to **C# and the .NET Ecosystem**. I learned the architecture of the **CLR (Common Language Runtime)**, mastered C# syntax (LINQ, Delegates, Properties), and built my first GUI-based desktop applications using **Windows Forms**.
 
-2. **Pizza Shop**  
-   - Menu UI for choosing pizzas  
-   - Order management (add/remove pizzas)  
-   - Total price calculation  
-   - Simple user-friendly interface  
+## 📂 Topics Covered
 
----
+The course moved from console-based logic to visual event-driven programming:
 
-## Technologies
+### 1. 🏗️ The .NET Architecture
+* **CLR Internals:** Understanding how the Common Language Runtime manages memory (Garbage Collection) and executes code (JIT Compilation).
+* **Managed vs. Unmanaged Code:** The difference between code running under the CLR and raw machine code (like C++).
+* **CTS & CLS:** How .NET ensures interoperability between languages (C#, F#, VB).
 
-- C#  
-- .NET Framework / .NET  
-- Windows Forms (WinForms)  
+### 2. 💻 C# Fundamentals
+* **Syntax & Types:** `var` (implicit typing), Nullable types (`int?`), and Dynamic types.
+* **Collections & LINQ:** Using System.Linq for powerful array operations (`Sum`, `Count`, `Average`) instead of manual loops.
+* **String Manipulation:** String Interpolation (`$"{Name}"`) and standard library methods.
 
----
-
-## How to Run
-
-1. Open the `.sln` file in Visual Studio  
-2. Build the solution  
-3. Run either project (Tic-Tac-Toe or Pizza Shop) via Visual Studio or executable  
+### 3. 🖥️ Windows Forms (GUI)
+* **Controls:** Mastered the standard toolbox: `TextBox`, `ComboBox`, `CheckBox`, `RadioButton`, `DateTimePicker`, `TreeView`, and `ListView`.
+* **Events:** Handling user interactions like `Click`, `TextChanged`, and `MouseHover`.
+* **Containers:** Using `GroupBox`, `Panel`, and `TabControl` to organize complex layouts.
+* **Dialogs:** Implementing file handling with `OpenFileDialog` and `SaveFileDialog`.
 
 ---
 
-## What I Learned
+## 🏆 Capstone Projects
 
-- Building UI with WinForms  
-- Event-driven programming (button clicks, state updates)  
-- Managing form data (orders, game state)  
-- Structuring desktop apps in C#
+To apply these concepts, I built two interactive Desktop Applications.
 
+### 1. 🍕 [Pizza Order System](./Projects/PizzaProject)
+**[📂 Click to View Project](./Projects/PizzaProject)**
+A complete Point-of-Sale (POS) dashboard for a pizza shop.
+* **Dynamic Pricing:** Real-time price updates as the user selects sizes, crust types, and toppings.
+* **Event Handling:** Heavy use of `CheckedChanged` events to toggle options logic.
+* **UI Design:** Organized using GroupBoxes to separate "Size", "Toppings", and "Order Summary".
+
+### 2. ❌⭕ [Tic-Tac-Toe Game](./Projects/TicTacToeGame)
+**[📂 Click to View Project](./Projects/TicTacToeGame)**
+A graphical implementation of the classic game.
+* **Game Logic:** Checks for win conditions (Rows, Columns, Diagonals) after every move.
+* **Visual Feedback:** Paints the winning line and freezes the board upon victory.
+* **Turn Management:** Switches between Player X and Player O automatically.
+
+---
+
+## 🛠️ Tech Stack
+* **Language:** C#
+* **Framework:** .NET Framework (Windows Forms)
+* **IDE:** Visual Studio
+* **Key Concepts:** Event-Driven Programming, Object-Oriented UI Design.
+
+---
+*This repository documents my journey in mastering Backend Engineering.*
