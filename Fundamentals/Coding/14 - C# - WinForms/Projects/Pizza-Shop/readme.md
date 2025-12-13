@@ -16,7 +16,7 @@ When the application starts, it initializes with a default "Medium" size and "Th
 ### 2. Live Price Calculation
 As the user selects different sizes (Small/Large) or adds toppings (Cheese, Mushrooms, etc.), the **Total Price** updates instantly without needing a "Calculate" button.
 * *Example:* Changing from Medium ($10) to Large ($15) adds $5 immediately.
-* 
+ 
 ![Price Update](../../../../../Repo%20Images/PizzaShop2.png)
 
 ### 3. Order Confirmation
