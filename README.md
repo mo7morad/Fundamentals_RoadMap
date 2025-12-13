@@ -43,10 +43,10 @@ Here’s a quick overview of the key projects included in this repository:
 
 ### 🖥️ 3 C# Desktop Apps (.Net)
 
-9. [**Tic-Tac-Toe Game**](Coding/14%20-%20C#%20&%20WinForms/Projects/Tic-Tac-Toe)  
+9. [**Tic-Tac-Toe Game**](Fundamentals/Coding/14%20-%20C#%20&%20WinForms/Projects/Tic-Tac-Toe)  
    🎮 *A simple engaging TicTacToe Game using **C# and Windows Forms**.*
 
-10. [**Pizza Shop Project**](Coding/14%20-%20C#%20&%20WinForms/Projects/Pizza-Shop)  
+10. [**Pizza Shop Project**](Fundamentals/Coding/14%20-%20C#%20&%20WinForms/Projects/Pizza-Shop)  
     🍕 *A WindowsForms C# application designed to simulate a pizza ordering system.*
 
 
